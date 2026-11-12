@@ -130,4 +130,13 @@ nav.bar a[aria-current='page'] { background: var(--ink); color: var(--paper); }
 .verdict.bad { color: var(--branch); }
 
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
-@media print { nav.bar, .tabs, .btn { display: none; } body { background: #fff; } }
+@media print {
+  nav.bar, .tabs, .btn, .row { display: none; }
+  body { background: #fff; font-size: 10.5pt; }
+  .sheet { max-width: none; padding: 0; }
+  .band { border-bottom: 2pt solid #000; background: none; color: #000; }
+  tr, h2, h3 { break-inside: avoid; break-after: auto; }
+  h2, h3 { break-after: avoid; }
+  .guide-section { break-before: page; }
+  a { text-decoration: none; }
+}

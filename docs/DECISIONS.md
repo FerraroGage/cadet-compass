@@ -58,9 +58,20 @@ Not checked because they are outside the Marine Corps track: Army Secretary, Arm
 - No screen reader pass yet. Labels, roles and focus outlines are in place; tap targets were measured at 44px or more.
 - No dark mode.
 
-### Phase 1 work not started
+### Phase 1 status
 
-Study Guide with PDF export and Test Yourself; Rank Rush, Seniority Ladder, Rack Builder, Chain Builder, Inspector's Eye, Mock Promotion Board; custom training builder; metronome and call-the-command quiz; optional location suggestion for region; unit overrides.
+Built in session 2 (same day): Study Guide with print or save as PDF and Test Yourself per section; custom training builder; Seniority Ladder, Rack Builder, Chain Builder; Mock Promotion Board; drill metronome.
+
+Notes on those:
+- PDF export uses the browser's own print dialog. No PDF library.
+- The ordering games use Up and Down buttons, not drag and drop, so they work with a keyboard and a screen reader.
+- The metronome's 112 setting comes from the outline, not from a publication read for this app. The screen says so.
+- The Mock Promotion Board scores 2, 1 or 0 per question. That scale is ours, not a unit's.
+
+Still not started, and why:
+- Rank Rush and Inspector's Eye need insignia and uniform drawings made from official specifications.
+- Call the Command needs commands taken from MCO 5060.20, which has not been read yet.
+- Optional location suggestion for region, and unit overrides.
 
 ### Questions for the owner
 

@@ -1,7 +1,6 @@
 <script lang="ts">
   import { app, boot } from './lib/store.svelte';
   import { TERMS } from './legal/terms';
-  import TermsGate from './screens/TermsGate.svelte';
   import Onboarding from './screens/Onboarding.svelte';
   import Hub from './screens/Hub.svelte';
   import Cards from './screens/Cards.svelte';
@@ -36,7 +35,7 @@
 <header class="band">
   <div>
     <a href="#/hub">Ready Seats</a>
-    <span>Marine Corps JROTC. Unofficial study aid.</span>
+    <span>Marine Corps JROTC<br />Unofficial study aid</span>
   </div>
 </header>
 
@@ -48,9 +47,7 @@
     <p>{app.error}</p>
   {:else if readingLegal}
     <Settings page={parts[1]} />
-  {:else if !accepted}
-    <TermsGate />
-  {:else if !app.profile}
+  {:else if !accepted || !app.profile}
     <Onboarding />
   {:else}
     {#if app.notice}<p class="notice" role="status">{app.notice}</p>{/if}

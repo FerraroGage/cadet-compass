@@ -23,7 +23,7 @@
   ];
   const CREDITS = [
     ['Barlow Condensed (typeface)', 'Jeremy Tribby', 'SIL Open Font License 1.1'],
-    ['Source Serif 4 (typeface)', 'Frank Griesshammer, Adobe', 'SIL Open Font License 1.1'],
+    ['IBM Plex Sans (typeface)', 'Mike Abbink, IBM, with Bold Monday', 'SIL Open Font License 1.1'],
     ['Fontsource (font packaging)', 'Fontsource contributors', 'MIT'],
     ['Svelte', 'Svelte contributors', 'MIT'],
     ['Vite and vite-plugin-pwa', 'Vite and Vite PWA contributors', 'MIT'],

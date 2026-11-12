@@ -77,6 +77,6 @@
 
 <style>
   .feet { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }
-  .feet span { border: var(--rule); min-height: 72px; display: grid; place-items: center; font: 700 1.25rem var(--label); text-transform: uppercase; letter-spacing: 0.06em; }
-  .feet span.on { background: var(--branch); color: var(--on-branch); }
+  .feet span { border: var(--rule); border-radius: var(--r); background: var(--sheet); min-height: 72px; display: grid; place-items: center; font-weight: 600; color: var(--ink-2); }
+  .feet span.on { background: var(--branch); border-color: var(--branch); color: var(--on-branch); }
 </style>

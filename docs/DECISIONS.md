@@ -19,6 +19,12 @@ Running log. Newest session at the top.
 | 9 | No ribbon or insignia drawings yet | The handbook text has no color or dimension specifications. Nothing was drawn from memory or from vendor pictures. |
 | 10 | TypeScript pinned to 6 | svelte-check does not accept TypeScript 7 yet. |
 
+### Session 3 changes (same day, at the owner's request)
+
+- **Look changed from training paperwork to a clean phone app.** The owner did not like the paperwork style. Now: white cards on a warm grey ground, hairline borders, rounded corners, IBM Plex Sans for all text, Barlow Condensed only for the app name. Still flat: no gradients, blur, glow or shadows. Source Serif 4 was removed.
+- **The first screen is the personalization page**, with a four-step "How it works" at the top. Agreeing to the Terms is now a checkbox at the bottom of that page with links to the full Terms and Privacy Policy, not a separate screen. The full Terms stay in Settings.
+- Not done on purpose: dark mode, a multi-step tutorial with pictures, animations. Easy to add once the content and screens settle.
+
 ### Assumptions to check
 
 1. **The Cadet Handbook was not attached.** It was read from the address in the outline (mcjrotc.marines.mil). The file is 29 pages, has no printed edition date, and its PDF metadata says 30 Apr 2007. Every handbook fact cites it that way. `effective_from` on those facts is the file date, not a stated effective date.

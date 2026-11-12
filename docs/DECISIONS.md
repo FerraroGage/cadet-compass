@@ -14,6 +14,8 @@ Running log. Newest session at the top.
 | 4 | The bundle is signed on the owner's machine and committed. CI only verifies. | The private key never touches GitHub. |
 | 5 | Content bundle is kept in IndexedDB, not the service worker cache | The app checks the signature on every start, including the stored copy. |
 | 6 | Working name "Ready Seats" | The classroom command from the handbook (p. 6). No service mark in it. See question 1. |
+| 6a | Renamed "Gigline" (12 Nov 2026) | Owner asked for a better name. A gig line is the uniform alignment checked at inspection; works for every branch. "Guidon" was dropped: "GuideOn Military" exists. Web search found no app named Gigline; that is not a trademark search. Internal ids (package name, bundle app id, IndexedDB name) stay "ready-seats" so saved data and the signed bundle keep working. |
+| 6b | Logo: two white edges lined up through a gold buckle frame, scarlet field | Shirt edge, buckle, fly on one gig line. A first draft with three bars on a spine read as a letter E and was dropped. Flat shapes only, no service emblem. Same geometry in src/lib/Logo.svelte, index.html and scripts/make-icons.mjs. |
 | 7 | Wrong answers in quizzes come from other answers in the same group | These are the things cadets really mix up. No question bank was copied from anywhere. |
 | 8 | Facts marked `verify`, and office holders more than 30 days past their check, are shown with a flag and never quizzed | A wrong name in a quiz is worse than a missing one. |
 | 9 | No ribbon or insignia drawings yet | The handbook text has no color or dimension specifications. Nothing was drawn from memory or from vendor pictures. |

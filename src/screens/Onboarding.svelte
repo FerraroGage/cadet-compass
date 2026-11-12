@@ -2,6 +2,7 @@
   import { app, save, today, type Profile } from '../lib/store.svelte';
   import { GOALS } from '../lib/quiz';
   import { TERMS } from '../legal/terms';
+  import Logo from '../lib/Logo.svelte';
 
   // Ranks and billets exactly as the Cadet Handbook lists them (p. 10 to 11).
   const RANKS = ['Cadet Private', 'Cadet Private First Class', 'Cadet Lance Corporal', 'Cadet Corporal', 'Cadet Sergeant', 'Cadet Staff Sergeant', 'Cadet Gunnery Sergeant', 'Cadet First Sergeant', 'Cadet Sergeant Major', 'Cadet Second Lieutenant', 'Cadet First Lieutenant', 'Cadet Captain', 'Cadet Major', 'Cadet Lieutenant Colonel', 'Cadet Colonel'];
@@ -17,7 +18,9 @@
   const draft = () => { try { return JSON.parse(sessionStorage.getItem('draft') ?? 'null'); } catch { return null; } };
   let f = $state<Profile>($state.snapshot(app.profile) ?? draft() ?? BLANK);
   let agreed = $state(false);
-  $effect(() => { if (!app.profile) try { sessionStorage.setItem('draft', JSON.stringify(f)); } catch { /* private mode */ } });
+  // First launch opens on the welcome screen; a saved draft means the cadet is already past it.
+  let started = $state(!!app.profile || !!draft());
+  $effect(() => { if (started && !app.profile) try { sessionStorage.setItem('draft', JSON.stringify(f)); } catch { /* private mode */ } });
 
   async function submit(e: Event) {
     e.preventDefault();
@@ -28,44 +31,42 @@
   }
 </script>
 
+{#if !started}
+  <div class="welcome">
+    <Logo size={88} />
+    <h1>Gigline</h1>
+    <p>A study aid for JROTC cadets. Know your knowledge before the inspection does.</p>
+    <ol class="steps">
+      <li><div><strong>Set up your plan</strong><span>Rank, goals and study time. About a minute.</span></div></li>
+      <li><div><strong>Take the placement test</strong><span>It finds what you know and what you do not.</span></div></li>
+      <li><div><strong>Study your cards each day</strong><span>The app brings back what you missed until it sticks.</span></div></li>
+      <li><div><strong>Look things up in the Hub</strong><span>Ranks, ribbons, chain of command, uniform, drill and more.</span></div></li>
+    </ol>
+    <button class="btn primary" type="button" onclick={() => { started = true; scrollTo(0, 0); }}>Get started</button>
+    <p class="help">No account. No name, email or location. Everything you enter stays on this device. Unofficial: not endorsed by any military service.</p>
+  </div>
+{:else}
 {#if edit}
   <h1>Cadet profile</h1>
 {:else}
   <h1>Set up your study plan</h1>
-  <p>Ready Seats is a study aid for JROTC cadets. Tell it about yourself and it picks what you study first.</p>
-  <div class="block">
-    <div class="head"><span class="t">How it works</span></div>
-    <div class="in">
-      <ol>
-        <li><strong>Fill in this page.</strong> It takes about a minute.</li>
-        <li><strong>Take the placement test</strong> under Train. It finds what you know and what you do not.</li>
-        <li><strong>Study your cards each day.</strong> The app brings back what you missed until it sticks.</li>
-        <li><strong>Look things up in the Hub</strong>: ranks, ribbons, chain of command, uniform, drill and more.</li>
-      </ol>
-      <p class="help">No account. No name, email or location. Everything you enter stays on this device.</p>
-    </div>
-  </div>
+  <p class="help">Tell the app about yourself and it picks what you study first.</p>
 {/if}
 
 <form onsubmit={submit}>
   <fieldset class="block">
     <legend><span class="n">1</span><span class="t">Program</span></legend>
     <div class="in">
-      {#each PROGRAMS as [id, name]}
-        <label class="opt">
-          <input type="radio" name="branch" value={id} bind:group={f.branch} disabled={id !== 'usmc'} />
-          <span>{name} {#if id !== 'usmc'}<small>Content not published yet</small>{/if}</span>
-        </label>
-      {/each}
+      <select bind:value={f.branch} aria-label="Program">
+        {#each PROGRAMS as [id, name]}<option value={id} disabled={id !== 'usmc'}>{name}{id !== 'usmc' ? ' (not published yet)' : ''}</option>{/each}
+      </select>
     </div>
   </fieldset>
 
   <fieldset class="block">
     <legend><span class="n">2</span><span class="t">Leadership Education level</span></legend>
-    <div class="in cols">
-      {#each LEVELS as l}
-        <label class="opt"><input type="radio" name="level" value={l} bind:group={f.level} /><span>{l}</span></label>
-      {/each}
+    <div class="in">
+      <select bind:value={f.level} aria-label="Leadership Education level">{#each LEVELS as l}<option>{l}</option>{/each}</select>
     </div>
   </fieldset>
 
@@ -142,3 +143,4 @@
     {#if edit}<a class="btn" href="#/settings">Cancel</a>{/if}
   </div>
 </form>
+{/if}

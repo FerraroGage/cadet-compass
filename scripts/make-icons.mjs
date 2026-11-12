@@ -1,17 +1,16 @@
 // Draws the app icon as PNG with no image library: flat rectangles only.
-// The mark is an index card on a scarlet field. It is original and uses no service emblem.
+// The mark is a shirt edge and a fly edge lined up through a brass buckle (a gig line) on a scarlet field. It is original and uses no service emblem.
 import { writeFileSync, mkdirSync } from 'node:fs';
 import { deflateSync, crc32 } from 'node:zlib';
 
-const SCARLET = [158, 27, 42], GOLD = [200, 161, 43], PAPER = [251, 249, 243], INK = [29, 27, 23];
+const SCARLET = [166, 25, 46], GOLD = [200, 161, 43], PAPER = [255, 255, 255];
 // [x0, y0, x1, y1, color] in 0..1 units; kept inside the middle 60% so a maskable crop never cuts it.
 const SHAPES = [
   [0, 0, 1, 1, SCARLET],
-  [0.22, 0.24, 0.78, 0.76, PAPER],
-  [0.22, 0.24, 0.78, 0.34, GOLD],
-  [0.3, 0.44, 0.7, 0.48, INK],
-  [0.3, 0.54, 0.7, 0.58, INK],
-  [0.3, 0.64, 0.56, 0.68, INK],
+  [0.45, 0.16, 0.55, 0.34, PAPER],
+  [0.34, 0.34, 0.66, 0.66, GOLD],
+  [0.41, 0.41, 0.59, 0.59, SCARLET],
+  [0.45, 0.66, 0.55, 0.84, PAPER],
 ];
 
 function png(size) {

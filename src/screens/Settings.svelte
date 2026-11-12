@@ -29,7 +29,8 @@
     ['Vite and vite-plugin-pwa', 'Vite and Vite PWA contributors', 'MIT'],
     ['Workbox', 'Google', 'MIT'],
     ['Dexie.js', 'David Fahlander', 'Apache 2.0'],
-    ['App icon', 'Made for this app', 'Original work'],
+    ['Settings gear icon (Feather)', 'Cole Bemis', 'MIT'],
+    ['App icon and logo', 'Made for this app', 'Original work'],
   ];
   const sources = [...new Map(b.facts.map((f) => [f.source.url, f])).values()];
 </script>
@@ -45,7 +46,8 @@
   {/each}
 {:else if page === 'about'}
   <h1>About</h1>
-  <p>Ready Seats is a study aid for Junior ROTC cadets. It covers ranks, ribbons, chain of command, uniform, drill, general knowledge and program rules, and it tests what you know so you can train what you do not.</p>
+  <p>Gigline is a study aid for Junior ROTC cadets. It covers ranks, ribbons, chain of command, uniform, drill, general knowledge and program rules, and it tests what you know so you can train what you do not.</p>
+  <p>The name: a gig line is the straight line a squared-away uniform makes down the shirt edge, the belt buckle and the trouser fly. The logo is a shirt edge and a fly edge lined up through a brass buckle.</p>
   <p class="notice"><strong>Unofficial.</strong> This app is not affiliated with or endorsed by the Department of Defense (Department of War), any military service or any JROTC program. See <a href="#/settings/legal">Legal and credits</a>.</p>
   <h2>How the content is kept honest</h2>
   <ol>
@@ -59,7 +61,7 @@
   <p class="label">App version {__APP_VERSION__} / content version {b.version}</p>
 {:else if page === 'legal'}
   <h1>Legal and credits</h1>
-  <p>Ready Seats is an unofficial study aid. It is not affiliated with, sponsored by or endorsed by the Department of Defense (Department of War), any military service or any JROTC program.</p>
+  <p>Gigline is an unofficial study aid. It is not affiliated with, sponsored by or endorsed by the Department of Defense (Department of War), any military service or any JROTC program.</p>
   <p>The developer does not own or claim ownership of any service name, mark or insignia. All such names belong to their owners and appear here only to identify the subject. No service seal, emblem or logo is used in this app.</p>
   <p><a href="#/settings/terms">Terms of Service</a> / <a href="#/settings/privacy">Privacy Policy</a></p>
   <h2>Fonts, software and images</h2>

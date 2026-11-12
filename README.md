@@ -1,4 +1,4 @@
-# Ready Seats
+# Gigline
 
 An unofficial study aid for Junior ROTC cadets. Installable web app (PWA), offline after first load, no accounts, nothing collected. Marine Corps JROTC is the first track.
 

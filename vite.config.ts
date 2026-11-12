@@ -11,8 +11,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/apple-touch-icon.png'],
       manifest: {
-        name: 'Ready Seats: cadet study guide',
-        short_name: 'Ready Seats',
+        name: 'Gigline: cadet study guide',
+        short_name: 'Gigline',
         description: 'Unofficial study aid for Junior ROTC cadets. Works offline. Keeps your progress on this device.',
         start_url: './',
         scope: './',

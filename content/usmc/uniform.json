@@ -1,0 +1,810 @@
+[
+  {
+    "id": "usmc.uniform.blue-bravo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Blue Dress \"Bravo\": blue trousers or skirt with blue coat, ribbons only.",
+    "q": "Which uniform is blue trousers or skirt with the blue coat, ribbons only?",
+    "a": "Blue Dress \"Bravo\"",
+    "group": "uniform-type",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.blue-charlie",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Blue Dress \"Charlie\": blue trousers or skirt with khaki long sleeve shirt and tie.",
+    "q": "Which uniform is blue trousers or skirt with khaki long sleeve shirt and tie?",
+    "a": "Blue Dress \"Charlie\"",
+    "group": "uniform-type",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.blue-delta",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Blue Dress \"Delta\": blue trousers or skirt with khaki short sleeve shirt.",
+    "q": "Which uniform is blue trousers or skirt with khaki short sleeve shirt?",
+    "a": "Blue Dress \"Delta\"",
+    "group": "uniform-type",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.service-alpha",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Service \"Alpha\": green trousers or skirt with green coat and long sleeve shirt.",
+    "q": "Which uniform is green trousers or skirt with the green coat and long sleeve shirt?",
+    "a": "Service \"Alpha\"",
+    "group": "uniform-type",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.service-bravo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Service \"Bravo\": green trousers or skirt with khaki long sleeve shirt and tie.",
+    "q": "Which uniform is green trousers or skirt with khaki long sleeve shirt and tie?",
+    "a": "Service \"Bravo\"",
+    "group": "uniform-type",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.service-charlie",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Service \"Charlie\": green trousers or skirt with khaki short sleeve shirt.",
+    "q": "Which uniform is green trousers or skirt with khaki short sleeve shirt?",
+    "a": "Service \"Charlie\"",
+    "group": "uniform-type",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.utility",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Utility Uniform: camouflage blouse and trousers.",
+    "q": "Which uniform is the camouflage blouse and trousers?",
+    "a": "Utility Uniform",
+    "group": "uniform-type",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.web-belt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "The web belt extends between 2 and 4 inches past the buckle.",
+    "q": "How far past the buckle does the web belt extend?",
+    "a": "Between 2 and 4 inches",
+    "group": "measure",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.cloth-belt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "The cloth belt extends between 2 3/4 and 3 3/4 inches past the buckle.",
+    "q": "How far past the buckle does the cloth belt extend?",
+    "a": "Between 2 3/4 and 3 3/4 inches",
+    "group": "measure",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.alignment",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "Military alignment: the shirt edge, belt buckle and fly of the trousers are in one straight vertical line.",
+    "q": "Which three things form the straight vertical line called military alignment?",
+    "a": "Shirt edge, belt buckle and fly of the trousers",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.tie-clasp",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "The tie clasp is centered between the 3rd and 4th button on the long sleeve shirt.",
+    "q": "Where is the tie clasp worn?",
+    "a": "Centered between the 3rd and 4th button",
+    "distractors": [
+      "Centered between the 2nd and 3rd button",
+      "Centered between the 4th and 5th button",
+      "Even with the top of the pockets"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.trouser-length",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "The bottom of the trousers is even with the welt where the heel and sole of the shoe join.",
+    "q": "Where does the bottom of the trousers fall?",
+    "a": "Even with the welt where the heel and sole of the shoe join",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.skirt-length",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "Skirt length approximates the knee, no more than 1 inch above or below the center of the knee.",
+    "q": "How far above or below the center of the knee may the skirt fall?",
+    "a": "No more than 1 inch",
+    "distractors": [
+      "No more than 2 inches",
+      "No more than 1/2 inch",
+      "No more than 3 inches"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.cover-indoors",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "The cover is never worn indoors.",
+    "q": "Is the cover worn indoors?",
+    "a": "No. It is never worn indoors.",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.emblem-cover",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "On the cover, the wings of the emblem are parallel to the deck and the anchor points forward.",
+    "q": "On the cover, which way does the anchor of the emblem point?",
+    "a": "Forward",
+    "distractors": [
+      "Inboard",
+      "Outboard",
+      "To the rear"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.emblem-collar",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "On the Service \"Alpha\" and blues, the left and right collar emblems are worn parallel to the deck with the anchors pointed inboard.",
+    "q": "On the collar, which way do the anchors of the emblems point?",
+    "a": "Inboard",
+    "distractors": [
+      "Forward",
+      "Outboard",
+      "Up"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.enlisted-insignia",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "Enlisted insignia of grade is worn 1/2 inch from the collar edge and centered on the collar, point of the chevron up, bisecting the angle of the collar.",
+    "q": "How far from the collar edge is enlisted insignia of grade worn?",
+    "a": "1/2 inch",
+    "group": "measure",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.officer-insignia",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "Officer insignia of grade is worn 1 inch from the collar edge on the centerline of the collar.",
+    "q": "How far from the front collar edge is officer insignia of grade worn?",
+    "a": "1 inch",
+    "group": "measure",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.officer-shoulder",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "Cadet officers wear rank insignia centered on the shoulder strap of the blue coat and all weather coats.",
+    "q": "Where do cadet officers wear rank insignia on the blue coat?",
+    "a": "Centered on the shoulder strap",
+    "distractors": [
+      "On the collar, 1 inch from the edge",
+      "On the left sleeve",
+      "Above the left breast pocket"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.cloth-insignia",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "Cloth embroidered rank insignia for enlisted cadets is worn only on the blue coat.",
+    "q": "On which item do enlisted cadets wear cloth embroidered rank insignia?",
+    "a": "The blue coat only",
+    "distractors": [
+      "The khaki shirt",
+      "The utility blouse",
+      "The green coat only"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.utility-cap",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "With the utility uniform, rank insignia is worn on the front of the utility cap.",
+    "q": "Where is rank insignia worn on the utility cover?",
+    "a": "On the front of the utility cap",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.shoulder-patch",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Placement and fit",
+    "text": "The Marine Corps JROTC shoulder patch is worn on the left sleeve of the blue coat, green coat, khaki shirt and camouflage utility jacket.",
+    "q": "On which sleeve is the MCJROTC shoulder patch worn?",
+    "a": "The left sleeve",
+    "distractors": [
+      "The right sleeve",
+      "Both sleeves",
+      "Neither. It is worn on the pocket."
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.hair-male",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Grooming",
+    "text": "Male cadets: hair is tapered in the back, does not fall over the ears or eyebrows, and does not interfere with the cover. Sideburns are neatly trimmed and no longer than the opening of the ear.",
+    "q": "How long may a male cadet's sideburns be?",
+    "a": "No longer than the opening of the ear",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.shave",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Grooming",
+    "text": "Male cadets are clean-shaven, except that a neatly trimmed moustache may be worn.",
+    "q": "What facial hair may a male cadet wear?",
+    "a": "A neatly trimmed moustache only",
+    "distractors": [
+      "None at all",
+      "A trimmed beard",
+      "Sideburns to the jaw"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.hair-female",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Grooming",
+    "text": "Female cadets in uniform: hair is pinned and arranged so it does not fall below the collar, and so the cover can be worn properly.",
+    "q": "In uniform, how low may a female cadet's hair fall?",
+    "a": "Not below the collar of the uniform",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.earrings",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Grooming",
+    "text": "Female cadets may wear one small, polished ball or round stud earring per ear, no more than 1/4 inch in diameter, with all uniforms except camouflage. Earrings are not worn in parades, reviews or ceremonies.",
+    "q": "What is the largest earring diameter allowed?",
+    "a": "1/4 inch",
+    "group": "measure",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.uniform-day",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Conduct and care",
+    "text": "Cadets wear the uniform at least one day a week. The Senior Marine Instructor sets the day.",
+    "q": "How often must cadets wear the uniform, at a minimum?",
+    "a": "At least one day a week",
+    "distractors": [
+      "Every school day",
+      "At least two days a week",
+      "Once a month"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.conduct-cover",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Conduct and care",
+    "text": "In uniform, wear your cover outdoors at all times and remove it indoors.",
+    "q": "In uniform, when is the cover worn?",
+    "a": "Outdoors at all times; removed indoors",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.conduct-hands",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Conduct and care",
+    "text": "In uniform, do not chew gum, do not smoke, and do not walk or stand with your hands in your pockets.",
+    "q": "Name three things the handbook says not to do in uniform.",
+    "a": "Chew gum, smoke, or put your hands in your pockets",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.care-wash",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Conduct and care",
+    "text": "Camouflage uniforms and cotton T-shirts are washed in warm or cold water only.",
+    "q": "Which uniform items may be machine washed?",
+    "a": "Camouflage uniforms and cotton T-shirts",
+    "distractors": [
+      "Khaki shirts and green trousers",
+      "Dress coats",
+      "Wool sweaters"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.care-dry-clean",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Conduct and care",
+    "text": "Khaki shirts, poly-wool green trousers, wool sweaters and dress coats must be dry-cleaned, not washed.",
+    "q": "How are khaki shirts, green trousers, wool sweaters and dress coats cleaned?",
+    "a": "Dry-cleaned only",
+    "distractors": [
+      "Machine washed cold",
+      "Hand washed",
+      "Machine washed warm"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.uniform.responsibility",
+    "branch": [
+      "usmc"
+    ],
+    "module": "uniform",
+    "topic": "Conduct and care",
+    "text": "Cadets are responsible for their uniforms. Replacing a lost, stolen or damaged uniform is the financial responsibility of the cadet.",
+    "q": "Who pays to replace a lost, stolen or damaged uniform?",
+    "a": "The cadet",
+    "distractors": [
+      "The school",
+      "The Marine Corps",
+      "The unit supply fund"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

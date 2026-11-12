@@ -1,0 +1,1131 @@
+[
+  {
+    "id": "usmc.regulations.legal-basis",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Program basis",
+    "text": "The legal basis for Junior ROTC is Section 2031 of Title 10, United States Code, enacted by Public Law 88-647.",
+    "q": "What is the legal basis for Junior ROTC?",
+    "a": "Section 2031 of Title 10, United States Code",
+    "distractors": [
+      "Section 320 of Title 14, United States Code",
+      "The National Defense Act of 1916 alone",
+      "Marine Corps Order 5060.20"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.authority",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Program basis",
+    "text": "The Secretary of the Navy has authorized the Commandant of the Marine Corps to establish MCJROTC units.",
+    "q": "Who authorized the Commandant to establish MCJROTC units?",
+    "a": "The Secretary of the Navy",
+    "distractors": [
+      "The Secretary of Defense",
+      "The Secretary of Education",
+      "The Chairman of the Joint Chiefs of Staff"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.purpose",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Program basis",
+    "text": "The purpose of MCJROTC is to instill a value of citizenship, service to the United States, personal responsibility and a sense of accomplishment.",
+    "q": "What is the purpose of MCJROTC?",
+    "a": "To instill a value of citizenship, service to the United States, personal responsibility and a sense of accomplishment",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.no-commitment",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Program basis",
+    "text": "MCJROTC does not seek any particular commitment to the military.",
+    "q": "Does MCJROTC require a commitment to military service?",
+    "a": "No",
+    "distractors": [
+      "Yes, two years after graduation",
+      "Yes, for scholarship cadets",
+      "Only for cadet officers"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.length",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Program basis",
+    "text": "By law, a JROTC program offered in a high school must be no less than three years. It may extend over four.",
+    "q": "What is the minimum length of a JROTC program at a high school?",
+    "a": "Three years",
+    "distractors": [
+      "Two years",
+      "Four years",
+      "One year"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.hours",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Program basis",
+    "text": "Each year of the program contains 180 hours of leadership instruction and application.",
+    "q": "How many hours of leadership instruction and application does each program year contain?",
+    "a": "180 hours",
+    "distractors": [
+      "120 hours",
+      "90 hours",
+      "240 hours"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mission-1",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Mission of MCJROTC",
+    "text": "MCJROTC mission, item 1 of 6: Develop informed and responsible citizens.",
+    "q": "What is item 1 of the six-part MCJROTC mission?",
+    "a": "Develop informed and responsible citizens.",
+    "group": "mission",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mission-2",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Mission of MCJROTC",
+    "text": "MCJROTC mission, item 2 of 6: Develop leadership skills.",
+    "q": "What is item 2 of the six-part MCJROTC mission?",
+    "a": "Develop leadership skills.",
+    "group": "mission",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mission-3",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Mission of MCJROTC",
+    "text": "MCJROTC mission, item 3 of 6: Strengthen character.",
+    "q": "What is item 3 of the six-part MCJROTC mission?",
+    "a": "Strengthen character.",
+    "group": "mission",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mission-4",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Mission of MCJROTC",
+    "text": "MCJROTC mission, item 4 of 6: Promote an understanding of the basic elements and requirements for national security.",
+    "q": "What is item 4 of the six-part MCJROTC mission?",
+    "a": "Promote an understanding of the basic elements and requirements for national security.",
+    "group": "mission",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mission-5",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Mission of MCJROTC",
+    "text": "MCJROTC mission, item 5 of 6: Help form habits of self-discipline.",
+    "q": "What is item 5 of the six-part MCJROTC mission?",
+    "a": "Help form habits of self-discipline.",
+    "group": "mission",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mission-6",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Mission of MCJROTC",
+    "text": "MCJROTC mission, item 6 of 6: Develop respect for, and an understanding of, the need for constituted authority in a democratic society.",
+    "q": "What is item 6 of the six-part MCJROTC mission?",
+    "a": "Develop respect for, and an understanding of, the need for constituted authority in a democratic society.",
+    "group": "mission",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.enroll-school",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "To enroll, a student must be enrolled in and attending a regular course of instruction at the school where the unit is located.",
+    "q": "Where must a cadet be enrolled as a student?",
+    "a": "At the school where the unit is located",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.enroll-grade",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "To enroll, a student must be a U.S. citizen, U.S. national or lawfully admitted permanent resident, and be in a grade above the 8th grade.",
+    "q": "Above which grade must a student be to enroll?",
+    "a": "Above the 8th grade",
+    "distractors": [
+      "Above the 7th grade",
+      "Above the 9th grade",
+      "Any grade"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.enroll-character",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "To enroll, a student must be of good moral character as determined by the principal of the school and the SMI.",
+    "q": "Who determines that a student is of good moral character for enrollment?",
+    "a": "The principal of the school and the SMI",
+    "distractors": [
+      "The Cadet Battalion Commander",
+      "The Marine Instructor alone",
+      "The school counselor"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.enroll-physical",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "To enroll, a student must be physically qualified to take full part in the school's physical education program. A current annual school physical is mandatory.",
+    "q": "What physical standard must a cadet meet to enroll?",
+    "a": "Physically qualified to take full part in the school's physical education program",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.disenroll",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "A cadet may be disenrolled for academic failure, ineptitude or poor attitude.",
+    "q": "What are the three reasons the handbook gives for disenrollment?",
+    "a": "Academic failure, ineptitude and poor attitude",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.disenroll-review",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "Disenrollment for failing MCJROTC is not automatic. Each case is reviewed and handled separately.",
+    "q": "Is disenrollment for academic failure automatic?",
+    "a": "No. Each case is reviewed separately.",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.gpa-probation",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "A cadet who fails to maintain the minimum GPA set by the SMI and approved by the principal is placed on probation during the next semester.",
+    "q": "What happens when a cadet falls below the minimum GPA?",
+    "a": "Probation during the next semester",
+    "distractors": [
+      "Immediate disenrollment",
+      "Reduction to Cadet Private",
+      "A written warning only"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 8"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.gpa-suspension",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "A cadet on academic probation who does not raise the GPA during the next semester is suspended from MCJROTC and must turn in all uniforms.",
+    "q": "What happens if a cadet on academic probation does not raise the GPA?",
+    "a": "Suspension from MCJROTC and turn-in of all uniforms",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 8"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.le-name",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "The MCJROTC curriculum is called Leadership Education.",
+    "q": "What is the MCJROTC curriculum called?",
+    "a": "Leadership Education",
+    "distractors": [
+      "Naval Science",
+      "Leadership Education and Training",
+      "Aerospace Science"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 8"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.le-categories",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "Leadership Education has five categories: Leadership; Citizenship; Personal Growth and Responsibility; Public Service and Career Exploration; and General Military Subjects.",
+    "q": "What are the five categories of Leadership Education?",
+    "a": "Leadership; Citizenship; Personal Growth and Responsibility; Public Service and Career Exploration; General Military Subjects",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 8"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.le-2",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "LE-II introduces civilian marksmanship training and land navigation with map and compass.",
+    "q": "Which Leadership Education level introduces marksmanship and land navigation?",
+    "a": "LE-II",
+    "group": "le-level",
+    "distractors": [
+      "LE-I",
+      "LE-III",
+      "LE-IV"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.le-3",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "In LE-III cadets take positions of increased authority, and receive detailed instruction on personal finances.",
+    "q": "Which Leadership Education level gives detailed instruction on personal finances?",
+    "a": "LE-III",
+    "group": "le-level",
+    "distractors": [
+      "LE-I",
+      "LE-II",
+      "LE-IV"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.le-4",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "LE-IV cadets conduct formations and inspections and supervise training of younger cadets.",
+    "q": "In which Leadership Education level do cadets conduct formations and inspections?",
+    "a": "LE-IV",
+    "group": "le-level",
+    "distractors": [
+      "LE-I",
+      "LE-II",
+      "LE-III"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.grading",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Academics",
+    "text": "Part of the MCJROTC grade is leadership performance: carrying out cadet duties and taking part in citizenship and other MCJROTC activities.",
+    "q": "Besides academics, what is a cadet graded on?",
+    "a": "Leadership performance",
+    "distractors": [
+      "Physical size",
+      "Years in the program",
+      "Number of ribbons"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.attendance",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Conduct",
+    "text": "Cadets are expected to attend all JROTC functions, and to tell the instructors in advance when they cannot.",
+    "q": "What should a cadet do when unable to attend a JROTC function?",
+    "a": "Tell the instructors in advance",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 7"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.school-rules",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Conduct",
+    "text": "Cadets are expected to follow all school rules and regulations.",
+    "q": "Whose rules must cadets follow in addition to the unit's?",
+    "a": "All school rules and regulations",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 7"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.ready-seats",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Classroom procedures",
+    "text": "After roll call the class commander gives the command \"Ready, seats\". The class sits at attention until given \"At ease\".",
+    "q": "What command does the class commander give after roll call?",
+    "a": "\"Ready, seats\"",
+    "distractors": [
+      "\"Take seats\"",
+      "\"At ease\"",
+      "\"Fall out\""
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.stand-to-speak",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Classroom procedures",
+    "text": "When recognized or asked a question, a cadet stands while speaking.",
+    "q": "What does a cadet do when recognized to speak in class?",
+    "a": "Stands while speaking",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.sir-maam",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Classroom procedures",
+    "text": "Cadets use \"Sir\" or \"Ma'am\" when addressing or answering the SMI or MI.",
+    "q": "How does a cadet address the SMI or MI?",
+    "a": "\"Sir\" or \"Ma'am\"",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.head-calls",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Classroom procedures",
+    "text": "Head calls are made before or after class, except in an emergency.",
+    "q": "When are head calls made?",
+    "a": "Before or after class, except in an emergency",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mk-safety",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Marksmanship",
+    "text": "Safety is first and foremost in MCJROTC marksmanship, in the classroom and on a competitive team.",
+    "q": "What comes first in MCJROTC marksmanship?",
+    "a": "Safety",
+    "distractors": [
+      "Score",
+      "Speed",
+      "Team standing"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 17"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mk-rifle",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Marksmanship",
+    "text": "All qualification firing is done with the Sporter air rifle.",
+    "q": "Which rifle is used for qualification firing?",
+    "a": "The Sporter air rifle",
+    "distractors": [
+      "The precision air rifle",
+      "The .22 caliber rifle",
+      "The drill rifle"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 18"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mk-distance",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Marksmanship",
+    "text": "Air rifle qualification firing is done at a distance of 10 meters (33 feet).",
+    "q": "At what distance is air rifle qualification fired?",
+    "a": "10 meters (33 feet)",
+    "distractors": [
+      "25 meters (82 feet)",
+      "50 feet",
+      "5 meters (16 feet)"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 18"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mk-marksman",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Marksmanship",
+    "text": "Marksman: 10 shots standing and 10 shots prone, scoring 110 to 129.",
+    "q": "What score range earns the Marksman badge?",
+    "a": "110 to 129",
+    "group": "mk-score",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mk-sharpshooter",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Marksmanship",
+    "text": "Sharpshooter: 10 shots standing and 10 shots prone, scoring 130 to 200.",
+    "q": "What score range earns the Sharpshooter badge?",
+    "a": "130 to 200",
+    "group": "mk-score",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mk-expert",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Marksmanship",
+    "text": "Expert: 10 shots each prone, standing and kneeling, fired at the same time, scoring 221 to 300.",
+    "q": "What score range earns the Expert badge?",
+    "a": "221 to 300",
+    "group": "mk-score",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.mk-expert-positions",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Marksmanship",
+    "text": "The Expert badge requires qualification firing in all three positions: prone, standing and kneeling.",
+    "q": "Which firing positions does the Expert badge require?",
+    "a": "Prone, standing and kneeling",
+    "distractors": [
+      "Standing and prone",
+      "Standing only",
+      "Prone and kneeling"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.pt-frequency",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Physical training",
+    "text": "A physical fitness test is given twice a year and is one of the requirements for promotion.",
+    "q": "How often is the physical fitness test given?",
+    "a": "Twice a year",
+    "distractors": [
+      "Once a year",
+      "Every quarter",
+      "Every month"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.pt-first",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Physical training",
+    "text": "YPFT first class is 350 to 500 points.",
+    "q": "What YPFT score range is first class?",
+    "a": "350 to 500 points",
+    "group": "pt-score",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.pt-second",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Physical training",
+    "text": "YPFT second class is 250 to 349 points.",
+    "q": "What YPFT score range is second class?",
+    "a": "250 to 349 points",
+    "group": "pt-score",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.pt-third",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Physical training",
+    "text": "YPFT third class is 150 to 249 points.",
+    "q": "What YPFT score range is third class?",
+    "a": "150 to 249 points",
+    "group": "pt-score",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.regulations.pt-fail",
+    "branch": [
+      "usmc"
+    ],
+    "module": "regulations",
+    "topic": "Physical training",
+    "text": "A YPFT score below 150 points is failing.",
+    "q": "Below what YPFT score does a cadet fail?",
+    "a": "Below 150 points",
+    "group": "pt-score",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

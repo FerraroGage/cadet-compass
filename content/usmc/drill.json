@@ -1,0 +1,620 @@
+[
+  {
+    "id": "usmc.drill.prep-command",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Preparatory command: Indicates which movement is about to be executed.",
+    "q": "Which drill term means: indicates which movement is about to be executed?",
+    "a": "Preparatory command",
+    "group": "drill-term",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.exec-command",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Command of execution: Causes the desired movement to be executed.",
+    "q": "Which drill term means: causes the desired movement to be executed?",
+    "a": "Command of execution",
+    "group": "drill-term",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.alignment",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Alignment: A straight line on which several elements are formed.",
+    "q": "Which drill term means: a straight line on which several elements are formed?",
+    "a": "Alignment",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.cadence",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Cadence: The uniform step and rhythm in marching.",
+    "q": "Which drill term means: the uniform step and rhythm in marching?",
+    "a": "Cadence",
+    "group": "drill-term",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.cover",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Cover: To align oneself behind the person to the immediate front.",
+    "q": "Which drill term means: to align oneself behind the person to the immediate front?",
+    "a": "Cover",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.distance",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Distance: The space between elements in depth, measured from back to chest.",
+    "q": "Which drill term means: the space between elements in depth, measured from back to chest?",
+    "a": "Distance",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.guide",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Guide: An individual upon whom a formation regulates its cadence and direction of march.",
+    "q": "Which drill term means: an individual upon whom a formation regulates its cadence and direction of march?",
+    "a": "Guide",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.interval",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Interval: The space laterally between elements of the same line.",
+    "q": "Which drill term means: the space laterally between elements of the same line?",
+    "a": "Interval",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.line",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Line: A formation in which the elements are side by side.",
+    "q": "Which drill term means: a formation in which the elements are side by side?",
+    "a": "Line",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.dress",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Dress: Alignment to the right or left as directed.",
+    "q": "Which drill term means: alignment to the right or left as directed?",
+    "a": "Dress",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.rank",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Rank: A line of individuals placed side by side.",
+    "q": "Which drill term means: a line of individuals placed side by side?",
+    "a": "Rank",
+    "group": "drill-term",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.file",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "File: A single column of individuals placed one behind the other.",
+    "q": "Which drill term means: a single column of individuals placed one behind the other?",
+    "a": "File",
+    "group": "drill-term",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.pace",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Drill terms",
+    "text": "Pace: A step of 30 inches, the length of a full step in marching at quick time.",
+    "q": "Which drill term means: a step of 30 inches, the length of a full step in marching at quick time?",
+    "a": "Pace",
+    "group": "drill-term",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.normal-distance",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Steps and measures",
+    "text": "Normal distance is 40 inches, measured from back to chest.",
+    "q": "What is normal distance?",
+    "a": "40 inches",
+    "group": "drill-inches",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.normal-interval",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Steps and measures",
+    "text": "Normal interval is one arm's length measured from shoulder to shoulder, approximately 30 inches.",
+    "q": "About how many inches is normal interval?",
+    "a": "30 inches",
+    "group": "drill-inches",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.close-interval",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Steps and measures",
+    "text": "Close interval is approximately 4 inches between shoulders.",
+    "q": "About how many inches is close interval?",
+    "a": "4 inches",
+    "group": "drill-inches",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.quick-step",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Steps and measures",
+    "text": "The quick time step is 30 inches, measured from heel to heel.",
+    "q": "How long is the step at quick time?",
+    "a": "30 inches",
+    "group": "drill-inches",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.half-step",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Steps and measures",
+    "text": "The half step is 15 inches, measured from heel to heel.",
+    "q": "How long is the half step?",
+    "a": "15 inches",
+    "group": "drill-inches",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.back-step",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Steps and measures",
+    "text": "The back step is 15 inches, measured from heel to heel.",
+    "q": "How long is the back step?",
+    "a": "15 inches",
+    "group": "drill-inches",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.side-step",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Steps and measures",
+    "text": "The right or left step is 12 inches, measured from inside heel to inside heel.",
+    "q": "How long is the right or left step?",
+    "a": "12 inches",
+    "group": "drill-inches",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.quick-time",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Cadence",
+    "text": "Quick time is 120 steps per minute. It is the normal marching cadence.",
+    "q": "How many steps per minute is quick time?",
+    "a": "120 steps per minute",
+    "group": "drill-tempo",
+    "distractors": [
+      "60 steps per minute",
+      "180 steps per minute",
+      "100 steps per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.double-time",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Cadence",
+    "text": "Double time is 180 steps per minute.",
+    "q": "How many steps per minute is double time?",
+    "a": "180 steps per minute",
+    "group": "drill-tempo",
+    "distractors": [
+      "120 steps per minute",
+      "60 steps per minute",
+      "150 steps per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.slow-time",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Cadence",
+    "text": "Slow time is 60 steps per minute.",
+    "q": "How many steps per minute is slow time?",
+    "a": "60 steps per minute",
+    "group": "drill-tempo",
+    "distractors": [
+      "120 steps per minute",
+      "180 steps per minute",
+      "90 steps per minute"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.purpose",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Purpose of drill",
+    "text": "The purposes of drill: to move a unit from one place to another in an orderly manner; to teach discipline and coordination; and to improve morale by developing team spirit.",
+    "q": "What are the three purposes of drill?",
+    "a": "Move a unit in an orderly manner; teach discipline and coordination; improve morale by developing team spirit",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 27"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.drill.drill-team",
+    "branch": [
+      "usmc"
+    ],
+    "module": "drill",
+    "topic": "Purpose of drill",
+    "text": "Drill teaches discipline, enhances concentration and builds esprit de corps in a unit.",
+    "q": "According to the handbook, what does drill build in a unit?",
+    "a": "Esprit de corps",
+    "distractors": [
+      "Physical endurance",
+      "Marksmanship skill",
+      "Academic standing"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "usmc.ribbons.order-legion-of-valor",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Legion of Valor is number 1 of 40 in the handbook's order of precedence.",
+    "q": "Which award is first in the handbook's order of precedence?",
+    "a": "Legion of Valor",
+    "group": "ribbon",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-mcra",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "MCRA is number 2 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Legion of Valor in precedence?",
+    "a": "MCRA",
+    "group": "ribbon",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-american-legion-award-for-scholastic-excellence-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "American Legion Award for Scholastic Excellence Ribbon is number 3 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the MCRA in precedence?",
+    "a": "American Legion Award for Scholastic Excellence Ribbon",
+    "group": "ribbon",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-american-legion-award-for-military-excellence-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "American Legion Award for Military Excellence Ribbon is number 4 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the American Legion Award for Scholastic Excellence Ribbon in precedence?",
+    "a": "American Legion Award for Military Excellence Ribbon",
+    "group": "ribbon",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-sons-of-the-american-revolution-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Sons of the American Revolution Ribbon is number 5 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the American Legion Award for Military Excellence Ribbon in precedence?",
+    "a": "Sons of the American Revolution Ribbon",
+    "group": "ribbon",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-daughters-of-the-american-revolution-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Daughters of the American Revolution Ribbon is number 6 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Sons of the American Revolution Ribbon in precedence?",
+    "a": "Daughters of the American Revolution Ribbon",
+    "group": "ribbon",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-military-order-of-world-wars-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Military Order of World Wars Ribbon is number 7 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Daughters of the American Revolution Ribbon in precedence?",
+    "a": "Military Order of World Wars Ribbon",
+    "group": "ribbon",
+    "order": 7,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-military-officers-association-of-america-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Military Officers Association of America Ribbon is number 8 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Military Order of World Wars Ribbon in precedence?",
+    "a": "Military Officers Association of America Ribbon",
+    "group": "ribbon",
+    "order": 8,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-veterans-of-foreign-wars-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Veterans of Foreign Wars Ribbon is number 9 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Military Officers Association of America Ribbon in precedence?",
+    "a": "Veterans of Foreign Wars Ribbon",
+    "group": "ribbon",
+    "order": 9,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-daedalian-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Daedalian Ribbon is number 10 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Veterans of Foreign Wars Ribbon in precedence?",
+    "a": "Daedalian Ribbon",
+    "group": "ribbon",
+    "order": 10,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-women-marines-association-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Women Marines Association Ribbon is number 11 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Daedalian Ribbon in precedence?",
+    "a": "Women Marines Association Ribbon",
+    "group": "ribbon",
+    "order": 11,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-noncommissioned-officers-association-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Noncommissioned Officers Association Ribbon is number 12 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Women Marines Association Ribbon in precedence?",
+    "a": "Noncommissioned Officers Association Ribbon",
+    "group": "ribbon",
+    "order": 12,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-military-order-of-the-purple-heart-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Military Order of the Purple Heart Ribbon is number 13 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Noncommissioned Officers Association Ribbon in precedence?",
+    "a": "Military Order of the Purple Heart Ribbon",
+    "group": "ribbon",
+    "order": 13,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-navy-league-youth-medal-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Navy League Youth Medal Ribbon is number 14 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Military Order of the Purple Heart Ribbon in precedence?",
+    "a": "Navy League Youth Medal Ribbon",
+    "group": "ribbon",
+    "order": 14,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-reserve-officers-association-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Reserve Officers Association Ribbon is number 15 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Navy League Youth Medal Ribbon in precedence?",
+    "a": "Reserve Officers Association Ribbon",
+    "group": "ribbon",
+    "order": 15,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-naval-reserve-association-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Naval Reserve Association Ribbon is number 16 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Reserve Officers Association Ribbon in precedence?",
+    "a": "Naval Reserve Association Ribbon",
+    "group": "ribbon",
+    "order": 16,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-american-veterans-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "American Veterans Ribbon is number 17 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Naval Reserve Association Ribbon in precedence?",
+    "a": "American Veterans Ribbon",
+    "group": "ribbon",
+    "order": 17,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-national-sojourners-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "National Sojourners Ribbon is number 18 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the American Veterans Ribbon in precedence?",
+    "a": "National Sojourners Ribbon",
+    "group": "ribbon",
+    "order": 18,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-scottish-rite-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Scottish Rite Ribbon is number 19 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the National Sojourners Ribbon in precedence?",
+    "a": "Scottish Rite Ribbon",
+    "group": "ribbon",
+    "order": 19,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-outstanding-cadet-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Outstanding Cadet Ribbon is number 20 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Scottish Rite Ribbon in precedence?",
+    "a": "Outstanding Cadet Ribbon",
+    "group": "ribbon",
+    "order": 20,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-student-leadership-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Student Leadership Ribbon is number 21 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Outstanding Cadet Ribbon in precedence?",
+    "a": "Student Leadership Ribbon",
+    "group": "ribbon",
+    "order": 21,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-officer-leadership-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Officer Leadership Ribbon is number 22 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Student Leadership Ribbon in precedence?",
+    "a": "Officer Leadership Ribbon",
+    "group": "ribbon",
+    "order": 22,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-nco-leadership-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "NCO Leadership Ribbon is number 23 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Officer Leadership Ribbon in precedence?",
+    "a": "NCO Leadership Ribbon",
+    "group": "ribbon",
+    "order": 23,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-civic-service-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Civic Service Ribbon is number 24 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the NCO Leadership Ribbon in precedence?",
+    "a": "Civic Service Ribbon",
+    "group": "ribbon",
+    "order": 24,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-best-drill-cadet-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Best Drill Cadet Ribbon is number 25 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Civic Service Ribbon in precedence?",
+    "a": "Best Drill Cadet Ribbon",
+    "group": "ribbon",
+    "order": 25,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-distinguished-scholastic-achievement-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Distinguished Scholastic Achievement Ribbon is number 26 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Best Drill Cadet Ribbon in precedence?",
+    "a": "Distinguished Scholastic Achievement Ribbon",
+    "group": "ribbon",
+    "order": 26,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-arts-and-academics-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Arts and Academics Ribbon is number 27 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Distinguished Scholastic Achievement Ribbon in precedence?",
+    "a": "Arts and Academics Ribbon",
+    "group": "ribbon",
+    "order": 27,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-distinguished-military-training-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Distinguished Military Training Ribbon is number 28 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Arts and Academics Ribbon in precedence?",
+    "a": "Distinguished Military Training Ribbon",
+    "group": "ribbon",
+    "order": 28,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-physical-achievement-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Physical Achievement Ribbon is number 29 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Distinguished Military Training Ribbon in precedence?",
+    "a": "Physical Achievement Ribbon",
+    "group": "ribbon",
+    "order": 29,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-superior-marksman-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Superior Marksman Ribbon is number 30 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Physical Achievement Ribbon in precedence?",
+    "a": "Superior Marksman Ribbon",
+    "group": "ribbon",
+    "order": 30,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-athletic-participation-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Athletic Participation Ribbon is number 31 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Superior Marksman Ribbon in precedence?",
+    "a": "Athletic Participation Ribbon",
+    "group": "ribbon",
+    "order": 31,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-longevity-fidelity-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Longevity / Fidelity Ribbon is number 32 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Athletic Participation Ribbon in precedence?",
+    "a": "Longevity / Fidelity Ribbon",
+    "group": "ribbon",
+    "order": 32,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-distinguished-conduct-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Distinguished Conduct Ribbon is number 33 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Longevity / Fidelity Ribbon in precedence?",
+    "a": "Distinguished Conduct Ribbon",
+    "group": "ribbon",
+    "order": 33,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-best-drill-squad-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Best Drill Squad Ribbon is number 34 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Distinguished Conduct Ribbon in precedence?",
+    "a": "Best Drill Squad Ribbon",
+    "group": "ribbon",
+    "order": 34,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-color-guard-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Color Guard Ribbon is number 35 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Best Drill Squad Ribbon in precedence?",
+    "a": "Color Guard Ribbon",
+    "group": "ribbon",
+    "order": 35,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-drill-team-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Drill Team Ribbon is number 36 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Color Guard Ribbon in precedence?",
+    "a": "Drill Team Ribbon",
+    "group": "ribbon",
+    "order": 36,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-band-drum-bugle-corps-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Band / Drum & Bugle Corps Ribbon is number 37 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Drill Team Ribbon in precedence?",
+    "a": "Band / Drum & Bugle Corps Ribbon",
+    "group": "ribbon",
+    "order": 37,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-rifle-team-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Rifle Team Ribbon is number 38 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Band / Drum & Bugle Corps Ribbon in precedence?",
+    "a": "Rifle Team Ribbon",
+    "group": "ribbon",
+    "order": 38,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-orienteering-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Orienteering Ribbon is number 39 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Rifle Team Ribbon in precedence?",
+    "a": "Orienteering Ribbon",
+    "group": "ribbon",
+    "order": 39,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.order-recruiting-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Recruiting Ribbon is number 40 of 40 in the handbook's order of precedence.",
+    "q": "Which ribbon comes directly after the Orienteering Ribbon in precedence?",
+    "a": "Recruiting Ribbon",
+    "group": "ribbon",
+    "order": 40,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.senior-position",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "Ribbons are worn in order of precedence with the senior ribbon on top and to the wearer's right.",
+    "q": "Where does the senior ribbon go?",
+    "a": "On top and to the wearer's right",
+    "distractors": [
+      "On top and to the wearer's left",
+      "On the bottom and to the wearer's right",
+      "In the center of the bottom row"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.placement",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "Ribbons are worn 1/8 inch above and centered over the left breast pocket of the khaki shirt or blue coat.",
+    "q": "How far above the left breast pocket are ribbons worn?",
+    "a": "1/8 inch",
+    "distractors": [
+      "1/4 inch",
+      "1/2 inch",
+      "1 inch"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.with-badge",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "When ribbons are worn with the marksmanship badge, the ribbons sit 1/8 inch above the badge.",
+    "q": "Where do ribbons sit when the marksmanship badge is also worn?",
+    "a": "1/8 inch above the badge",
+    "distractors": [
+      "1/8 inch below the badge",
+      "On the right breast pocket",
+      "1/4 inch above the badge"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.medals-placement",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "Authorized medals are worn on the blue coat when the training schedule prescribes them, over the left breast pocket, midway between the first and second buttons.",
+    "q": "On which uniform item are medals worn?",
+    "a": "The blue coat",
+    "distractors": [
+      "The khaki shirt",
+      "The green coat",
+      "The utility blouse"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.ribbons-with-medals",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "When medals are worn, ribbons that have no medal are worn 1/8 inch above and centered over the right breast pocket.",
+    "q": "When medals are worn, where do ribbons without a medal go?",
+    "a": "1/8 inch above and centered over the right breast pocket",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.nametag-with-medals",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "When ribbons are on the right side, the nametag is worn 1/8 inch above the ribbon bar.",
+    "q": "Where is the nametag worn when ribbons are on the right side?",
+    "a": "1/8 inch above the ribbon bar",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.badges",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "Authorized badges are worn 1/8 inch above and centered over the left breast pocket of the khaki shirt and blue coat.",
+    "q": "Where are authorized badges worn?",
+    "a": "1/8 inch above and centered over the left breast pocket",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.one-badge",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "A cadet may wear one marksmanship badge, for the classification earned at the most recent range qualification.",
+    "q": "How many marksmanship badges may a cadet wear?",
+    "a": "One, for the most recent qualification",
+    "distractors": [
+      "One for each qualification earned",
+      "Two",
+      "None on the khaki shirt"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.badge-not-with-medals",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "Marksmanship badges are not worn when medals are worn on the blue coat.",
+    "q": "May a marksmanship badge be worn with medals on the blue coat?",
+    "a": "No",
+    "distractors": [
+      "Yes, below the medals",
+      "Yes, above the medals",
+      "Only by cadet officers"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.school-day",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Wear",
+    "text": "Ribbons and badges are not normally worn during the school day. They are worn for prescribed events and are authorized on leave and liberty.",
+    "q": "Are ribbons and badges normally worn during the school day?",
+    "a": "No. They are worn for prescribed events.",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.other-awards",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "All other awards are worn after the listed JROTC awards, and must be approved by the Marine Corps JROTC Program Office before being worn.",
+    "q": "Who must approve an award that is not on the handbook list before it is worn?",
+    "a": "The Marine Corps JROTC Program Office",
+    "distractors": [
+      "The Cadet Battalion Commander",
+      "The school principal",
+      "The awarding organization"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.marksmanship-levels",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Qualification badges",
+    "text": "Marksmanship qualification badges have three levels: Marksman, Sharpshooter and Expert. Expert is the highest.",
+    "q": "Which marksmanship qualification badge is the highest?",
+    "a": "Expert",
+    "distractors": [
+      "Sharpshooter",
+      "Marksman",
+      "Distinguished"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 18"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ribbons.pt-ribbon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ribbons",
+    "topic": "Criteria",
+    "text": "Cadets scoring more than 250 points on the Youth Physical Fitness Test are awarded the Physical Fitness Achievement Ribbon and the National Youth Physical Fitness Program Certificate.",
+    "q": "What YPFT score earns the Physical Fitness Achievement Ribbon?",
+    "a": "More than 250 points",
+    "distractors": [
+      "More than 150 points",
+      "More than 350 points",
+      "A perfect 500 points"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

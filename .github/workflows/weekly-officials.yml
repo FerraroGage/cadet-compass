@@ -1,0 +1,38 @@
+# Weekly check of office holders (STUB).
+# The Gemini call stays off until the repository variable GEMINI_ENABLED is set to "true".
+# This job never changes content. It opens an issue with a report; a person edits the facts,
+# signs the bundle on their own machine and opens the pull request.
+name: Weekly office holder check
+on:
+  schedule:
+    - cron: '0 14 * * 1' # Mondays, 14:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check offices
+        id: check
+        env:
+          GEMINI_ENABLED: ${{ vars.GEMINI_ENABLED }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set +e
+          node scripts/check-officials.mjs
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+      - name: Open an issue when a person needs to look
+        if: steps.check.outputs.code != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: ${{ steps.check.outputs.code == '10' && 'Office holders: needs review' || 'Office holder check failed' }}
+        run: gh issue create --title "$TITLE" --body-file officials-report.md

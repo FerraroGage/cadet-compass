@@ -1,0 +1,754 @@
+[
+  {
+    "id": "usmc.ranks.structure",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The MCJROTC rank structure mirrors the officer and enlisted ranks of the U.S. Marine Corps.",
+    "q": "What is the MCJROTC cadet rank structure modeled on?",
+    "a": "The officer and enlisted ranks of the U.S. Marine Corps",
+    "distractors": [
+      "The ranks of the U.S. Navy",
+      "The ranks of the U.S. Army",
+      "A rank system unique to JROTC"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.unit-size",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "Which cadet ranks and billets a unit uses depends on the size of the unit.",
+    "q": "What decides which cadet ranks and billets a unit uses?",
+    "a": "The size of the unit",
+    "distractors": [
+      "The age of the school",
+      "The number of instructors",
+      "The grade level of the cadets"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.bn-cdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Battalion Commander is a Cadet Colonel or Cadet Lieutenant Colonel.",
+    "q": "Which cadet rank holds the billet of Cadet Battalion Commander?",
+    "a": "Cadet Colonel or Cadet Lieutenant Colonel",
+    "group": "rank",
+    "order": 1,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.bn-xo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Battalion Executive Officer is a Cadet Major or Cadet Lieutenant Colonel.",
+    "q": "Which cadet rank holds the billet of Cadet Battalion Executive Officer?",
+    "a": "Cadet Major or Cadet Lieutenant Colonel",
+    "group": "rank",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.co-cdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "A Cadet Company Commander is a Cadet Captain.",
+    "q": "Which cadet rank holds the billet of Cadet Company Commander?",
+    "a": "Cadet Captain",
+    "group": "rank",
+    "order": 3,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.staff",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The S-1 Administrative Officer, S-3 Operations Officer and S-4 Logistics Officer are Cadet Captains.",
+    "q": "Which cadet rank holds the S-1, S-3 and S-4 staff billets?",
+    "a": "Cadet Captain",
+    "group": "rank",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.lt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Company Executive Officer, Cadet Platoon Commander and Battalion Public Affairs Officer/Historian are Cadet First or Second Lieutenants.",
+    "q": "Which cadet rank holds the billet of Cadet Platoon Commander?",
+    "a": "Cadet First or Second Lieutenant",
+    "group": "rank",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.bn-sgtmaj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Battalion Sergeant Major is a Cadet Sergeant Major.",
+    "q": "Which cadet rank is the senior enlisted cadet of the battalion?",
+    "a": "Cadet Sergeant Major",
+    "group": "rank",
+    "order": 6,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.co-1stsgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Company First Sergeant is a Cadet First Sergeant.",
+    "q": "Which cadet rank is the senior enlisted cadet of a company?",
+    "a": "Cadet First Sergeant",
+    "group": "rank",
+    "order": 7,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.gysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Company Gunnery Sergeant and the Cadet Platoon Sergeant are Cadet Gunnery Sergeants.",
+    "q": "Which cadet rank holds the billet of Cadet Platoon Sergeant?",
+    "a": "Cadet Gunnery Sergeant",
+    "group": "rank",
+    "order": 8,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ssgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Company Supply Sergeant and the Cadet Company Guide are Cadet Staff Sergeants.",
+    "q": "Which cadet rank holds the billet of Cadet Company Guide?",
+    "a": "Cadet Staff Sergeant",
+    "group": "rank",
+    "order": 9,
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.sgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Squad Leader and the Cadet Company Clerk are Cadet Sergeants.",
+    "q": "Which cadet rank holds the billet of Cadet Squad Leader?",
+    "a": "Cadet Sergeant",
+    "group": "rank",
+    "order": 10,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.cpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "The Cadet Fire Team Leader is a Cadet Corporal.",
+    "q": "Which cadet rank holds the billet of Cadet Fire Team Leader?",
+    "a": "Cadet Corporal",
+    "group": "rank",
+    "order": 11,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.lcpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "Any qualified cadet may be promoted to Cadet Lance Corporal. No billet is tied to the rank.",
+    "q": "Which rank comes directly below Cadet Corporal?",
+    "a": "Cadet Lance Corporal",
+    "group": "rank",
+    "order": 12,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.pfc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Rank and billet",
+    "text": "Any qualified cadet may be promoted to Cadet Private First Class. No billet is tied to the rank.",
+    "q": "Which rank comes directly below Cadet Lance Corporal?",
+    "a": "Cadet Private First Class",
+    "group": "rank",
+    "order": 13,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.authority",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Primary authority for promotions rests with the Senior Marine Instructor.",
+    "q": "Who has primary authority for cadet promotions?",
+    "a": "The Senior Marine Instructor",
+    "distractors": [
+      "The Marine Instructor",
+      "The Cadet Battalion Commander",
+      "The school principal"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.basis",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Promotions are based on demonstrated leadership ability and on academic and disciplinary excellence.",
+    "q": "What are promotions based on?",
+    "a": "Demonstrated leadership ability, and academic and disciplinary excellence",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.minimum",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "The minimum standard for any promotion is a current GPA of 2.0 and a passed Youth Physical Fitness Test (YPFT) in the current grading period.",
+    "q": "What two things does every promotion require at a minimum?",
+    "a": "A current GPA of 2.0 and a passed YPFT in the current grading period",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.gpa-nco",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Promotion to Cadet Corporal or Cadet Sergeant requires a current GPA of 2.0 or higher.",
+    "q": "What GPA is required for promotion to Cadet Corporal or Cadet Sergeant?",
+    "a": "2.0 or higher",
+    "distractors": [
+      "2.5 or higher",
+      "3.0 or higher",
+      "No GPA requirement"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.gpa-snco",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Promotion to Cadet Staff Sergeant or higher requires a current GPA of 2.5 or higher.",
+    "q": "What GPA is required for promotion to Cadet Staff Sergeant or higher?",
+    "a": "2.5 or higher",
+    "distractors": [
+      "2.0 or higher",
+      "3.0 or higher",
+      "3.5 or higher"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.gpa-retain",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Cadet officers and staff noncommissioned officers must keep a minimum GPA of 2.5 to retain their rank.",
+    "q": "What GPA must cadet officers and staff NCOs keep to retain their rank?",
+    "a": "2.5",
+    "distractors": [
+      "2.0",
+      "3.0",
+      "2.75"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.probation",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "A cadet officer or staff NCO who falls below a 2.5 GPA is placed on probation for the following semester and has one grading period to meet the standard or be considered for reduction.",
+    "q": "What happens to a cadet officer or staff NCO who falls below a 2.5 GPA?",
+    "a": "Probation for the following semester, with one grading period to meet the standard or be considered for reduction",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.below-2",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "A cadet who fails to maintain a 2.0 GPA may not hold a rank higher than Cadet Private.",
+    "q": "What is the highest rank a cadet below a 2.0 GPA may hold?",
+    "a": "Cadet Private",
+    "group": "rank",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.reduction",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Cadets who fail to perform their duties in an efficient manner are considered for reduction.",
+    "q": "What may happen to a cadet who does not perform assigned duties efficiently?",
+    "a": "The cadet is considered for reduction in rank",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.year-officer",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Cadets may be promoted to commissioned officer ranks during their senior year.",
+    "q": "In which school year may a cadet be promoted to officer ranks?",
+    "a": "Senior year",
+    "group": "school-year",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.year-snco",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Cadets may be promoted to staff noncommissioned officer ranks during their junior year.",
+    "q": "In which school year may a cadet be promoted to staff NCO ranks?",
+    "a": "Junior year",
+    "group": "school-year",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.year-nco",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Cadets may be promoted to noncommissioned officer ranks during their sophomore year.",
+    "q": "In which school year may a cadet be promoted to NCO ranks?",
+    "a": "Sophomore year",
+    "group": "school-year",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.year-ninth",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "Cadets in the ninth grade normally serve in the ranks of Cadet Private through Cadet Lance Corporal.",
+    "q": "Which cadets normally serve as Cadet Private through Cadet Lance Corporal?",
+    "a": "Ninth grade",
+    "group": "school-year",
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.reappoint-discipline",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "A cadet who left for disciplinary reasons and is accepted for reenrollment is appointed Cadet Private, whatever rank was held before.",
+    "q": "A cadet left for disciplinary reasons and reenrolls. What rank is the cadet appointed to?",
+    "a": "Cadet Private",
+    "group": "rank",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.reappoint-other",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Promotion",
+    "text": "A cadet who left for other reasons and returns within one school year may be appointed one rank lower than previously held. A longer absence normally means returning as Cadet Private.",
+    "q": "A cadet left for non-disciplinary reasons and returns within one school year. What rank may the cadet be appointed to?",
+    "a": "One rank lower than previously held",
+    "difficulty": 3,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

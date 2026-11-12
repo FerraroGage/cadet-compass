@@ -1,0 +1,8 @@
+node_modules/
+dist/
+dev-dist/
+keys/
+*.pem
+.env
+.env.*
+officials-report.md

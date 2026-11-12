@@ -1,0 +1,23 @@
+// Privacy Policy (draft). Written from what the code actually does. If the code changes what is stored
+// or sent, add a new version above this one in the same change.
+import { CONTACT_EMAIL, type LegalDoc } from './terms';
+
+export const PRIVACY: LegalDoc[] = [
+  {
+    version: '2026-11-12',
+    date: 'November 12, 2026',
+    sections: [
+      { h: '1. The short version', body: ['Ready Seats (the "App") is offered by Gage A. Pierce, an individual, in Kellogg, Idaho. The App does not collect personal information. It has no accounts, no advertising, no analytics and no tracking. What you enter stays on your device. We cannot see it.'] },
+      { h: '2. What the App stores on your device', body: ['The App saves the following in your browser\'s local database (IndexedDB) on the device you are using, and nowhere else:', ['your cadet profile: program, region, school or unit name if you typed one, Leadership Education level, rank, billet, goals, daily study time and one upcoming event date;', 'your study progress: for each card, when it is next due and how well you have known it;', 'your placement test answers and results;', 'the date and version of the Terms of Service you agreed to;', 'a copy of the study content, so the App works offline.'], 'The App does not ask for your name, email address, phone number, birth date, photos, contacts or location. The region and unit fields are optional. Please do not type personal information about yourself or anyone else into them.'] },
+      { h: '3. What leaves your device', body: ['Nothing you enter leaves your device. The App has no server that receives your profile or progress, and the developer has no access to them.', 'When you open the App while online, your browser downloads the App\'s own files and the signed study content file from the website that hosts the App. Like any website, that host receives the technical details every web request carries, such as your IP address, browser type and the time of the request. The developer does not use these details to identify anyone. The App sets no cookies.', 'The App makes no other network requests. It loads no third-party scripts, fonts, advertisements or trackers.'] },
+      { h: '4. Links to other websites', body: ['Each fact links to the publication it came from, for example a page on marines.mil. Those links open outside the App. The sites they lead to have their own privacy practices, which we do not control.'] },
+      { h: '5. Artificial intelligence services', body: ['No information about you or your use of the App is ever sent to an AI service. The developer may use an AI service, separately from the App, to check public facts such as who currently holds a public office. Those checks contain only public questions and no user data.'] },
+      { h: '6. Children and students', body: ['The App is intended for cadets aged 13 and older. It does not knowingly collect personal information from anyone, including children under 13. Because nothing is collected, there is no personal information for us to share, sell or disclose.', 'The App does not create or hold student education records. If accounts, class codes or instructor tools are added later, this policy will be updated first, and those features will be reviewed against the Children\'s Online Privacy Protection Act (COPPA) and the Family Educational Rights and Privacy Act (FERPA) before release.'] },
+      { h: '7. Deleting your data', body: ['Open Settings and choose "Delete my data". This removes your profile, progress, test results and the stored content from the device at once. Clearing your browser\'s site data, or removing the installed App, does the same. Because nothing is stored anywhere else, there is nothing further to delete.'] },
+      { h: '8. Security', body: ['Your data is protected by your device and browser. Anyone who can get into your device can open the App and see your profile and progress. Study content updates are digitally signed, and the App refuses any update whose signature does not check out or that is older than the copy it already has.'] },
+      { h: '9. No sale or sharing', body: ['We do not sell, rent, share or trade personal information. We have none to sell.'] },
+      { h: '10. Changes to this policy', body: ['If the App changes in a way that affects your privacy, we will update this policy, change the date at the top, and tell you in the App before the change takes effect. Earlier versions are kept on record.'] },
+      { h: '11. Contact', body: ['Gage A. Pierce, an individual, Kellogg, Idaho', `Email: ${CONTACT_EMAIL}`] },
+    ],
+  },
+];

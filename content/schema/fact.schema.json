@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "fact.schema.json",
+  "title": "Fact file",
+  "description": "One file per branch module. Every fact must cite a source and carry a verified-on date.",
+  "type": "array",
+  "items": { "$ref": "#/definitions/fact" },
+  "definitions": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+    "fact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "branch", "module", "topic", "text", "q", "a", "source", "edition", "effective_from", "verified_on", "confidence", "review_tier"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z]+\\.[a-z]+\\.[a-z0-9-]+$" },
+        "branch": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "enum": ["usmc", "army", "navy", "usaf", "ussf", "uscg", "joint"] }
+        },
+        "module": { "enum": ["ranks", "ribbons", "chain", "uniform", "drill", "knowledge", "regulations"] },
+        "topic": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1, "description": "The fact as a plain statement." },
+        "q": { "type": "string", "minLength": 1, "description": "Flashcard and quiz prompt." },
+        "a": { "type": "string", "description": "Answer. Empty only when confidence is 'verify'." },
+        "group": { "type": "string", "description": "Facts in one group have interchangeable answers; wrong choices are drawn from the group." },
+        "distractors": { "type": "array", "items": { "type": "string" }, "minItems": 3 },
+        "order": { "type": "integer", "minimum": 1 },
+        "difficulty": { "enum": [1, 2, 3] },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "publisher", "url", "locator"],
+          "properties": {
+            "title": { "type": "string", "minLength": 1 },
+            "publisher": { "type": "string", "minLength": 1 },
+            "url": { "type": "string", "pattern": "^https://" },
+            "locator": { "type": "string", "minLength": 1 }
+          }
+        },
+        "edition": { "type": "string", "minLength": 1 },
+        "effective_from": {
+          "oneOf": [{ "$ref": "#/definitions/date" }, { "type": "null" }],
+          "description": "null means the source does not state a date."
+        },
+        "verified_on": { "$ref": "#/definitions/date" },
+        "confidence": { "enum": ["high", "medium", "verify"] },
+        "review_tier": { "enum": [1, 2, 3], "description": "1 weekly (office holders), 2 each school year, 3 stable." }
+      }
+    }
+  }
+}

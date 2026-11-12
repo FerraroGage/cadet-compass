@@ -1,0 +1,75 @@
+import { describe, it, expect } from 'vitest';
+import { review } from './srs';
+import { buildQuestion, newPlacement, nextFact, record, summarize, gaps, quizzable, modulePriority } from './quiz';
+import type { Fact } from './bundle';
+
+const fact = (id: string, over: Partial<Fact> = {}): Fact => ({
+  id, branch: ['usmc'], module: 'ranks', topic: 't', text: 't', q: 'q', a: 'a-' + id, group: 'g', difficulty: 2,
+  source: { title: 's', publisher: 'p', url: 'https://example.gov', locator: 'p. 1' }, edition: 'e',
+  effective_from: null, verified_on: '2026-11-12', confidence: 'high', review_tier: 2, ...over,
+});
+
+describe('SM-2', () => {
+  it('spaces good answers 1 day, 6 days, then by ease', () => {
+    let c = review(undefined, 2, '2026-11-12');
+    expect(c.due).toBe('2026-11-13');
+    c = review(c, 2, '2026-11-13');
+    expect(c.due).toBe('2026-11-19');
+    c = review(c, 2, '2026-11-19');
+    expect(c.interval).toBe(15);
+  });
+  it('brings a missed card back the same day and never lets ease fall below 1.3', () => {
+    let c = review(undefined, 2, '2026-11-12');
+    for (let i = 0; i < 10; i++) c = review(c, 0, '2026-11-13');
+    expect(c.due).toBe('2026-11-13');
+    expect(c.reps).toBe(0);
+    expect(c.lapses).toBe(10);
+    expect(c.ef).toBe(1.3);
+  });
+});
+
+describe('questions', () => {
+  const all = ['1', '2', '3', '4', '5'].map((i) => fact(i));
+  it('draws wrong choices from the same group and marks the right one', () => {
+    const q = buildQuestion(all[0], all)!;
+    expect(q.choices).toHaveLength(4);
+    expect(q.choices[q.correct]).toBe('a-1');
+    expect(new Set(q.choices).size).toBe(4);
+  });
+  it('builds no question without enough wrong choices', () => {
+    expect(buildQuestion(fact('x', { group: 'alone' }), all)).toBeNull();
+  });
+  it('never quizzes unverified facts or stale office holders', () => {
+    expect(quizzable(fact('v', { confidence: 'verify', a: '' }), '2026-11-12')).toBe(false);
+    expect(quizzable(fact('s', { review_tier: 1, verified_on: '2026-10-01' }), '2026-11-12')).toBe(false);
+    expect(quizzable(fact('ok', { review_tier: 1 }), '2026-11-12')).toBe(true);
+  });
+});
+
+describe('placement', () => {
+  const facts = [fact('e', { difficulty: 1 }), fact('m', { difficulty: 2 }), fact('h', { difficulty: 3 })];
+  it('starts at medium and moves up after a correct answer, down after a miss', () => {
+    let p = newPlacement(3);
+    expect(nextFact(p, facts)!.id).toBe('m');
+    p = record(p, { factId: 'm', module: 'ranks', correct: true, sure: true }, '2026-11-12');
+    expect(nextFact(p, facts)!.id).toBe('h');
+    p = record(p, { factId: 'h', module: 'ranks', correct: false, sure: true }, '2026-11-12');
+    p = record(p, { factId: 'x', module: 'ranks', correct: false, sure: true }, '2026-11-12');
+    expect(p.level).toBe(1);
+    expect(p.done).toBe(true);
+  });
+  it('counts a guessed correct answer as half and lists it as a gap', () => {
+    const answers = [
+      { factId: 'a', module: 'ranks' as const, correct: true, sure: true },
+      { factId: 'b', module: 'ranks' as const, correct: true, sure: false },
+    ];
+    const r = summarize(answers).find((x) => x.module === 'ranks')!;
+    expect(r.score).toBe(0.75);
+    expect(r.status).toBe('Solid');
+    expect(gaps(answers)).toEqual(['b']);
+    expect(summarize(answers).find((x) => x.module === 'drill')!.status).toBe('Not started');
+  });
+  it('puts goal modules first', () => {
+    expect(modulePriority(['drill'], null)[0]).toBe('drill');
+  });
+});

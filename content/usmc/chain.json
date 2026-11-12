@@ -1,0 +1,644 @@
+[
+  {
+    "id": "usmc.chain.pos-president-of-the-united-states",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "President of the United States is position 1 of 16 in the handbook's chain of command.",
+    "q": "Who is at the top of the chain of command?",
+    "a": "President of the United States",
+    "group": "position",
+    "order": 1,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-vice-president-of-the-united-states",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Vice President of the United States is position 2 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the President of the United States?",
+    "a": "Vice President of the United States",
+    "group": "position",
+    "order": 2,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-secretary-of-defense",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Secretary of Defense is position 3 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Vice President of the United States?",
+    "a": "Secretary of Defense",
+    "group": "position",
+    "order": 3,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-secretary-of-the-navy",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Secretary of the Navy is position 4 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Secretary of Defense?",
+    "a": "Secretary of the Navy",
+    "group": "position",
+    "order": 4,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-commandant-of-the-marine-corps",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Commandant of the Marine Corps is position 5 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Secretary of the Navy?",
+    "a": "Commandant of the Marine Corps",
+    "group": "position",
+    "order": 5,
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-assistant-commandant-of-the-marine-corps",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Assistant Commandant of the Marine Corps is position 6 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Commandant of the Marine Corps?",
+    "a": "Assistant Commandant of the Marine Corps",
+    "group": "position",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-sergeant-major-of-the-marine-corps",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Sergeant Major of the Marine Corps is position 7 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Assistant Commandant of the Marine Corps?",
+    "a": "Sergeant Major of the Marine Corps",
+    "group": "position",
+    "order": 7,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-commanding-officer-marine-corps-district",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Commanding Officer, Marine Corps District is position 8 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Sergeant Major of the Marine Corps?",
+    "a": "Commanding Officer, Marine Corps District",
+    "group": "position",
+    "order": 8,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-marine-corps-district-project-officer",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Marine Corps District Project Officer is position 9 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Commanding Officer, Marine Corps District?",
+    "a": "Marine Corps District Project Officer",
+    "group": "position",
+    "order": 9,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-senior-marine-instructor",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Senior Marine Instructor is position 10 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Marine Corps District Project Officer?",
+    "a": "Senior Marine Instructor",
+    "group": "position",
+    "order": 10,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-marine-instructor",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Marine Instructor is position 11 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Senior Marine Instructor?",
+    "a": "Marine Instructor",
+    "group": "position",
+    "order": 11,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-cadet-battalion-commander",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Cadet Battalion Commander is position 12 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Marine Instructor?",
+    "a": "Cadet Battalion Commander",
+    "group": "position",
+    "order": 12,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-cadet-battalion-executive-officer",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Cadet Battalion Executive Officer is position 13 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Cadet Battalion Commander?",
+    "a": "Cadet Battalion Executive Officer",
+    "group": "position",
+    "order": 13,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-cadet-battalion-sergeant-major",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Cadet Battalion Sergeant Major is position 14 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Cadet Battalion Executive Officer?",
+    "a": "Cadet Battalion Sergeant Major",
+    "group": "position",
+    "order": 14,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-cadet-company-commander",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Cadet Company Commander is position 15 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Cadet Battalion Sergeant Major?",
+    "a": "Cadet Company Commander",
+    "group": "position",
+    "order": 15,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.pos-cadet-platoon-commander",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Order of the chain",
+    "text": "Cadet Platoon Commander is position 16 of 16 in the handbook's chain of command.",
+    "q": "In the handbook's chain of command, who is listed directly after the Cadet Company Commander?",
+    "a": "Cadet Platoon Commander",
+    "group": "position",
+    "order": 16,
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.chain.holder-president",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "The President of the United States is Donald J. Trump.",
+    "q": "Who is the President of the United States?",
+    "a": "President Donald J. Trump",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "The Administration",
+      "publisher": "The White House (whitehouse.gov)",
+      "url": "https://www.whitehouse.gov/administration/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2025-01-20",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-vp",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "The Vice President of the United States is JD Vance.",
+    "q": "Who is the Vice President of the United States?",
+    "a": "Vice President JD Vance",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "The Administration",
+      "publisher": "The White House (whitehouse.gov)",
+      "url": "https://www.whitehouse.gov/administration/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2025-01-20",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-secdef",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Secretary of Defense: the holder has not yet been checked against an official page for this app. Ask your instructor.",
+    "q": "Who is the Secretary of Defense?",
+    "a": "",
+    "difficulty": 1,
+    "source": {
+      "title": "Biographies",
+      "publisher": "U.S. Department of Defense",
+      "url": "https://www.war.gov/About/Biographies/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-12",
+    "confidence": "verify",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-secnav",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "The Honorable Hung Cao is Acting Secretary of the Navy. He assumed responsibility on 22 April 2026.",
+    "q": "Who is the Secretary of the Navy, and in what status?",
+    "a": "The Honorable Hung Cao, Acting Secretary of the Navy",
+    "group": "holder",
+    "difficulty": 2,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2026-04-22",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-cmc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "General Eric M. Smith is the 39th Commandant of the Marine Corps.",
+    "q": "Who is the Commandant of the Marine Corps?",
+    "a": "General Eric M. Smith",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-acmc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "General Bradford J. Gering is the 38th Assistant Commandant of the Marine Corps. He was sworn in on 1 October 2025.",
+    "q": "Who is the Assistant Commandant of the Marine Corps?",
+    "a": "General Bradford J. Gering",
+    "group": "holder",
+    "difficulty": 2,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2025-10-01",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-smmc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Sergeant Major Carlos A. Ruiz is the 20th Sergeant Major of the Marine Corps. He assumed the post on 10 August 2023.",
+    "q": "Who is the Sergeant Major of the Marine Corps?",
+    "a": "Sergeant Major Carlos A. Ruiz",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2023-08-10",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-director",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Colonel Robert G. Oltman, USMC (Ret), is the Director of MCJROTC.",
+    "q": "Who is the Director of MCJROTC?",
+    "a": "Colonel Robert G. Oltman, USMC (Ret)",
+    "group": "holder",
+    "difficulty": 3,
+    "source": {
+      "title": "Home",
+      "publisher": "U.S. Marine Corps, MCJROTC (mcjrotc.marines.mil)",
+      "url": "https://www.mcjrotc.marines.mil/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-region",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Region Director: no name has been confirmed from an official or instructor source. Ask your instructor.",
+    "q": "Who is your Region Director?",
+    "a": "",
+    "difficulty": 3,
+    "source": {
+      "title": "Home",
+      "publisher": "U.S. Marine Corps, MCJROTC (mcjrotc.marines.mil)",
+      "url": "https://www.mcjrotc.marines.mil/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-12",
+    "confidence": "verify",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.funding",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Program sponsorship",
+    "text": "The Department of Defense funds and sponsors JROTC through the Secretaries of the Military Departments. MCJROTC is funded and sponsored through the Office of the Secretary of the Navy.",
+    "q": "Through which office is MCJROTC funded and sponsored?",
+    "a": "The Office of the Secretary of the Navy",
+    "distractors": [
+      "The Office of the Secretary of the Army",
+      "The Department of Education",
+      "The Commandant of the Marine Corps"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-12",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

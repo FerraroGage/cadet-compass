@@ -9,24 +9,23 @@ export default defineConfig({
     svelte(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icons/apple-touch-icon.png'],
+      includeAssets: ['icons/apple-touch-icon.png', 'favicon.ico'],
       manifest: {
-        name: 'Gigline: cadet study guide',
-        short_name: 'Gigline',
+        name: 'Cadet Compass',
+        short_name: 'Cadet Compass',
         description: 'Unofficial study aid for Junior ROTC cadets. Works offline. Keeps your progress on this device.',
         start_url: './',
         scope: './',
         display: 'standalone',
-        background_color: '#f5f4f1',
+        background_color: '#fbf8ee',
         theme_color: '#ffffff',
         icons: [
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,woff2,png}'],
+        globPatterns: ['**/*.{js,css,html,woff2,png,svg,ico}'],
         // The content bundle is fetched, signature-checked and kept in IndexedDB by the app itself.
         globIgnores: ['content/**'],
       },

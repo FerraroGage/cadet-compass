@@ -4,40 +4,35 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#ffffff" />
-    <meta name="description" content="Unofficial study aid for Junior ROTC cadets. Works offline. Keeps your progress on this device." />
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'" />
+    <meta name="application-name" content="Cadet Compass" />
+    <meta name="apple-mobile-web-app-title" content="Cadet Compass" />
+    <meta name="description" content="Cadet Compass: find your way through JROTC. An unofficial study app for ranks, ribbons, chain of command, uniform, drill and general knowledge. Works offline." />
+    <!-- connect-src: this app's own files, plus the account service (Supabase) when accounts are turned on. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://*.supabase.co; object-src 'none'; base-uri 'none'; form-action 'none'" />
     <meta name="referrer" content="no-referrer" />
+    <link rel="icon" href="./favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="./icons/icon.svg" />
     <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" href="./icons/icon-192.png" />
-    <title>Gigline</title>
+    <title>Cadet Compass</title>
     <style>
-      /* Loading screen: shown before the script arrives, faded out by App.svelte. The two edges slide into line with the buckle. */
-      #splash { position: fixed; inset: 0; z-index: 9; display: grid; place-content: center; justify-items: center; gap: 16px; background: #f5f4f1; font: 700 1.75rem/1 'Barlow Condensed', 'Arial Narrow', sans-serif; letter-spacing: 0.04em; text-transform: uppercase; color: #17171a; transition: opacity 0.3s, visibility 0s 0.3s; }
+      /* Loading screen: shown before the script arrives, faded out by App.svelte. The compass is never rotated (brand rule). */
+      #splash { position: fixed; inset: 0; z-index: 10; display: grid; place-content: center; justify-items: center; gap: 28px; background: #fbf8ee; transition: opacity 0.3s, visibility 0s 0.3s; }
       #splash.out { opacity: 0; visibility: hidden; }
-      #splash .e { animation: fall-in 0.6s 0.15s cubic-bezier(0.2, 0.8, 0.2, 1) backwards; }
-      #splash .e3 { animation-name: fall-in-b; }
-      #splash i { width: 96px; height: 3px; border-radius: 2px; background: #e1dfd9; overflow: hidden; }
-      #splash i::after { content: ''; display: block; width: 40%; height: 100%; background: #a6192e; animation: sweep 1s ease-in-out infinite alternate; }
-      @keyframes fall-in { from { transform: translateX(-16px); } }
-      @keyframes fall-in-b { from { transform: translateX(16px); } }
+      #splash img { width: min(70vw, 280px); height: auto; animation: splash-in 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) backwards; }
+      #splash i { width: 120px; height: 6px; border-radius: 3px; background: #f2ebd3; overflow: hidden; }
+      #splash i::after { content: ''; display: block; width: 40%; height: 100%; border-radius: 3px; background: #e8b923; animation: sweep 0.9s ease-in-out infinite alternate; }
+      @keyframes splash-in { from { opacity: 0; transform: scale(0.92); } }
       @keyframes sweep { from { transform: translateX(0); } to { transform: translateX(150%); } }
-      @media (prefers-reduced-motion: reduce) { #splash .e, #splash i::after { animation: none; } }
+      @media (prefers-reduced-motion: reduce) { #splash img, #splash i::after { animation: none; } }
     </style>
   </head>
   <body>
     <div id="app"></div>
-    <div id="splash" role="status" aria-label="Loading">
-      <svg width="88" height="88" viewBox="0 0 100 100" aria-hidden="true">
-        <rect width="100" height="100" rx="22" fill="#a6192e" />
-        <rect class="e" x="45" y="16" width="10" height="18" rx="2" fill="#fff" />
-        <rect x="37.5" y="37.5" width="25" height="25" rx="3" fill="none" stroke="#c8a12b" stroke-width="7" />
-        <rect class="e e3" x="45" y="66" width="10" height="18" rx="2" fill="#fff" />
-        
-      </svg>
-      Gigline
+    <div id="splash" role="status" aria-label="Loading Cadet Compass">
+      <img src="./icons/logo.svg" alt="" width="1100" height="300" />
       <i></i>
     </div>
-    <noscript>Gigline needs JavaScript to run.</noscript>
+    <noscript>Cadet Compass needs JavaScript to run.</noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

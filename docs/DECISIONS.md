@@ -16,6 +16,12 @@ Running log. Newest session at the top.
 | 6 | Working name "Ready Seats" | The classroom command from the handbook (p. 6). No service mark in it. See question 1. |
 | 6a | Renamed "Gigline" (12 Nov 2026) | Owner asked for a better name. A gig line is the uniform alignment checked at inspection; works for every branch. "Guidon" was dropped: "GuideOn Military" exists. Web search found no app named Gigline; that is not a trademark search. Internal ids (package name, bundle app id, IndexedDB name) stay "ready-seats" so saved data and the signed bundle keep working. |
 | 6b | Logo: two white edges lined up through a gold buckle frame, scarlet field | Shirt edge, buckle, fly on one gig line. A first draft with three bars on a spine read as a letter E and was dropped. Flat shapes only, no service emblem. Same geometry in src/lib/Logo.svelte, index.html and scripts/make-icons.mjs. |
+| 6c | Renamed "Cadet Compass" with the owner's brand kit (12 Nov 2026) | Owner supplied the name, logo files (brand/), palette and Poppins. Replaces Gigline and its logo. The compass is never rotated or recolored (brand rule). |
+| 6d | Optional accounts on Supabase free tier | Owner asked for sign-in, profiles and synced XP. Reverses "no accounts, collect nothing": guest mode still stores nothing off the device. Row-level security on every table; XP is computed in the database (award_xp), never taken from the app. |
+| 6e | Sign-out clears the device | A shared or school device must not hand one cadet's progress to the next person who signs in. Synced data stays in the account. |
+| 6f | Region is a state picked by hand | No geolocation: mapping coordinates to a region needs an outside geocoder or invented boundary data. |
+| 6g | Only Marine Corps content is published | The other five branches can be chosen and themed but show "not published yet". Nothing is invented to fill them. |
+| 6h | Terms and Privacy revised in place | No version has been published to users yet. From first release on, add a new version above the old one. |
 | 7 | Wrong answers in quizzes come from other answers in the same group | These are the things cadets really mix up. No question bank was copied from anywhere. |
 | 8 | Facts marked `verify`, and office holders more than 30 days past their check, are shown with a flag and never quizzed | A wrong name in a quiz is worse than a missing one. |
 | 9 | No ribbon or insignia drawings yet | The handbook text has no color or dimension specifications. Nothing was drawn from memory or from vendor pictures. |

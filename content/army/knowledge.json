@@ -1,0 +1,507 @@
+[
+  {
+    "id": "army.knowledge.citizenship",
+    "branch": [
+      "army"
+    ],
+    "module": "knowledge",
+    "topic": "Mission",
+    "text": "JROTC is a citizenship program focusing on leadership, physical fitness, and community service.",
+    "q": "What three areas does JROTC focus on?",
+    "a": "Leadership, physical fitness, and community service",
+    "distractors": [
+      "Marksmanship, drill, and recruiting",
+      "Weapons, tactics, and discipline",
+      "Combat, history, and sports"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 1-5b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.knowledge.grade",
+    "branch": [
+      "army"
+    ],
+    "module": "knowledge",
+    "topic": "Mission",
+    "text": "JROTC is a citizenship program for students in 8th grade and above.",
+    "q": "What is the lowest grade level for Army JROTC?",
+    "a": "Eighth grade",
+    "distractors": [
+      "Sixth grade",
+      "Ninth grade",
+      "Tenth grade"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 1-5b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.knowledge.values-end",
+    "branch": [
+      "army"
+    ],
+    "module": "knowledge",
+    "topic": "Mission",
+    "text": "Three or four years of Army JROTC may qualify cadets for advanced placement in SROTC or the armed forces.",
+    "q": "How many years of Army JROTC may qualify cadets for advanced placement?",
+    "a": "Three or four",
+    "distractors": [
+      "One or two",
+      "Two",
+      "Five"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 1-5e"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.knowledge.value-loyalty",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Army Values",
+    "text": "Loyalty: Bear true faith and allegiance to the U.S. Constitution, the Army, your unit and other Soldiers.",
+    "q": "Which Army Value is defined as: Bear true faith and allegiance to the U.S. Constitution, the Army, your unit and other Soldiers?",
+    "a": "Loyalty",
+    "group": "army-value",
+    "difficulty": 1,
+    "source": {
+      "title": "The Army Values",
+      "publisher": "U.S. Army",
+      "url": "https://www.army.mil/values/",
+      "locator": "Seven Core Army Values"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.value-duty",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Army Values",
+    "text": "Duty: Fulfill your obligations.",
+    "q": "Which Army Value is defined as: Fulfill your obligations?",
+    "a": "Duty",
+    "group": "army-value",
+    "difficulty": 1,
+    "source": {
+      "title": "The Army Values",
+      "publisher": "U.S. Army",
+      "url": "https://www.army.mil/values/",
+      "locator": "Seven Core Army Values"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.value-respect",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Army Values",
+    "text": "Respect: Treat people as they should be treated.",
+    "q": "Which Army Value is defined as: Treat people as they should be treated?",
+    "a": "Respect",
+    "group": "army-value",
+    "difficulty": 1,
+    "source": {
+      "title": "The Army Values",
+      "publisher": "U.S. Army",
+      "url": "https://www.army.mil/values/",
+      "locator": "Seven Core Army Values"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.value-selfless-service",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Army Values",
+    "text": "Selfless Service: Put the welfare of the nation, the Army and your subordinates before your own.",
+    "q": "Which Army Value is defined as: Put the welfare of the nation, the Army and your subordinates before your own?",
+    "a": "Selfless Service",
+    "group": "army-value",
+    "difficulty": 1,
+    "source": {
+      "title": "The Army Values",
+      "publisher": "U.S. Army",
+      "url": "https://www.army.mil/values/",
+      "locator": "Seven Core Army Values"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.value-honor",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Army Values",
+    "text": "Honor: Live up to Army values.",
+    "q": "Which Army Value is defined as: Live up to Army values?",
+    "a": "Honor",
+    "group": "army-value",
+    "difficulty": 1,
+    "source": {
+      "title": "The Army Values",
+      "publisher": "U.S. Army",
+      "url": "https://www.army.mil/values/",
+      "locator": "Seven Core Army Values"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.value-integrity",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Army Values",
+    "text": "Integrity: Do what is right, legally and morally.",
+    "q": "Which Army Value is defined as: Do what is right, legally and morally?",
+    "a": "Integrity",
+    "group": "army-value",
+    "difficulty": 1,
+    "source": {
+      "title": "The Army Values",
+      "publisher": "U.S. Army",
+      "url": "https://www.army.mil/values/",
+      "locator": "Seven Core Army Values"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.value-personal-courage",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Army Values",
+    "text": "Personal Courage: Face fear, danger or adversity (physical or moral).",
+    "q": "Which Army Value is defined as: Face fear, danger or adversity (physical or moral)?",
+    "a": "Personal Courage",
+    "group": "army-value",
+    "difficulty": 1,
+    "source": {
+      "title": "The Army Values",
+      "publisher": "U.S. Army",
+      "url": "https://www.army.mil/values/",
+      "locator": "Seven Core Army Values"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-1",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 1 of the Army JROTC Cadet Creed: \"I am an Army Junior ROTC Cadet.\"",
+    "q": "What is the first line of the Army JROTC Cadet Creed?",
+    "a": "I am an Army Junior ROTC Cadet.",
+    "group": "creed",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-2",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 2 of the Army JROTC Cadet Creed: \"I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I am an Army Junior ROTC Cadet.\"?",
+    "a": "I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets.",
+    "group": "creed",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-3",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 3 of the Army JROTC Cadet Creed: \"I am loyal and patriotic.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I will always conduct myself to bring credit to my family, country, school and the Corps of Cadets.\"?",
+    "a": "I am loyal and patriotic.",
+    "group": "creed",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-4",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 4 of the Army JROTC Cadet Creed: \"I am the future of the United States of America.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I am loyal and patriotic.\"?",
+    "a": "I am the future of the United States of America.",
+    "group": "creed",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-5",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 5 of the Army JROTC Cadet Creed: \"I do not lie, cheat or steal and will always be accountable for my actions and deeds.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I am the future of the United States of America.\"?",
+    "a": "I do not lie, cheat or steal and will always be accountable for my actions and deeds.",
+    "group": "creed",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-6",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 6 of the Army JROTC Cadet Creed: \"I will always practice good citizenship and patriotism.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I do not lie, cheat or steal and will always be accountable for my actions and deeds.\"?",
+    "a": "I will always practice good citizenship and patriotism.",
+    "group": "creed",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-7",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 7 of the Army JROTC Cadet Creed: \"I will work hard to improve my mind and strengthen my body.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I will always practice good citizenship and patriotism.\"?",
+    "a": "I will work hard to improve my mind and strengthen my body.",
+    "group": "creed",
+    "order": 7,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-8",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 8 of the Army JROTC Cadet Creed: \"I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I will work hard to improve my mind and strengthen my body.\"?",
+    "a": "I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life.",
+    "group": "creed",
+    "order": 8,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.creed-9",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Cadet Creed",
+    "text": "Line 9 of the Army JROTC Cadet Creed: \"May God grant me the strength to always live by this creed.\"",
+    "q": "In the Army JROTC Cadet Creed, what line comes after: \"I will seek the mantle of leadership and stand prepared to uphold the Constitution and the American way of life.\"?",
+    "a": "May God grant me the strength to always live by this creed.",
+    "group": "creed",
+    "order": 9,
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Army JROTC (home page): Cadet Creed",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/",
+      "locator": "Home page, U.S. Army JROTC Cadet Creed"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.knowledge.mission-motto",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "knowledge",
+    "topic": "Mission",
+    "text": "The guiding mission of Army JROTC is \"To Motivate Young People to be Better Citizens.\"",
+    "q": "What is the guiding mission of Army JROTC?",
+    "a": "To motivate young people to be better citizens",
+    "distractors": [
+      "To prepare students for Army service",
+      "To develop future Army officers",
+      "To build a stronger national defense"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Army Junior ROTC Program Overview",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/army-junior-rotc-program-overview/",
+      "locator": "Opening section"
+    },
+    "confidence": "high",
+    "review_tier": 3,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  }
+]

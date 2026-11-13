@@ -1,0 +1,646 @@
+[
+  {
+    "id": "army.drill.quick",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Cadence",
+    "text": "Quick time is a cadence of 120 steps per minute.",
+    "q": "What is the cadence of quick time?",
+    "a": "120 steps per minute",
+    "distractors": [
+      "90 steps per minute",
+      "100 steps per minute",
+      "180 steps per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 1-7"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.double",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Cadence",
+    "text": "Double time is a cadence of 180 steps per minute.",
+    "q": "What is the cadence of double time?",
+    "a": "180 steps per minute",
+    "distractors": [
+      "120 steps per minute",
+      "140 steps per minute",
+      "240 steps per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 1-7"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.revwar",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Cadence",
+    "text": "During the American Revolution, troops marched at 76 steps per minute.",
+    "q": "At what cadence did troops march during the American Revolution?",
+    "a": "76 steps per minute",
+    "distractors": [
+      "120 steps per minute",
+      "60 steps per minute",
+      "100 steps per minute"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 1-7"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.cadence-def",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Cadence",
+    "text": "Cadence is the uniform rhythm in which a movement is executed.",
+    "q": "What is cadence?",
+    "a": "The uniform rhythm in which a movement is executed",
+    "distractors": [
+      "The distance of a step",
+      "The length of a command",
+      "The spacing between ranks"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 1-7"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.step-len",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Steps",
+    "text": "Forward steps are 30-inch steps unless otherwise specified.",
+    "q": "What is the length of the standard marching step?",
+    "a": "30 inches",
+    "distractors": [
+      "15 inches",
+      "24 inches",
+      "36 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-17"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.step-def",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Steps",
+    "text": "A step is the prescribed distance from one heel to the other heel of a marching soldier.",
+    "q": "A step is measured from which points?",
+    "a": "From one heel to the other heel",
+    "distractors": [
+      "Toe to toe",
+      "Heel to toe",
+      "Knee to knee"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-17"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.step-left",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Steps",
+    "text": "From the halt, all steps except Right Step begin with the left foot.",
+    "q": "Which step does not begin with the left foot from the halt?",
+    "a": "Right Step",
+    "distractors": [
+      "Forward March",
+      "Backward March",
+      "Mark Time"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-17"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.step-15",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Steps",
+    "text": "The 15-inch step is executed for a short distance only.",
+    "q": "How long may the 15-inch step be executed?",
+    "a": "For a short distance only",
+    "distractors": [
+      "Any distance",
+      "Only in double time",
+      "Only in column"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-17"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.step-fwd",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command to march with a 30-inch step from the halt is Forward, MARCH.",
+    "q": "What command starts a 30-inch step from the halt?",
+    "a": "Forward, MARCH",
+    "distractors": [
+      "Step Off, MARCH",
+      "Column Ahead, MARCH",
+      "Forward, HUP"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-18"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.halt",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command to halt a marching squad or platoon is Squad (Platoon), HALT.",
+    "q": "What command halts a marching unit?",
+    "a": "Squad (Platoon), HALT",
+    "distractors": [
+      "Stop, HALT",
+      "Platoon, FREEZE",
+      "Ready, HALT"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-18"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.double-cmd",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command to march at 180 steps per minute is Double Time, MARCH.",
+    "q": "What command starts double time?",
+    "a": "Double Time, MARCH",
+    "distractors": [
+      "Quick Time, MARCH",
+      "Run, MARCH",
+      "Fast Step, MARCH"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-26"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.mark",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command to march in place is Mark Time, MARCH.",
+    "q": "What command starts marching in place?",
+    "a": "Mark Time, MARCH",
+    "distractors": [
+      "Halt Step, MARCH",
+      "March in Place, HUP",
+      "Step Back, MARCH"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-23"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.right-step",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command for a 15-inch step to the right is Right Step, MARCH, given only at the halt.",
+    "q": "When is Right Step, MARCH given?",
+    "a": "Only at the halt",
+    "distractors": [
+      "Only while marching",
+      "Only in double time",
+      "Only at parade rest"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-24"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.backward",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command to march backward with a 15-inch step is Backward, MARCH, given only at the halt.",
+    "q": "What step length is used when marching backward?",
+    "a": "15 inches",
+    "distractors": [
+      "30 inches",
+      "24 inches",
+      "12 inches"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-25"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.arm-swing",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "While marching, arms swing about 9 inches to the front of the trouser seams.",
+    "q": "How far to the front do the arms swing in the 30-inch step?",
+    "a": "About 9 inches",
+    "distractors": [
+      "About 6 inches",
+      "About 12 inches",
+      "About 3 inches"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-18"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.arm-rear",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "While marching, arms swing about 6 inches to the rear of the trouser seams.",
+    "q": "How far to the rear do the arms swing in the 30-inch step?",
+    "a": "About 6 inches",
+    "distractors": [
+      "About 9 inches",
+      "About 12 inches",
+      "About 3 inches"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-18"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.attn-feet",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Position of attention",
+    "text": "At attention, the heels are together and on line with the toes forming a 45-degree angle.",
+    "q": "What angle do the toes form at the position of attention?",
+    "a": "45 degrees",
+    "distractors": [
+      "30 degrees",
+      "60 degrees",
+      "90 degrees"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "chap 3, Position of Attention"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.facings",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Facing",
+    "text": "There are five facing movements from the position of attention.",
+    "q": "How many facing movements are executed from attention?",
+    "a": "Five",
+    "distractors": [
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-7"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.face-flank",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Facing",
+    "text": "Facing to the flank is a two-count movement that turns 90 degrees.",
+    "q": "How many degrees is a Left (Right), FACE?",
+    "a": "90 degrees",
+    "distractors": [
+      "45 degrees",
+      "180 degrees",
+      "135 degrees"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-8"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.half-left",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Facing",
+    "text": "Half Left (Half Right), FACE should be used only when a 90-degree facing would not face the element in the desired direction.",
+    "q": "When is Half Left (Half Right), FACE used?",
+    "a": "When a 90-degree facing would not face the desired direction",
+    "distractors": [
+      "To rest the unit",
+      "For every turn",
+      "Only when marching"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 4-7"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.prep",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The preparatory command names the movement; the command of execution causes it to be carried out.",
+    "q": "Which command causes a movement to be carried out?",
+    "a": "Command of execution",
+    "distractors": [
+      "Preparatory command",
+      "Supplementary command",
+      "Cadence command"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "chap 2, Section I"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.stages",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "Instruction",
+    "text": "Each drill movement is taught in three stages: explanation, demonstration, and practice.",
+    "q": "What are the three teaching stages for a drill movement?",
+    "a": "Explanation, demonstration, practice",
+    "distractors": [
+      "Command, execute, inspect",
+      "Explain, test, grade",
+      "Demonstrate, inspect, correct"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "chap 2, Section I"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.drill.bluebook",
+    "branch": [
+      "army"
+    ],
+    "module": "drill",
+    "topic": "History",
+    "text": "Von Steuben wrote the first Army field manual in 1779, commonly called the Blue Book.",
+    "q": "What is the first Army field manual by von Steuben commonly called?",
+    "a": "The Blue Book",
+    "distractors": [
+      "The Red Book",
+      "The Green Book",
+      "The Drill Bible"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "TC 3-21.5, Drill and Ceremonies",
+      "publisher": "Headquarters, Department of the Army",
+      "url": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32297-TC_3-21.5-000-WEB-1.pdf",
+      "locator": "para 1-6"
+    },
+    "edition": "03 May 2021",
+    "effective_from": "2021-05-03",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

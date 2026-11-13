@@ -34,7 +34,7 @@ export interface Answer { factId: string; module: Module; correct: boolean; sure
 export interface Placement { answers: Answer[]; level: 1 | 2 | 3; length: number; done: boolean; finishedOn?: string }
 export const PLACEMENT_LENGTH = 40;
 
-export const newPlacement = (available: number): Placement => ({ answers: [], level: 2, length: Math.min(PLACEMENT_LENGTH, available), done: false });
+export const newPlacement = (available: number, length = PLACEMENT_LENGTH, level: 1 | 2 | 3 = 2): Placement => ({ answers: [], level, length: Math.min(length, available), done: false });
 
 /** Adaptive pick: rotate through modules, and take the unused fact whose difficulty is closest to the current level. */
 export function nextFact(p: Placement, facts: Fact[], rnd = Math.random): Fact | null {

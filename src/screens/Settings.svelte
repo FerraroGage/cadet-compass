@@ -1,20 +1,28 @@
 <script lang="ts">
-  import { app, save, deleteEverything, fmtDate } from '../lib/store.svelte';
+  import { app, save, wipeLocal, fmtDate } from '../lib/store.svelte';
+  import { deleteAccount } from '../lib/backend';
   import { TERMS } from '../legal/terms';
   import { PRIVACY } from '../legal/privacy';
   import Doc from './Doc.svelte';
-  import Onboarding from './Onboarding.svelte';
 
   let { page }: { page: string } = $props();
   const b = app.bundle!;
   const seen = app.seenVersion;
   $effect(() => { if (page === 'changes' && app.seenVersion < b.version) save('seenVersion', b.version); });
 
-  function wipe() {
-    if (confirm('Delete your profile, progress and test results from this device? This cannot be undone.')) deleteEverything();
+  let failed = $state('');
+  async function wipe() {
+    if (app.user) {
+      if (!confirm('Delete your account? This removes your sign-in, profile, progress and XP from our server and from this device. It cannot be undone.')) return;
+      failed = await deleteAccount();
+    } else if (confirm('Delete your profile, progress and test results from this device? This cannot be undone.')) await wipeLocal();
+  }
+  async function replay() {
+    await save('step', 'branch');
+    await save('onboarded', false);
+    location.hash = '';
   }
   const PAGES = [
-    ['profile', 'Cadet profile', 'Program, rank, goals, study time'],
     ['changes', 'What changed', `Content version ${b.version}, ${fmtDate(b.date)}`],
     ['about', 'About', 'What this app is and is not'],
     ['legal', 'Legal and credits', 'Disclaimer, fonts, software, sources'],
@@ -22,22 +30,20 @@
     ['privacy', 'Privacy Policy', PRIVACY[0].date],
   ];
   const CREDITS = [
-    ['Barlow Condensed (typeface)', 'Jeremy Tribby', 'SIL Open Font License 1.1'],
-    ['IBM Plex Sans (typeface)', 'Mike Abbink, IBM, with Bold Monday', 'SIL Open Font License 1.1'],
+    ['Poppins (typeface)', 'Indian Type Foundry, Jonny Pinhorn', 'SIL Open Font License 1.1'],
     ['Fontsource (font packaging)', 'Fontsource contributors', 'MIT'],
     ['Svelte', 'Svelte contributors', 'MIT'],
     ['Vite and vite-plugin-pwa', 'Vite and Vite PWA contributors', 'MIT'],
     ['Workbox', 'Google', 'MIT'],
     ['Dexie.js', 'David Fahlander', 'Apache 2.0'],
+    ['Supabase client (accounts and sync)', 'Supabase', 'MIT'],
     ['Settings gear icon (Feather)', 'Cole Bemis', 'MIT'],
-    ['App icon and logo', 'Made for this app', 'Original work'],
+    ['Logo, app icon and avatars', 'Made for this app', 'Original work'],
   ];
   const sources = [...new Map(b.facts.map((f) => [f.source.url, f])).values()];
 </script>
 
-{#if page === 'profile'}
-  <Onboarding edit />
-{:else if page === 'changes'}
+{#if page === 'changes'}
   <h1>What changed</h1>
   <p class="label">You have content version {b.version}, dated {fmtDate(b.date)}</p>
   {#each b.changelog as c}
@@ -46,8 +52,8 @@
   {/each}
 {:else if page === 'about'}
   <h1>About</h1>
-  <p>Gigline is a study aid for Junior ROTC cadets. It covers ranks, ribbons, chain of command, uniform, drill, general knowledge and program rules, and it tests what you know so you can train what you do not.</p>
-  <p>The name: a gig line is the straight line a squared-away uniform makes down the shirt edge, the belt buckle and the trouser fly. The logo is a shirt edge and a fly edge lined up through a brass buckle.</p>
+  <p>Cadet Compass is a study aid for Junior ROTC cadets. It covers ranks, ribbons, chain of command, uniform, drill, general knowledge and program rules, and it tests what you know so you can train what you do not.</p>
+  <p>The name: a compass gives you a bearing. The app does the same for what to study next.</p>
   <p class="notice"><strong>Unofficial.</strong> This app is not affiliated with or endorsed by the Department of Defense (Department of War), any military service or any JROTC program. See <a href="#/settings/legal">Legal and credits</a>.</p>
   <h2>How the content is kept honest</h2>
   <ol>
@@ -61,7 +67,7 @@
   <p class="label">App version {__APP_VERSION__} / content version {b.version}</p>
 {:else if page === 'legal'}
   <h1>Legal and credits</h1>
-  <p>Gigline is an unofficial study aid. It is not affiliated with, sponsored by or endorsed by the Department of Defense (Department of War), any military service or any JROTC program.</p>
+  <p>Cadet Compass is an unofficial study aid. It is not affiliated with, sponsored by or endorsed by the Department of Defense (Department of War), any military service or any JROTC program.</p>
   <p>The developer does not own or claim ownership of any service name, mark or insignia. All such names belong to their owners and appear here only to identify the subject. No service seal, emblem or logo is used in this app.</p>
   <p><a href="#/settings/terms">Terms of Service</a> / <a href="#/settings/privacy">Privacy Policy</a></p>
   <h2>Fonts, software and images</h2>
@@ -96,11 +102,22 @@
       {/each}
     </tbody>
   </table>
-  <h2>Delete my data</h2>
-  <p>Removes your profile, progress, test results and the stored content from this device. Nothing is kept anywhere else, so this removes everything.</p>
-  <button class="btn danger" onclick={wipe}>Delete my data</button>
+  <h2>Your answers</h2>
+  <p>Change your branch, region, goals or daily time, or go through setup again from the start. Your progress and XP are kept.</p>
+  <div class="row" style="margin-top: 8px">
+    <a class="btn" href="#/profile/edit">Change my answers</a>
+    <button class="btn" onclick={replay}>Replay setup</button>
+  </div>
+  <h2>{app.user ? 'Delete my account' : 'Delete my data'}</h2>
+  {#if app.user}
+    <p>Removes your account ({app.user.email}) and everything stored with it on our server: profile, progress and XP. This device is cleared too. It cannot be undone.</p>
+  {:else}
+    <p>Removes your profile, progress, test results and the stored content from this device. As a guest nothing is kept anywhere else, so this removes everything.</p>
+  {/if}
+  {#if failed}<p class="err" role="alert">The account could not be deleted: {failed}</p>{/if}
+  <button class="btn danger" onclick={wipe}>{app.user ? 'Delete my account' : 'Delete my data'}</button>
 {/if}
 
-{#if page && page !== 'profile'}
-  <div class="row"><a class="btn" href={app.profile ? '#/settings' : '#/'}>Back</a></div>
+{#if page}
+  <div class="row"><a class="btn" href={app.onboarded ? '#/settings' : '#/'}>Back</a></div>
 {/if}

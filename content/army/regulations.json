@@ -1,0 +1,310 @@
+[
+  {
+    "id": "army.regulations.grade",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "A student must be in eighth grade or above during the school year of enrollment.",
+    "q": "What is the minimum grade for Army JROTC enrollment?",
+    "a": "Eighth grade",
+    "distractors": [
+      "Sixth grade",
+      "Ninth grade",
+      "Tenth grade"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-2a(2)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.conduct",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "Cadets must maintain an acceptable standard of conduct, and instructors may remove cadets who fail to meet standards from leadership positions.",
+    "q": "Who may remove cadets from leadership positions for failing standards?",
+    "a": "Instructors",
+    "distractors": [
+      "The school principal only",
+      "Cadet battalion commander",
+      "The parents"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-2a(4)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.academic",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "Cadets must maintain an acceptable standard of academic achievement and standing as required by JROTC and the school.",
+    "q": "What academic standard must cadets maintain?",
+    "a": "An acceptable standard as required by JROTC and the school",
+    "distractors": [
+      "A B average",
+      "A C average in all classes",
+      "A 3.5 GPA"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-2a(3)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.uniform-agree",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Enrollment",
+    "text": "Cadets must agree to wear the Army JROTC uniform in accordance with school and district policy.",
+    "q": "What must cadets agree to wear?",
+    "a": "The Army JROTC uniform",
+    "distractors": [
+      "A school polo",
+      "Civilian business attire",
+      "The ACU daily"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-2a(6)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.records",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Cadet management",
+    "text": "Cadet records are kept in JUMS for five years after leaving JROTC.",
+    "q": "How long are cadet records kept after leaving JROTC?",
+    "a": "Five years",
+    "distractors": [
+      "One year",
+      "Three years",
+      "Ten years"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-5a"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.cert",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Cadet management",
+    "text": "Cadets who complete at least one year of JROTC receive CC Form 134-R, Certificate of Training.",
+    "q": "Which form is the Certificate of Training for one year of JROTC?",
+    "a": "CC Form 134-R",
+    "distractors": [
+      "DA Form 4856",
+      "CC Form 145-2",
+      "DD Form 214"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-5b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.promo",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Cadet management",
+    "text": "Units establish a fair and equitable promotion system with as much cadet involvement as possible, such as cadet boards.",
+    "q": "What may a unit use to involve cadets in promotions?",
+    "a": "Cadet boards",
+    "distractors": [
+      "Parent votes",
+      "Random drawing",
+      "Seniority only"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-7b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.nco-only",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Cadet management",
+    "text": "No JROTC unit will have only an NCO structure; cadet rank structure includes officers and NCOs.",
+    "q": "Which rank structure must a JROTC unit include?",
+    "a": "Both officers and NCOs",
+    "distractors": [
+      "NCOs only",
+      "Officers only",
+      "Only warrant officers"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-7b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.promo-orders",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Cadet management",
+    "text": "Promotions and demotions are announced on unit orders and annotated in cadet records.",
+    "q": "Where are promotions and demotions announced?",
+    "a": "On unit orders",
+    "distractors": [
+      "On the school website",
+      "By text message",
+      "In the yearbook"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 7-7b(3)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.tattoo",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Conduct",
+    "text": "Tattoos are authorized, but extremist, indecent, sexist, or racist tattoos or brands are prohibited.",
+    "q": "Which tattoos are prohibited for cadets in uniform activities?",
+    "a": "Extremist, indecent, sexist, or racist tattoos",
+    "distractors": [
+      "All tattoos",
+      "Any visible tattoo",
+      "Tattoos larger than a hand"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-6e"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.regulations.religious-acc",
+    "branch": [
+      "army"
+    ],
+    "module": "regulations",
+    "topic": "Conduct",
+    "text": "Cadets may wear religious apparel with the uniform if it is neat, conservative, and discreet.",
+    "q": "How must religious jewelry worn with the uniform be?",
+    "a": "Neat, conservative, and discreet",
+    "distractors": [
+      "Bright and visible",
+      "Large and ornate",
+      "Removed always"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5e(2)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

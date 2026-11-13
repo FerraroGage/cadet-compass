@@ -1,14 +1,14 @@
 <script lang="ts">
   // One quiz runner for Test Yourself and custom training. Settings arrive in the address:
   //   module, topic, n (count), diff (1..3), pool (all | due | missed), type (mc | recall), timer (seconds per question)
-  import { app, grade, today } from '../lib/store.svelte';
+  import { app, facts, grade, tick, award, today } from '../lib/store.svelte';
   import { MODULES, quizzable, buildQuestion, shuffle, gaps, type Question } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
   import Cite from '../lib/Cite.svelte';
 
   let { params }: { params: URLSearchParams } = $props();
   const t = today();
-  const all = app.bundle!.facts;
+  const all = facts();
   const p = (k: string) => params.get(k) ?? '';
   const recall = p('type') === 'recall';
   const seconds = Number(p('timer')) || 0;
@@ -48,11 +48,22 @@
   // A miss goes back into today's cards.
   async function mark(ok: boolean) {
     shown = true;
+    void tick();
     if (ok) right++;
     else { missed.push(fact); await grade(fact.id, 0); }
   }
   const choose = (n: number) => { picked = n; mark(n === q!.correct); };
-  function next() { i++; begin(); }
+  // Short quizzes earn nothing, so a one-question quiz cannot be farmed.
+  const MIN = 5;
+  const review = p('pool') === 'missed';
+  let earned = $state(0);
+  async function next() {
+    i++;
+    begin();
+    if (i < set.length) return;
+    if (review) earned = await award('review');
+    else if (set.length >= MIN) earned = await award('quiz', { score: right / set.length });
+  }
 
   $effect(() => {
     if (!seconds || done || recall) return; // the timer applies to multiple choice only
@@ -80,6 +91,7 @@
 {:else if done}
   <h2>Score</h2>
   <p><span class="num">{right}</span> of <span class="num">{set.length}</span> correct.</p>
+  <p class="help">{earned ? `+${earned} XP` : !review && set.length < MIN ? `Quizzes of ${MIN} or more questions earn XP.` : !review && right / set.length < 0.7 ? 'Score 70 percent or better to earn XP.' : 'You have reached today\'s XP limit for this activity.'}</p>
   {#if missed.length}
     <p>{missed.length === 1 ? 'This one is' : `These ${missed.length} are`} back in your cards, due today.</p>
     <table>
@@ -89,6 +101,7 @@
   {/if}
   <div class="row">
     <button class="btn primary" onclick={() => location.reload()}>Go again</button>
+    {#if missed.length}<a class="btn" href="#/train/quiz?pool=missed&n=10">Review misses</a>{/if}
     <a class="btn" href="#/cards">Study cards</a>
     <a class="btn" href="#/train">Training menu</a>
   </div>

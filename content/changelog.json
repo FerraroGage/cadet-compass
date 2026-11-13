@@ -1,5 +1,25 @@
 [
   {
+    "version": 3,
+    "date": "2026-11-13",
+    "branch": "all",
+    "changes": [
+      "Marine Corps: every fact checked again. Drill now follows the current drill manual, MCO 5060.20 (2019): quick time is 112 to 120 steps a minute, close and normal interval are defined by arm position.",
+      "Marine Corps: leadership principle 6 reads \"Ensure\"; the Secretary of Defense (also styled Secretary of War) is named; physical fitness test scores and three grooming rules are marked unconfirmed until a current source is found; items cadets are not asked were removed.",
+      "New study content for Army, Navy, Air Force, Space Force and Coast Guard JROTC, each from that program's own publications. Some modules are not available yet for some branches."
+    ]
+  },
+  {
+    "version": 2,
+    "date": "2026-11-12",
+    "branch": "usmc",
+    "changes": [
+      "First amphibious landing: the answer now names New Providence Island and Nassau.",
+      "Belt: one question, answered 2 to 4 inches. The separate cloth belt question is removed; its measurement is kept as a note.",
+      "Removed two items cadets are not asked: what the rank structure is modeled on, and what decides which ranks a unit uses."
+    ]
+  },
+  {
     "version": 1,
     "date": "2026-11-12",
     "branch": "usmc",

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { facts } from '../lib/store.svelte';
   // Drill metronome. Clicks are scheduled on the audio clock a little ahead of time, so the beat does not drift
   // the way a plain timer does.
   import { app } from '../lib/store.svelte';
@@ -10,7 +11,7 @@
     { bpm: 120, name: 'Quick time' },
     { bpm: 180, name: 'Double time' },
   ];
-  const source = app.bundle!.facts.find((f) => f.id === 'usmc.drill.quick-time');
+  const source = facts().find((f) => f.id === 'usmc.drill.quick-time');
 
   let bpm = $state(120);
   let running = $state(false);
@@ -68,12 +69,12 @@
   <thead><tr><th class="num" scope="col">Steps</th><th scope="col">Name</th></tr></thead>
   <tbody>
     <tr><td class="num">60</td><td>Slow time</td></tr>
-    <tr><td class="num">120</td><td>Quick time, the normal marching cadence</td></tr>
+    <tr><td class="num">112 to 120</td><td>Quick time, the normal marching cadence</td></tr>
     <tr><td class="num">180</td><td>Double time</td></tr>
   </tbody>
 </table>
 {#if source}<Cite fact={source} />{/if}
-<p class="help" style="margin-top: 8px">The handbook gives quick time as 120. The 112 setting is for units that march at a slower quick time; it has not been checked against the drill manual for this app, so confirm it with your instructor. The left and right markers only show alternate steps.</p>
+<p class="help" style="margin-top: 8px">The Marine Corps drill manual (MCO 5060.20) sets quick time at 112 to 120 steps per minute, so both settings are in standard. The left and right markers only show alternate steps.</p>
 
 <style>
   .feet { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 8px; }

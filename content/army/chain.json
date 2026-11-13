@@ -1,0 +1,127 @@
+[
+  {
+    "id": "army.chain.white-house",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "chain",
+    "topic": "Cadet Command chain",
+    "text": "Position 1 in the JROTC chain of command on the Cadet Command site is White House.",
+    "q": "Which element is position 1 (1 = highest) in the Army JROTC chain of command as listed by U.S. Army Cadet Command?",
+    "a": "White House",
+    "group": "chain",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC Chain of Command",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/jrotc-chain-of-command/",
+      "locator": "Chain of command tabs"
+    },
+    "confidence": "verify",
+    "review_tier": 2,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.chain.hqda",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "chain",
+    "topic": "Cadet Command chain",
+    "text": "Position 2 in the JROTC chain of command on the Cadet Command site is HQDA.",
+    "q": "Which element is position 2 (1 = highest) in the Army JROTC chain of command as listed by U.S. Army Cadet Command?",
+    "a": "HQDA",
+    "group": "chain",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC Chain of Command",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/jrotc-chain-of-command/",
+      "locator": "Chain of command tabs"
+    },
+    "confidence": "verify",
+    "review_tier": 2,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.chain.t2com",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "chain",
+    "topic": "Cadet Command chain",
+    "text": "Position 3 in the JROTC chain of command on the Cadet Command site is T2COM.",
+    "q": "Which element is position 3 (1 = highest) in the Army JROTC chain of command as listed by U.S. Army Cadet Command?",
+    "a": "T2COM",
+    "group": "chain",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC Chain of Command",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/jrotc-chain-of-command/",
+      "locator": "Chain of command tabs"
+    },
+    "confidence": "verify",
+    "review_tier": 2,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.chain.usarec",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "chain",
+    "topic": "Cadet Command chain",
+    "text": "Position 4 in the JROTC chain of command on the Cadet Command site is USAREC.",
+    "q": "Which element is position 4 (1 = highest) in the Army JROTC chain of command as listed by U.S. Army Cadet Command?",
+    "a": "USAREC",
+    "group": "chain",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC Chain of Command",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/jrotc-chain-of-command/",
+      "locator": "Chain of command tabs"
+    },
+    "confidence": "verify",
+    "review_tier": 2,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  },
+  {
+    "id": "army.chain.usacc",
+    "branch": [
+      "army"
+    ],
+    "verified_on": "2026-11-13",
+    "module": "chain",
+    "topic": "Cadet Command chain",
+    "text": "Position 5 in the JROTC chain of command on the Cadet Command site is USACC.",
+    "q": "Which element is position 5 (1 = highest) in the Army JROTC chain of command as listed by U.S. Army Cadet Command?",
+    "a": "USACC",
+    "group": "chain",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC Chain of Command",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/jrotc-chain-of-command/",
+      "locator": "Chain of command tabs"
+    },
+    "confidence": "verify",
+    "review_tier": 2,
+    "edition": "Current web page, read 13 Nov 2026",
+    "effective_from": null
+  }
+]

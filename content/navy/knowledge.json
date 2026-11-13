@@ -1,0 +1,916 @@
+[
+  {
+    "id": "navy.knowledge.core-values",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Core values",
+    "text": "The Navy and NJROTC core values are Honor, Courage, and Commitment.",
+    "q": "Which three values are the Navy and NJROTC core values?",
+    "a": "Honor, Courage, Commitment",
+    "distractors": [
+      "Duty, Respect, Integrity",
+      "Loyalty, Duty, Selfless Service",
+      "Integrity, Service, Excellence"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.honor",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Core values",
+    "text": "Honor is tied to the words \"I will bear true faith and allegiance.\"",
+    "q": "Which core value goes with \"I will bear true faith and allegiance\"?",
+    "a": "Honor",
+    "distractors": [
+      "Courage",
+      "Commitment",
+      "Loyalty"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 1"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.courage",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Core values",
+    "text": "Courage is tied to the words \"I will support and defend.\"",
+    "q": "Which core value goes with \"I will support and defend\"?",
+    "a": "Courage",
+    "distractors": [
+      "Honor",
+      "Commitment",
+      "Duty"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 1"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.commitment",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Core values",
+    "text": "Commitment is tied to the words \"I will obey the orders.\"",
+    "q": "Which core value goes with \"I will obey the orders\"?",
+    "a": "Commitment",
+    "distractors": [
+      "Honor",
+      "Courage",
+      "Respect"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 1"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.courage-def",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Core values",
+    "text": "Courage is the value that gives us the moral and mental strength to do what is right, even in the face of personal or professional adversity.",
+    "q": "Which core value gives moral and mental strength to do what is right even in adversity?",
+    "a": "Courage",
+    "distractors": [
+      "Honor",
+      "Commitment",
+      "Integrity"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.continental-navy",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Navy history",
+    "text": "On 13 October 1775 the Continental Congress authorized a few small ships, creating the Continental Navy.",
+    "q": "On what date did the Continental Congress authorize the Continental Navy?",
+    "a": "13 October 1775",
+    "distractors": [
+      "4 July 1776",
+      "10 November 1775",
+      "14 June 1775"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.hopkins",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Navy history",
+    "text": "Esek Hopkins was appointed commander in chief of the Continental Navy, and 22 officers were commissioned, including John Paul Jones.",
+    "q": "Who was appointed commander in chief of the Continental Navy?",
+    "a": "Esek Hopkins",
+    "distractors": [
+      "John Paul Jones",
+      "John Barry",
+      "George Washington"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-1",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 1 of the 11 Principles of Leadership is: Know yourself and seek self-improvement.",
+    "q": "What is principle number 1 of the 11 Principles of Leadership?",
+    "a": "Know yourself and seek self-improvement",
+    "group": "leadership",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-2",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 2 of the 11 Principles of Leadership is: Be technically proficient.",
+    "q": "What is principle number 2 of the 11 Principles of Leadership?",
+    "a": "Be technically proficient",
+    "group": "leadership",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-3",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 3 of the 11 Principles of Leadership is: Seek responsibility and take responsibility for your actions.",
+    "q": "What is principle number 3 of the 11 Principles of Leadership?",
+    "a": "Seek responsibility and take responsibility for your actions",
+    "group": "leadership",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-4",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 4 of the 11 Principles of Leadership is: Make sound and timely decisions.",
+    "q": "What is principle number 4 of the 11 Principles of Leadership?",
+    "a": "Make sound and timely decisions",
+    "group": "leadership",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-5",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 5 of the 11 Principles of Leadership is: Set the example.",
+    "q": "What is principle number 5 of the 11 Principles of Leadership?",
+    "a": "Set the example",
+    "group": "leadership",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-6",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 6 of the 11 Principles of Leadership is: Know your people and look out for their well-being.",
+    "q": "What is principle number 6 of the 11 Principles of Leadership?",
+    "a": "Know your people and look out for their well-being",
+    "group": "leadership",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-7",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 7 of the 11 Principles of Leadership is: Keep your workers informed.",
+    "q": "What is principle number 7 of the 11 Principles of Leadership?",
+    "a": "Keep your workers informed",
+    "group": "leadership",
+    "order": 7,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-8",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 8 of the 11 Principles of Leadership is: Develop a sense of responsibility in your workers.",
+    "q": "What is principle number 8 of the 11 Principles of Leadership?",
+    "a": "Develop a sense of responsibility in your workers",
+    "group": "leadership",
+    "order": 8,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-9",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 9 of the 11 Principles of Leadership is: Ensure that tasks are understood, supervised, and accomplished.",
+    "q": "What is principle number 9 of the 11 Principles of Leadership?",
+    "a": "Ensure that tasks are understood, supervised, and accomplished",
+    "group": "leadership",
+    "order": 9,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-10",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 10 of the 11 Principles of Leadership is: Train as a team.",
+    "q": "What is principle number 10 of the 11 Principles of Leadership?",
+    "a": "Train as a team",
+    "group": "leadership",
+    "order": 10,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-11",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "Principle 11 of the 11 Principles of Leadership is: Use the full capabilities of your organization.",
+    "q": "What is principle number 11 of the 11 Principles of Leadership?",
+    "a": "Use the full capabilities of your organization",
+    "group": "leadership",
+    "order": 11,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.leadership-count",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "11 Principles of Leadership",
+    "text": "The 11 Principles of Leadership are taught to help a leader be, know, and do.",
+    "q": "The 11 Principles of Leadership help a leader do which three things?",
+    "a": "Be, know, and do",
+    "distractors": [
+      "Plan, lead, follow",
+      "Think, act, review",
+      "Train, test, lead"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-1",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 1st Order of the Sentry is: To take charge of this post and all government property in view.",
+    "q": "What is the 1st Order of the Sentry?",
+    "a": "To take charge of this post and all government property in view.",
+    "group": "sentry",
+    "order": 1,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-2",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 2nd Order of the Sentry is: To walk my post in a military manner, keeping always on the alert, and observing everything that takes place within sight or hearing.",
+    "q": "What is the 2nd Order of the Sentry?",
+    "a": "To walk my post in a military manner, keeping always on the alert, and observing everything that takes place within sight or hearing.",
+    "group": "sentry",
+    "order": 2,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-3",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 3rd Order of the Sentry is: To report all violations of orders I am instructed to enforce.",
+    "q": "What is the 3rd Order of the Sentry?",
+    "a": "To report all violations of orders I am instructed to enforce.",
+    "group": "sentry",
+    "order": 3,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-4",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 4th Order of the Sentry is: To repeat all calls from any post more distant from the guardhouse (quarterdeck) than my own.",
+    "q": "What is the 4th Order of the Sentry?",
+    "a": "To repeat all calls from any post more distant from the guardhouse (quarterdeck) than my own.",
+    "group": "sentry",
+    "order": 4,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-5",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 5th Order of the Sentry is: To quit my post only when properly relieved.",
+    "q": "What is the 5th Order of the Sentry?",
+    "a": "To quit my post only when properly relieved.",
+    "group": "sentry",
+    "order": 5,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-6",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 6th Order of the Sentry is: To receive, obey, and pass on to the sentry who relieves me all orders from the commanding officer, command duty officer, officer of the deck, and officers and petty officers of the watch only.",
+    "q": "What is the 6th Order of the Sentry?",
+    "a": "To receive, obey, and pass on to the sentry who relieves me all orders from the commanding officer, command duty officer, officer of the deck, and officers and petty officers of the watch only.",
+    "group": "sentry",
+    "order": 6,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-7",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 7th Order of the Sentry is: To talk to no one except in the line of duty.",
+    "q": "What is the 7th Order of the Sentry?",
+    "a": "To talk to no one except in the line of duty.",
+    "group": "sentry",
+    "order": 7,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-8",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 8th Order of the Sentry is: To give the alarm in case of fire or disorder.",
+    "q": "What is the 8th Order of the Sentry?",
+    "a": "To give the alarm in case of fire or disorder.",
+    "group": "sentry",
+    "order": 8,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-9",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 9th Order of the Sentry is: To call the officer of the deck in any case not covered by instructions.",
+    "q": "What is the 9th Order of the Sentry?",
+    "a": "To call the officer of the deck in any case not covered by instructions.",
+    "group": "sentry",
+    "order": 9,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-10",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 10th Order of the Sentry is: To salute all officers and all colors and standards not cased.",
+    "q": "What is the 10th Order of the Sentry?",
+    "a": "To salute all officers and all colors and standards not cased.",
+    "group": "sentry",
+    "order": 10,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-11",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "The 11th Order of the Sentry is: To be especially watchful at night and during the time for challenging, challenge all persons on or near my post and allow no one to pass without proper authority.",
+    "q": "What is the 11th Order of the Sentry?",
+    "a": "To be especially watchful at night and during the time for challenging, challenge all persons on or near my post and allow no one to pass without proper authority.",
+    "group": "sentry",
+    "order": 11,
+    "difficulty": 3,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.sentry-count",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Orders of the Sentry",
+    "text": "There are 11 Orders of the Sentry.",
+    "q": "How many Orders of the Sentry are there?",
+    "a": "Eleven",
+    "distractors": [
+      "Seven",
+      "Nine",
+      "Twelve"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.flag-hours",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Flag etiquette",
+    "text": "The flag is customarily displayed only from sunrise to sunset on buildings and stationary flagstaffs outdoors, unless properly illuminated at night.",
+    "q": "When is the flag customarily displayed on outdoor stationary flagstaffs?",
+    "a": "Sunrise to sunset",
+    "distractors": [
+      "Sunrise to noon",
+      "0800 to 2000",
+      "All day and night without lighting"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 50"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.flag-salute-six",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Flag etiquette",
+    "text": "Cadets in uniform salute an escorted flag six paces before it is even with them and hold the salute until it has passed six paces beyond.",
+    "q": "How many paces before an escorted flag passes do cadets in uniform begin the salute?",
+    "a": "Six paces",
+    "distractors": [
+      "Three paces",
+      "Ten paces",
+      "Two paces"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 52"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.flag-anthem-salute",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Flag etiquette",
+    "text": "Outdoors in uniform, the salute for the national anthem or \"To the Colors\" begins on the first note and is held until the last note.",
+    "q": "When does the salute begin during the national anthem outdoors in uniform?",
+    "a": "On the first note",
+    "distractors": [
+      "On the second note",
+      "When the flag is raised",
+      "On the command \"Present, ARMS\""
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 52"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.knowledge.flag-stationary",
+    "branch": [
+      "navy"
+    ],
+    "module": "knowledge",
+    "topic": "Flag etiquette",
+    "text": "In uniform, do not salute flags on stationary flagstaffs except during morning and evening colors ceremonies.",
+    "q": "When do cadets in uniform salute a flag on a stationary flagstaff?",
+    "a": "Only during morning and evening colors",
+    "distractors": [
+      "Whenever passing it",
+      "Never",
+      "Only on federal holidays"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 52"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

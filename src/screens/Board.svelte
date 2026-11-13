@@ -1,12 +1,12 @@
 <script lang="ts">
   // Mock Promotion Board: answer aloud as you would in front of the board, then mark yourself on the score sheet.
-  import { app, grade, today } from '../lib/store.svelte';
+  import { app, facts, grade, today } from '../lib/store.svelte';
   import { quizzable, shuffle } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
 
   const t = today();
   const BOARD = ['knowledge', 'chain', 'ranks', 'uniform'];
-  const pick = () => shuffle(app.bundle!.facts.filter((f) => BOARD.includes(f.module) && quizzable(f, t))).slice(0, 10);
+  const pick = () => shuffle(facts().filter((f) => BOARD.includes(f.module) && quizzable(f, t))).slice(0, 10);
   const MARKS = [[2, 'Correct'], [1, 'Partly'], [0, 'Missed']] as const;
 
   let set = $state(pick());

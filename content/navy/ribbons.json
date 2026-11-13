@@ -1,0 +1,871 @@
+[
+  {
+    "id": "navy.ribbons.meritorious-achievement",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Meritorious Achievement is number 1 of 28 in the NJROTC ribbon order of precedence (most senior).",
+    "q": "Which NJROTC ribbon is number 1 in the order of precedence (1 is most senior)?",
+    "a": "Meritorious Achievement",
+    "group": "ribbon",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.distinguished-unit",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Distinguished Unit is number 2 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 2 in the order of precedence (1 is most senior)?",
+    "a": "Distinguished Unit",
+    "group": "ribbon",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.distinguished-cadet",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Distinguished Cadet is number 3 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 3 in the order of precedence (1 is most senior)?",
+    "a": "Distinguished Cadet",
+    "group": "ribbon",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.honor-cadet",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Honor Cadet is number 4 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 4 in the order of precedence (1 is most senior)?",
+    "a": "Honor Cadet",
+    "group": "ribbon",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.cadet-achievement",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Cadet Achievement is number 5 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 5 in the order of precedence (1 is most senior)?",
+    "a": "Cadet Achievement",
+    "group": "ribbon",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.unit-achievement",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Unit Achievement is number 6 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 6 in the order of precedence (1 is most senior)?",
+    "a": "Unit Achievement",
+    "group": "ribbon",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.aptitude",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Aptitude is number 7 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 7 in the order of precedence (1 is most senior)?",
+    "a": "Aptitude",
+    "group": "ribbon",
+    "order": 7,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.ns-iv-outstanding-cadet",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "NS IV Outstanding Cadet is number 8 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 8 in the order of precedence (1 is most senior)?",
+    "a": "NS IV Outstanding Cadet",
+    "group": "ribbon",
+    "order": 8,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.ns-iii-outstanding-cadet",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "NS III Outstanding Cadet is number 9 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 9 in the order of precedence (1 is most senior)?",
+    "a": "NS III Outstanding Cadet",
+    "group": "ribbon",
+    "order": 9,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.ns-ii-outstanding-cadet",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "NS II Outstanding Cadet is number 10 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 10 in the order of precedence (1 is most senior)?",
+    "a": "NS II Outstanding Cadet",
+    "group": "ribbon",
+    "order": 10,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.ns-i-outstanding-cadet",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "NS I Outstanding Cadet is number 11 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 11 in the order of precedence (1 is most senior)?",
+    "a": "NS I Outstanding Cadet",
+    "group": "ribbon",
+    "order": 11,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.exemplary-conduct",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Exemplary Conduct is number 12 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 12 in the order of precedence (1 is most senior)?",
+    "a": "Exemplary Conduct",
+    "group": "ribbon",
+    "order": 12,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.exemplary-personal-appearance",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Exemplary Personal Appearance is number 13 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 13 in the order of precedence (1 is most senior)?",
+    "a": "Exemplary Personal Appearance",
+    "group": "ribbon",
+    "order": 13,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.physical-fitness",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Physical Fitness is number 14 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 14 in the order of precedence (1 is most senior)?",
+    "a": "Physical Fitness",
+    "group": "ribbon",
+    "order": 14,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.participation",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Participation is number 15 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 15 in the order of precedence (1 is most senior)?",
+    "a": "Participation",
+    "group": "ribbon",
+    "order": 15,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.unit-service",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Unit Service is number 16 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 16 in the order of precedence (1 is most senior)?",
+    "a": "Unit Service",
+    "group": "ribbon",
+    "order": 16,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.community-service",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Community Service is number 17 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 17 in the order of precedence (1 is most senior)?",
+    "a": "Community Service",
+    "group": "ribbon",
+    "order": 17,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.academic-team",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Academic Team is number 18 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 18 in the order of precedence (1 is most senior)?",
+    "a": "Academic Team",
+    "group": "ribbon",
+    "order": 18,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.drill-team",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Drill Team is number 19 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 19 in the order of precedence (1 is most senior)?",
+    "a": "Drill Team",
+    "group": "ribbon",
+    "order": 19,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.color-guard",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Color Guard is number 20 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 20 in the order of precedence (1 is most senior)?",
+    "a": "Color Guard",
+    "group": "ribbon",
+    "order": 20,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.s-t-e-m",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "S.T.E.M. is number 21 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 21 in the order of precedence (1 is most senior)?",
+    "a": "S.T.E.M.",
+    "group": "ribbon",
+    "order": 21,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.marksmanship-team",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Marksmanship Team is number 22 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 22 in the order of precedence (1 is most senior)?",
+    "a": "Marksmanship Team",
+    "group": "ribbon",
+    "order": 22,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.orienteering-team",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Orienteering Team is number 23 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 23 in the order of precedence (1 is most senior)?",
+    "a": "Orienteering Team",
+    "group": "ribbon",
+    "order": 23,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.inter-service-competition",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Inter-Service Competition is number 24 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 24 in the order of precedence (1 is most senior)?",
+    "a": "Inter-Service Competition",
+    "group": "ribbon",
+    "order": 24,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.recruiting",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Recruiting is number 25 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 25 in the order of precedence (1 is most senior)?",
+    "a": "Recruiting",
+    "group": "ribbon",
+    "order": 25,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.leadership-training",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Leadership Training is number 26 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 26 in the order of precedence (1 is most senior)?",
+    "a": "Leadership Training",
+    "group": "ribbon",
+    "order": 26,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.sea-cruise",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "Sea Cruise is number 27 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 27 in the order of precedence (1 is most senior)?",
+    "a": "Sea Cruise",
+    "group": "ribbon",
+    "order": 27,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.c-e-r-t",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Order of precedence",
+    "text": "C.E.R.T. is number 28 of 28 in the NJROTC ribbon order of precedence.",
+    "q": "Which NJROTC ribbon is number 28 in the order of precedence (1 is most senior)?",
+    "a": "C.E.R.T.",
+    "group": "ribbon",
+    "order": 28,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 37 (Ribbons and Awards list)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.honor-cadet-def",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Ribbon criteria",
+    "text": "The Honor Cadet ribbon is awarded yearly to one cadet in each year group with the highest overall academic achievement (GPA) in school, including naval science courses.",
+    "q": "Which NJROTC ribbon goes yearly to one cadet in each year group with the highest overall GPA, naval science included?",
+    "a": "Honor Cadet",
+    "group": "ribbon-name",
+    "distractors": [
+      "Distinguished Cadet",
+      "Aptitude",
+      "Cadet Achievement"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 38"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.distinguished-cadet-def",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Ribbon criteria",
+    "text": "The Distinguished Cadet ribbon is awarded yearly to one cadet in each year group with the highest combined average for scholastic standing and aptitude in NJROTC unit activities.",
+    "q": "Which NJROTC ribbon goes yearly to one cadet in each year group with the highest combined scholastic and NJROTC aptitude average?",
+    "a": "Distinguished Cadet",
+    "distractors": [
+      "Honor Cadet",
+      "Aptitude",
+      "Cadet Achievement"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 38"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.wear-where",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Wearing ribbons",
+    "text": "NJROTC ribbons are worn only on the Service Dress Blue and the Navy Service uniforms.",
+    "q": "On which uniforms are NJROTC ribbons worn?",
+    "a": "Service Dress Blue and Navy Service",
+    "distractors": [
+      "Navy Working Uniform and Service Khaki",
+      "Service Khaki and Navy Working Uniform",
+      "Any uniform worn in class"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 38"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.wear-rows",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Wearing ribbons",
+    "text": "When more than three ribbons are earned, they are worn in horizontal rows of three; a partial row goes on top and is centered over the row below.",
+    "q": "How many ribbons go in each full row when more than three are worn?",
+    "a": "Three",
+    "distractors": [
+      "Four",
+      "Five",
+      "Six"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 38"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.wear-height",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Wearing ribbons",
+    "text": "The lower edge of the bottom row of ribbons is centered one-quarter inch above the left breast pocket.",
+    "q": "How far above the left breast pocket is the bottom row of ribbons placed?",
+    "a": "1/4 inch",
+    "distractors": [
+      "1/2 inch",
+      "1 inch",
+      "1/8 inch"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 38"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ribbons.wear-senior",
+    "branch": [
+      "navy"
+    ],
+    "module": "ribbons",
+    "topic": "Wearing ribbons",
+    "text": "The most senior ribbon is worn in the top row and inboard when more than one ribbon is worn on a row.",
+    "q": "Where is the most senior NJROTC ribbon worn?",
+    "a": "Top row, inboard",
+    "distractors": [
+      "Top row, outboard",
+      "Bottom row, inboard",
+      "Bottom row, outboard"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 38"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

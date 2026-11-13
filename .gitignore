@@ -5,4 +5,5 @@ keys/
 *.pem
 .env
 .env.*
+!.env.example
 officials-report.md

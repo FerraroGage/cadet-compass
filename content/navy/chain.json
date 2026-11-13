@@ -1,0 +1,130 @@
+[
+  {
+    "id": "navy.chain.cadet-battalion-commander-next",
+    "branch": [
+      "navy"
+    ],
+    "module": "chain",
+    "topic": "Cadet chain of command",
+    "text": "In the NJROTC cadet chain of command, the Cadet Battalion Commander is directly senior to the Cadet Company Commander.",
+    "q": "In the NJROTC cadet chain of command, who is directly junior to the Cadet Battalion Commander?",
+    "a": "Cadet Company Commander",
+    "group": "chain",
+    "order": 2,
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 14 (NJROTC Chain of Command)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.chain.cadet-company-commander-next",
+    "branch": [
+      "navy"
+    ],
+    "module": "chain",
+    "topic": "Cadet chain of command",
+    "text": "In the NJROTC cadet chain of command, the Cadet Company Commander is directly senior to the Cadet Platoon Commander.",
+    "q": "In the NJROTC cadet chain of command, who is directly junior to the Cadet Company Commander?",
+    "a": "Cadet Platoon Commander",
+    "group": "chain",
+    "order": 3,
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 14 (NJROTC Chain of Command)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.chain.cadet-platoon-commander-next",
+    "branch": [
+      "navy"
+    ],
+    "module": "chain",
+    "topic": "Cadet chain of command",
+    "text": "In the NJROTC cadet chain of command, the Cadet Platoon Commander is directly senior to the Cadet Squad Leader.",
+    "q": "In the NJROTC cadet chain of command, who is directly junior to the Cadet Platoon Commander?",
+    "a": "Cadet Squad Leader",
+    "group": "chain",
+    "order": 4,
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 14 (NJROTC Chain of Command)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.chain.cadet-squad-leader-next",
+    "branch": [
+      "navy"
+    ],
+    "module": "chain",
+    "topic": "Cadet chain of command",
+    "text": "In the NJROTC cadet chain of command, the Cadet Squad Leader is directly senior to the Cadet.",
+    "q": "In the NJROTC cadet chain of command, who is directly junior to the Cadet Squad Leader?",
+    "a": "Cadet",
+    "group": "chain",
+    "order": 5,
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 14 (NJROTC Chain of Command)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.chain.squads-per-platoon",
+    "branch": [
+      "navy"
+    ],
+    "module": "chain",
+    "topic": "Cadet chain of command",
+    "text": "In the NJROTC cadet chain of command, a platoon has three squads.",
+    "q": "In the NJROTC cadet chain of command, how many squads make up a platoon?",
+    "a": "Three",
+    "distractors": [
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

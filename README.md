@@ -1,10 +1,24 @@
-# Gigline
+# Cadet Compass
 
-An unofficial study aid for Junior ROTC cadets. Installable web app (PWA), offline after first load, no accounts, nothing collected. Marine Corps JROTC is the first track.
+An unofficial study app for Junior ROTC cadets: ranks, ribbons, chain of command, uniform, drill and general knowledge. Installable web app (PWA), offline after first load. Works as a guest with nothing leaving the device; accounts are optional. Marine Corps JROTC is the first published track.
 
 Not affiliated with or endorsed by the Department of Defense (Department of War), any military service or any JROTC program. No service seal, emblem or logo is used anywhere in this repository.
 
 Owner: Gage A. Pierce, Kellogg, Idaho. Contact: piercegage19@gmail.com
+
+## Accounts (optional, free)
+
+The app runs guest-only until you connect a Supabase project (free tier).
+
+1. Create a project at supabase.com.
+2. SQL Editor: paste and run `supabase/schema.sql`.
+3. Authentication > Providers: Email is on by default. For Google, turn on the Google provider and add a Google OAuth client ID and secret (Google Cloud Console, free).
+4. Authentication > URL Configuration: set Site URL to where the app is hosted, and add `http://localhost:5173` and `http://localhost:4173` to the redirect URLs for local testing.
+5. Copy `.env.example` to `.env` and fill in the project URL and anon key. Rebuild.
+
+Never put the `service_role` key in this repo or in `.env`. XP is worked out in the database by `award_xp`; the app never sends a point value. Keep `src/lib/xp.ts` and `src/lib/names.ts` in step with the matching functions in `supabase/schema.sql`.
+
+Brand files are in `brand/`. The logo is never rotated, recolored or stretched.
 
 ## Run it
 
@@ -30,7 +44,7 @@ content/schema/fact.schema.json   JSON Schema for a fact
 content/usmc/*.json               Facts, one file per hub tab. This is the source of truth.
 content/changelog.json            One entry per content version. Shown in the app as What Changed.
 public/content/bundle.json, .sig  Signed bundle the app downloads. Built by content:sign. Committed.
-scripts/                          validate, build-bundle (keygen, sign, check), make-icons, check-officials
+scripts/                          validate, build-bundle (keygen, sign, check), check-officials
 src/lib/                          bundle.ts (signature check), srs.ts (SM-2), quiz.ts (questions, placement), store.svelte.ts (state, storage)
 src/screens/                      TermsGate, Onboarding, Hub, Cards, Placement, Settings
 src/legal/                        Terms of Service and Privacy Policy, every version kept

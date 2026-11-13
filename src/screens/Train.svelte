@@ -1,15 +1,16 @@
 <script lang="ts">
-  import { app, save, today } from '../lib/store.svelte';
+  import { app, facts, save, level, today } from '../lib/store.svelte';
+  import { UNLOCK } from '../lib/xp';
   import { MODULES, quizzable } from '../lib/quiz';
 
   let { custom = false }: { custom?: boolean } = $props();
   const t = today();
-  const facts = app.bundle!.facts.filter((f) => quizzable(f, t));
+  const mine = facts().filter((f) => quizzable(f, t));
 
   let f = $state({ module: '', topic: '', type: 'mc', n: '10', diff: '', timer: '', pool: 'all' });
   let eventType = $state(app.profile!.eventType);
   let eventDate = $state(app.profile!.eventDate);
-  const topics = $derived([...new Set(facts.filter((x) => x.module === f.module).map((x) => x.topic))]);
+  const topics = $derived([...new Set(mine.filter((x) => x.module === f.module).map((x) => x.topic))]);
   $effect(() => { if (!topics.includes(f.topic)) f.topic = ''; });
 
   async function start(e: Event) {
@@ -18,6 +19,9 @@
     location.hash = '#/train/quiz?' + new URLSearchParams(Object.entries(f).filter(([, v]) => v));
   }
 
+  const lvl = level().level;
+  /** The level an event needs, or 0 when it is open. */
+  const need = (href: string) => { const min = UNLOCK[href.split('/')[2]] ?? 0; return min > lvl ? min : 0; };
   const MENU = [
     ['#/test', 'Knowledge placement test', '40 adaptive questions. Builds your readiness table and training plan.'],
     ['#/train/custom', 'Custom training', 'Pick modules, question type, count, difficulty, timer and pool.'],
@@ -32,18 +36,23 @@
 
 {#if !custom}
   <h1>Training</h1>
-  <table>
-    <thead><tr><th class="num" scope="col">No.</th><th scope="col">Event</th></tr></thead>
-    <tbody>
-      {#each MENU as [href, name, note], i}
-        <tr>
-          <td class="num">{i + 1}</td>
-          <td><a class="btn" style="width: 100%; justify-content: flex-start" {href}>{name}</a><p class="cite">{note}</p></td>
-        </tr>
-      {/each}
-    </tbody>
-  </table>
+  <p class="label">Level {lvl}. More events open as you level up.</p>
+  <ol class="plan">
+    {#each MENU as [href, name, note], i}
+      <li>
+        {#if need(href)}
+          <div class="lock"><span class="n">{i + 1}</span><span><strong>{name}</strong><small>{note}</small></span><span class="xp">Level {need(href)}</span></div>
+        {:else}
+          <a {href}><span class="n">{i + 1}</span><span><strong>{name}</strong><small>{note}</small></span></a>
+        {/if}
+      </li>
+    {/each}
+  </ol>
   <p class="help" style="margin-top: 16px">Rank Rush, Inspector's Eye and Call the Command are not built yet. They need insignia and uniform drawings made from official specifications, and commands taken from the drill manual.</p>
+{:else if need('#/train/custom')}
+  <h1>Custom training</h1>
+  <p class="notice">Custom training opens at level {need('#/train/custom')}. Finish a few lessons and quizzes to get there.</p>
+  <div class="row"><a class="btn" href="#/train">Training menu</a></div>
 {:else}
   <h1>Custom training</h1>
   <form onsubmit={start}>
@@ -51,7 +60,7 @@
       <legend><span class="n">1</span><span class="t">What to study</span></legend>
       <div class="in cols">
         <label class="field"><span class="label">Module</span>
-          <select bind:value={f.module}><option value="">All modules</option>{#each MODULES as m}<option value={m.id}>{m.name}</option>{/each}</select>
+          <select bind:value={f.module}><option value="">All modules</option>{#each MODULES.filter((m) => mine.some((x) => x.module === m.id)) as m}<option value={m.id}>{m.name}</option>{/each}</select>
         </label>
         <label class="field"><span class="label">Subtopic</span>
           <select bind:value={f.topic} disabled={!f.module}><option value="">All subtopics</option>{#each topics as name}<option>{name}</option>{/each}</select>

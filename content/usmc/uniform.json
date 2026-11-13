@@ -19,7 +19,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -43,7 +43,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -67,7 +67,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -91,7 +91,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -115,7 +115,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -139,7 +139,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -163,7 +163,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -174,8 +174,8 @@
     ],
     "module": "uniform",
     "topic": "Placement and fit",
-    "text": "The web belt extends between 2 and 4 inches past the buckle.",
-    "q": "How far past the buckle does the web belt extend?",
+    "text": "The web belt tip extends between 2 and 4 inches past the buckle. (The handbook gives a narrower 2 3/4 to 3 3/4 inches for the cloth belt.)",
+    "q": "How far past the buckle does the belt tip extend?",
     "a": "Between 2 and 4 inches",
     "group": "measure",
     "difficulty": 2,
@@ -187,31 +187,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.uniform.cloth-belt",
-    "branch": [
-      "usmc"
-    ],
-    "module": "uniform",
-    "topic": "Placement and fit",
-    "text": "The cloth belt extends between 2 3/4 and 3 3/4 inches past the buckle.",
-    "q": "How far past the buckle does the cloth belt extend?",
-    "a": "Between 2 3/4 and 3 3/4 inches",
-    "group": "measure",
-    "difficulty": 3,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 13"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -234,7 +210,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -262,7 +238,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -285,7 +261,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -313,30 +289,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.uniform.cover-indoors",
-    "branch": [
-      "usmc"
-    ],
-    "module": "uniform",
-    "topic": "Placement and fit",
-    "text": "The cover is never worn indoors.",
-    "q": "Is the cover worn indoors?",
-    "a": "No. It is never worn indoors.",
-    "difficulty": 1,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 13"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -364,7 +317,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -392,7 +345,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -416,7 +369,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -440,7 +393,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -468,7 +421,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -496,7 +449,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -519,7 +472,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -547,7 +500,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -570,8 +523,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   },
   {
@@ -598,8 +551,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   },
   {
@@ -621,7 +574,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -645,8 +598,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   },
   {
@@ -673,7 +626,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -696,7 +649,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -719,35 +672,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.uniform.care-wash",
-    "branch": [
-      "usmc"
-    ],
-    "module": "uniform",
-    "topic": "Conduct and care",
-    "text": "Camouflage uniforms and cotton T-shirts are washed in warm or cold water only.",
-    "q": "Which uniform items may be machine washed?",
-    "a": "Camouflage uniforms and cotton T-shirts",
-    "distractors": [
-      "Khaki shirts and green trousers",
-      "Dress coats",
-      "Wool sweaters"
-    ],
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 12"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -775,7 +700,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -803,7 +728,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   }

@@ -1,0 +1,870 @@
+[
+  {
+    "id": "uscg.knowledge.mission",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The mission of Coast Guard JROTC is Developing Service-Minded Citizens of Character.",
+    "q": "What is the mission of Coast Guard JROTC?",
+    "a": "Developing Service-Minded Citizens of Character",
+    "distractors": [
+      "Training the Next Generation of Coast Guard Officers",
+      "Always Ready, Always Serving the Nation",
+      "Learn, Lead, and Excel at Sea"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "Mission paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.coast-meaning",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "COAST is the acronym for the five pillars that guide Coast Guard JROTC learning: Citizenship, Operations, Advancement, Service, and Teamwork.",
+    "q": "What do the five letters of COAST stand for in Coast Guard JROTC?",
+    "a": "Citizenship, Operations, Advancement, Service, Teamwork",
+    "distractors": [
+      "Courage, Openness, Accountability, Service, Teamwork",
+      "Character, Operations, Achievement, Safety, Training",
+      "Citizenship, Obedience, Advancement, Service, Tradition"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "COAST paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.coast-c",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The C in COAST stands for Citizenship.",
+    "q": "In the COAST pillars of Coast Guard JROTC, what does the C stand for?",
+    "a": "Citizenship",
+    "distractors": [
+      "Courage",
+      "Character",
+      "Commitment"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "COAST paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.coast-o",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The O in COAST stands for Operations.",
+    "q": "In the COAST pillars of Coast Guard JROTC, what does the O stand for?",
+    "a": "Operations",
+    "distractors": [
+      "Obedience",
+      "Obligation",
+      "Order"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "COAST paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.coast-a",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The A in COAST stands for Advancement.",
+    "q": "In the COAST pillars of Coast Guard JROTC, what does the A stand for?",
+    "a": "Advancement",
+    "distractors": [
+      "Accountability",
+      "Achievement",
+      "Allegiance"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "COAST paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.coast-s",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The S in COAST stands for Service.",
+    "q": "In the COAST pillars of Coast Guard JROTC, what does the S stand for?",
+    "a": "Service",
+    "distractors": [
+      "Safety",
+      "Seamanship",
+      "Sacrifice"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "COAST paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.coast-t",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The T in COAST stands for Teamwork.",
+    "q": "In the COAST pillars of Coast Guard JROTC, what does the T stand for?",
+    "a": "Teamwork",
+    "distractors": [
+      "Tradition",
+      "Training",
+      "Trust"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "COAST paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.pillar-count",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "Coast Guard JROTC develops cadets on five pillars, known by the acronym COAST.",
+    "q": "How many pillars make up the COAST framework in Coast Guard JROTC?",
+    "a": "Five",
+    "distractors": [
+      "Three",
+      "Four",
+      "Seven"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "COAST paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.first-unit",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The Coast Guard established its first JROTC unit in 1992 in Miami, Florida.",
+    "q": "Where did the Coast Guard establish its first JROTC unit?",
+    "a": "Miami, Florida",
+    "distractors": [
+      "Boston, Massachusetts",
+      "Norfolk, Virginia",
+      "San Diego, California"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "First paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.first-unit-year",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The Coast Guard established its first JROTC unit in 1992.",
+    "q": "In what year did the Coast Guard establish its first JROTC unit?",
+    "a": "1992",
+    "distractors": [
+      "1915",
+      "1974",
+      "2005"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "First paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.grades",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "Coast Guard JROTC is open to high school students in grades 9 through 12.",
+    "q": "Which grades can join Coast Guard JROTC?",
+    "a": "Grades 9 through 12",
+    "distractors": [
+      "Grades 6 through 8",
+      "Grades 10 through 12 only",
+      "Grades 7 through 12"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "CGJROTC Brochure (508 compliant)",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Portals/0/Community/JROTC/CGJROTC%20Brochure%2003122026(508%20compliant).pdf",
+      "locator": "Page 1, Who Can Join"
+    },
+    "edition": "12 Mar 2026",
+    "effective_from": "2026-03-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.no-service",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "Joining Coast Guard JROTC carries no requirement to join the military.",
+    "q": "Does joining Coast Guard JROTC require a cadet to join the military?",
+    "a": "No, there is no requirement to join the military",
+    "distractors": [
+      "Yes, a two-year commitment",
+      "Yes, but only in the Coast Guard Reserve",
+      "Yes, after graduation"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "CGJROTC Brochure (508 compliant)",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Portals/0/Community/JROTC/CGJROTC%20Brochure%2003122026(508%20compliant).pdf",
+      "locator": "Page 2, Why Join"
+    },
+    "edition": "12 Mar 2026",
+    "effective_from": "2026-03-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.elective",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "Coast Guard JROTC is an elective high school program.",
+    "q": "Is Coast Guard JROTC a required course or an elective?",
+    "a": "An elective",
+    "distractors": [
+      "A required course",
+      "A graduation requirement in every district",
+      "An after-school club only"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "CGJROTC Brochure (508 compliant)",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Portals/0/Community/JROTC/CGJROTC%20Brochure%2003122026(508%20compliant).pdf",
+      "locator": "Page 2, What is CGJROTC"
+    },
+    "edition": "12 Mar 2026",
+    "effective_from": "2026-03-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.uniform-cost",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "Coast Guard JROTC uniforms and equipment are provided to cadets at no cost.",
+    "q": "Who pays for the Coast Guard JROTC uniform and equipment?",
+    "a": "They are provided at no cost to cadets",
+    "distractors": [
+      "The cadet buys the uniform",
+      "The cadet's parents rent it",
+      "The cadet buys it after the first year"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "CGJROTC Brochure (508 compliant)",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Portals/0/Community/JROTC/CGJROTC%20Brochure%2003122026(508%20compliant).pdf",
+      "locator": "Page 2, Why Join"
+    },
+    "edition": "12 Mar 2026",
+    "effective_from": "2026-03-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.purpose-statute",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The purpose of JROTC under 10 USC Chapter 102 is to instill in students the values of citizenship, service to the United States, and personal responsibility and a sense of accomplishment.",
+    "q": "Under 10 USC Chapter 102, what is the purpose of JROTC?",
+    "a": "To instill values of citizenship, service to the United States, personal responsibility and a sense of accomplishment",
+    "distractors": [
+      "To recruit students into the armed forces",
+      "To train students as military officers",
+      "To prepare students for combat duty"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard Junior Reserve Officers' Training Corps (CGJROTC) program page",
+      "publisher": "U.S. Coast Guard",
+      "url": "https://www.uscg.mil/Community/JROTC/",
+      "locator": "Quoted statute passage"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.core-values",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard core values",
+    "text": "The Coast Guard core values are Honor, Respect, and Devotion to Duty.",
+    "q": "What are the three Coast Guard core values?",
+    "a": "Honor, Respect, Devotion to Duty",
+    "distractors": [
+      "Loyalty, Duty, Respect",
+      "Courage, Commitment, Honor",
+      "Integrity, Service, Excellence"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Do Our Core Values Need Modernizing? (Coast Guard leadership article)",
+      "publisher": "U.S. Coast Guard (CG-1 Leadership)",
+      "url": "https://www.dcms.uscg.mil/Portals/10/CG-1/leadership/docs/pdf/ELN/CoreValues.pdf",
+      "locator": "Paragraph 1"
+    },
+    "edition": "2017-03-01 posting",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.core-first",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard core values",
+    "text": "Honor is first among the Coast Guard core values and is described as overarching, existing before the other values.",
+    "q": "Which Coast Guard core value comes first?",
+    "a": "Honor",
+    "distractors": [
+      "Respect",
+      "Devotion to Duty",
+      "Courage"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Do Our Core Values Need Modernizing? (Coast Guard leadership article)",
+      "publisher": "U.S. Coast Guard (CG-1 Leadership)",
+      "url": "https://www.dcms.uscg.mil/Portals/10/CG-1/leadership/docs/pdf/ELN/CoreValues.pdf",
+      "locator": "Paragraph 2"
+    },
+    "edition": "2017-03-01 posting",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.honor-def",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard core values",
+    "text": "The article defines honor in short as doing what is right even when no one is looking.",
+    "q": "Which Coast Guard core value is described as doing what is right even when no one is looking?",
+    "a": "Honor",
+    "distractors": [
+      "Respect",
+      "Devotion to Duty",
+      "Loyalty"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Do Our Core Values Need Modernizing? (Coast Guard leadership article)",
+      "publisher": "U.S. Coast Guard (CG-1 Leadership)",
+      "url": "https://www.dcms.uscg.mil/Portals/10/CG-1/leadership/docs/pdf/ELN/CoreValues.pdf",
+      "locator": "Paragraph 2"
+    },
+    "edition": "2017-03-01 posting",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.motto",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "The Coast Guard motto is Semper Paratus, which means Always Ready.",
+    "q": "What is the Coast Guard motto?",
+    "a": "Semper Paratus",
+    "distractors": [
+      "Semper Fidelis",
+      "Non Sibi Sed Patriae",
+      "Honor, Duty, Country"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Coast Guard Historian's Office, Frequently Asked Questions",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/Frequently-Asked-Questions/lang/en/",
+      "locator": "Semper Paratus entry"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.motto-meaning",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "Semper Paratus means Always Ready.",
+    "q": "What does the Coast Guard motto Semper Paratus mean?",
+    "a": "Always Ready",
+    "distractors": [
+      "Always Faithful",
+      "Ever Vigilant",
+      "Ready for Duty"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Coast Guard Historian's Office, Frequently Asked Questions",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/Frequently-Asked-Questions/lang/en/",
+      "locator": "Semper Paratus entry"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.founding-date",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "The Coast Guard traces its history to 4 August 1790, when the first Congress authorized ten vessels to enforce tariff and trade laws and prevent smuggling.",
+    "q": "On what date does the Coast Guard trace its history?",
+    "a": "4 August 1790",
+    "distractors": [
+      "4 July 1776",
+      "28 January 1915",
+      "13 October 1775"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "First paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.founding-vessels",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "In 1790 the first Congress authorized the construction of ten vessels to enforce tariff and trade laws and prevent smuggling.",
+    "q": "How many vessels did the first Congress authorize in 1790, the origin of the Coast Guard?",
+    "a": "Ten",
+    "distractors": [
+      "Five",
+      "Twelve",
+      "Twenty"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "First paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.early-names",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "Through the nineteenth and early twentieth centuries the service was known as the Revenue Marine and the Revenue Cutter Service.",
+    "q": "Which earlier name did the Coast Guard use before 1915?",
+    "a": "Revenue Cutter Service",
+    "distractors": [
+      "Life-Saving Service",
+      "Lighthouse Service",
+      "Coast Survey"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "First paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.name-1915",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "The service received the name Coast Guard in 1915, when the Revenue Cutter Service merged with the Life-Saving Service.",
+    "q": "In what year did the Coast Guard receive its present name?",
+    "a": "1915",
+    "distractors": [
+      "1790",
+      "1798",
+      "1939"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "Second paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.merger",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "In 1915 the Revenue Cutter Service merged with the Life-Saving Service to form the Coast Guard.",
+    "q": "The Revenue Cutter Service merged with which service in 1915 to form the Coast Guard?",
+    "a": "The Life-Saving Service",
+    "distractors": [
+      "The Lighthouse Service",
+      "The Bureau of Marine Inspection",
+      "The Coast and Geodetic Survey"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "Second paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.lighthouse",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "The Lighthouse Service was transferred to the Coast Guard in 1939 by order of President Franklin Roosevelt.",
+    "q": "In what year was the Lighthouse Service transferred to the Coast Guard?",
+    "a": "1939",
+    "distractors": [
+      "1915",
+      "1946",
+      "1967"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "Third paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.only-armed-force",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "Until the Navy Department was established in 1798, the Coast Guard served as the nation's only armed force afloat.",
+    "q": "Until what year was the Coast Guard the nation's only armed force afloat?",
+    "a": "1798",
+    "distractors": [
+      "1790",
+      "1812",
+      "1915"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "Fourth paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.dhs",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "In times of peace the Coast Guard operates as part of the Department of Homeland Security.",
+    "q": "In times of peace, which department includes the Coast Guard?",
+    "a": "Department of Homeland Security",
+    "distractors": [
+      "Department of the Navy",
+      "Department of Defense",
+      "Department of Transportation"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "Fourth paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "uscg.knowledge.armed-services",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "The Coast Guard is one of the five armed services of the United States.",
+    "q": "How many armed services does the United States have, including the Coast Guard?",
+    "a": "Five",
+    "distractors": [
+      "Three",
+      "Four",
+      "Six"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Coast Guard History Overview",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/home/history-program/",
+      "locator": "First paragraph"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "uscg.knowledge.motto-author",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "Captain Francis Saltus Van Boskerck wrote the words and music of Semper Paratus, the official Coast Guard marching song.",
+    "q": "Who wrote the words and music of the Coast Guard marching song Semper Paratus?",
+    "a": "Captain Francis Saltus Van Boskerck",
+    "distractors": [
+      "Captain Hopley Yeaton",
+      "Commodore Ellsworth Bertholf",
+      "Sumner Kimball"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Coast Guard Historian's Office, Frequently Asked Questions",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/Frequently-Asked-Questions/lang/en/",
+      "locator": "Semper Paratus entry"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "uscg.knowledge.first-officer",
+    "branch": [
+      "uscg"
+    ],
+    "module": "knowledge",
+    "topic": "Coast Guard history",
+    "text": "Tradition holds that Captain Hopley Yeaton was the first commissioned officer of the Revenue Cutter Service, commissioned by President George Washington in 1791.",
+    "q": "Who, by tradition, was the first commissioned officer of the Revenue Cutter Service?",
+    "a": "Captain Hopley Yeaton",
+    "distractors": [
+      "Captain Francis Van Boskerck",
+      "Alexander Hamilton",
+      "Captain Ellsworth Bertholf"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Coast Guard Historian's Office, Frequently Asked Questions",
+      "publisher": "U.S. Coast Guard Historian's Office",
+      "url": "https://www.history.uscg.mil/Frequently-Asked-Questions/lang/en/",
+      "locator": "First commissioned officer entry"
+    },
+    "edition": "Web page, viewed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

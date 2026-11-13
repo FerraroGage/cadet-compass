@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ussf.knowledge.value-char",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Guardian values",
+    "text": "Character: High moral character and ethical standards are the foundation of Guardians' personal and professional lives.",
+    "q": "Which Space Force Guardian value says high moral character and ethical standards are the foundation of personal and professional lives?",
+    "a": "Character",
+    "distractors": [
+      "Courage",
+      "Duty",
+      "Honor"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "U.S. Space Force - About Us (Guardian Values)",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/",
+      "locator": "Guardian values"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.value-commit",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Guardian values",
+    "text": "Commitment: Guardians are committed to the pursuit of mastery of themselves, their profession, and their domain, knowing this is a lifelong journey.",
+    "q": "Which Space Force Guardian value is the pursuit of mastery of oneself, one's profession and one's domain, a lifelong journey?",
+    "a": "Commitment",
+    "distractors": [
+      "Character",
+      "Connection",
+      "Integrity"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "U.S. Space Force - About Us (Guardian Values)",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/",
+      "locator": "Guardian values"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.value-connect",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Guardian values",
+    "text": "Connection: Guardians are connected by a common purpose greater than themselves.",
+    "q": "Which Space Force Guardian value means being connected by a common purpose greater than oneself?",
+    "a": "Connection",
+    "distractors": [
+      "Courage",
+      "Character",
+      "Service"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "U.S. Space Force - About Us (Guardian Values)",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/",
+      "locator": "Guardian values"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.value-courage",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Guardian values",
+    "text": "Courage: Guardians do what needs to be done and say what needs to be said because it is right.",
+    "q": "Which Space Force Guardian value means doing what needs to be done and saying what needs to be said because it is right?",
+    "a": "Courage",
+    "distractors": [
+      "Commitment",
+      "Character",
+      "Excellence"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "U.S. Space Force - About Us (Guardian Values)",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/",
+      "locator": "Guardian values"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.value-list",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Guardian values",
+    "text": "The four Space Force values are Character, Connection, Commitment and Courage.",
+    "q": "What are the four Space Force values?",
+    "a": "Character, Connection, Commitment, Courage",
+    "distractors": [
+      "Integrity, Service, Excellence, Courage",
+      "Honor, Courage, Commitment, Character",
+      "Duty, Respect, Selfless Service, Honor"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "CSO unveils Guardian Ideal, Space Force values at AFA",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/News/Article/2782534/cso-unveils-guardian-ideal-space-force-values-at-afa/",
+      "locator": "Para 3 (quote of Gen. Raymond)"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.established",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force",
+    "text": "The U.S. Space Force was established on 20 December 2019.",
+    "q": "On what date was the U.S. Space Force established?",
+    "a": "20 December 2019",
+    "distractors": [
+      "18 September 1947",
+      "1 April 2018",
+      "4 July 2020"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Space Force - About Us (Guardian Values)",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/",
+      "locator": "About the United States Space Force, para 1"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": "2019-12-20",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.first-since",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force",
+    "text": "The Space Force was the first new branch of the armed services since 1947.",
+    "q": "The Space Force was the first new branch of the armed services since which year?",
+    "a": "1947",
+    "distractors": [
+      "1918",
+      "1965",
+      "1986"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Space Force - About Us (Guardian Values)",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/",
+      "locator": "About the United States Space Force, para 1"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": "2019-12-20",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.mission",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force",
+    "text": "The Space Force mission is to secure our nation's interests in, from, and to space.",
+    "q": "What is the Space Force mission?",
+    "a": "Secure our nation's interests in, from, and to space",
+    "distractors": [
+      "Defend the homeland from air attack",
+      "Fly, fight and win in air, space and cyberspace",
+      "Provide a ready naval force from the sea"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Space Force - Mission",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/About-Space-Force/Mission/",
+      "locator": "Mission statement"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.loes",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force",
+    "text": "The Space Force lines of effort are Fielding Combat-Ready Forces, Amplifying the Guardian Spirit, and Partnering to Win.",
+    "q": "Which is one of the Space Force's three lines of effort?",
+    "a": "Amplifying the Guardian Spirit",
+    "distractors": [
+      "Securing the Cyber Domain",
+      "Modernizing Air Superiority",
+      "Expanding Orbital Commerce"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "U.S. Space Force - Mission",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/About-Us/About-Space-Force/Mission/",
+      "locator": "Lines of Effort"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.ideal-date",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force",
+    "text": "The Chief of Space Operations unveiled the Guardian Ideal and Space Force values on 21 September 2021.",
+    "q": "On what date were the Guardian Ideal and Space Force values unveiled?",
+    "a": "21 September 2021",
+    "distractors": [
+      "20 December 2019",
+      "21 September 2019",
+      "4 April 2025"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "CSO unveils Guardian Ideal, Space Force values at AFA",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/News/Article/2782534/cso-unveils-guardian-ideal-space-force-values-at-afa/",
+      "locator": "Para 1"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": "2021-09-21",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.guardian-ideal",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force",
+    "text": "The Guardian Ideal is the Space Force's foundational document on its approach to talent management, from accession to development.",
+    "q": "What is the Space Force's foundational document on talent management called?",
+    "a": "The Guardian Ideal",
+    "distractors": [
+      "The Guardian Spirit handbook",
+      "The Space Force Doctrine",
+      "The Airman's Creed"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "CSO unveils Guardian Ideal, Space Force values at AFA",
+      "publisher": "U.S. Space Force",
+      "url": "https://www.spaceforce.mil/News/Article/2782534/cso-unveils-guardian-ideal-space-force-values-at-afa/",
+      "locator": "Para 2"
+    },
+    "edition": "Web page, read 13 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.admin",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force JROTC",
+    "text": "Space Force JROTC units are administered and overseen by Air Force JROTC headquarters.",
+    "q": "Which headquarters provides administration and oversight of Space Force JROTC units?",
+    "a": "Air Force JROTC headquarters",
+    "distractors": [
+      "Space Operations Command",
+      "Air Education and Training Command",
+      "The Space Force Association"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet, current as of August 2026)",
+      "publisher": "U.S. Air Force",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Space Force JROTC Unit Cohort paragraph"
+    },
+    "edition": "Current as of August 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.origin",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force JROTC",
+    "text": "Space Force JROTC began as an initial pilot cohort of selected AFJROTC units that transitioned after the Space Force was established.",
+    "q": "How did the first Space Force JROTC units come about?",
+    "a": "Selected AFJROTC units transitioned as an initial pilot cohort",
+    "distractors": [
+      "New units were chartered by Space Operations Command",
+      "Navy JROTC units were converted",
+      "Civil Air Patrol squadrons joined"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet, current as of August 2026)",
+      "publisher": "U.S. Air Force",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Space Force JROTC Unit Cohort paragraph"
+    },
+    "edition": "Current as of August 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.mission-jrotc",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force JROTC",
+    "text": "The Air Force JROTC mission is to develop citizens of character.",
+    "q": "What is the Air Force JROTC mission?",
+    "a": "Develop citizens of character",
+    "distractors": [
+      "Prepare cadets for military service",
+      "Fly, fight and win",
+      "Recruit future Guardians"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet, current as of August 2026)",
+      "publisher": "U.S. Air Force",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Mission line"
+    },
+    "edition": "Current as of August 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 3
+  },
+  {
+    "id": "ussf.knowledge.not-recruit",
+    "branch": [
+      "ussf"
+    ],
+    "module": "knowledge",
+    "topic": "Space Force JROTC",
+    "text": "AFJROTC is not a recruiting program, and participation does not incur a military service obligation.",
+    "q": "True or false for AFJROTC: participation incurs a military service obligation.",
+    "a": "False; it does not",
+    "distractors": [
+      "True; two years",
+      "True; four years",
+      "True; only for scholarship cadets"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet, current as of August 2026)",
+      "publisher": "U.S. Air Force",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Organization paragraph"
+    },
+    "edition": "Current as of August 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 3
+  }
+]

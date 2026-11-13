@@ -1,0 +1,702 @@
+[
+  {
+    "id": "navy.uniform.wear-weekly",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Wearing the uniform",
+    "text": "The NJROTC uniform is worn by all cadets at least one full school day each week and on other occasions the naval science instructor prescribes.",
+    "q": "How often must cadets wear the NJROTC uniform at minimum?",
+    "a": "One full school day each week",
+    "distractors": [
+      "One day each month",
+      "Two school days each week",
+      "Only on drill days"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.no-sister",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Wearing the uniform",
+    "text": "Uniform articles of sister services are not authorized with the NJROTC uniform.",
+    "q": "Which uniform articles are not authorized with the NJROTC uniform?",
+    "a": "Articles of sister-service uniforms",
+    "distractors": [
+      "The black V-neck Navy pullover (SWO) sweater",
+      "Cargo pants with a unit tee shirt for field activities",
+      "Reflective armbands, vests, and sashes"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.covered-outdoors",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Wearing the uniform",
+    "text": "Outdoors, cadets stay covered at all times except when ordered to uncover or during religious services not tied to a military ceremony.",
+    "q": "When outdoors in uniform, when may a cadet be uncovered?",
+    "a": "When ordered to uncover, or at religious services not part of a military ceremony",
+    "distractors": [
+      "Whenever the weather is hot",
+      "Whenever standing in a formation at ease",
+      "Whenever the cadet is on school grounds"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.no-partial",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Wearing the uniform",
+    "text": "Cadets must be in a complete uniform that meets the standards whenever they are in uniform; a partial uniform worn to preserve it for inspection is not permitted.",
+    "q": "What state of uniform must a cadet be in whenever in uniform, including in other school classes?",
+    "a": "Complete and meeting uniform standards",
+    "distractors": [
+      "Complete only on inspection days",
+      "Complete only in formation",
+      "Complete only during drill and ceremonies"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.nametag",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Wearing the uniform",
+    "text": "When worn, the name tag is on the right side of the uniform, opposite the ribbons, with its bottom aligned with the bottom row of ribbons.",
+    "q": "On which side of the uniform is the name tag worn?",
+    "a": "Right side",
+    "distractors": [
+      "Left side, above the ribbons",
+      "Left side, below the ribbons",
+      "Centered on the chest"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.no-political",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Wearing the uniform",
+    "text": "Uniformed cadets may not take part in political activities, private employment, or commercial interests that imply official sponsorship.",
+    "q": "Which activities may a cadet in uniform not take part in?",
+    "a": "Political activities, private employment, or commercial interests implying official sponsorship",
+    "distractors": [
+      "Drills and ceremonies",
+      "Field meets in the prescribed uniform",
+      "Parades the naval science instructor prescribes"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.men-sideburns",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Men's grooming",
+    "text": "Male sideburns are neatly trimmed, of even width, and do not extend below a point level with the middle of the ear.",
+    "q": "How far down may male cadet sideburns extend?",
+    "a": "No lower than level with the middle of the ear",
+    "distractors": [
+      "To the bottom of the earlobe",
+      "To the jawline",
+      "To the corner of the mouth"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.men-mustache",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Men's grooming",
+    "text": "A male mustache must be neat and closely trimmed, must not extend below the upper lip line, and must not extend more than 1/4 inch beyond a vertical line from the corners of the mouth; no other facial hair is permitted.",
+    "q": "How far beyond a vertical line from the corners of the mouth may a male cadet's mustache extend?",
+    "a": "No more than 1/4 inch",
+    "distractors": [
+      "No more than 1/2 inch",
+      "No more than 1 inch",
+      "Not at all"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.men-nails",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Men's grooming",
+    "text": "Fingernails must not extend past the fingertips.",
+    "q": "How long may a male cadet's fingernails be?",
+    "a": "Not past the fingertips",
+    "distractors": [
+      "1/4 inch past the fingertips",
+      "Even with the first knuckle",
+      "Any length if neatly filed"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.rings",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Jewelry",
+    "text": "One ring per hand is authorized, and one wristwatch and one bracelet; ankle bracelets are not.",
+    "q": "How many rings are authorized per hand?",
+    "a": "One",
+    "distractors": [
+      "Two",
+      "Three",
+      "None"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.necklace",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Jewelry",
+    "text": "Necklaces are authorized but must not be visible.",
+    "q": "How must a necklace be worn with the NJROTC uniform?",
+    "a": "So that it is not visible",
+    "distractors": [
+      "Outside the shirt",
+      "Over the tie",
+      "Tucked so only the chain shows"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.sunglasses",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Jewelry",
+    "text": "Sunglasses are never authorized in military formations.",
+    "q": "When are sunglasses authorized in military formations?",
+    "a": "Never",
+    "distractors": [
+      "When outdoors",
+      "When the instructor approves",
+      "During parades only"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.women-hairlength",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Women's grooming",
+    "text": "Women's hair in uniform may touch, but not fall below, a horizontal line level with the lower edge of the back of the collar.",
+    "q": "How long may a female cadet's hair be in uniform?",
+    "a": "It may touch but not fall below the lower edge of the back of the collar",
+    "distractors": [
+      "Down to the shoulder blades",
+      "Down to the middle of the back",
+      "Any length if tied up"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.women-bangs",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Women's grooming",
+    "text": "When bangs are worn, they must not extend below the eyebrows.",
+    "q": "How far may female cadet bangs extend?",
+    "a": "Not below the eyebrows",
+    "distractors": [
+      "To the eyelashes",
+      "To the top of the nose",
+      "To the middle of the cheek"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.women-bun",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Women's grooming",
+    "text": "Hair bulk, minus the bun, may not exceed 2 inches from the scalp, and the bun may not exceed 3 inches from the scalp.",
+    "q": "What is the maximum bun bulk measured from the scalp?",
+    "a": "3 inches",
+    "distractors": [
+      "1 inch",
+      "4 inches",
+      "5 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.patch",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "The NJROTC patch is worn on the left sleeve of the short sleeve khaki shirt, the Service Dress Blue coat, and the black relaxed fit jacket, with its top edge 1 inch below the shoulder seam.",
+    "q": "On which sleeve is the NJROTC patch worn?",
+    "a": "Left sleeve",
+    "distractors": [
+      "Right sleeve",
+      "Either sleeve",
+      "Neither; it is worn on the chest"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.patch-notworn",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "The NJROTC patch is not worn on the raincoat, peacoat, all-weather coat, parka, or the long sleeve white shirt with Service Dress Blue.",
+    "q": "On which garment is the NJROTC patch NOT worn?",
+    "a": "Peacoat",
+    "distractors": [
+      "Service Dress Blue coat",
+      "Short sleeve khaki shirt",
+      "Black relaxed fit jacket"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.service-stars",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "Service stars are five-pointed gold stars that show courses or years completed, centered 1/4 inch above the left breast pocket or the ribbons.",
+    "q": "What do NJROTC service stars indicate?",
+    "a": "Courses or years satisfactorily completed in the program",
+    "distractors": [
+      "Months of drill team service",
+      "Academic awards earned",
+      "Number of ribbons earned"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.star-size",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "A service star is a metal five-pointed gold device 3/8 inch diagonally across, spaced 1/4 inch apart when more than one is worn.",
+    "q": "How far apart are multiple service stars spaced?",
+    "a": "1/4 inch",
+    "distractors": [
+      "1/8 inch",
+      "3/8 inch",
+      "1/2 inch"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.collar-devices",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "The JROTC device is worn on the left collar and the rank or rate device on the right collar.",
+    "q": "Which collar carries the rank or rate device?",
+    "a": "Right collar",
+    "distractors": [
+      "Left collar",
+      "Both collars",
+      "Neither; it is worn on the sleeve"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 36"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.garrison-anchor",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "A fouled anchor is worn on the left side of the garrison cap by all cadets; cadet officers and chiefs wear rank/rate insignia on the right side.",
+    "q": "On which side of the garrison cap is the fouled anchor worn?",
+    "a": "Left side",
+    "distractors": [
+      "Right side",
+      "Front center",
+      "Back center"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 37"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.aig-shoulder",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Aiguillettes",
+    "text": "Aiguillettes for color guard, drill team, academic team and similar are worn on the left shoulder only; only the Leadership Academy aiguillette is worn on the right.",
+    "q": "Which aiguillette is worn on the right shoulder?",
+    "a": "Leadership Academy",
+    "distractors": [
+      "Drill team",
+      "Color guard",
+      "Academic team"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 37"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.aig-max",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Aiguillettes",
+    "text": "No more than one aiguillette may be worn on each shoulder.",
+    "q": "How many aiguillettes may be worn on each shoulder?",
+    "a": "One",
+    "distractors": [
+      "Two",
+      "Three",
+      "As many as earned"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 37"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.aig-uniforms",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Aiguillettes",
+    "text": "Aiguillettes may be worn only on the Service Dress Blue and Service uniforms.",
+    "q": "On which uniforms may aiguillettes be worn?",
+    "a": "Service Dress Blue and Service uniforms",
+    "distractors": [
+      "Navy Working Uniform only",
+      "Any uniform",
+      "Raincoat and peacoat"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 37"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.uniform.khaki-approval",
+    "branch": [
+      "navy"
+    ],
+    "module": "uniform",
+    "topic": "Uniform composition",
+    "text": "Cadets are not authorized to wear Service Khaki without prior approval of the Area Manager.",
+    "q": "Who must approve a cadet wearing Service Khaki?",
+    "a": "The Area Manager",
+    "distractors": [
+      "The cadet battalion commander",
+      "The school principal",
+      "The cadet executive officer"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 10"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "usaf.drill.step-length",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "The marching step is 24 inches, measured heel to heel.",
+    "q": "What is the length of a marching step in AFJROTC drill?",
+    "a": "24 inches",
+    "distractors": [
+      "30 inches",
+      "12 inches",
+      "15 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 1 and p. 18"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.cadence",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "Cadence is 100 to 120 steps per minute.",
+    "q": "What is the cadence range for marching?",
+    "a": "100 to 120 steps per minute",
+    "distractors": [
+      "60 to 80 steps per minute",
+      "80 to 100 steps per minute",
+      "120 to 140 steps per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 1, Introduction to Drill"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.half-step",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "The half step is 12 inches.",
+    "q": "How long is a half step (and the steps taken at Right Step and Left Step)?",
+    "a": "12 inches",
+    "distractors": [
+      "6 inches",
+      "18 inches",
+      "24 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "pp. 18-20"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.distance",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "Distance between individuals in formation is 40 inches, measured from chest to the back of the person in front.",
+    "q": "What is the distance between individuals in a flight formation?",
+    "a": "40 inches",
+    "distractors": [
+      "24 inches",
+      "30 inches",
+      "64 inches"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 34"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.normal-interval",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "Normal interval is an arm's length.",
+    "q": "What is a normal interval?",
+    "a": "An arm's length",
+    "distractors": [
+      "4 inches",
+      "12 inches",
+      "40 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 34"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.close-interval",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "Close interval is 4 inches.",
+    "q": "How wide is a close interval?",
+    "a": "4 inches",
+    "distractors": [
+      "12 inches",
+      "24 inches",
+      "An arm's length"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 34"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.inspection-distance",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "At Open Ranks, element leaders establish a 64-inch distance.",
+    "q": "What distance do element leaders establish at Open Ranks?",
+    "a": "64 inches",
+    "distractors": [
+      "40 inches",
+      "24 inches",
+      "48 inches"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.dcid",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "DCID stands for Dress, Cover, Interval, Distance.",
+    "q": "What does DCID stand for?",
+    "a": "Dress, Cover, Interval, Distance",
+    "distractors": [
+      "Drill, Command, Interval, Direction",
+      "Dress, Count, Inspection, Distance",
+      "Direction, Cover, Inspection, Drill"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 31 (contents) and p. 34"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.cover",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "Cover means aligning yourself directly behind the person to your immediate front while maintaining proper distance.",
+    "q": "Which term means aligning directly behind the person in front of you?",
+    "a": "Cover",
+    "distractors": [
+      "Dress",
+      "Interval",
+      "Distance"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 34"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.prep-command",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The preparatory command explains what the movement will be.",
+    "q": "Which part of a drill command explains what the movement will be?",
+    "a": "Preparatory command",
+    "distractors": [
+      "Command of execution",
+      "Combined command",
+      "Command voice"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.exec-command",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command of execution explains when the movement will be conducted.",
+    "q": "Which part of a drill command explains when the movement will be conducted?",
+    "a": "Command of execution",
+    "distractors": [
+      "Preparatory command",
+      "Combined command",
+      "Command voice"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.combined",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "Fall In, At Ease and Rest are combined commands, where the preparatory command and command of execution are joined.",
+    "q": "Which type of command joins the preparatory command and command of execution, as in Fall In?",
+    "a": "Combined command",
+    "distractors": [
+      "Preparatory command",
+      "Command of execution",
+      "Supplementary command"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.as-you-were",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "As You Were revokes a preparatory command.",
+    "q": "Which command revokes a preparatory command?",
+    "a": "As You Were",
+    "distractors": [
+      "Fall Out",
+      "At Ease",
+      "Ready Front"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 3"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.dlips",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The characteristics of the command voice are remembered with the acronym DLIPS.",
+    "q": "What acronym covers the characteristics of command voice?",
+    "a": "DLIPS",
+    "distractors": [
+      "DCID",
+      "CPRS",
+      "PACE"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "pp. 3-4"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.stationary-vs-transitory",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "Stationary drill commands are given from the position of attention; transitory drill commands are given while marching.",
+    "q": "From what position are stationary drill commands given?",
+    "a": "Attention",
+    "distractors": [
+      "Parade rest",
+      "At ease",
+      "While marching"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.attention-feet",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "At attention, the heels are together and on line with the feet forming a 45-degree angle.",
+    "q": "What angle do the feet form at the position of attention?",
+    "a": "45 degrees",
+    "distractors": [
+      "30 degrees",
+      "90 degrees",
+      "22.5 degrees"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.parade-rest-foot",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "At Parade Rest the left foot moves to the left and is placed 22 1/2 degrees off the center line, with heels about 12 inches apart.",
+    "q": "How far apart are the heels at Parade Rest?",
+    "a": "About 12 inches",
+    "distractors": [
+      "About 6 inches",
+      "About 24 inches",
+      "About 4 inches"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.parade-rest-hands",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "At Parade Rest the right hand rests in the left palm with the right thumb over the left so the thumbs form an X.",
+    "q": "At Parade Rest, which thumb is over the other?",
+    "a": "The right thumb over the left",
+    "distractors": [
+      "The left thumb over the right",
+      "Thumbs side by side",
+      "Thumbs tucked inside the fists"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.at-ease",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "At Ease allows no speaking; the right foot stays in place and the only command you may receive is Flight, Attention.",
+    "q": "May a cadet speak At Ease?",
+    "a": "No",
+    "distractors": [
+      "Yes, in a moderate tone",
+      "Yes, in a whisper",
+      "Only to the person beside them"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "pp. 11-12"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.rest",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "At Rest, moderate speech is permitted.",
+    "q": "Which position allows moderate speech while still standing in formation?",
+    "a": "Rest",
+    "distractors": [
+      "At Ease",
+      "Parade Rest",
+      "Attention"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.fall-out",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "On Fall Out, cadets must remain in the immediate area, and the only command that can be given from Fall Out is Fall In.",
+    "q": "What is the only command that can follow Fall Out?",
+    "a": "Fall In",
+    "distractors": [
+      "Dismissed",
+      "Attention",
+      "Rest"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.dismissed",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "On the command Dismissed, members break ranks and leave the area.",
+    "q": "Which command tells members to break ranks and leave the area?",
+    "a": "Dismissed",
+    "distractors": [
+      "Fall Out",
+      "Rest",
+      "At Ease"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 11"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.left-face",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "Left Face is a two-count movement pivoting 90 degrees to the left.",
+    "q": "How many counts is Left Face?",
+    "a": "Two",
+    "distractors": [
+      "One",
+      "Three",
+      "Four"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 12"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.about-face",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "About Face is a two-count movement pivoting 180 degrees to the right.",
+    "q": "How many degrees does About Face turn, and in which direction?",
+    "a": "180 degrees to the right",
+    "distractors": [
+      "90 degrees to the right",
+      "180 degrees to the left",
+      "90 degrees to the left"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.about-face-foot",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "On About Face, the ball of the right foot is placed about half a shoe length behind and slightly left of the left heel.",
+    "q": "On About Face, which foot is placed behind the other?",
+    "a": "The right foot",
+    "distractors": [
+      "The left foot",
+      "Neither, both pivot together",
+      "The foot nearest the guide"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 13"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.hand-salute-contact",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Salute",
+    "text": "With a billed cap, the tip of the middle finger touches the right front corner of the cap at Present Arms.",
+    "q": "With a billed cap, where does the middle finger touch when saluting?",
+    "a": "Right front corner of the cap",
+    "distractors": [
+      "Outside corner of the right eyebrow",
+      "Center of the forehead",
+      "Right ear"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.salute-no-cap",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Salute",
+    "text": "With no cap or a non-billed cap and no glasses, the middle finger touches the outside corner of the right eyebrow.",
+    "q": "Without a billed cap or glasses, where does the middle finger touch when saluting?",
+    "a": "Outside corner of the right eyebrow",
+    "distractors": [
+      "Right front corner of the cap",
+      "Center of the forehead",
+      "Right temple"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 14"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.eyes-right-step",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "Between the preparatory command and command of execution for Eyes Right and Ready Front there is only one 24-inch step.",
+    "q": "How many steps fall between the two parts of Eyes, Right?",
+    "a": "One 24-inch step",
+    "distractors": [
+      "Two 24-inch steps",
+      "No steps",
+      "One 12-inch step"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.forward-march",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "Forward, March begins with the left foot.",
+    "q": "Which foot steps off first on Forward, March?",
+    "a": "Left",
+    "distractors": [
+      "Right",
+      "Either, as the leader chooses",
+      "Both feet together"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 18"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.arm-swing",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "Arms swing 6 inches to the front and 3 inches to the rear.",
+    "q": "How far does the arm swing to the front when marching?",
+    "a": "6 inches",
+    "distractors": [
+      "3 inches",
+      "12 inches",
+      "9 inches"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 18"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.flank-pivot",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "On Right or Left Flank, March, everyone takes one more 24-inch step and then pivots 90 degrees.",
+    "q": "How many degrees do cadets pivot on a flank movement?",
+    "a": "90 degrees",
+    "distractors": [
+      "45 degrees",
+      "180 degrees",
+      "22.5 degrees"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.to-the-rear",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "On To the Rear, March, each cadet takes one 12-inch step with the left foot in front of and in line with the right foot before pivoting.",
+    "q": "How long is the step taken at the start of To the Rear, March?",
+    "a": "12 inches",
+    "distractors": [
+      "24 inches",
+      "6 inches",
+      "30 inches"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.flight-halt",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Marching",
+    "text": "Flight, Halt may be given on either foot, provided both parts are given on the same foot.",
+    "q": "On which foot may Flight, Halt be given?",
+    "a": "Either foot, if both parts are on the same foot",
+    "distractors": [
+      "Right foot only",
+      "Left foot only",
+      "Preparatory on left and execution on right"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 18"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.open-ranks-4th",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "At Open Ranks, March, the fourth element stands fast, the third takes one step, the second takes two, and the first and guidon bearer take three 24-inch steps.",
+    "q": "At Open Ranks, how many 24-inch steps does the first element take?",
+    "a": "Three",
+    "distractors": [
+      "One",
+      "Two",
+      "Four"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 16"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.size-flight",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "Taller Tap is conducted three times when sizing the flight.",
+    "q": "How many times is Taller Tap performed when sizing the flight?",
+    "a": "Three",
+    "distractors": [
+      "One",
+      "Two",
+      "Four"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.column-fall-in-distance",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "Element leaders Fall In behind the first element leader at about 40 inches.",
+    "q": "What distance separates the elements when a flight falls in?",
+    "a": "About 40 inches",
+    "distractors": [
+      "About 24 inches",
+      "About 64 inches",
+      "About 12 inches"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 7"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.drill.salute-who",
+    "branch": [
+      "usaf"
+    ],
+    "module": "drill",
+    "topic": "Salute",
+    "text": "Outdoors, hand salutes are exchanged between enlisted cadets and officers, and between officer cadets; the junior cadet initiates the salute.",
+    "q": "Who initiates a salute between two cadets of different grades?",
+    "a": "The junior cadet",
+    "distractors": [
+      "The senior cadet",
+      "Whoever sees the other first, always the senior",
+      "The flight commander"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 15"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

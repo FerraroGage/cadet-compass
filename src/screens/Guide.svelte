@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { app, fmtDate } from '../lib/store.svelte';
+  import { app, facts, fmtDate } from '../lib/store.svelte';
   import { MODULES } from '../lib/quiz';
   import FactTable from '../lib/FactTable.svelte';
 
   const b = app.bundle!;
-  const sections = MODULES.map((m, i) => {
-    const facts = b.facts.filter((f) => f.module === m.id);
-    return { ...m, n: i + 1, topics: [...new Set(facts.map((f) => f.topic))].map((name) => ({ name, rows: facts.filter((f) => f.topic === name) })) };
+  const sections = MODULES.filter((m) => facts().some((f) => f.module === m.id)).map((m, i) => {
+    const mine = facts().filter((f) => f.module === m.id);
+    return { ...m, n: i + 1, topics: [...new Set(mine.map((f) => f.topic))].map((name) => ({ name, rows: mine.filter((f) => f.topic === name) })) };
   });
 </script>
 

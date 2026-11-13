@@ -1,0 +1,282 @@
+[
+  {
+    "id": "usaf.knowledge.mission",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Mission",
+    "text": "The AFJROTC mission is to develop citizens of character.",
+    "q": "What is the AFJROTC mission?",
+    "a": "Develop citizens of character",
+    "distractors": [
+      "Develop future Air Force pilots",
+      "Recruit students into the Air Force",
+      "Develop leaders of aerospace power"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet)",
+      "publisher": "U.S. Air Force (af.mil)",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Mission"
+    },
+    "edition": "Web page, accessed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usaf.knowledge.core-values",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Core values",
+    "text": "The Air Force core values are Integrity First, Service Before Self, and Excellence In All We Do.",
+    "q": "What are the three Air Force core values?",
+    "a": "Integrity First, Service Before Self, Excellence In All We Do",
+    "distractors": [
+      "Duty, Honor, Country",
+      "Honor, Courage, Commitment",
+      "Loyalty, Duty, Respect"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet)",
+      "publisher": "U.S. Air Force (af.mil)",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Organization"
+    },
+    "edition": "Web page, accessed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usaf.knowledge.first-core-value",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Core values",
+    "text": "The first Air Force core value is Integrity First.",
+    "q": "Which core value comes first?",
+    "a": "Integrity First",
+    "distractors": [
+      "Service Before Self",
+      "Excellence In All We Do",
+      "Duty First"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet)",
+      "publisher": "U.S. Air Force (af.mil)",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Organization"
+    },
+    "edition": "Web page, accessed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usaf.knowledge.not-recruiting",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "Under Title 10, U.S. Code, AFJROTC is not a recruiting program, and participation does not incur a military service obligation.",
+    "q": "Does AFJROTC participation create a military service obligation?",
+    "a": "No",
+    "distractors": [
+      "Yes, two years",
+      "Yes, four years",
+      "Only for cadets who earn a scholarship"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet)",
+      "publisher": "U.S. Air Force (af.mil)",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Organization"
+    },
+    "edition": "Web page, accessed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.knowledge.curriculum",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "The AFJROTC curriculum consists of Aerospace Science, Leadership Education, and Health and Wellness.",
+    "q": "Which is one of the three parts of the AFJROTC curriculum?",
+    "a": "Aerospace Science",
+    "distractors": [
+      "Naval Science",
+      "Military History",
+      "Marksmanship"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet)",
+      "publisher": "U.S. Air Force (af.mil)",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Curriculum"
+    },
+    "edition": "Web page, accessed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.knowledge.goals",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "AFJROTC goals are to instill the values of citizenship, service to the United States, personal responsibility, and a sense of accomplishment.",
+    "q": "Which of these is an AFJROTC goal?",
+    "a": "A sense of accomplishment",
+    "distractors": [
+      "Preparing cadets for combat",
+      "Guaranteeing an appointment to a service academy",
+      "Required enlistment"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Air Force Junior Reserve Officer Training Corps (fact sheet)",
+      "publisher": "U.S. Air Force (af.mil)",
+      "url": "https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104476/air-force-junior-reserve-officer-training-corps/",
+      "locator": "Goals"
+    },
+    "edition": "Web page, accessed 2026-11-13",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usaf.knowledge.washington-steuben",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Drill history",
+    "text": "Baron von Steuben, a Prussian officer, arrived at Valley Forge in February 1778 to help General Washington instill discipline in the Continental Army.",
+    "q": "Who helped General Washington instill discipline through drill at Valley Forge?",
+    "a": "Baron von Steuben",
+    "distractors": [
+      "Marquis de Lafayette",
+      "Nathanael Greene",
+      "Thaddeus Kosciuszko"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 1"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usaf.knowledge.model-company",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Drill history",
+    "text": "Von Steuben first taught drill to a model company of 120 selected men.",
+    "q": "How many men were in von Steuben's model company?",
+    "a": "120",
+    "distractors": [
+      "60",
+      "200",
+      "500"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 1"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usaf.knowledge.first-manual",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Drill history",
+    "text": "In 1789 Baron von Steuben wrote the American army's first field manual.",
+    "q": "In what year did von Steuben write the American army's first field manual?",
+    "a": "1789",
+    "distractors": [
+      "1778",
+      "1812",
+      "1861"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "Learn to Lead (L2L) AFJROTC Cadet Drill Guide",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Portals/78/AFJROTC/documents/Training/L2L_Cadet_Drill_Guide_2023_V2.pdf",
+      "locator": "p. 1"
+    },
+    "edition": "2023, V2",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usaf.knowledge.jrotc-1916",
+    "branch": [
+      "usaf"
+    ],
+    "module": "knowledge",
+    "topic": "Program",
+    "text": "Congress established the Junior ROTC under the National Defense Act of 1916.",
+    "q": "Under what act did Congress establish Junior ROTC?",
+    "a": "National Defense Act of 1916",
+    "distractors": [
+      "G.I. Bill of 1944",
+      "National Security Act of 1947",
+      "Goldwater-Nichols Act"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Cadet Information",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Holm-Center/AFJROTC/Article-Display/Article/4014330/cadet-information/",
+      "locator": "Joining AFJROTC"
+    },
+    "edition": "Web page published 22 Sep 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

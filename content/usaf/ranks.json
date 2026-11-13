@@ -1,0 +1,377 @@
+[
+  {
+    "id": "usaf.ranks.order-colonel",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer grades",
+    "text": "Cadet Colonel (O-6) is number 1 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "What is the highest AFJROTC cadet grade?",
+    "a": "Cadet Colonel",
+    "group": "rank",
+    "order": 1,
+    "difficulty": 1,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-lieutenant-colonel",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer grades",
+    "text": "Cadet Lieutenant Colonel (O-5) is number 2 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Colonel?",
+    "a": "Cadet Lieutenant Colonel",
+    "group": "rank",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-major",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer grades",
+    "text": "Cadet Major (O-4) is number 3 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Lieutenant Colonel?",
+    "a": "Cadet Major",
+    "group": "rank",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-captain",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer grades",
+    "text": "Cadet Captain (O-3) is number 4 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Major?",
+    "a": "Cadet Captain",
+    "group": "rank",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-first-lieutenant",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer grades",
+    "text": "Cadet First Lieutenant (O-2) is number 5 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Captain?",
+    "a": "Cadet First Lieutenant",
+    "group": "rank",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-second-lieutenant",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer grades",
+    "text": "Cadet Second Lieutenant (O-1) is number 6 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet First Lieutenant?",
+    "a": "Cadet Second Lieutenant",
+    "group": "rank",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-chief-master-sergeant",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Chief Master Sergeant (E-9) is number 7 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Second Lieutenant?",
+    "a": "Cadet Chief Master Sergeant",
+    "group": "rank",
+    "order": 7,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-senior-master-sergeant",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Senior Master Sergeant (E-8) is number 8 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Chief Master Sergeant?",
+    "a": "Cadet Senior Master Sergeant",
+    "group": "rank",
+    "order": 8,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-master-sergeant",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Master Sergeant (E-7) is number 9 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Senior Master Sergeant?",
+    "a": "Cadet Master Sergeant",
+    "group": "rank",
+    "order": 9,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-technical-sergeant",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Technical Sergeant (E-6) is number 10 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Master Sergeant?",
+    "a": "Cadet Technical Sergeant",
+    "group": "rank",
+    "order": 10,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-staff-sergeant",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Staff Sergeant (E-5) is number 11 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Technical Sergeant?",
+    "a": "Cadet Staff Sergeant",
+    "group": "rank",
+    "order": 11,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-senior-airman",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Senior Airman (E-4) is number 12 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Staff Sergeant?",
+    "a": "Cadet Senior Airman",
+    "group": "rank",
+    "order": 12,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-airman-first-class",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Airman First Class (E-3) is number 13 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Senior Airman?",
+    "a": "Cadet Airman First Class",
+    "group": "rank",
+    "order": 13,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-airman",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Airman (E-2) is number 14 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Airman First Class?",
+    "a": "Cadet Airman",
+    "group": "rank",
+    "order": 14,
+    "difficulty": 2,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ranks.order-airman-basic",
+    "branch": [
+      "usaf"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted grades",
+    "text": "Cadet Airman Basic (E-1) is number 15 of 15 in AFJROTC cadet grade order, highest first.",
+    "q": "Which cadet grade comes directly below Cadet Airman?",
+    "a": "Cadet Airman Basic",
+    "group": "rank",
+    "order": 15,
+    "difficulty": 1,
+    "source": {
+      "title": "NC-074 AFJROTC Cadet Handbook SY 2025-26",
+      "publisher": "Pine Forest High School AFJROTC (unit handbook)",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4929/Pff/a4e6f7a5-52cb-4f23-9bbc-0d386dd6eabf/NC-074-Cadet-Handbook-SY-25-26.pdf?disposition=inline",
+      "locator": "Chapter 5 and pp. 68-69"
+    },
+    "edition": "SY 2025-26",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  }
+]

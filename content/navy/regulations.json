@@ -1,0 +1,86 @@
+[
+  {
+    "id": "navy.regulations.cap-duty",
+    "branch": [
+      "navy"
+    ],
+    "module": "regulations",
+    "topic": "Uniform rules",
+    "text": "While on official duty wearing a guard belt or leggings, the cap is required even indoors.",
+    "q": "When is a cap required indoors?",
+    "a": "While on official duty wearing a guard belt or leggings",
+    "distractors": [
+      "Whenever in uniform",
+      "Never indoors",
+      "During class only"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.regulations.mods-approval",
+    "branch": [
+      "navy"
+    ],
+    "module": "regulations",
+    "topic": "Uniform rules",
+    "text": "Modifications to cadet uniforms must be approved in advance by the Area Manager.",
+    "q": "Who must approve modifications to cadet uniforms?",
+    "a": "The Area Manager",
+    "distractors": [
+      "The cadet battalion commander",
+      "The school principal",
+      "The drill team captain"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.regulations.ribbons-all",
+    "branch": [
+      "navy"
+    ],
+    "module": "regulations",
+    "topic": "Uniform rules",
+    "text": "All earned NJROTC ribbons must be worn at the same time, but only one of each ribbon design is worn, with devices for subsequent awards.",
+    "q": "How many of each ribbon design may be worn?",
+    "a": "One, with devices for subsequent awards",
+    "distractors": [
+      "One per year earned",
+      "Two",
+      "As many as earned"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Field Manual (CFM), 12th Edition, NAVEDTRA 37116-L",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/CFM%2012th%20Edition%20Master%20Draft%20(0509-LP-002-6028)%2017%20APR%202024.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "12th Edition, 17 Apr 2024 (0509-LP-002-6028)",
+    "effective_from": "2024-04-17",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

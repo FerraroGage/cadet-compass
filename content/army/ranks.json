@@ -1,0 +1,539 @@
+[
+  {
+    "id": "army.ranks.colonel",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Colonel shoulder mark shows three lozenges.",
+    "q": "Which Army JROTC cadet rank is shown by three lozenges?",
+    "a": "Cadet Colonel",
+    "group": "rank-insignia",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.ltc",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Lieutenant Colonel shoulder mark shows two lozenges.",
+    "q": "Which Army JROTC cadet rank is shown by two lozenges?",
+    "a": "Cadet Lieutenant Colonel",
+    "group": "rank-insignia",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.major",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Major shoulder mark shows one lozenge.",
+    "q": "Which Army JROTC cadet rank is shown by one lozenge?",
+    "a": "Cadet Major",
+    "group": "rank-insignia",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.captain",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Captain shoulder mark shows three discs.",
+    "q": "Which Army JROTC cadet rank is shown by three discs?",
+    "a": "Cadet Captain",
+    "group": "rank-insignia",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.1lt",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet First Lieutenant shoulder mark shows two discs.",
+    "q": "Which Army JROTC cadet rank is shown by two discs?",
+    "a": "Cadet First Lieutenant",
+    "group": "rank-insignia",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.2lt",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Second Lieutenant shoulder mark shows one disc.",
+    "q": "Which Army JROTC cadet rank is shown by one disc?",
+    "a": "Cadet Second Lieutenant",
+    "group": "rank-insignia",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.sgm",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Sergeant Major shoulder mark shows three chevrons above three bars with a star within a wreath between the chevrons and bars.",
+    "q": "Which Army JROTC cadet rank is shown by three chevrons above three bars with a star within a wreath between the chevrons and bars?",
+    "a": "Cadet Sergeant Major",
+    "group": "rank-insignia",
+    "order": 7,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.ssgm",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Staff Sergeant Major shoulder mark shows three chevrons above three bars with a star between the chevrons and bars.",
+    "q": "Which Army JROTC cadet rank is shown by three chevrons above three bars with a star between the chevrons and bars?",
+    "a": "Cadet Staff Sergeant Major",
+    "group": "rank-insignia",
+    "order": 8,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.1sg",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet First Sergeant shoulder mark shows three chevrons above three bars with a diamond between the chevrons and bars.",
+    "q": "Which Army JROTC cadet rank is shown by three chevrons above three bars with a diamond between the chevrons and bars?",
+    "a": "Cadet First Sergeant",
+    "group": "rank-insignia",
+    "order": 9,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.msg",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Master Sergeant shoulder mark shows three chevrons above three bars.",
+    "q": "Which Army JROTC cadet rank is shown by three chevrons above three bars?",
+    "a": "Cadet Master Sergeant",
+    "group": "rank-insignia",
+    "order": 10,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.sfc",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Sergeant First Class shoulder mark shows three chevrons above two bars.",
+    "q": "Which Army JROTC cadet rank is shown by three chevrons above two bars?",
+    "a": "Cadet Sergeant First Class",
+    "group": "rank-insignia",
+    "order": 11,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.ssg",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Staff Sergeant shoulder mark shows three chevrons above one bar.",
+    "q": "Which Army JROTC cadet rank is shown by three chevrons above one bar?",
+    "a": "Cadet Staff Sergeant",
+    "group": "rank-insignia",
+    "order": 12,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.sgt",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Sergeant shoulder mark shows three chevrons.",
+    "q": "Which Army JROTC cadet rank is shown by three chevrons?",
+    "a": "Cadet Sergeant",
+    "group": "rank-insignia",
+    "order": 13,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.cpl",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Corporal shoulder mark shows two chevrons.",
+    "q": "Which Army JROTC cadet rank is shown by two chevrons?",
+    "a": "Cadet Corporal",
+    "group": "rank-insignia",
+    "order": 14,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.pfc",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Private First Class shoulder mark shows one chevron above one bar.",
+    "q": "Which Army JROTC cadet rank is shown by one chevron above one bar?",
+    "a": "Cadet Private First Class",
+    "group": "rank-insignia",
+    "order": 15,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.pvt",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Private shoulder mark shows one chevron.",
+    "q": "Which Army JROTC cadet rank is shown by one chevron?",
+    "a": "Cadet Private",
+    "group": "rank-insignia",
+    "order": 16,
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.basic",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Cadet rank insignia",
+    "text": "The Cadet Basic wears no insignia of rank.",
+    "q": "Which Army JROTC cadet rank wears no insignia of rank?",
+    "a": "Cadet Basic",
+    "group": "rank-insignia",
+    "order": 17,
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12b(17)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.officer-board",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Wearing rank",
+    "text": "Cadet officer insignia is silver on a black background and uses lozenges and discs.",
+    "q": "What marks Army JROTC cadet officer insignia?",
+    "a": "Lozenges and discs",
+    "distractors": [
+      "Chevrons and bars",
+      "Stars and eagles",
+      "Oak leaves only"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12a"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.enl-ncos",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Wearing rank",
+    "text": "Enlisted cadet insignia uses chevrons, bars, and a diamond, star, or star within a wreath for noncommissioned officer ranks.",
+    "q": "What does Army JROTC enlisted cadet insignia use?",
+    "a": "Chevrons, bars, and a diamond, star, or star within a wreath",
+    "distractors": [
+      "Lozenges and discs",
+      "Gold bars and oak leaves",
+      "Stripes and rockers only"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12a"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.shoulder-board",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Wearing rank",
+    "text": "Shoulder board rank insignia is authorized for wear only on the gray shirt.",
+    "q": "On which part of the uniform are Army JROTC shoulder boards authorized?",
+    "a": "The gray shirt only",
+    "distractors": [
+      "The C/ASU jacket only",
+      "The beret",
+      "The Army Camouflage Uniform"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12c(2)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "army.ranks.pin-on",
+    "branch": [
+      "army"
+    ],
+    "module": "ranks",
+    "topic": "Wearing rank",
+    "text": "Pin-on rank insignia is worn only on the shoulder loops of the C/ASU jacket.",
+    "q": "Where is pin-on rank insignia worn?",
+    "a": "On the shoulder loops of the C/ASU jacket",
+    "distractors": [
+      "On the beret flash",
+      "On the gray shirt collar",
+      "On the lapels"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-12c(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

@@ -1,0 +1,814 @@
+[
+  {
+    "id": "army.uniform.primary",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "The Cadet Army Service Uniform (C/ASU) is the primary uniform for all Army JROTC units.",
+    "q": "What is the primary uniform for all Army JROTC units?",
+    "a": "Cadet Army Service Uniform (C/ASU)",
+    "distractors": [
+      "Army Camouflage Uniform",
+      "Class B gray shirt only",
+      "Physical training uniform"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.acu-use",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Cadets wear the Army Camouflage Uniform only for adventure training, JCLC, or special team activities.",
+    "q": "For which activities may cadets wear the Army Camouflage Uniform?",
+    "a": "Adventure training, JCLC, or special team activities",
+    "distractors": [
+      "The normal school day",
+      "Class pictures",
+      "Promotion boards only"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.acu-campus",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Uniform types",
+    "text": "Cadets do not wear the Army Camouflage Uniform on campus during the normal school day.",
+    "q": "Where may cadets not wear the Army Camouflage Uniform during the normal school day?",
+    "a": "On campus",
+    "distractors": [
+      "At JCLC",
+      "At adventure training",
+      "On a team trip"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.coat",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "C/ASU composition",
+    "text": "The C/ASU coat is the enlisted Army Blue 450 coat without stripes on the sleeves.",
+    "q": "What kind of coat is part of the C/ASU?",
+    "a": "Enlisted Army Blue 450 coat without sleeve stripes",
+    "distractors": [
+      "Officer Army Green coat",
+      "Army Blue coat with gold braid",
+      "Army Camouflage coat"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.trousers",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "C/ASU composition",
+    "text": "C/ASU trousers and slacks are Army Blue 451 without the yellow braid.",
+    "q": "What is notable about C/ASU Army Blue 451 trousers?",
+    "a": "They have no yellow braid",
+    "distractors": [
+      "They have a gold stripe",
+      "They have a red stripe",
+      "They are Army Green"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.shirt",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "C/ASU composition",
+    "text": "The C/ASU is worn with a gray long sleeve or short sleeve shirt.",
+    "q": "What color shirt is worn with the C/ASU?",
+    "a": "Gray",
+    "distractors": [
+      "White",
+      "Tan",
+      "Blue"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.belt",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "C/ASU composition",
+    "text": "The C/ASU is worn with the authorized black belt with brass buckle.",
+    "q": "What belt is worn with the C/ASU?",
+    "a": "Black belt with brass buckle",
+    "distractors": [
+      "Brown belt with silver buckle",
+      "Black belt with silver buckle",
+      "Gray belt with brass buckle"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.shoes",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "C/ASU composition",
+    "text": "The C/ASU is worn with black dress shoes and dress socks.",
+    "q": "What footwear goes with the C/ASU?",
+    "a": "Black dress shoes and dress socks",
+    "distractors": [
+      "Brown boots",
+      "White sneakers",
+      "Black combat boots"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-3b(1)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.beret",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Headgear",
+    "text": "The gray beret is the only headgear authorized with the C/ASU dress uniform.",
+    "q": "Which headgear is the only one authorized with the C/ASU?",
+    "a": "Gray beret",
+    "distractors": [
+      "Black beret",
+      "Maroon beret",
+      "Garrison cap"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5c"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.beret-out",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Headgear",
+    "text": "Cadets wear the gray beret outdoors or when carrying air/drill rifles or a saber.",
+    "q": "When are cadets required to wear the gray beret?",
+    "a": "Outdoors, or when carrying air/drill rifles or a saber",
+    "distractors": [
+      "Only indoors",
+      "Only at ceremonies",
+      "Only on Fridays"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5c"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.beret-colors",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Headgear",
+    "text": "Green, tan, maroon, brown, and black berets are reserved for Army units and are not authorized for cadets.",
+    "q": "Which beret color may a JROTC cadet not wear?",
+    "a": "Maroon",
+    "distractors": [
+      "Gray",
+      "Gray with a JROTC flash",
+      "Gray wool"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-9a(5)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.beret-insig",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "The JROTC beret insignia is worn centered on the flash of the JROTC beret.",
+    "q": "Where is the JROTC beret insignia worn?",
+    "a": "Centered on the flash of the beret",
+    "distractors": [
+      "Above the left eye",
+      "On the left side of the beret",
+      "On the band"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-10b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.beret-insig-size",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "The JROTC beret insignia is a gold-colored wreath 1 3/16 inches in height containing the letters JROTC.",
+    "q": "What is the height of the JROTC beret insignia wreath?",
+    "a": "1 3/16 inches",
+    "distractors": [
+      "1 inch",
+      "1 3/8 inches",
+      "1 3/4 inches"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-10a"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.corps",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "The JROTC Corps insignia is the Torch of Knowledge, a gold-colored disc 5/8 inch in diameter.",
+    "q": "What is the JROTC Corps insignia?",
+    "a": "The Torch of Knowledge",
+    "distractors": [
+      "The Eagle of Liberty",
+      "The Crossed Rifles",
+      "The Sword and Wreath"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-11a"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.letter",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "The JROTC letter insignia is 1 3/4 inches long and gold colored.",
+    "q": "How long is the JROTC letter insignia?",
+    "a": "1 3/4 inches",
+    "distractors": [
+      "1 3/8 inches",
+      "1 1/4 inches",
+      "2 inches"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-11b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.classb-corps",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Insignia",
+    "text": "No Corps insignia is worn on the Class B uniform.",
+    "q": "Which uniform has no Corps insignia worn on it?",
+    "a": "Class B",
+    "distractors": [
+      "Class A",
+      "C/ASU coat",
+      "Army Camouflage Uniform"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-11e"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.watch",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Cadets may wear a wristwatch, a wrist identification bracelet, and a total of two rings.",
+    "q": "How many rings may a cadet wear in uniform in total?",
+    "a": "Two",
+    "distractors": [
+      "One",
+      "Three",
+      "None"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.piercing",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Attaching or displaying objects through the skin, tongue, or any other body part is prohibited.",
+    "q": "Which is prohibited for cadets in uniform?",
+    "a": "Objects through the skin, tongue, or any other body part",
+    "distractors": [
+      "A wristwatch",
+      "A wrist identification bracelet",
+      "Two rings"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.earrings",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Female cadets may wear earrings with the C/ASU and ACU only, not exceeding 6 mm or 1/4 inch in diameter.",
+    "q": "What is the maximum diameter of earrings with the C/ASU?",
+    "a": "6 mm (1/4 inch)",
+    "distractors": [
+      "3 mm",
+      "8 mm",
+      "1/2 inch"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.earring-pair",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Females may wear earrings only as a matched pair, one earring per ear lobe.",
+    "q": "How many earrings per ear lobe may a female cadet wear?",
+    "a": "One",
+    "distractors": [
+      "Two",
+      "Three",
+      "None"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.pockets",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "In uniform, cadets do not place their hands in their pockets except momentarily to place or retrieve items.",
+    "q": "When may a cadet in uniform put hands in pockets?",
+    "a": "Only momentarily to place or retrieve items",
+    "distractors": [
+      "Whenever cold",
+      "During formations",
+      "Never, with no exception"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5a"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.mixing",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "The Army JROTC cadet uniform will not be mixed with civilian clothing.",
+    "q": "What may not be mixed with the JROTC cadet uniform?",
+    "a": "Civilian clothing",
+    "distractors": [
+      "Gray shirt",
+      "Army Blue trousers",
+      "Black dress shoes"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5a"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.headband",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Hair headbands should not be wider than 1 1/2 inches.",
+    "q": "What is the maximum width of a headband with the uniform?",
+    "a": "1 1/2 inches",
+    "distractors": [
+      "1 inch",
+      "2 inches",
+      "3/4 inch"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-6b"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.sideburns",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Sideburns will not extend below the lowest part of the exterior ear opening.",
+    "q": "How far may sideburns extend?",
+    "a": "Not below the lowest part of the exterior ear opening",
+    "distractors": [
+      "To the jawline",
+      "To the bottom of the earlobe",
+      "To the middle of the cheek"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-6c"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.face",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "The face will be clean-shaven, except for permitted mustaches.",
+    "q": "What facial hair is permitted with the uniform?",
+    "a": "Mustaches",
+    "distractors": [
+      "Full beards",
+      "Goatees",
+      "Soul patches"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-6c"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.nails",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Acrylic nails may not extend more than 1/2 inch from the tip of the finger.",
+    "q": "How far may acrylic nails extend from the fingertip?",
+    "a": "No more than 1/2 inch",
+    "distractors": [
+      "1 inch",
+      "1/4 inch",
+      "3/4 inch"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-6d"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.religious",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Appearance",
+    "text": "Cadets may wear a turban, hijab, or yarmulke with the JROTC uniform if it bears no writing, symbols, or pictures.",
+    "q": "Which religious headgear is approved with the JROTC uniform?",
+    "a": "Turban, hijab, and yarmulke",
+    "distractors": [
+      "Only a yarmulke",
+      "Only a hijab",
+      "None"
+    ],
+    "difficulty": 3,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-5d"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.no-us",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Unauthorized items",
+    "text": "The letters U.S. insignia are not authorized for wear on JROTC cadet uniforms.",
+    "q": "Which insignia is not authorized on JROTC cadet uniforms?",
+    "a": "Insignia of the letters U.S.",
+    "distractors": [
+      "JROTC Corps insignia",
+      "Beret insignia",
+      "Rank insignia"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-9a(2)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "army.uniform.no-flag",
+    "branch": [
+      "army"
+    ],
+    "module": "uniform",
+    "topic": "Unauthorized items",
+    "text": "Cadets are not authorized to wear the full color or subdued U.S. flag insignia.",
+    "q": "Which flag insignia may cadets not wear?",
+    "a": "The full color or subdued U.S. flag",
+    "distractors": [
+      "JROTC subdued shoulder sleeve insignia",
+      "School shoulder sleeve insignia",
+      "Team pins"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "USACC Regulation 145-2, JROTC Organization, Administration, Operations, Training and Support",
+      "publisher": "U.S. Army Cadet Command",
+      "url": "https://usarmyjrotc.army.mil/wp-content/uploads/2025/05/CCR_145-2_12AUG22.pdf_ADWFD24.tmp-1.pdf",
+      "locator": "para 8-9a(6)"
+    },
+    "edition": "12 August 2022 (listed as under review)",
+    "effective_from": "2022-08-12",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

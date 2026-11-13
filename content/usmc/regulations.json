@@ -1,61 +1,5 @@
 [
   {
-    "id": "usmc.regulations.legal-basis",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Program basis",
-    "text": "The legal basis for Junior ROTC is Section 2031 of Title 10, United States Code, enacted by Public Law 88-647.",
-    "q": "What is the legal basis for Junior ROTC?",
-    "a": "Section 2031 of Title 10, United States Code",
-    "distractors": [
-      "Section 320 of Title 14, United States Code",
-      "The National Defense Act of 1916 alone",
-      "Marine Corps Order 5060.20"
-    ],
-    "difficulty": 3,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 4"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.authority",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Program basis",
-    "text": "The Secretary of the Navy has authorized the Commandant of the Marine Corps to establish MCJROTC units.",
-    "q": "Who authorized the Commandant to establish MCJROTC units?",
-    "a": "The Secretary of the Navy",
-    "distractors": [
-      "The Secretary of Defense",
-      "The Secretary of Education",
-      "The Chairman of the Joint Chiefs of Staff"
-    ],
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 4"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
     "id": "usmc.regulations.purpose",
     "branch": [
       "usmc"
@@ -74,7 +18,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -102,63 +46,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.length",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Program basis",
-    "text": "By law, a JROTC program offered in a high school must be no less than three years. It may extend over four.",
-    "q": "What is the minimum length of a JROTC program at a high school?",
-    "a": "Three years",
-    "distractors": [
-      "Two years",
-      "Four years",
-      "One year"
-    ],
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 4"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.hours",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Program basis",
-    "text": "Each year of the program contains 180 hours of leadership instruction and application.",
-    "q": "How many hours of leadership instruction and application does each program year contain?",
-    "a": "180 hours",
-    "distractors": [
-      "120 hours",
-      "90 hours",
-      "240 hours"
-    ],
-    "difficulty": 3,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 4"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -183,7 +71,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -208,7 +96,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -233,7 +121,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -258,7 +146,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -283,7 +171,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -308,109 +196,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.enroll-school",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Enrollment",
-    "text": "To enroll, a student must be enrolled in and attending a regular course of instruction at the school where the unit is located.",
-    "q": "Where must a cadet be enrolled as a student?",
-    "a": "At the school where the unit is located",
-    "difficulty": 1,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 5"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.enroll-grade",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Enrollment",
-    "text": "To enroll, a student must be a U.S. citizen, U.S. national or lawfully admitted permanent resident, and be in a grade above the 8th grade.",
-    "q": "Above which grade must a student be to enroll?",
-    "a": "Above the 8th grade",
-    "distractors": [
-      "Above the 7th grade",
-      "Above the 9th grade",
-      "Any grade"
-    ],
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 5"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.enroll-character",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Enrollment",
-    "text": "To enroll, a student must be of good moral character as determined by the principal of the school and the SMI.",
-    "q": "Who determines that a student is of good moral character for enrollment?",
-    "a": "The principal of the school and the SMI",
-    "distractors": [
-      "The Cadet Battalion Commander",
-      "The Marine Instructor alone",
-      "The school counselor"
-    ],
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 5"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.enroll-physical",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Enrollment",
-    "text": "To enroll, a student must be physically qualified to take full part in the school's physical education program. A current annual school physical is mandatory.",
-    "q": "What physical standard must a cadet meet to enroll?",
-    "a": "Physically qualified to take full part in the school's physical education program",
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 5"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -433,30 +219,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.regulations.disenroll-review",
-    "branch": [
-      "usmc"
-    ],
-    "module": "regulations",
-    "topic": "Enrollment",
-    "text": "Disenrollment for failing MCJROTC is not automatic. Each case is reviewed and handled separately.",
-    "q": "Is disenrollment for academic failure automatic?",
-    "a": "No. Each case is reviewed separately.",
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 5"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -484,7 +247,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -507,7 +270,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -535,7 +298,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -558,7 +321,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -587,7 +350,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -616,7 +379,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -645,7 +408,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -673,7 +436,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -696,7 +459,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -719,7 +482,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -747,7 +510,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -770,7 +533,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -793,7 +556,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -816,7 +579,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -844,7 +607,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -872,7 +635,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -900,7 +663,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -924,7 +687,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -948,7 +711,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -972,7 +735,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -1000,7 +763,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -1028,8 +791,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   },
   {
@@ -1052,8 +815,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   },
   {
@@ -1076,8 +839,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   },
   {
@@ -1100,8 +863,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   },
   {
@@ -1124,8 +887,8 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
     "review_tier": 2
   }
 ]

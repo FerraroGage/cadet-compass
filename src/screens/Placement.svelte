@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { app, save, makeDue, today, fmtDate } from '../lib/store.svelte';
+  import { app, facts, save, makeDue, award, today, fmtDate } from '../lib/store.svelte';
   import { MODULES, quizzable, buildQuestion, newPlacement, nextFact, record, summarize, gaps, modulePriority, type Question } from '../lib/quiz';
   import { addDays } from '../lib/srs';
   import type { Fact } from '../lib/bundle';
   import Cite from '../lib/Cite.svelte';
 
   const t = today();
-  const all = app.bundle!.facts;
+  const all = facts();
   const pool = all.filter((f) => quizzable(f, t) && buildQuestion(f, all));
 
   let cur = $state<{ fact: Fact; q: Question } | null>(null);
@@ -29,7 +29,7 @@
     result = picked === cur.q.correct;
     const next = record(app.placement!, { factId: cur.fact.id, module: cur.fact.module, correct: result, sure }, t);
     await save('placement', next);
-    if (next.done) await makeDue(gaps(next.answers));
+    if (next.done) { await makeDue(gaps(next.answers)); await award('placement'); }
   }
   if (app.placement && !app.placement.done) load();
 

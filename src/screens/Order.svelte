@@ -1,23 +1,25 @@
 <script lang="ts">
   // Seniority Ladder, Rack Builder and Chain Builder are the same exercise on three lists:
   // put a handful of items back in their true order. Buttons move the rows, so it works with a keyboard and a screen reader.
-  import { app } from '../lib/store.svelte';
+  import { app, facts } from '../lib/store.svelte';
   import { shuffle } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
 
   let { which }: { which: string } = $props();
-  const facts = app.bundle!.facts;
-  const ordered = (group: string) => facts.filter((f) => f.group === group && f.order).sort((a, b) => a.order! - b.order!);
+  const all = facts();
+  /** Items of these groups, in order: the groups in the order given, then each by its `order`. */
+  const ordered = (...groups: string[]) => groups.flatMap((g) => all.filter((f) => f.group === g && f.order && f.confidence !== 'verify').sort((a, b) => a.order! - b.order!));
+  const first = (...groups: string[]) => ordered(...groups)[0]?.id ?? '';
   // Cadet ranks, senior first, in the order the Cadet Handbook lists them (p. 10 to 11).
   const RANKS = ['Cadet Colonel', 'Cadet Lieutenant Colonel', 'Cadet Major', 'Cadet Captain', 'Cadet First Lieutenant', 'Cadet Second Lieutenant', 'Cadet Sergeant Major', 'Cadet First Sergeant', 'Cadet Gunnery Sergeant', 'Cadet Staff Sergeant', 'Cadet Sergeant', 'Cadet Corporal', 'Cadet Lance Corporal', 'Cadet Private First Class', 'Cadet Private'];
   const GAMES: Record<string, { title: string; task: string; items: string[]; cite: string }> = {
-    ranks: { title: 'Seniority Ladder', task: 'Put these cadet ranks in order, senior at the top.', items: RANKS, cite: 'usmc.ranks.structure' },
-    ribbons: { title: 'Rack Builder', task: 'Put these ribbons in order of precedence, senior at the top.', items: ordered('ribbon').map((f) => f.a), cite: 'usmc.ribbons.order-legion-of-valor' },
-    chain: { title: 'Chain Builder', task: 'Put these in chain of command order, from the top down.', items: ordered('position').map((f) => f.a), cite: 'usmc.chain.pos-president-of-the-united-states' },
+    ranks: { title: 'Seniority Ladder', task: 'Put these cadet ranks in order, senior at the top.', items: app.profile?.branch === 'usmc' ? RANKS : ordered('rank', 'rank-insignia', 'rank-officer', 'rank-enlisted').map((f) => f.a), cite: app.profile?.branch === 'usmc' ? 'usmc.ranks.bn-cdr' : first('rank', 'rank-insignia', 'rank-officer') },
+    ribbons: { title: 'Rack Builder', task: 'Put these ribbons in order of precedence, senior at the top.', items: ordered('ribbon').map((f) => f.a), cite: first('ribbon') },
+    chain: { title: 'Chain Builder', task: 'Put these in chain of command order, from the top down.', items: ordered('position', 'chain').map((f) => f.a), cite: first('position', 'chain') },
   };
   // svelte-ignore state_referenced_locally (the screen is rebuilt whenever the address changes)
   const game = GAMES[which] ?? GAMES.ranks;
-  const source = facts.find((f) => f.id === game.cite);
+  const source = all.find((f) => f.id === game.cite);
   const SIZE = 6;
 
   let rows = $state<string[]>([]);
@@ -28,6 +30,7 @@
   const score = $derived(rows.filter((r, i) => r === answer[i]).length);
 
   function deal() {
+    if (game.items.length < 4) { rows = []; return; } // no list for this branch; shuffling an empty list would never end
     const pick = shuffle(game.items).slice(0, SIZE);
     do rows = shuffle(pick); while (rows.every((r, i) => r === [...pick].sort((a, b) => game.items.indexOf(a) - game.items.indexOf(b))[i]));
     checked = false;
@@ -73,3 +76,7 @@
   {#if checked}<button class="btn primary" onclick={deal}>New round</button>{:else}<button class="btn primary" onclick={check}>Check order</button>{/if}
   <a class="btn" href="#/train">Training menu</a>
 </div>
+
+{#if game.items.length < 4}
+  <p class="notice">This exercise needs a checked, ordered list for your branch, and there is not one yet.</p>
+{/if}

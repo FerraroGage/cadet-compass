@@ -3,8 +3,8 @@ import { readFileSync } from 'node:fs';
 import { validate, loadFacts } from './validate.mjs';
 
 const schema = JSON.parse(readFileSync('content/schema/fact.schema.json', 'utf8'));
-const good = loadFacts()[0].data[0];
-const run = (fact) => validate([{ file: 'test.json', data: [fact] }], schema, '2026-11-12').errors;
+const good = loadFacts().flatMap((f) => f.data).find((f) => f.confidence === 'high');
+const run = (fact) => validate([{ file: 'test.json', data: [fact] }], schema, good.verified_on).errors; // judged on the sample's own check date, so the test does not age
 
 describe('fact validation', () => {
   it('passes the real content', () => {

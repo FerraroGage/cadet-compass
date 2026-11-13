@@ -1,0 +1,86 @@
+[
+  {
+    "id": "usaf.regulations.grades",
+    "branch": [
+      "usaf"
+    ],
+    "module": "regulations",
+    "topic": "Eligibility",
+    "text": "AFJROTC cadets must be enrolled in grades 9 through 12 at a school hosting the unit.",
+    "q": "Which grades are eligible to enroll in AFJROTC per the Holm Center cadet information page?",
+    "a": "Grades 9 through 12",
+    "distractors": [
+      "Grades 6 through 8",
+      "Grades 10 through 12 only",
+      "Grades 11 and 12 only"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Cadet Information",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Holm-Center/AFJROTC/Article-Display/Article/4014330/cadet-information/",
+      "locator": "Joining AFJROTC"
+    },
+    "edition": "Web page published 22 Sep 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.regulations.selection",
+    "branch": [
+      "usaf"
+    ],
+    "module": "regulations",
+    "topic": "Eligibility",
+    "text": "A cadet is selected by the AFJROTC instructor with the approval of the school principal or representative.",
+    "q": "Who selects a student for AFJROTC, with the principal's approval?",
+    "a": "The AFJROTC instructor",
+    "distractors": [
+      "The school counselor",
+      "A recruiter",
+      "The Holm Center"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Cadet Information",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Holm-Center/AFJROTC/Article-Display/Article/4014330/cadet-information/",
+      "locator": "Joining AFJROTC"
+    },
+    "edition": "Web page published 22 Sep 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.regulations.title10",
+    "branch": [
+      "usaf"
+    ],
+    "module": "regulations",
+    "topic": "Eligibility",
+    "text": "Eligibility is governed by U.S. Code Title 10, Section 2031.",
+    "q": "Which section of Title 10, U.S. Code sets the requirements to take part in JROTC?",
+    "a": "Section 2031",
+    "distractors": [
+      "Section 1001",
+      "Section 3013",
+      "Section 2101"
+    ],
+    "difficulty": 2,
+    "source": {
+      "title": "Cadet Information",
+      "publisher": "Holm Center, Air Force Accessions Center (AFJROTC)",
+      "url": "https://www.afaccessionscenter.af.mil/Holm-Center/AFJROTC/Article-Display/Article/4014330/cadet-information/",
+      "locator": "Joining AFJROTC"
+    },
+    "edition": "Web page published 22 Sep 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "id": "navy.ranks.cadet-ensign",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer ranks",
+    "text": "Cadet Ensign is number 6 from the top of the NJROTC cadet officer ranks (1 is highest).",
+    "q": "Which NJROTC cadet officer rank is number 6 from the top (1 is highest)?",
+    "a": "Cadet Ensign",
+    "group": "rank-officer",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-lieutenant-junior-grade",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer ranks",
+    "text": "Cadet Lieutenant Junior Grade is number 5 from the top of the NJROTC cadet officer ranks (1 is highest).",
+    "q": "Which NJROTC cadet officer rank is number 5 from the top (1 is highest)?",
+    "a": "Cadet Lieutenant Junior Grade",
+    "group": "rank-officer",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-lieutenant",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer ranks",
+    "text": "Cadet Lieutenant is number 4 from the top of the NJROTC cadet officer ranks (1 is highest).",
+    "q": "Which NJROTC cadet officer rank is number 4 from the top (1 is highest)?",
+    "a": "Cadet Lieutenant",
+    "group": "rank-officer",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-lieutenant-commander",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer ranks",
+    "text": "Cadet Lieutenant Commander is number 3 from the top of the NJROTC cadet officer ranks (1 is highest).",
+    "q": "Which NJROTC cadet officer rank is number 3 from the top (1 is highest)?",
+    "a": "Cadet Lieutenant Commander",
+    "group": "rank-officer",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-commander",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer ranks",
+    "text": "Cadet Commander is number 2 from the top of the NJROTC cadet officer ranks (1 is highest).",
+    "q": "Which NJROTC cadet officer rank is number 2 from the top (1 is highest)?",
+    "a": "Cadet Commander",
+    "group": "rank-officer",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-captain",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet officer ranks",
+    "text": "Cadet Captain is number 1 from the top of the NJROTC cadet officer ranks (1 is highest).",
+    "q": "Which NJROTC cadet officer rank is number 1 from the top (1 is highest)?",
+    "a": "Cadet Captain",
+    "group": "rank-officer",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-seaman-recruit",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Seaman Recruit is number 9 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 9 from the top (1 is highest)?",
+    "a": "Cadet Seaman Recruit",
+    "group": "rank-enlisted",
+    "order": 9,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-seaman-apprentice",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Seaman Apprentice is number 8 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 8 from the top (1 is highest)?",
+    "a": "Cadet Seaman Apprentice",
+    "group": "rank-enlisted",
+    "order": 8,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-seaman",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Seaman is number 7 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 7 from the top (1 is highest)?",
+    "a": "Cadet Seaman",
+    "group": "rank-enlisted",
+    "order": 7,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-petty-officer-3rd-class",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Petty Officer 3rd Class is number 6 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 6 from the top (1 is highest)?",
+    "a": "Cadet Petty Officer 3rd Class",
+    "group": "rank-enlisted",
+    "order": 6,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-petty-officer-2nd-class",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Petty Officer 2nd Class is number 5 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 5 from the top (1 is highest)?",
+    "a": "Cadet Petty Officer 2nd Class",
+    "group": "rank-enlisted",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-petty-officer-1st-class",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Petty Officer 1st Class is number 4 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 4 from the top (1 is highest)?",
+    "a": "Cadet Petty Officer 1st Class",
+    "group": "rank-enlisted",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-chief-petty-officer",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Chief Petty Officer is number 3 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 3 from the top (1 is highest)?",
+    "a": "Cadet Chief Petty Officer",
+    "group": "rank-enlisted",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-senior-chief-petty-officer",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Senior Chief Petty Officer is number 2 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 2 from the top (1 is highest)?",
+    "a": "Cadet Senior Chief Petty Officer",
+    "group": "rank-enlisted",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "navy.ranks.cadet-master-chief-petty-officer",
+    "branch": [
+      "navy"
+    ],
+    "module": "ranks",
+    "topic": "Cadet enlisted ranks",
+    "text": "Cadet Master Chief Petty Officer is number 1 from the top of the NJROTC cadet enlisted ranks (1 is highest).",
+    "q": "Which NJROTC cadet enlisted rank is number 1 from the top (1 is highest)?",
+    "a": "Cadet Master Chief Petty Officer",
+    "group": "rank-enlisted",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "NJROTC Cadet Reference Manual (CRM), Fourth Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/2024%20CRM%204th%20Edition%20(0509-LP-002-6029)%2018%20APR%202024.pdf",
+      "locator": "p. 35 (JROTC Cadet Rank and Structure)"
+    },
+    "edition": "Fourth Edition, 18 Apr 2024 (0509-LP-002-6029)",
+    "effective_from": "2024-04-18",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 3
+  }
+]

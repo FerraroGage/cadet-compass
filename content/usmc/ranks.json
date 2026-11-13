@@ -1,61 +1,5 @@
 [
   {
-    "id": "usmc.ranks.structure",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Rank and billet",
-    "text": "The MCJROTC rank structure mirrors the officer and enlisted ranks of the U.S. Marine Corps.",
-    "q": "What is the MCJROTC cadet rank structure modeled on?",
-    "a": "The officer and enlisted ranks of the U.S. Marine Corps",
-    "distractors": [
-      "The ranks of the U.S. Navy",
-      "The ranks of the U.S. Army",
-      "A rank system unique to JROTC"
-    ],
-    "difficulty": 1,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 10"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.ranks.unit-size",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Rank and billet",
-    "text": "Which cadet ranks and billets a unit uses depends on the size of the unit.",
-    "q": "What decides which cadet ranks and billets a unit uses?",
-    "a": "The size of the unit",
-    "distractors": [
-      "The age of the school",
-      "The number of instructors",
-      "The grade level of the cadets"
-    ],
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 10"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
     "id": "usmc.ranks.bn-cdr",
     "branch": [
       "usmc"
@@ -76,7 +20,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -101,7 +45,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -126,7 +70,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -151,7 +95,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -176,7 +120,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -201,7 +145,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -226,7 +170,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -251,7 +195,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -276,7 +220,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -301,7 +245,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -326,7 +270,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -351,7 +295,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -376,58 +320,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.ranks.authority",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Promotion",
-    "text": "Primary authority for promotions rests with the Senior Marine Instructor.",
-    "q": "Who has primary authority for cadet promotions?",
-    "a": "The Senior Marine Instructor",
-    "distractors": [
-      "The Marine Instructor",
-      "The Cadet Battalion Commander",
-      "The school principal"
-    ],
-    "difficulty": 1,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 10"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.ranks.basis",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Promotion",
-    "text": "Promotions are based on demonstrated leadership ability and on academic and disciplinary excellence.",
-    "q": "What are promotions based on?",
-    "a": "Demonstrated leadership ability, and academic and disciplinary excellence",
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 10"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -450,7 +343,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -478,7 +371,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -506,7 +399,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -534,7 +427,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -557,7 +450,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -581,30 +474,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.ranks.reduction",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Promotion",
-    "text": "Cadets who fail to perform their duties in an efficient manner are considered for reduction.",
-    "q": "What may happen to a cadet who does not perform assigned duties efficiently?",
-    "a": "The cadet is considered for reduction in rank",
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 11"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -628,7 +498,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -652,7 +522,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -676,7 +546,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   },
@@ -700,54 +570,7 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.ranks.reappoint-discipline",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Promotion",
-    "text": "A cadet who left for disciplinary reasons and is accepted for reenrollment is appointed Cadet Private, whatever rank was held before.",
-    "q": "A cadet left for disciplinary reasons and reenrolls. What rank is the cadet appointed to?",
-    "a": "Cadet Private",
-    "group": "rank",
-    "difficulty": 3,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 11"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.ranks.reappoint-other",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Promotion",
-    "text": "A cadet who left for other reasons and returns within one school year may be appointed one rank lower than previously held. A longer absence normally means returning as Cadet Private.",
-    "q": "A cadet left for non-disciplinary reasons and returns within one school year. What rank may the cadet be appointed to?",
-    "a": "One rank lower than previously held",
-    "difficulty": 3,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 11"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-12",
+    "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
   }

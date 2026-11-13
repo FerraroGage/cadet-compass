@@ -1,0 +1,730 @@
+[
+  {
+    "id": "navy.drill.cmd-types",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "There are four types of drill commands: preparatory, execution, combined, and supplementary.",
+    "q": "Which are the four types of drill commands?",
+    "a": "Preparatory, execution, combined, supplementary",
+    "distractors": [
+      "Preparatory, execution, directive, supplementary",
+      "Alert, preparatory, execution, dismissal",
+      "Preparatory, cadence, combined, marching"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.prep",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The preparatory command indicates a movement is to be made and may indicate its direction, as in \"Forward,\" \"Left,\" or \"Platoon.\"",
+    "q": "Which command tells a unit what movement is about to be made?",
+    "a": "Preparatory command",
+    "distractors": [
+      "Command of execution",
+      "Combined command",
+      "Supplementary command"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.exec",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "The command of execution causes the desired movement to be executed, as in \"MARCH\" or \"FACE.\"",
+    "q": "Which command causes the movement to be carried out?",
+    "a": "Command of execution",
+    "distractors": [
+      "Preparatory command",
+      "Combined command",
+      "Supplementary command"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.combined",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "A combined command joins the preparatory command and command of execution, as in \"FALL IN,\" \"AT EASE,\" and \"REST.\"",
+    "q": "Which type of command joins the preparatory command and the command of execution?",
+    "a": "Combined command",
+    "distractors": [
+      "Supplementary command",
+      "Preparatory command",
+      "Command of execution"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.supplementary",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Commands",
+    "text": "Supplementary commands cause component units to act individually, such as squad leaders' commands after a platoon commander's preparatory command.",
+    "q": "Which type of command causes component units to act individually?",
+    "a": "Supplementary command",
+    "distractors": [
+      "Combined command",
+      "Preparatory command",
+      "Command of execution"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 9"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.quick-rate",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "Quick Time is 112 to 120 steps per minute, normally with 30-inch steps.",
+    "q": "At what cadence is Quick Time marched?",
+    "a": "112 to 120 steps per minute",
+    "distractors": [
+      "90 to 100 steps per minute",
+      "150 to 160 steps per minute",
+      "180 steps per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.quick-step",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "A normal Quick Time step is 30 inches.",
+    "q": "How long is a normal Quick Time step?",
+    "a": "30 inches",
+    "distractors": [
+      "24 inches",
+      "36 inches",
+      "40 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.double-rate",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "Double Time is 180 steps per minute with 36-inch steps.",
+    "q": "At what cadence is Double Time marched?",
+    "a": "180 steps per minute",
+    "distractors": [
+      "112 steps per minute",
+      "120 steps per minute",
+      "150 steps per minute"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.double-step",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "A Double Time step is 36 inches.",
+    "q": "How long is a Double Time step?",
+    "a": "36 inches",
+    "distractors": [
+      "30 inches",
+      "24 inches",
+      "15 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.half-step",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "Half step is marched in Quick Time cadence with 15-inch steps.",
+    "q": "How long is a half step?",
+    "a": "15 inches",
+    "distractors": [
+      "12 inches",
+      "24 inches",
+      "30 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 32"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.back-step",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "Back step is taken to the rear in Quick Time with 15-inch steps.",
+    "q": "How long is a back step?",
+    "a": "15 inches",
+    "distractors": [
+      "12 inches",
+      "24 inches",
+      "30 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 33"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.side-step",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "Side step moves the right (left) foot 12 inches to the right (left), then the other foot is placed beside it.",
+    "q": "How far is each side step?",
+    "a": "12 inches",
+    "distractors": [
+      "6 inches",
+      "15 inches",
+      "24 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 33"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.arm-swing",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "At Quick Time, arms swing 6 inches to the front and 3 inches to the rear.",
+    "q": "At Quick Time, how far do the arms swing to the front?",
+    "a": "6 inches",
+    "distractors": [
+      "9 inches",
+      "12 inches",
+      "4 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.step-off",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Cadence and steps",
+    "text": "With the exception of right step, all steps and marching movements from a halt start with the left foot.",
+    "q": "Which foot starts a march from a halt, other than right step?",
+    "a": "Left foot",
+    "distractors": [
+      "Right foot",
+      "Either foot",
+      "The foot toward the turn"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.att-angle",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "At attention, the heels are together and the feet are turned out equally to form a 45-degree angle.",
+    "q": "At what angle are the feet turned out at attention?",
+    "a": "45 degrees",
+    "distractors": [
+      "30 degrees",
+      "60 degrees",
+      "90 degrees"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 19"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.parade-rest-gap",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "At parade rest the left foot moves 12 inches to the left, measured between the inside of each heel.",
+    "q": "How far does the left foot move for parade rest?",
+    "a": "12 inches",
+    "distractors": [
+      "6 inches",
+      "8 inches",
+      "24 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.rest-positions",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "The four rest positions for halted cadets are parade rest, at ease, rest, and fall out.",
+    "q": "Which are the four positions of rest for halted cadets?",
+    "a": "Parade rest, at ease, rest, fall out",
+    "distractors": [
+      "Parade rest, at ease, stand easy, fall out",
+      "Parade rest, at ease, rest, dismissed",
+      "Attention, parade rest, at ease, rest"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.parade-rest-cmd",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Positions",
+    "text": "The only command that may be received at parade rest is \"ATTENTION.\"",
+    "q": "What is the only command received at parade rest?",
+    "a": "ATTENTION",
+    "distractors": [
+      "AT EASE",
+      "REST",
+      "FALL OUT"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 20"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.facing-counts",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "Facing movements are two-count movements when halted at attention.",
+    "q": "How many counts is \"Right, FACE\" executed in?",
+    "a": "Two",
+    "distractors": [
+      "One",
+      "Three",
+      "Four"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 22"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.distance",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "In cadet formations, the distance between ranks is 40 inches.",
+    "q": "What is the distance between ranks in cadet formations?",
+    "a": "40 inches",
+    "distractors": [
+      "24 inches",
+      "30 inches",
+      "36 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 4"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.front",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "The front of an individual is considered to be 22 inches.",
+    "q": "What is the front of an individual considered to be?",
+    "a": "22 inches",
+    "distractors": [
+      "18 inches",
+      "30 inches",
+      "36 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 5"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.pace",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "A pace is the length of a full step in Quick Time, 30 inches.",
+    "q": "How long is a pace?",
+    "a": "30 inches",
+    "distractors": [
+      "15 inches",
+      "24 inches",
+      "36 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.interval",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Formations",
+    "text": "Normal interval between individuals is one arm's length.",
+    "q": "What is the normal interval between individuals in formation?",
+    "a": "One arm's length",
+    "distractors": [
+      "Two arm's lengths",
+      "One pace",
+      "40 inches"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 6"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.halt-counts",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "Halt is two counts at Quick Time and three counts at Double Time.",
+    "q": "How many counts is a halt from Double Time?",
+    "a": "Three",
+    "distractors": [
+      "One",
+      "Four",
+      "Five"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 30"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.eyes-right",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "When marching, \"Eyes, RIGHT\" has its command of execution given as the right foot strikes the deck.",
+    "q": "On which foot is the command of execution \"RIGHT\" given for \"Eyes, RIGHT\" while marching?",
+    "a": "Right foot",
+    "distractors": [
+      "Left foot",
+      "Either foot",
+      "Neither foot; it is given at a halt"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 22"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  },
+  {
+    "id": "navy.drill.turn-foot",
+    "branch": [
+      "navy"
+    ],
+    "module": "drill",
+    "topic": "Movements",
+    "text": "To change direction on the march, the command of execution is given as the foot in the desired direction of the turn strikes the deck.",
+    "q": "For a turn on the march, the command of execution is given as which foot strikes the deck?",
+    "a": "The foot in the direction of the turn",
+    "distractors": [
+      "The opposite foot",
+      "Either foot",
+      "Whichever foot is forward"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "NJROTC Cadet Drill Manual, 1st Edition",
+      "publisher": "Naval Service Training Command (NSTC), U.S. Navy",
+      "url": "https://www.netc.navy.mil/Portals/46/NSTC/NJROTC/docs/Manuals/NJROTC%20Drill%20Manual%201st%20Edition-NSN%200509LP0029217-2024%20Electronic%20Version-Color.pdf",
+      "locator": "p. 29"
+    },
+    "edition": "1st Edition, 2024 (NSN 0509LP0029217)",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 2
+  }
+]

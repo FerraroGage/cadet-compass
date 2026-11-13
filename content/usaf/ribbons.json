@@ -1,0 +1,1614 @@
+[
+  {
+    "id": "usaf.ribbons.order-gold-valor-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Gold Valor Award is number 1 in the AFJROTC ribbon order of precedence.",
+    "q": "Which award is first in the AFJROTC ribbon order of precedence?",
+    "a": "Gold Valor Award",
+    "group": "ribbon",
+    "order": 1,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-silver-valor-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Silver Valor Award is number 2 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Gold Valor Award in AFJROTC precedence?",
+    "a": "Silver Valor Award",
+    "group": "ribbon",
+    "order": 2,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-cadet-humanitarian-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Cadet Humanitarian Award is number 3 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Silver Valor Award in AFJROTC precedence?",
+    "a": "Cadet Humanitarian Award",
+    "group": "ribbon",
+    "order": 3,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-silver-star-community-service-with-excellence-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Silver Star Community Service with Excellence Ribbon is number 4 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Cadet Humanitarian Award in AFJROTC precedence?",
+    "a": "Silver Star Community Service with Excellence Ribbon",
+    "group": "ribbon",
+    "order": 4,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-community-service-with-excellence-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Community Service with Excellence Ribbon is number 5 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Silver Star Community Service with Excellence Ribbon in AFJROTC precedence?",
+    "a": "Community Service with Excellence Ribbon",
+    "group": "ribbon",
+    "order": 5,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-air-force-association-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Air Force Association Award is number 6 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Community Service with Excellence Ribbon in AFJROTC precedence?",
+    "a": "Air Force Association Award",
+    "group": "ribbon",
+    "order": 6,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-daedalian-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Daedalian Award is number 7 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Air Force Association Award in AFJROTC precedence?",
+    "a": "Daedalian Award",
+    "group": "ribbon",
+    "order": 7,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-daughters-of-the-american-revolution-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Daughters of the American Revolution Award is number 8 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Daedalian Award in AFJROTC precedence?",
+    "a": "Daughters of the American Revolution Award",
+    "group": "ribbon",
+    "order": 8,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-american-legion-scholastic-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "American Legion Scholastic Award is number 9 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Daughters of the American Revolution Award in AFJROTC precedence?",
+    "a": "American Legion Scholastic Award",
+    "group": "ribbon",
+    "order": 9,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-american-legion-general-military-excellence-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "American Legion General Military Excellence Award is number 10 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the American Legion Scholastic Award in AFJROTC precedence?",
+    "a": "American Legion General Military Excellence Award",
+    "group": "ribbon",
+    "order": 10,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-reserve-organization-of-america-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Reserve Organization of America (ROA) Award is number 11 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the American Legion General Military Excellence Award in AFJROTC precedence?",
+    "a": "Reserve Organization of America (ROA) Award",
+    "group": "ribbon",
+    "order": 11,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-military-officers-association-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Military Officers Association Award is number 12 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Reserve Organization of America (ROA) Award in AFJROTC precedence?",
+    "a": "Military Officers Association Award",
+    "group": "ribbon",
+    "order": 12,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-veterans-of-foreign-wars-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Veterans of Foreign Wars (VFW) Award is number 13 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Military Officers Association Award in AFJROTC precedence?",
+    "a": "Veterans of Foreign Wars (VFW) Award",
+    "group": "ribbon",
+    "order": 13,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-national-society-united-states-daughters-of-1812-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "National Society United States Daughters of 1812 Award is number 14 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Veterans of Foreign Wars (VFW) Award in AFJROTC precedence?",
+    "a": "National Society United States Daughters of 1812 Award",
+    "group": "ribbon",
+    "order": 14,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-national-sojourners-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "National Sojourners Award is number 15 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the National Society United States Daughters of 1812 Award in AFJROTC precedence?",
+    "a": "National Sojourners Award",
+    "group": "ribbon",
+    "order": 15,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-scottish-rite-southern-jurisdiction-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Scottish Rite, Southern Jurisdiction Award is number 16 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the National Sojourners Award in AFJROTC precedence?",
+    "a": "Scottish Rite, Southern Jurisdiction Award",
+    "group": "ribbon",
+    "order": 16,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-military-order-of-the-purple-heart-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Military Order of the Purple Heart Award is number 17 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Scottish Rite, Southern Jurisdiction Award in AFJROTC precedence?",
+    "a": "Military Order of the Purple Heart Award",
+    "group": "ribbon",
+    "order": 17,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-sons-of-the-american-revolution-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Sons of the American Revolution Award is number 18 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Military Order of the Purple Heart Award in AFJROTC precedence?",
+    "a": "Sons of the American Revolution Award",
+    "group": "ribbon",
+    "order": 18,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-military-order-of-world-wars-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Military Order of World Wars Award is number 19 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Sons of the American Revolution Award in AFJROTC precedence?",
+    "a": "Military Order of World Wars Award",
+    "group": "ribbon",
+    "order": 19,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-american-veterans-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "American Veterans Award is number 20 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Military Order of World Wars Award in AFJROTC precedence?",
+    "a": "American Veterans Award",
+    "group": "ribbon",
+    "order": 20,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-air-force-sergeants-association-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Air Force Sergeants Association (AFSA) Award is number 21 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the American Veterans Award in AFJROTC precedence?",
+    "a": "Air Force Sergeants Association (AFSA) Award",
+    "group": "ribbon",
+    "order": 21,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-tuskegee-airmen-incorporated-cadet-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Tuskegee Airmen Incorporated Cadet Award is number 22 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Air Force Sergeants Association (AFSA) Award in AFJROTC precedence?",
+    "a": "Tuskegee Airmen Incorporated Cadet Award",
+    "group": "ribbon",
+    "order": 22,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-the-retired-enlisted-association-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "The Retired Enlisted Association Award is number 23 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Tuskegee Airmen Incorporated Cadet Award in AFJROTC precedence?",
+    "a": "The Retired Enlisted Association Award",
+    "group": "ribbon",
+    "order": 23,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-the-celebrate-freedom-foundation-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "The Celebrate Freedom Foundation Award is number 24 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the The Retired Enlisted Association Award in AFJROTC precedence?",
+    "a": "The Celebrate Freedom Foundation Award",
+    "group": "ribbon",
+    "order": 24,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-air-commando-association-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Air Commando Association Award is number 25 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the The Celebrate Freedom Foundation Award in AFJROTC precedence?",
+    "a": "Air Commando Association Award",
+    "group": "ribbon",
+    "order": 25,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-distinguished-unit-award-with-merit",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Distinguished Unit Award with Merit is number 26 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Air Commando Association Award in AFJROTC precedence?",
+    "a": "Distinguished Unit Award with Merit",
+    "group": "ribbon",
+    "order": 26,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-distinguished-unit-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Distinguished Unit Award is number 27 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Distinguished Unit Award with Merit in AFJROTC precedence?",
+    "a": "Distinguished Unit Award",
+    "group": "ribbon",
+    "order": 27,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-outstanding-organization-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Outstanding Organization Award is number 28 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Distinguished Unit Award in AFJROTC precedence?",
+    "a": "Outstanding Organization Award",
+    "group": "ribbon",
+    "order": 28,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-outstanding-flight-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Outstanding Flight Ribbon is number 29 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Outstanding Organization Award in AFJROTC precedence?",
+    "a": "Outstanding Flight Ribbon",
+    "group": "ribbon",
+    "order": 29,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-top-performer-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Top Performer Ribbon is number 30 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Outstanding Flight Ribbon in AFJROTC precedence?",
+    "a": "Top Performer Ribbon",
+    "group": "ribbon",
+    "order": 30,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-outstanding-cadet-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Outstanding Cadet Ribbon is number 31 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Top Performer Ribbon in AFJROTC precedence?",
+    "a": "Outstanding Cadet Ribbon",
+    "group": "ribbon",
+    "order": 31,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-leadership-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Leadership Ribbon is number 32 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Outstanding Cadet Ribbon in AFJROTC precedence?",
+    "a": "Leadership Ribbon",
+    "group": "ribbon",
+    "order": 32,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-superior-performance-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Superior Performance Ribbon is number 33 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Leadership Ribbon in AFJROTC precedence?",
+    "a": "Superior Performance Ribbon",
+    "group": "ribbon",
+    "order": 33,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-achievement-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Achievement Ribbon is number 34 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Superior Performance Ribbon in AFJROTC precedence?",
+    "a": "Achievement Ribbon",
+    "group": "ribbon",
+    "order": 34,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-academic-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Academic Ribbon is number 35 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Achievement Ribbon in AFJROTC precedence?",
+    "a": "Academic Ribbon",
+    "group": "ribbon",
+    "order": 35,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-cadet-leadership-course-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Cadet Leadership Course Ribbon is number 36 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Academic Ribbon in AFJROTC precedence?",
+    "a": "Cadet Leadership Course Ribbon",
+    "group": "ribbon",
+    "order": 36,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-special-teams-placement-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Special Teams Placement Ribbon is number 37 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Cadet Leadership Course Ribbon in AFJROTC precedence?",
+    "a": "Special Teams Placement Ribbon",
+    "group": "ribbon",
+    "order": 37,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-all-services-national-competition-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "All Services National Competition Award is number 38 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Special Teams Placement Ribbon in AFJROTC precedence?",
+    "a": "All Services National Competition Award",
+    "group": "ribbon",
+    "order": 38,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-air-force-nationals-competition-award",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Air Force Nationals Competition Award is number 39 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the All Services National Competition Award in AFJROTC precedence?",
+    "a": "Air Force Nationals Competition Award",
+    "group": "ribbon",
+    "order": 39,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-orienteering-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Orienteering Ribbon is number 40 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Air Force Nationals Competition Award in AFJROTC precedence?",
+    "a": "Orienteering Ribbon",
+    "group": "ribbon",
+    "order": 40,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-leadership-development-requirement-leadership-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Leadership Development Requirement (LDR) Leadership Ribbon is number 41 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Orienteering Ribbon in AFJROTC precedence?",
+    "a": "Leadership Development Requirement (LDR) Leadership Ribbon",
+    "group": "ribbon",
+    "order": 41,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-drill-team-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Drill Team Ribbon is number 42 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Leadership Development Requirement (LDR) Leadership Ribbon in AFJROTC precedence?",
+    "a": "Drill Team Ribbon",
+    "group": "ribbon",
+    "order": 42,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-color-guard-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Color Guard Ribbon is number 43 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Drill Team Ribbon in AFJROTC precedence?",
+    "a": "Color Guard Ribbon",
+    "group": "ribbon",
+    "order": 43,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-saber-team-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Saber Team Ribbon is number 44 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Color Guard Ribbon in AFJROTC precedence?",
+    "a": "Saber Team Ribbon",
+    "group": "ribbon",
+    "order": 44,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-marksmanship-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Marksmanship Ribbon is number 45 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Saber Team Ribbon in AFJROTC precedence?",
+    "a": "Marksmanship Ribbon",
+    "group": "ribbon",
+    "order": 45,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-joint-service-academic-bowl-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Joint Service Academic Bowl (JLAB) Ribbon is number 46 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Marksmanship Ribbon in AFJROTC precedence?",
+    "a": "Joint Service Academic Bowl (JLAB) Ribbon",
+    "group": "ribbon",
+    "order": 46,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-cyber-patriot-team-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Cyber Patriot Team Ribbon is number 47 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Joint Service Academic Bowl (JLAB) Ribbon in AFJROTC precedence?",
+    "a": "Cyber Patriot Team Ribbon",
+    "group": "ribbon",
+    "order": 47,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-stellarxplorers-team-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "StellarXplorers Team Ribbon is number 48 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Cyber Patriot Team Ribbon in AFJROTC precedence?",
+    "a": "StellarXplorers Team Ribbon",
+    "group": "ribbon",
+    "order": 48,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-raider-team-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Raider Team Ribbon is number 49 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the StellarXplorers Team Ribbon in AFJROTC precedence?",
+    "a": "Raider Team Ribbon",
+    "group": "ribbon",
+    "order": 49,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-military-model-building-team-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Military Model Building Team Ribbon is number 50 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Raider Team Ribbon in AFJROTC precedence?",
+    "a": "Military Model Building Team Ribbon",
+    "group": "ribbon",
+    "order": 50,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-unmanned-aircraft-systems-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Unmanned Aircraft Systems (UAS) Ribbon is number 51 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Military Model Building Team Ribbon in AFJROTC precedence?",
+    "a": "Unmanned Aircraft Systems (UAS) Ribbon",
+    "group": "ribbon",
+    "order": 51,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-robotic-club-team-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Robotic Club/Team Ribbon is number 52 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Unmanned Aircraft Systems (UAS) Ribbon in AFJROTC precedence?",
+    "a": "Robotic Club/Team Ribbon",
+    "group": "ribbon",
+    "order": 52,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-good-conduct-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Good Conduct Ribbon is number 53 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Robotic Club/Team Ribbon in AFJROTC precedence?",
+    "a": "Good Conduct Ribbon",
+    "group": "ribbon",
+    "order": 53,
+    "difficulty": 3,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-service-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Service Ribbon is number 54 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Good Conduct Ribbon in AFJROTC precedence?",
+    "a": "Service Ribbon",
+    "group": "ribbon",
+    "order": 54,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-health-and-wellness-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Health and Wellness Ribbon is number 55 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Service Ribbon in AFJROTC precedence?",
+    "a": "Health and Wellness Ribbon",
+    "group": "ribbon",
+    "order": 55,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-recruiting-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Recruiting Ribbon is number 56 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Health and Wellness Ribbon in AFJROTC precedence?",
+    "a": "Recruiting Ribbon",
+    "group": "ribbon",
+    "order": 56,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-activities-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Activities Ribbon is number 57 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Recruiting Ribbon in AFJROTC precedence?",
+    "a": "Activities Ribbon",
+    "group": "ribbon",
+    "order": 57,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-attendance-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Attendance Ribbon is number 58 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Activities Ribbon in AFJROTC precedence?",
+    "a": "Attendance Ribbon",
+    "group": "ribbon",
+    "order": 58,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-dress-and-appearance-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Dress and Appearance Ribbon is number 59 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Attendance Ribbon in AFJROTC precedence?",
+    "a": "Dress and Appearance Ribbon",
+    "group": "ribbon",
+    "order": 59,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-longevity-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Longevity Ribbon is number 60 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Dress and Appearance Ribbon in AFJROTC precedence?",
+    "a": "Longevity Ribbon",
+    "group": "ribbon",
+    "order": 60,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-bataan-death-march-memorial-hike-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Bataan Death March Memorial Hike Ribbon is number 61 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Longevity Ribbon in AFJROTC precedence?",
+    "a": "Bataan Death March Memorial Hike Ribbon",
+    "group": "ribbon",
+    "order": 61,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usaf.ribbons.order-patriotic-flag-ribbon",
+    "branch": [
+      "usaf",
+      "ussf"
+    ],
+    "module": "ribbons",
+    "topic": "Precedence",
+    "text": "Patriotic Flag Ribbon is number 62 in the AFJROTC ribbon order of precedence.",
+    "q": "Which ribbon comes directly after the Bataan Death March Memorial Hike Ribbon in AFJROTC precedence?",
+    "a": "Patriotic Flag Ribbon",
+    "group": "ribbon",
+    "order": 62,
+    "difficulty": 2,
+    "source": {
+      "title": "AFJROTC/SFJROTC Operational Supplement, Chapter 7: Uniform and Awards (1 Aug 2023)",
+      "publisher": "Holm Center (copy hosted on airforcewriter.com)",
+      "url": "https://www.airforcewriter.com/Chapter7-Uniform-and-Awards.pdf",
+      "locator": "para 7.6.3.2"
+    },
+    "edition": "1 August 2023",
+    "effective_from": "2023-08-01",
+    "verified_on": "2026-11-13",
+    "confidence": "medium",
+    "review_tier": 2
+  }
+]

@@ -14,6 +14,9 @@
   import Metronome from './screens/Metronome.svelte';
   import Profile from './screens/Profile.svelte';
   import EditProfile from './screens/EditProfile.svelte';
+  import Learn from './screens/Learn.svelte';
+  import Speed from './screens/Speed.svelte';
+  import Match from './screens/Match.svelte';
 
   let hash = $state(location.hash.slice(2));
   $effect(() => {
@@ -48,12 +51,12 @@
   // Bottom bar icons, drawn for this app on a 24 unit grid.
   const NAV = [
     ['hub', 'Home', 'M4 11l8-7 8 7v9h-5v-6H9v6H4z'],
-    ['cards', 'Cards', 'M7 4h13v13M4 7h13v13H4z'],
-    ['train', 'Train', 'M12 3a9 9 0 1 0 9 9M12 8a4 4 0 1 0 4 4M12 12l8-8'],
+    ['learn', 'Learn', 'M4 5h6a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h6z'],
+    ['train', 'Play', 'M13 2 4 14h7l-1 8 9-12h-7z'],
     ['profile', 'Profile', 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0'],
   ];
-  // The placement test and the Study Guide are reached from the Train menu.
-  const navSection = $derived(['test', 'guide'].includes(section) ? 'train' : section);
+  // Cards and the Study Guide belong to Learn; the placement test to Play.
+  const navSection = $derived(['cards', 'guide'].includes(section) ? 'learn' : section === 'test' ? 'train' : section);
 </script>
 
 {#if usable && !inApp && !readingLegal}
@@ -86,7 +89,9 @@
     {:else}
       {#if app.notice}<p class="notice" role="status">{app.notice}</p>{/if}
       {#key hash}
-        {#if section === 'cards'}
+        {#if section === 'learn'}
+          <Learn tab={parts[1]} />
+        {:else if section === 'cards'}
           <Cards module={parts[1]} />
         {:else if section === 'test'}
           <Placement />
@@ -94,6 +99,8 @@
           <Guide />
         {:else if section === 'train'}
           {#if parts[1] === 'quiz'}<Quiz {params} />
+          {:else if parts[1] === 'speed'}<Speed {params} />
+          {:else if parts[1] === 'match'}<Match {params} />
           {:else if parts[1] === 'order'}<Order which={parts[2]} />
           {:else if parts[1] === 'board'}<Board />
           {:else if parts[1] === 'metronome'}<Metronome />
@@ -103,7 +110,7 @@
         {:else if section === 'settings'}
           <Settings page={parts[1] ?? ''} />
         {:else}
-          <Hub tab={parts[1]} />
+          <Hub />
         {/if}
       {/key}
     {/if}

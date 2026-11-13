@@ -1,18 +1,12 @@
 <script lang="ts">
-  // Home: today's goal, level, a short plan, and the reference tables for the cadet's branch.
+  // Home: today's goal, level and a short plan. Reference tables are on Learn.
   import { app, facts, today, fmtDate, level, streak, branchName } from '../lib/store.svelte';
   import { MODULES, quizzable, modulePriority, summarize } from '../lib/quiz';
-  import FactTable from '../lib/FactTable.svelte';
 
-  let { tab }: { tab?: string } = $props();
   const t = today();
   const p = app.profile!;
   const all = facts();
   const cards = all.filter((f) => quizzable(f, t));
-  const mods = MODULES.filter((m) => all.some((f) => f.module === m.id));
-  const current = $derived(mods.find((m) => m.id === tab) ?? mods[0] ?? MODULES[0]);
-  const rows = $derived(all.filter((f) => f.module === current.id));
-  const topics = $derived([...new Set(rows.map((f) => f.topic))].map((name) => ({ name, rows: rows.filter((f) => f.topic === name) })));
 
   const goal = p.minutes || 10;
   const done = $derived(Math.min(goal, app.days[t] ?? 0));
@@ -69,24 +63,11 @@
     {/each}
   </ol>
 
-  <h2>Look it up</h2>
-  <nav class="tabs" aria-label="Modules" style="margin-top: 8px">
-    {#each mods as m}
-      <a href="#/hub/{m.id}" aria-current={m.id === current.id ? 'page' : undefined}>{m.name}</a>
-    {/each}
-  </nav>
-  <section aria-label={current.name}>
-    <div class="row" style="margin: 8px 0 16px">
-      <a class="btn" href="#/cards/{current.id}">Study {current.name}</a>
-      <a class="btn" href="#/train/quiz?module={current.id}&n=10">Test yourself</a>
-    </div>
-    {#each topics as topic, i}
-      <details class="fold" open={i === 0 && !!tab}>
-        <summary>{topic.name}<span class="label">{topic.rows.length}</span></summary>
-        <FactTable rows={topic.rows} />
-      </details>
-    {/each}
-  </section>
+  <h2>Quick play</h2>
+  <div class="actions">
+    <a class="act" href="#/train/speed"><b>Speed Round</b><small>10 questions against the clock</small></a>
+    <a class="act" href="#/train/match"><b>Match Up</b><small>Pair questions with answers</small></a>
+  </div>
 {/if}
 
 <p class="help" style="margin-top: 24px">Your instructor and your unit's standing orders outrank anything in this app. Cadet Compass is an unofficial study aid.</p>

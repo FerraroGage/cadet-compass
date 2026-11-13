@@ -39,22 +39,30 @@
   }
   const next = () => show(STEPS[index + 1], 1);
   // Back from the results goes to the last question the cadet can change, not back into the test.
-  const back = () => show(['results', 'test'].includes(step) ? 'time' : STEPS[index - 1], -1);
+  const back = (e: MouseEvent) => {
+    if (p.branch) flush(e, 'out');
+    return show(['results', 'test'].includes(step) ? 'time' : STEPS[index - 1], -1);
+  };
 
   const ok = $derived(
     step === 'branch' ? !!p.branch : step === 'level' ? !!p.level : step === 'goal' ? p.goals.length > 0 :
     step === 'exp' ? p.experience > 0 : step === 'time' ? p.minutes > 0 : true,
   );
-  // Picking a branch washes the screen in that branch's color, then the whole app keeps it.
-  let wash = $state<{ x: number; y: number; name: string } | null>(null);
+  // The flush: a soft circle of branch color grows from the tap ('in') or shrinks back into it ('out').
+  let wash = $state<{ x: number; y: number; name: string; dir: 'in' | 'out'; key: number } | null>(null);
+  let washTimer: ReturnType<typeof setTimeout> | undefined;
+  function flush(e: MouseEvent, dir: 'in' | 'out') {
+    if (!slide) return;
+    const r = (e.currentTarget as HTMLElement).getBoundingClientRect();
+    wash = { x: e.clientX || r.left + r.width / 2, y: e.clientY || r.top + r.height / 2, name: dir === 'in' ? branchName(p.branch) : '', dir, key: performance.now() };
+    clearTimeout(washTimer);
+    washTimer = setTimeout(() => (wash = null), dir === 'in' ? 1500 : 900);
+  }
   function pickBranch(id: Profile['branch'], e: MouseEvent) {
     if (p.branch !== id) p.level = '';
     p.branch = id;
     document.documentElement.dataset.branch = id;
-    if (!slide) return;
-    const r = (e.currentTarget as HTMLElement).getBoundingClientRect();
-    wash = { x: e.clientX || r.left + r.width / 2, y: e.clientY || r.top + r.height / 2, name: branchName(id) };
-    setTimeout(() => (wash = null), 1100);
+    flush(e, 'in');
   }
   const toggleGoal = (id: string) => { p.goals = p.goals.includes(id) ? p.goals.filter((g) => g !== id) : [...p.goals, id]; };
 
@@ -80,6 +88,7 @@
     if (after.done) await makeDue(gaps(after.answers));
   }
   async function skipTest() {
+    cur = null; // the question on screen reads the test, so clear it first
     if (testing) await save('placement', null);
     await show('build', 1);
   }
@@ -117,7 +126,7 @@
   }
 </script>
 
-{#if wash}{#key wash.name}<div class="wash" style="--x: {wash.x}px; --y: {wash.y}px" aria-hidden="true"><b>{wash.name}</b></div>{/key}{/if}
+{#if wash}{#key wash.key}<div class="wash {wash.dir}" style="--x: {wash.x}px; --y: {wash.y}px" aria-hidden="true">{#if wash.name}<b>{wash.name}</b>{/if}</div>{/key}{/if}
 <div class="ob">
   <div class="ob-top">
     {#if step !== 'splash' && step !== 'build'}

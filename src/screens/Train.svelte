@@ -22,23 +22,37 @@
   const lvl = level().level;
   /** The level an event needs, or 0 when it is open. */
   const need = (href: string) => { const min = UNLOCK[href.split('/')[2]] ?? 0; return min > lvl ? min : 0; };
-  const MENU = [
-    ['#/test', 'Knowledge placement test', '40 adaptive questions. Builds your readiness table and training plan.'],
-    ['#/train/custom', 'Custom training', 'Pick modules, question type, count, difficulty, timer and pool.'],
-    ['#/guide', 'Study Guide', 'Everything in one printable document, with a test at the end of each section.'],
-    ['#/train/order/ranks', 'Seniority Ladder', 'Put cadet ranks in order, senior first.'],
-    ['#/train/order/ribbons', 'Rack Builder', 'Put ribbons in order of precedence against the clock.'],
-    ['#/train/order/chain', 'Chain Builder', 'Rebuild the chain of command from the top down.'],
-    ['#/train/board', 'Mock Promotion Board', 'Ten board questions, answered aloud, with a score sheet.'],
-    ['#/train/metronome', 'Drill metronome', 'Cadence at 60, 112, 120 and 180 steps per minute.'],
+  // [link, name, what it is, icon path on a 24 grid]
+  const GAMES = [
+    ['#/train/speed', 'Speed Round', 'Ten questions against the clock. Faster answers and streaks score more.', 'M13 2 4 14h7l-1 8 9-12h-7z'],
+    ['#/train/match', 'Match Up', 'Six questions, six answers. Tap the pairs as fast as you can.', 'M4 4h7v7H4zM13 13h7v7h-7zM13 4h7v7h-7zM4 13h7v7H4z'],
+    ['#/train/order/ranks', 'Seniority Ladder', 'Put cadet ranks in order, senior first.', 'M6 20h12M8 16h8M10 12h4M12 4v4'],
+    ['#/train/order/ribbons', 'Rack Builder', 'Put ribbons in order of precedence.', 'M4 7h5v4H4zM10 7h5v4h-5zM16 7h4v4h-4zM7 13h5v4H7zM13 13h5v4h-5z'],
+    ['#/train/order/chain', 'Chain Builder', 'Rebuild the chain of command from the top down.', 'M9 7a3 3 0 1 0 6 0 3 3 0 0 0-6 0M9 17a3 3 0 1 0 6 0 3 3 0 0 0-6 0M12 10v4'],
+  ];
+  const TESTS = [
+    ['#/test', 'Placement test', 'Adaptive test that finds your strengths and gaps.'],
+    ['#/train/custom', 'Custom quiz', 'Pick module, question type, count, difficulty and timer.'],
+    ['#/train/board', 'Mock promotion board', 'Ten board questions, answered aloud, with a score sheet.'],
   ];
 </script>
 
 {#if !custom}
-  <h1>Training</h1>
-  <p class="label">Level {lvl}. More events open as you level up.</p>
+  <h1>Play</h1>
+  <p class="label">Level {lvl}. More events open as you level up. Every game earns XP.</p>
+  <h2>Games</h2>
+  <div class="games">
+    {#each GAMES as [href, name, note, icon]}
+      {#if need(href)}
+        <div class="gcard lock"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icon} /></svg><strong>{name}</strong><small>Opens at level {need(href)}</small></div>
+      {:else}
+        <a class="gcard" {href}><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icon} /></svg><strong>{name}</strong><small>{note}</small>{#if app.scores[href.split('/')[2]]}<span class="best">Best {href.includes('match') ? app.scores.match + 's' : app.scores[href.split('/')[2]].toLocaleString()}</span>{/if}</a>
+      {/if}
+    {/each}
+  </div>
+  <h2>Tests</h2>
   <ol class="plan">
-    {#each MENU as [href, name, note], i}
+    {#each TESTS as [href, name, note], i}
       <li>
         {#if need(href)}
           <div class="lock"><span class="n">{i + 1}</span><span><strong>{name}</strong><small>{note}</small></span><span class="xp">Level {need(href)}</span></div>
@@ -48,7 +62,6 @@
       </li>
     {/each}
   </ol>
-  <p class="help" style="margin-top: 16px">Rank Rush, Inspector's Eye and Call the Command are not built yet. They need insignia and uniform drawings made from official specifications, and commands taken from the drill manual.</p>
 {:else if need('#/train/custom')}
   <h1>Custom training</h1>
   <p class="notice">Custom training opens at level {need('#/train/custom')}. Finish a few lessons and quizzes to get there.</p>

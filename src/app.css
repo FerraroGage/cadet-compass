@@ -24,6 +24,7 @@
 
   /* The accent follows the cadet's branch (set on <html data-branch>). These are app colors, not service colors. */
   --branch: var(--navy);
+  --branch-2: var(--gold);
   --on-branch: #ffffff;
 
   --body: 'Poppins', 'Segoe UI', system-ui, sans-serif;
@@ -34,11 +35,14 @@
   --tick: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e8b923' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 12.5 4 4 8-9'/%3E%3C/svg%3E");
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
-[data-branch='usmc'] { --branch: #a6192e; }
-[data-branch='army'] { --branch: #48562a; }
-[data-branch='usaf'] { --branch: #1d5fa8; }
-[data-branch='ussf'] { --branch: #3a3f6b; }
-[data-branch='uscg'] { --branch: #b8470f; }
+/* Official service colors (sources in docs/audit/branch-colors.md). --branch carries white text, so where a service's
+   brightest color is too light for white text (Army gold, Coast Guard red), it is the second color, used in the top bar line. */
+[data-branch='usmc'] { --branch: #a6192e; --branch-2: #cc9900; } /* Marine Corps red (PMS 187 C) and gold, USMC Brand Guide */
+[data-branch='army'] { --branch: #000000; --branch-2: #ffcc01; } /* Army Black and Army Gold */
+[data-branch='navy'] { --branch: #002f6c; --branch-2: #ffb81c; } /* Navy blue (PMS 294) and gold (PMS 1235), NHHC */
+[data-branch='usaf'] { --branch: #00308f; --branch-2: #ffcd00; } /* Ultramarine blue and Air Force yellow (DAFI 84-105 names; values are the common screen equivalents) */
+[data-branch='ussf'] { --branch: #425464; --branch-2: #b9c5d6; } /* Space Force logo palette (PMS 7545 C and silver) */
+[data-branch='uscg'] { --branch: #006ba6; --branch-2: #e03c31; } /* Coast Guard blue (PMS 307 C) and red (PMS 179 C) */
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -295,13 +299,92 @@ nav.bar a[aria-current='page'] svg { transform: translateY(-2px) scale(1.12); }
 .band .chip { position: relative; }
 .band .chip::after { content: ''; position: absolute; inset: -6px 0; }
 
-/* Branch color: the top bar edge, the active tab and the level badge follow the cadet's branch. */
-.band { border-bottom: 3px solid var(--branch); }
 .tabs a[aria-current='page'] { background: var(--branch); border-color: var(--branch); }
 .lvl .badge { background: var(--branch); color: #fff; }
 .block .n, .plan .n { color: var(--branch); }
-/* Branch picked in setup: its color spreads from the tap, shows the name, then clears. */
-.wash { position: fixed; inset: 0; z-index: 7; display: grid; place-items: center; background: var(--branch); color: #fff; pointer-events: none; clip-path: circle(0 at var(--x) var(--y)); animation: wash 1.1s var(--ease) forwards; }
-.wash b { font-size: 2rem; font-weight: 700; animation: rise 0.4s 0.15s var(--ease) backwards; }
-@keyframes wash { 0% { clip-path: circle(0 at var(--x) var(--y)); opacity: 1; } 45%, 75% { clip-path: circle(150vmax at var(--x) var(--y)); opacity: 1; } 100% { clip-path: circle(150vmax at var(--x) var(--y)); opacity: 0; } }
 .picks[aria-label='Program'] .pick[aria-checked='true'] { background: var(--branch); color: #fff; transition: background 0.4s 0.3s, color 0.4s 0.3s, border-color 0.15s; }
+
+/* ---- Branch color, smooth. A registered property lets the whole app fade from one branch's color to the next. ---- */
+@property --branch { syntax: '<color>'; inherits: true; initial-value: #16324f; }
+@property --branch-2 { syntax: '<color>'; inherits: true; initial-value: #e8b923; }
+:root { transition: --branch 0.9s cubic-bezier(0.65, 0, 0.35, 1), --branch-2 0.9s cubic-bezier(0.65, 0, 0.35, 1); }
+.ob { background: color-mix(in srgb, var(--branch) 7%, var(--paper)); }
+body:has(.ob) { background: color-mix(in srgb, var(--branch) 7%, var(--paper)); }
+
+/* Top bar: a band of the branch's main color with a thin line of its second color under it. */
+.band { border-bottom: 4px solid var(--branch); }
+.band::after { content: ''; position: absolute; left: 0; right: 0; bottom: -7px; height: 3px; background: var(--branch-2); }
+
+/* The flush: a soft-edged circle of branch color. 'in' grows from the tap and fades; 'out' starts full and shrinks back. */
+.wash { position: fixed; inset: 0; z-index: 7; display: grid; place-items: center; pointer-events: none; overflow: hidden; color: #fff; }
+.wash::before { content: ''; position: absolute; left: var(--x); top: var(--y); width: 300vmax; height: 300vmax; border-radius: 50%;
+  background: radial-gradient(circle, var(--branch) 0 52%, color-mix(in srgb, var(--branch) 60%, transparent) 60%, transparent 70%);
+  transform: translate(-50%, -50%) scale(0); }
+.wash.in::before { animation: flush-in 1.5s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
+.wash.out::before { animation: flush-out 0.9s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
+.wash b { position: relative; font-size: 2.25rem; font-weight: 700; letter-spacing: -0.01em; animation: flush-name 1.5s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
+@keyframes flush-in { 0% { transform: translate(-50%, -50%) scale(0); opacity: 1; } 50% { transform: translate(-50%, -50%) scale(1); opacity: 1; } 100% { transform: translate(-50%, -50%) scale(1); opacity: 0; } }
+@keyframes flush-out { 0% { transform: translate(-50%, -50%) scale(1); opacity: 0; } 25% { opacity: 0.9; } 100% { transform: translate(-50%, -50%) scale(0); opacity: 0.9; } }
+@keyframes flush-name { 0%, 15% { opacity: 0; transform: translateY(12px) scale(0.96); } 40%, 70% { opacity: 1; transform: none; } 100% { opacity: 0; transform: translateY(-8px); } }
+.picks[aria-label='Program'] .pick[aria-checked='true'] { background: var(--branch); border-color: var(--branch-2); color: #fff; transition: background 0.6s 0.4s, color 0.6s 0.4s, border-color 0.3s; }
+
+/* ---- Learn and Home: action tiles ---- */
+.actions { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: var(--u); margin-top: calc(var(--u) * 2); }
+.act { display: grid; align-content: start; gap: 2px; min-height: 84px; padding: calc(var(--u) * 1.5); border: var(--rule); border-bottom: 4px solid var(--edge); border-radius: var(--r); background: var(--sheet); color: var(--ink); text-decoration: none; }
+.act b { color: var(--branch); }
+.act small { color: var(--ink-2); font-size: 0.8125rem; line-height: 1.35; }
+.act:active { border-bottom-width: 2px; transform: translateY(2px); margin-bottom: 2px; }
+
+/* ---- Play: game cards ---- */
+.games { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: var(--u); }
+.gcard { position: relative; display: grid; align-content: start; gap: 4px; min-height: 140px; padding: calc(var(--u) * 2); border-radius: 18px; background: var(--branch); color: #fff; text-decoration: none; border-bottom: 5px solid color-mix(in srgb, var(--branch) 65%, #000); transition: transform 0.15s var(--ease); }
+.gcard:nth-child(2n) { background: var(--navy); border-bottom-color: var(--deep); }
+.gcard svg { color: var(--branch-2); margin-bottom: 4px; }
+.gcard strong { font-size: 1.0625rem; }
+.gcard small { font-size: 0.8125rem; line-height: 1.35; opacity: 0.9; }
+.gcard .best { margin-top: 4px; justify-self: start; padding: 2px 8px; border-radius: 99px; background: #ffffff26; font-size: 0.75rem; font-weight: 600; }
+.gcard:active { transform: translateY(3px); border-bottom-width: 2px; }
+.gcard.lock { background: var(--fill); color: var(--ink-2); border-bottom-color: var(--line); }
+.gcard.lock svg { color: var(--ink-2); }
+
+/* ---- Games: shared ---- */
+.game { padding-top: calc(var(--u) * 2); }
+.hud { display: flex; align-items: center; justify-content: space-between; gap: var(--u); min-height: 36px; }
+.hud .num { font-size: 1.25rem; }
+.streak { padding: 4px 10px; border-radius: 99px; background: var(--gold); color: var(--deep); font-size: 0.8125rem; font-weight: 700; animation: pop 0.3s var(--ease); }
+.final { display: grid; justify-items: center; text-align: center; padding-top: calc(var(--u) * 5); }
+.final .big { font-size: 3.5rem; font-weight: 700; line-height: 1.1; color: var(--branch); font-variant-numeric: tabular-nums; animation: pop 0.6s var(--ease); }
+.xpline { font-weight: 700; color: #7a5d00; }
+.go { display: grid; place-items: center; align-content: center; gap: var(--u); min-height: 60dvh; }
+.go b { display: grid; place-items: center; width: 140px; height: 140px; border-radius: 50%; background: var(--branch); color: #fff; font-size: 4rem; font-weight: 700; animation: pop 0.6s var(--ease); }
+.go span { font-weight: 600; color: var(--ink-2); }
+
+/* Speed Round */
+.clock { height: 10px; margin-top: var(--u); border-radius: 5px; background: var(--cream); overflow: hidden; }
+.clock i { display: block; height: 100%; background: var(--branch); border-radius: 5px; transition: width 0.1s linear; }
+.ask { font-size: 1.375rem; min-height: 4.5em; display: flex; align-items: center; }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: var(--u); }
+.tile { display: flex; align-items: center; gap: var(--u); min-height: 96px; padding: calc(var(--u) * 1.5); border: 0; border-bottom: 5px solid color-mix(in srgb, var(--c) 60%, #000); border-radius: 16px; background: var(--c); color: #fff; font: 600 0.9375rem/1.3 var(--body); text-align: left; cursor: pointer; transition: opacity 0.3s, transform 0.15s var(--ease); }
+.tile b { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: #ffffff33; }
+.tile:active:not(:disabled) { transform: translateY(3px); border-bottom-width: 2px; }
+.tile.dim { opacity: 0.35; }
+.tile.right { outline: 4px solid var(--gold); outline-offset: 2px; animation: pop 0.4s var(--ease); }
+.tile.wrong { animation: shake 0.4s; }
+.tile:disabled { cursor: default; }
+.verdictbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 3; display: grid; grid-template-columns: 1fr auto; gap: 2px var(--u); align-items: center; padding: calc(var(--u) * 2) calc(var(--u) * 2) calc(var(--u) * 2 + env(safe-area-inset-bottom)); color: #fff; animation: slideup 0.3s var(--ease); }
+.verdictbar.good { background: var(--good); }
+.verdictbar.bad { background: var(--red); }
+.verdictbar strong { font-size: 1.375rem; }
+.verdictbar span { grid-column: 1; font-size: 0.9375rem; }
+.verdictbar .btn { grid-column: 2; grid-row: 1 / span 2; }
+
+/* Match Up */
+.board { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--u); margin-top: var(--u); }
+.mtile { min-height: 96px; padding: var(--u); border: 2px solid var(--line); border-bottom: 4px solid var(--edge); border-radius: 14px; background: var(--sheet); color: var(--ink); font: 500 0.8125rem/1.3 var(--body); cursor: pointer; transition: transform 0.25s var(--ease), opacity 0.35s, background 0.2s, border-color 0.2s; }
+.mtile.a { background: var(--fill); font-weight: 700; font-size: 0.875rem; }
+.mtile.sel { border-color: var(--branch); background: color-mix(in srgb, var(--branch) 12%, var(--sheet)); transform: translateY(-2px); }
+.mtile.gone { opacity: 0; transform: scale(0.6); pointer-events: none; }
+.mtile.shake { animation: shake 0.4s; border-color: var(--red); }
+@media (max-width: 380px) { .board { grid-template-columns: 1fr 1fr; } }
+@keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
+@keyframes slideup { from { transform: translateY(100%); } }

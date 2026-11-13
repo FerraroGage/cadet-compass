@@ -45,8 +45,9 @@ interface Saved {
   ledger: XpEvent[]; days: Record<string, number>; best: number; // XP events, items studied per day, longest streak
   serverXp: number | null; dirty: string[];      // account sync: the server's total, cards not yet uploaded
   remind: boolean; ageBlocked: boolean;
+  scores: Record<string, number>; // best score per game, on this device
 }
-const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false };
+const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false, scores: {} };
 
 export const app = $state({
   ready: false, error: '', notice: '',

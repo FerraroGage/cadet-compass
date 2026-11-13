@@ -72,7 +72,7 @@
       <p><span class="num">{left}</span> cards not started yet.</p>
       <div class="row">
         {#if left}<button class="btn primary" onclick={more}>Add {Math.min(left, app.profile!.minutes)} new cards</button>{/if}
-        <a class="btn" href="#/hub{scope ? '/' + scope.id : ''}">Back to the hub</a>
+        <a class="btn" href="#/learn{scope ? '/' + scope.id : ''}">Back to Learn</a>
       </div>
     </div>
   </div>

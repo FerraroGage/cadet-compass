@@ -12,9 +12,11 @@
     "content:validate": "node scripts/validate.mjs",
     "content:sign": "node scripts/build-bundle.mjs --sign",
     "content:check": "node scripts/build-bundle.mjs --check",
-    "content:keygen": "node scripts/build-bundle.mjs --keygen"
+    "content:keygen": "node scripts/build-bundle.mjs --keygen",
+    "android:sync": "npm run build && npx cap sync android"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.6.2",
     "@sveltejs/vite-plugin-svelte": "^7.3.1",
     "@tsconfig/svelte": "^5.0.9",
     "@types/node": "^26.6.6",
@@ -27,6 +29,8 @@
     "vitest": "^5.1.0"
   },
   "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
     "@fontsource/poppins": "^5.3.0",
     "@supabase/supabase-js": "^2.119.0",
     "dexie": "^4.4.7"

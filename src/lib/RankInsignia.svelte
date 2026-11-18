@@ -1,9 +1,9 @@
 <script module lang="ts">
   // MCJROTC cadet insignia, drawn from the program's insignia chart (supplied by the owner, an MCJROTC cadet):
   // enlisted wear black chevrons with the lamp of learning in place of crossed rifles, rockers below for staff NCOs,
-  // and a frame around the lamp for First Sergeant and Sergeant Major; officers wear silver disks, then silver diamonds.
+  // officers wear silver disks, then silver diamonds.
   let n = 0;
-  type Spec = { chev: number; rock: number; frame?: boolean } | { shape: 'disk' | 'diamond'; count: number };
+  type Spec = { chev: number; rock: number } | { shape: 'disk' | 'diamond'; count: number };
   const SPEC: Record<string, Spec> = {
     'Cadet Private First Class': { chev: 0, rock: 0 },
     'Cadet Lance Corporal': { chev: 1, rock: 0 },
@@ -11,8 +11,8 @@
     'Cadet Sergeant': { chev: 3, rock: 0 },
     'Cadet Staff Sergeant': { chev: 3, rock: 1 },
     'Cadet Gunnery Sergeant': { chev: 3, rock: 2 },
-    'Cadet First Sergeant': { chev: 3, rock: 3, frame: true },
-    'Cadet Sergeant Major': { chev: 3, rock: 4, frame: true },
+    'Cadet First Sergeant': { chev: 3, rock: 3 },
+    'Cadet Sergeant Major': { chev: 3, rock: 4 },
     'Cadet Second Lieutenant': { shape: 'disk', count: 1 },
     'Cadet First Lieutenant': { shape: 'disk', count: 2 },
     'Cadet Captain': { shape: 'disk', count: 3 },
@@ -30,7 +30,7 @@
   let { rank, size = 40 }: { rank: string; size?: number } = $props();
   const id = `ri${n++}`;
   const spec = $derived(SPEC[rank]);
-  // Enlisted layout, top to bottom: chevrons, lamp (framed for the top two), rockers.
+  // Enlisted layout, top to bottom: chevrons, lamp, rockers.
   const layout = $derived.by(() => {
     if (!spec || !('chev' in spec)) return null;
     const lampY = spec.chev ? 6 + (spec.chev - 1) * 11 + 34 + 12 : 65;
@@ -56,15 +56,13 @@
           {#each Array.from({ length: spec.chev }, (_, k) => 6 + k * 11) as y}<path d={chev(y)} />{/each}
           {#each layout.rocks as y}<path d={rock(y)} />{/each}
         </g>
-        <!-- The lamp of learning: an oil lamp with a flame at the spout -->
+        <!-- The lamp of learning: an oil lamp, no flame -->
         <g transform="translate(50 {layout.lampY}) scale({layout.scale})" fill="url(#{id}k)" stroke="#8c949c" stroke-width="0.6">
-          {#if spec.frame}<ellipse cx="2" cy="-1" rx="23" ry="11" fill="none" stroke="url(#{id}k)" stroke-width="3" />{/if}
           <path d="M-12 0C-12 -6 12 -6 12 0C12 4 -12 4 -12 0Z" />
           <path d="M9 -2L21 -6L22 -3.5L10.5 3Z" />
           <path d="M-11.5 -1.5C-19 -4 -19 5 -11.5 2.5" fill="none" stroke="url(#{id}k)" stroke-width="2.4" />
           <rect x="-3.5" y="-8.5" width="7" height="4" rx="1.5" />
           <path d="M-6 3H6L7.5 7H-7.5Z" />
-          <path d="M22 -6.5C20 -10 23 -13 24.5 -15.5C25.5 -12 27 -9 23.5 -6.5Z" />
         </g>
       {:else if 'shape' in spec}
         <!-- Silver pieces in a row, centered; a highlight and the shadow give them depth. -->

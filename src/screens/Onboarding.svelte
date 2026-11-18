@@ -4,7 +4,7 @@
   import { tick as domTick } from 'svelte';
   import { fly } from 'svelte/transition';
   import { app, save, facts, today, award, makeDue, hooks, setHidden, BLANK, BRANCHES, STATES, branchName, type Profile } from '../lib/store.svelte';
-  import { GOALS, MODULES, quizzable, buildQuestion, newPlacement, nextFact, record, summarize, gaps, modulePriority, type Question } from '../lib/quiz';
+  import { GOALS, MODULES, quizzable, buildQuestion, newPlacement, nextFact, record, summarize, gaps, modulePriority, type Question, type Placement } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
   import { TERMS } from '../legal/terms';
   import { configured } from '../lib/backend';
@@ -84,13 +84,16 @@
   async function pick(i: number) {
     if (!cur || picked !== null) return;
     picked = i;
+    before = $state.snapshot(app.placement!);
     const after = record(app.placement!, { factId: cur.fact.id, module: cur.fact.module, correct: i === cur.q.correct, sure: true }, t);
     await save('placement', after);
     if (after.done) await makeDue(gaps(after.answers));
   }
   // Not taught in this program: hide it and show a different question. Nothing is recorded for it.
+  let before: Placement | null = null;
   async function swapQuestion() {
     if (!cur) return;
+    if (picked !== null && before) await save('placement', before); // the wrong answer no longer counts
     await setHidden([cur.fact.id], true);
     loadQuestion();
   }
@@ -227,7 +230,7 @@
                   role="radio" aria-checked={picked === i} disabled={picked !== null} onclick={() => pick(i)}><span>{c}</span></button>
               {/each}
             </div>
-            {#if picked === null}<Skip onskip={swapQuestion} />{/if}
+            {#if picked === null || picked !== cur.q.correct}<Skip onskip={swapQuestion} after={picked !== null} />{/if}
             {#if picked !== null}
               <div class="feedback {picked === cur.q.correct ? 'good' : 'bad'}" role="status">
                 <p class="verdict {picked === cur.q.correct ? 'good' : 'bad'}">{picked === cur.q.correct ? 'Correct' : 'Not quite'}</p>

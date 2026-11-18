@@ -62,6 +62,7 @@
       </div>
     {/if}
   </article>
+  <Skip onskip={skip} />
   {#if shown}
     <p class="label" style="margin-top: 16px">How well did you know it?</p>
     <div class="row fill" style="margin-top: 4px">
@@ -71,7 +72,7 @@
     </div>
   {:else}
     <div class="row"><button class="btn primary" onclick={() => (shown = true)}>Show answer</button></div>
-    <Skip onskip={skip} />
+
   {/if}
 {:else}
   <div class="block">

@@ -52,6 +52,7 @@
     picked = i;
     phase = 'shown';
     const ok = i === cur.q.correct;
+    lastStreak = streak;
     streak = ok ? streak + 1 : 0;
     // 500 for a right answer, up to 500 more for speed, and 100 per answer in a streak (up to 500).
     gained = ok ? 500 + Math.round((left / SECONDS) * 500) + Math.min(500, (streak - 1) * 100) : 0;
@@ -61,7 +62,9 @@
     await tick();
   }
   // Skipped: out of this round and its score, and hidden from now on.
+  let lastStreak = 0;
   async function skip() {
+    if (phase === 'shown') streak = lastStreak; // a wrong answer to it no longer counts
     await setHidden([cur.fact.id], true);
     set.splice(n, 1);
     if (n < set.length) begin();
@@ -115,7 +118,7 @@
         </button>
       {/each}
     </div>
-    {#if phase === 'ask'}<Skip onskip={skip} />{/if}
+    {#if phase === 'ask' || (phase === 'shown' && picked !== cur.q.correct)}<Skip onskip={skip} after={phase === 'shown'} />{/if}
     {#if phase === 'shown'}
       <div class="verdictbar {picked === cur.q.correct ? 'good' : 'bad'}" role="status">
         <strong>{picked === cur.q.correct ? `+${gained}` : picked === -1 ? 'Out of time' : 'Not this time'}</strong>

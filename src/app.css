@@ -70,7 +70,7 @@ a { color: var(--navy); text-underline-offset: 3px; }
 .band { background: var(--sheet); border-bottom: var(--rule); position: sticky; top: 0; z-index: 2; }
 .band > div { max-width: 40rem; margin: 0 auto; padding: var(--u) calc(var(--u) * 2); display: flex; align-items: center; gap: var(--u); }
 .band .brand { display: flex; margin-right: auto; }
-.band .brand img { display: block; height: 36px; width: auto; }
+.band .brand img { height: 36px; width: auto; } /* no display here: the light/dark logo rules decide which one shows */
 .chip { display: inline-flex; align-items: center; gap: 4px; min-height: 32px; padding: 0 10px; border-radius: 99px; background: var(--fill); color: var(--ink); font-size: 0.875rem; font-weight: 600; font-variant-numeric: tabular-nums; text-decoration: none; }
 .chip svg { flex: none; }
 .band .gear { display: grid; place-items: center; width: 44px; height: 44px; margin-right: -10px; border-radius: 50%; color: var(--ink-2); transition: background 0.15s, color 0.15s; }
@@ -390,8 +390,6 @@ body:has(.ob) { background: color-mix(in srgb, var(--branch) 7%, var(--paper)); 
 @keyframes slideup { from { transform: translateY(100%); } }
 
 /* ---- Hiding items: "Not in my program" ---- */
-.skip { margin-top: var(--u); font-size: 0.875rem; color: var(--ink-2); text-decoration: none; }
-.skip svg { flex: none; }
 .foldbar { display: grid; gap: 4px; padding: var(--u) calc(var(--u) * 1.5); border-bottom: 1px solid var(--line); background: var(--fill); }
 .foldbar .btn { justify-self: start; padding: 0; }
 th.sw, td.sw { width: 1%; text-align: center; white-space: nowrap; }
@@ -508,3 +506,25 @@ nav.bar a[aria-current='page']::before { transform: translateX(-50%) scale(1); o
 nav.bar a svg { position: relative; }
 
 @media (prefers-reduced-motion: reduce) { .skel i { animation: none; } ::view-transition-old(root), ::view-transition-new(root) { animation: none; } }
+
+/* "Not in my program": quiet text, there when you look for it. Same muted ink in light and dark. */
+.skip { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; margin-top: 4px; padding: 0 4px; border: 0; background: none; color: var(--ink-2); font: 500 0.8125rem var(--body); opacity: 0.85; cursor: pointer; transition: opacity 0.2s, color 0.2s; }
+.skip svg { flex: none; opacity: 0.8; }
+.skip:hover, .skip:focus-visible { opacity: 1; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Quiz: step back through answered questions */
+.qnav { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--u); margin-top: var(--u); }
+.qnav .label { margin: 0; text-align: center; }
+.qnav .btn.link { padding: 0 var(--u); text-decoration: none; color: var(--ink-2); }
+.qnav .btn.link:disabled { visibility: hidden; }
+.card.past { border-style: dashed; }
+.recap { list-style: none; padding: 0; margin: var(--u) 0; border: var(--rule); border-radius: var(--r); background: var(--sheet); overflow: hidden; }
+.recap li { margin: 0; border-top: 1px solid var(--line); }
+.recap li:first-child { border-top: 0; }
+.recap-row { display: flex; align-items: center; gap: calc(var(--u) * 1.5); width: 100%; min-height: 52px; padding: var(--u) calc(var(--u) * 1.5); border: 0; background: none; color: var(--ink); font: inherit; text-align: left; cursor: pointer; }
+.recap-row:hover { background: var(--fill); }
+.mark { flex: none; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; font-weight: 700; font-size: 0.875rem; color: #fff; }
+.mark.good { background: var(--good); }
+.mark.bad { background: var(--red); }
+:root[data-theme='dark'] .mark.good { color: #0e1621; }
+@media (prefers-color-scheme: dark) { :root[data-theme='system'] .mark.good { color: #0e1621; } }

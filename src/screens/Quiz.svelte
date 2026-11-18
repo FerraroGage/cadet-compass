@@ -1,9 +1,10 @@
 <script lang="ts">
   // One quiz runner for Test Yourself and custom training. Settings arrive in the address:
   //   module, topic, n (count), diff (1..3), pool (all | due | missed), type (mc | recall), timer (seconds per question)
+  // Answered questions can be stepped back through. A question marked "not in my program", before answering
+  // or after getting it wrong, leaves the quiz and its score entirely.
   import { app, facts, grade, tick, award, today, setHidden } from '../lib/store.svelte';
   import { MODULES, quizzable, buildQuestion, shuffle, gaps, type Question } from '../lib/quiz';
-  import type { Fact } from '../lib/bundle';
   import Cite from '../lib/Cite.svelte';
   import Skip from '../lib/Skip.svelte';
 
@@ -24,60 +25,67 @@
     (p('pool') !== 'missed' || (app.progress[f.id]?.lapses ?? 0) > 0 || placementMisses.has(f.id)) &&
     (recall || buildQuestion(f, all)),
   );
-  const set = $state(shuffle(pool).slice(0, Number(p('n')) || 10));
+  // One entry per question: the fact, its choices (kept so a review shows the same ones), and the result once answered.
+  type Item = { fact: (typeof pool)[number]; q: Question | null; picked: number | null; ok?: boolean };
+  const set = $state<Item[]>(shuffle(pool).slice(0, Number(p('n')) || 10).map((fact) => ({ fact, q: recall ? null : buildQuestion(fact, all), picked: null })));
 
-  let i = $state(0);
-  let q = $state<Question | null>(null);
-  let picked = $state<number | null>(null);
-  let shown = $state(false); // answered and marked
+  let i = $state(0); // the question being answered
+  let view = $state<number | null>(null); // an earlier question being looked at again
   let revealed = $state(false); // recall only: answer on screen, not yet marked
   let left = $state(seconds);
-  let missed = $state<Fact[]>([]);
-  let right = $state(0);
-  const fact = $derived(set[i]);
+  let earned = $state(0);
+  let awarded = false;
   const done = $derived(i >= set.length);
+  const right = $derived(set.filter((x) => x.ok).length);
+  const missed = $derived(set.filter((x) => x.ok === false).map((x) => x.fact));
+  const shownAt = $derived(view ?? i);
+  const cur = $derived(set[shownAt]);
+  const answered = $derived(cur?.ok !== undefined);
 
-  function begin() {
-    q = fact && !recall ? buildQuestion(fact, all) : null;
-    picked = null;
-    shown = false;
-    revealed = false;
-    left = seconds;
-  }
-  begin();
-
-  // A miss goes back into today's cards.
-  async function mark(ok: boolean) {
-    shown = true;
-    void tick();
-    if (ok) right++;
-    else { missed.push(fact); await grade(fact.id, 0); }
-  }
-  const choose = (n: number) => { picked = n; mark(n === q!.correct); };
   // Short quizzes earn nothing, so a one-question quiz cannot be farmed.
   const MIN = 5;
   const review = p('pool') === 'missed';
-  let earned = $state(0);
+
+  // A miss goes back into today's cards.
+  async function mark(ok: boolean, picked: number | null = null) {
+    const item = set[i];
+    item.picked = picked;
+    item.ok = ok;
+    void tick();
+    if (!ok) await grade(item.fact.id, 0);
+  }
+  const choose = (n: number) => mark(n === set[i].q!.correct, n);
+
   async function next() {
     i++;
-    begin();
-    if (i < set.length || !set.length) return;
+    revealed = false;
+    left = seconds;
+    await finish();
+  }
+  async function finish() {
+    if (i < set.length || !set.length || awarded) return;
+    awarded = true;
     if (review) earned = await award('review');
     else if (set.length >= MIN) earned = await award('quiz', { score: right / set.length });
   }
 
-  // Skipped: taken out of this quiz, so it counts toward nothing, and hidden from now on.
-  async function skip() {
-    await setHidden([fact.id], true);
-    set.splice(i, 1);
-    i--;
-    await next();
+  // Not in my program: hidden from now on, and removed from this quiz as if it had never been asked.
+  async function drop(k: number) {
+    await setHidden([set[k].fact.id], true);
+    set.splice(k, 1);
+    if (k < i) i--;
+    if (view !== null && view >= i) view = null;
+    revealed = false;
+    if (k === i) left = seconds;
+    await finish();
   }
+  const back = () => (view = Math.max(0, (view ?? i) - 1));
+  const forward = () => (view = view !== null && view + 1 < i ? view + 1 : null);
 
   $effect(() => {
-    if (!seconds || done || recall) return; // the timer applies to multiple choice only
+    if (!seconds || done || recall || view !== null) return; // the timer applies to multiple choice only, and waits during a look back
     const id = setInterval(() => {
-      if (shown) return;
+      if (set[i]?.ok !== undefined) return;
       left--;
       if (left <= 0) mark(false); // time ran out
     }, 1000);
@@ -97,43 +105,54 @@
       <a class="btn primary" href="#/train/custom">Change settings</a>
     </div>
   </div>
-{:else if done}
+{:else if done && view === null}
   <h2>Score</h2>
   <p><span class="num">{right}</span> of <span class="num">{set.length}</span> correct.</p>
   <p class="help">{earned ? `+${earned} XP` : !review && set.length < MIN ? `Quizzes of ${MIN} or more questions earn XP.` : !review && right / set.length < 0.7 ? 'Score 70 percent or better to earn XP.' : 'You have reached today\'s XP limit for this activity.'}</p>
-  {#if missed.length}
-    <p>{missed.length === 1 ? 'This one is' : `These ${missed.length} are`} back in your cards, due today.</p>
-    <table>
-      <thead><tr><th scope="col">Question</th><th scope="col">Answer</th></tr></thead>
-      <tbody>{#each missed as f}<tr><td>{f.q}</td><td>{f.a}<Cite fact={f} /></td></tr>{/each}</tbody>
-    </table>
-  {/if}
+  <ol class="recap">
+    {#each set as x, k}
+      <li><button class="recap-row" onclick={() => (view = k)}>
+        <span class="mark {x.ok ? 'good' : 'bad'}" aria-label={x.ok ? 'Right' : 'Wrong'}>{x.ok ? '✓' : '✕'}</span>
+        <span>{x.fact.q}</span>
+      </button></li>
+    {/each}
+  </ol>
+  {#if missed.length}<p class="help">{missed.length === 1 ? 'The one you missed is' : `The ${missed.length} you missed are`} back in your cards, due today. Tap any question to look at it again.</p>{/if}
   <div class="row">
     <button class="btn primary" onclick={() => location.reload()}>Go again</button>
     {#if missed.length}<a class="btn" href="#/train/quiz?pool=missed&n=10">Review misses</a>{/if}
-    <a class="btn" href="#/cards">Study cards</a>
-    <a class="btn" href="#/train">Training menu</a>
+    <a class="btn" href="#/train">All games and tests</a>
   </div>
 {:else}
-  <p class="label">Question {i + 1} of {set.length}{#if seconds && !recall && !shown} / <span aria-live="off">{left} seconds</span>{/if}</p>
-  <article class="card">
+  {@const fact = cur.fact}
+  {@const q = cur.q}
+  <div class="qnav">
+    <button class="btn link" onclick={back} disabled={shownAt === 0} aria-label="Previous question">‹ Back</button>
+    <p class="label" aria-live="polite">
+      {#if view !== null}Looking back: question {view + 1} of {set.length}{:else}Question {i + 1} of {set.length}{/if}
+      {#if seconds && !recall && !answered && view === null} / <span aria-live="off">{left} seconds</span>{/if}
+    </p>
+    {#if view !== null}<button class="btn link" onclick={forward}>{view + 1 < i ? 'Next ›' : done ? 'Score ›' : 'Current ›'}</button>{/if}
+  </div>
+  <article class="card" class:past={view !== null}>
     <div class="q" id="question">{fact.q}</div>
     {#if q}
       <div role="radiogroup" aria-labelledby="question">
         {#each q.choices as c, n}
-          <button class="choice" class:right={shown && n === q.correct} class:wrong={shown && n === picked && n !== q.correct}
-            role="radio" aria-checked={picked === n} disabled={shown} onclick={() => choose(n)}>
+          <button class="choice" class:right={answered && n === q.correct} class:wrong={answered && n === cur.picked && n !== q.correct}
+            role="radio" aria-checked={cur.picked === n} disabled={answered || view !== null} onclick={() => choose(n)}>
             <b>{'ABCD'[n]}</b><span>{c}</span>
           </button>
         {/each}
       </div>
     {/if}
-    {#if shown || revealed}
+    {#if answered || (revealed && view === null)}
       <div class="a" aria-live="polite">
         {#if q}
-          <p class="verdict {picked === q.correct ? 'good' : 'bad'}">{picked === q.correct ? 'Correct' : picked === null ? 'Out of time' : 'Incorrect'}</p>
+          <p class="verdict {cur.ok ? 'good' : 'bad'}">{cur.ok ? 'Correct' : cur.picked === null ? 'Out of time' : 'Incorrect'}</p>
         {:else}
           <strong>{fact.a}</strong>
+          {#if answered}<p class="verdict {cur.ok ? 'good' : 'bad'}">{cur.ok ? 'You had it' : 'You missed it'}</p>{/if}
         {/if}
         <p>{fact.text}</p>
         <Cite {fact} />
@@ -141,16 +160,20 @@
     {/if}
   </article>
 
-  {#if !shown && !revealed}<Skip onskip={skip} />{/if}
-  {#if recall && !revealed}
-    <p class="help" style="margin-top: 16px">Say or write the answer, then check it.</p>
-    <div class="row" style="margin-top: 4px"><button class="btn primary" onclick={() => (revealed = true)}>Show answer</button></div>
-  {:else if recall && !shown}
-    <div class="row fill">
-      <button class="btn primary" onclick={async () => { await mark(true); next(); }}>I had it</button>
-      <button class="btn" onclick={async () => { await mark(false); next(); }}>I missed it</button>
-    </div>
-  {:else if shown}
-    <div class="row"><button class="btn primary" onclick={next}>{i + 1 === set.length ? 'See score' : 'Next question'}</button></div>
+  <!-- Before answering, or after a wrong answer: "not in my program" takes it out of the quiz and the score. -->
+  {#if !answered || cur.ok === false}<Skip onskip={() => drop(shownAt)} after={answered} />{/if}
+
+  {#if view === null}
+    {#if recall && !revealed}
+      <p class="help" style="margin-top: 16px">Say or write the answer, then check it.</p>
+      <div class="row" style="margin-top: 4px"><button class="btn primary" onclick={() => (revealed = true)}>Show answer</button></div>
+    {:else if recall && !answered}
+      <div class="row fill">
+        <button class="btn primary" onclick={async () => { await mark(true); next(); }}>I had it</button>
+        <button class="btn" onclick={async () => { await mark(false); next(); }}>I missed it</button>
+      </div>
+    {:else if answered}
+      <div class="row"><button class="btn primary" onclick={next}>{i + 1 === set.length ? 'See score' : 'Next question'}</button></div>
+    {/if}
   {/if}
 {/if}

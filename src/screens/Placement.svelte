@@ -1,9 +1,10 @@
 <script lang="ts">
-  import { app, facts, save, makeDue, award, today, fmtDate } from '../lib/store.svelte';
+  import { app, facts, save, makeDue, award, today, fmtDate, setHidden } from '../lib/store.svelte';
   import { MODULES, quizzable, buildQuestion, newPlacement, nextFact, record, summarize, gaps, modulePriority, type Question } from '../lib/quiz';
   import { addDays } from '../lib/srs';
   import type { Fact } from '../lib/bundle';
   import Cite from '../lib/Cite.svelte';
+  import Skip from '../lib/Skip.svelte';
 
   const t = today();
   const all = facts();
@@ -24,9 +25,18 @@
     load();
   }
   // The answer is saved the moment it is given, so the test can be left and resumed at any point.
+  // Not in my program: hidden, and a wrong answer to it is undone, then another question comes up.
+  let before: typeof app.placement = null;
+  async function swap() {
+    if (!cur) return;
+    if (result !== null && before) await save('placement', before);
+    await setHidden([cur.fact.id], true);
+    load();
+  }
   async function submit(sure: boolean) {
     if (!cur || picked === null) return;
     result = picked === cur.q.correct;
+    before = $state.snapshot(app.placement!);
     const next = record(app.placement!, { factId: cur.fact.id, module: cur.fact.module, correct: result, sure }, t);
     await save('placement', next);
     if (next.done) { await makeDue(gaps(next.answers)); await award('placement'); }
@@ -62,6 +72,7 @@
       </div>
     {/if}
   </article>
+  {#if result === null || (result === false && !app.placement!.done)}<Skip onskip={swap} after={result !== null} />{/if}
   {#if result === null}
     <p class="label" style="margin-top: 16px">Pick an answer, then say how sure you are</p>
     <div class="row fill" style="margin-top: 4px">

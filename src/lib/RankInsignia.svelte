@@ -1,10 +1,11 @@
 <script module lang="ts">
   // The cadet set is drawn on the active-duty Marine Corps pattern (MCO 1020.34H) because no official cadet
-  // illustration was found; the lamp of learning is left out (no source for its shape). The enlisted layout
+  // illustration was found; the lamp of learning is left out (no source for its shape). Officer insignia follow the owner's
+  // description (silver disks, then silver diamonds). The enlisted layout
   // (chevrons up, rockers down, crossed rifles / diamond / star) is from memory of that pattern, not checked against Figure 4-10.
-  // Enlisted look chosen: gold embroidery on a dark green patch. Officer insignia are metallic gold / silver pieces on the same patch.
+  // Enlisted look chosen: gold embroidery on a dark green patch. Officer insignia are metallic silver pieces on the same patch.
   let n = 0;
-  type Spec = { up: number; down: number; sym?: 'rifles' | 'diamond' | 'star' } | { officer: 'gold-bar' | 'silver-bar' | 'two-bars' | 'gold-leaf' | 'silver-leaf' | 'eagle' };
+  type Spec = { up: number; down: number; sym?: 'rifles' | 'diamond' | 'star' } | { shape: 'disk' | 'diamond'; count: number };
   const SPEC: Record<string, Spec> = {
     'Cadet Private First Class': { up: 1, down: 0 },
     'Cadet Lance Corporal': { up: 1, down: 0, sym: 'rifles' },
@@ -14,17 +15,16 @@
     'Cadet Gunnery Sergeant': { up: 3, down: 2, sym: 'rifles' },
     'Cadet First Sergeant': { up: 3, down: 3, sym: 'diamond' },
     'Cadet Sergeant Major': { up: 3, down: 4, sym: 'star' },
-    'Cadet Second Lieutenant': { officer: 'gold-bar' },
-    'Cadet First Lieutenant': { officer: 'silver-bar' },
-    'Cadet Captain': { officer: 'two-bars' },
-    'Cadet Major': { officer: 'gold-leaf' },
-    'Cadet Lieutenant Colonel': { officer: 'silver-leaf' },
-    'Cadet Colonel': { officer: 'eagle' },
+    // Cadet officers wear silver disks (one to three) and then silver diamonds (one to three), per the owner, an MCJROTC cadet.
+    'Cadet Second Lieutenant': { shape: 'disk', count: 1 },
+    'Cadet First Lieutenant': { shape: 'disk', count: 2 },
+    'Cadet Captain': { shape: 'disk', count: 3 },
+    'Cadet Major': { shape: 'diamond', count: 1 },
+    'Cadet Lieutenant Colonel': { shape: 'diamond', count: 2 },
+    'Cadet Colonel': { shape: 'diamond', count: 3 },
   };
   const chev = (y: number) => `M8 ${y + 16}L50 ${y}L92 ${y + 16}V${y + 25}L50 ${y + 9}L8 ${y + 25}Z`;
   const rock = (y: number) => `M10 ${y}Q50 ${y + 16} 90 ${y}`;
-  const LEAF = 'M50 12C58 18 56 24 62 26C60 32 66 34 66 40C70 42 70 50 64 54C66 60 60 66 54 66L54 82L46 82L46 66C40 66 34 60 36 54C30 50 30 42 34 40C34 34 40 32 38 26C44 24 42 18 50 12Z';
-  const EAGLE = 'M50 16L55 19L60 23L55 26L57 33L92 20L96 33L88 36L92 46L82 48L84 58L70 58L64 70L60 84L50 86';
 </script>
 
 <script lang="ts">
@@ -62,14 +62,19 @@
         {:else if spec.sym === 'star'}
           <path d="M50 26L54 38L67 38L56.5 46L60.5 58L50 50.5L39.5 58L43.5 46L33 38L46 38Z" fill="url(#{id}g)" />
         {/if}
-      {:else if spec.officer === 'gold-bar' || spec.officer === 'silver-bar'}
-        <rect x="16" y="38" width="68" height="24" rx="2" fill="url(#{id}{spec.officer === 'gold-bar' ? 'g' : 'v'})" stroke={spec.officer === 'gold-bar' ? '#5c430c' : '#39424b'} />
-      {:else if spec.officer === 'two-bars'}
-        <rect x="16" y="24" width="68" height="20" rx="2" fill="url(#{id}v)" stroke="#39424b" /><rect x="16" y="56" width="68" height="20" rx="2" fill="url(#{id}v)" stroke="#39424b" />
-      {:else if spec.officer === 'gold-leaf' || spec.officer === 'silver-leaf'}
-        <path d={LEAF} fill="url(#{id}{spec.officer === 'gold-leaf' ? 'g' : 'v'})" stroke={spec.officer === 'gold-leaf' ? '#5c430c' : '#39424b'} />
       {:else}
-        <g fill="url(#{id}v)" stroke="#39424b"><path d={EAGLE} /><path d={EAGLE} transform="translate(100 0) scale(-1 1)" /></g>
+        <!-- Silver pieces in a row, centered; a radial highlight and the drop shadow give them depth. -->
+        {#each Array.from({ length: spec.count }, (_, k) => 50 + (k - (spec.count - 1) / 2) * (spec.count === 3 ? 29 : 32)) as x}
+          {#if spec.shape === 'disk'}
+            <circle cx={x} cy="50" r="12.5" fill="url(#{id}v)" stroke="#39424b" />
+            <circle cx={x} cy="50" r="8.5" fill="none" stroke="#fff" stroke-opacity="0.35" />
+            <ellipse cx={x - 4} cy="45" rx="4" ry="2.5" fill="#fff" opacity="0.7" />
+          {:else}
+            <path d="M{x} 28L{x + 14} 50L{x} 72L{x - 14} 50Z" fill="url(#{id}v)" stroke="#39424b" />
+            <path d="M{x} 28L{x + 14} 50L{x} 50Z" fill="#fff" opacity="0.28" />
+            <path d="M{x} 50L{x - 14} 50L{x} 72Z" fill="#000" opacity="0.18" />
+          {/if}
+        {/each}
       {/if}
     </g>
   </svg>

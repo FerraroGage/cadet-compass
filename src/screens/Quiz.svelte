@@ -1,10 +1,11 @@
 <script lang="ts">
   // One quiz runner for Test Yourself and custom training. Settings arrive in the address:
   //   module, topic, n (count), diff (1..3), pool (all | due | missed), type (mc | recall), timer (seconds per question)
-  import { app, facts, grade, tick, award, today } from '../lib/store.svelte';
+  import { app, facts, grade, tick, award, today, setHidden } from '../lib/store.svelte';
   import { MODULES, quizzable, buildQuestion, shuffle, gaps, type Question } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
   import Cite from '../lib/Cite.svelte';
+  import Skip from '../lib/Skip.svelte';
 
   let { params }: { params: URLSearchParams } = $props();
   const t = today();
@@ -23,7 +24,7 @@
     (p('pool') !== 'missed' || (app.progress[f.id]?.lapses ?? 0) > 0 || placementMisses.has(f.id)) &&
     (recall || buildQuestion(f, all)),
   );
-  const set = shuffle(pool).slice(0, Number(p('n')) || 10);
+  const set = $state(shuffle(pool).slice(0, Number(p('n')) || 10));
 
   let i = $state(0);
   let q = $state<Question | null>(null);
@@ -60,9 +61,17 @@
   async function next() {
     i++;
     begin();
-    if (i < set.length) return;
+    if (i < set.length || !set.length) return;
     if (review) earned = await award('review');
     else if (set.length >= MIN) earned = await award('quiz', { score: right / set.length });
+  }
+
+  // Skipped: taken out of this quiz, so it counts toward nothing, and hidden from now on.
+  async function skip() {
+    await setHidden([fact.id], true);
+    set.splice(i, 1);
+    i--;
+    await next();
   }
 
   $effect(() => {
@@ -132,6 +141,7 @@
     {/if}
   </article>
 
+  {#if !shown && !revealed}<Skip onskip={skip} />{/if}
   {#if recall && !revealed}
     <p class="help" style="margin-top: 16px">Say or write the answer, then check it.</p>
     <div class="row" style="margin-top: 4px"><button class="btn primary" onclick={() => (revealed = true)}>Show answer</button></div>

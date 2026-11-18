@@ -46,8 +46,10 @@ interface Saved {
   serverXp: number | null; dirty: string[];      // account sync: the server's total, cards not yet uploaded
   remind: boolean; ageBlocked: boolean;
   scores: Record<string, number>; // best score per game, on this device
+  theme: 'light' | 'dark' | 'system';
+  hidden: string[]; // fact ids the cadet marked "not in my program"; never quizzed
 }
-const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false, scores: {} };
+const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false, scores: {}, hidden: [], theme: 'system' };
 
 export const app = $state({
   ready: false, error: '', notice: '',
@@ -67,8 +69,11 @@ export async function save<K extends keyof Saved>(k: K, v: Saved[K]) {
   await db.kv.put({ k, v: $state.snapshot(v) });
 }
 
-/** Study content for the cadet's branch. Every screen reads facts through here. */
-export const facts = (): Fact[] => (app.bundle ? app.bundle.facts.filter((f) => f.branch.includes(app.profile?.branch || 'usmc')) : []);
+/** Study content for the cadet's branch. Every screen reads facts through here; hidden items are left out unless asked for. */
+export const facts = (withHidden = false): Fact[] =>
+  app.bundle ? app.bundle.facts.filter((f) => f.branch.includes(app.profile?.branch || 'usmc') && (withHidden || !app.hidden.includes(f.id))) : [];
+export const setHidden = (ids: string[], hide: boolean) =>
+  save('hidden', hide ? [...new Set([...app.hidden, ...ids])] : app.hidden.filter((id) => !ids.includes(id)));
 
 export async function boot() {
   try {

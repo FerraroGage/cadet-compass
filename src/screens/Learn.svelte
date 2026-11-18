@@ -1,11 +1,11 @@
 <script lang="ts">
   // Learn: everything to read and study, one module at a time.
-  import { facts } from '../lib/store.svelte';
+  import { app, facts, setHidden } from '../lib/store.svelte';
   import { MODULES } from '../lib/quiz';
   import FactTable from '../lib/FactTable.svelte';
 
   let { tab }: { tab?: string } = $props();
-  const all = facts();
+  const all = facts(true); // Learn lists hidden items too, so they can be turned back on
   const mods = MODULES.filter((m) => all.some((f) => f.module === m.id));
   const current = $derived(mods.find((m) => m.id === tab) ?? mods[0]);
   const rows = $derived(current ? all.filter((f) => f.module === current.id) : []);
@@ -30,10 +30,15 @@
   </div>
 
   <h2>{current.name}: what to know <span class="label">{rows.length} items</span></h2>
-  {#each topics as topic, i}
-    <details class="fold" open={i === 0}>
-      <summary>{topic.name}<span class="label">{topic.rows.length}</span></summary>
-      <FactTable rows={topic.rows} />
+  {#each topics as topic}
+    {@const off = topic.rows.filter((f) => app.hidden.includes(f.id)).length}
+    <details class="fold">
+      <summary>{topic.name}<span class="label">{off ? `${off} hidden / ` : ''}{topic.rows.length}</span></summary>
+      <div class="foldbar">
+        <span class="help">Not taught in your program? Switch items off and they stop showing up in quizzes and games.</span>
+        <button class="btn link" onclick={() => setHidden(topic.rows.map((f) => f.id), off < topic.rows.length)}>{off < topic.rows.length ? 'Hide this whole section' : 'Turn this section back on'}</button>
+      </div>
+      <FactTable rows={topic.rows} toggle />
     </details>
   {/each}
 

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { app, save, wipeLocal, fmtDate } from '../lib/store.svelte';
+  import { app, save, wipeLocal, fmtDate, setHidden } from '../lib/store.svelte';
   import { deleteAccount } from '../lib/backend';
   import { TERMS } from '../legal/terms';
   import { PRIVACY } from '../legal/privacy';
@@ -102,6 +102,30 @@
       {/each}
     </tbody>
   </table>
+  <h2>Hidden questions</h2>
+  {#if app.hidden.length}
+    {@const items = b.facts.filter((f) => app.hidden.includes(f.id))}
+    <p>{items.length} {items.length === 1 ? 'item is' : 'items are'} left out of quizzes, cards and games because you marked them as not in your program.</p>
+    <details class="fold">
+      <summary>Show the list<span class="label">{items.length}</span></summary>
+      <ul class="hiddenlist">
+        {#each items as f (f.id)}
+          <li><span>{f.text}</span><button class="btn link" onclick={() => setHidden([f.id], false)}>Turn back on</button></li>
+        {/each}
+      </ul>
+    </details>
+    <div class="row" style="margin-top: 8px"><button class="btn" onclick={() => setHidden(app.hidden, false)}>Turn all back on</button></div>
+  {:else}
+    <p class="help">Nothing hidden. If your program does not use something, such as a uniform you do not wear, tap "Not in my program" on the question, or switch items off in Learn.</p>
+  {/if}
+
+  <h2>Appearance</h2>
+  <label class="field"><span class="label">Light or dark</span>
+    <select value={app.theme} onchange={(e) => save('theme', (e.currentTarget as HTMLSelectElement).value as 'light' | 'dark' | 'system')}>
+      <option value="light">Light</option><option value="dark">Dark</option><option value="system">Match my device</option>
+    </select>
+  </label>
+
   <h2>Your answers</h2>
   <p>Change your branch, region, goals or daily time, or go through setup again from the start. Your progress and XP are kept.</p>
   <div class="row" style="margin-top: 8px">

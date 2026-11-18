@@ -34,6 +34,7 @@
   });
   // The accent color follows the cadet's branch.
   $effect(() => { document.documentElement.dataset.branch = app.profile?.branch || ''; });
+  $effect(() => { document.documentElement.dataset.theme = app.theme; });
   // One +XP toast at a time; each stays for its animation, then the next one shows.
   $effect(() => {
     if (!app.toasts.length) return;
@@ -64,7 +65,7 @@
 {:else}
   <header class="band">
     <div>
-      <a class="brand" href="#/hub" aria-label="Cadet Compass home"><img src="./icons/logo.svg" alt="" width="132" height="36" /></a>
+      <a class="brand" href="#/hub" aria-label="Cadet Compass home"><img class="logo-light" src="./icons/logo.svg" alt="" width="132" height="36" /><img class="logo-dark" src="./icons/logo-dark.svg" alt="" width="132" height="36" /></a>
       {#if inApp}
         <a class="chip" href="#/profile" aria-label="{streak()} day streak">
           <svg width="16" height="16" viewBox="0 0 24 24" fill={streak() ? '#c0392b' : '#8b97a3'} aria-hidden="true"><path d="M12 2.5c3.5 4 5.5 6.3 5.5 9.7a5.5 5.5 0 0 1-11 0c0-2 1-3.4 2.2-4.6.1 2 .9 3.2 2 3.4-.2-3 .1-5.7 1.3-8.5z" /></svg>

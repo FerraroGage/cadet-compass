@@ -1,8 +1,9 @@
 <script lang="ts">
-  import { app, facts, grade, tick, award, today, fmtDate } from '../lib/store.svelte';
+  import { app, facts, grade, tick, award, today, fmtDate, setHidden } from '../lib/store.svelte';
   import { MODULES, quizzable, modulePriority, summarize } from '../lib/quiz';
   import type { Grade } from '../lib/srs';
   import Cite from '../lib/Cite.svelte';
+  import Skip from '../lib/Skip.svelte';
 
   let { module }: { module?: string } = $props();
   const t = today();
@@ -33,6 +34,14 @@
     await tick();
     if (!queue.length) await award('lesson');
   }
+  // Skipped: off the list and out of the count, so it earns nothing.
+  async function skip() {
+    await setHidden([queue[0]], true);
+    queue = queue.slice(1);
+    total--;
+    shown = false;
+    if (!queue.length && total) await award('lesson');
+  }
   function more() { queue = build(); total = queue.length; }
   const GRADES: [Grade, string, string][] = [[0, 'Again', 'Missed it'], [1, 'Hard', 'Barely'], [2, 'Good', 'Knew it'], [3, 'Easy', 'No effort']];
 </script>
@@ -62,6 +71,7 @@
     </div>
   {:else}
     <div class="row"><button class="btn primary" onclick={() => (shown = true)}>Show answer</button></div>
+    <Skip onskip={skip} />
   {/if}
 {:else}
   <div class="block">

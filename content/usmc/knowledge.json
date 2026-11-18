@@ -1,5 +1,33 @@
 [
   {
+    "id": "usmc.knowledge.mnemonic-principles",
+    "topic": "Leadership principles",
+    "text": "Memory aid for the 11 leadership principles, KKBEMETSKIDS: Know yourself and seek self-improvement; Know your people and look out for their welfare; Be technically and tactically proficient; Ensure the task is understood, supervised and accomplished; Make sound and timely decisions; Employ your command in accordance with its capabilities; Train your people as a team; Set the example; Keep your people Informed; Develop a sense of responsibility among subordinates; Seek responsibility and take responsibility for your actions.",
+    "q": "The memory aid KKBEMETSKIDS stands for which list?",
+    "a": "The 11 leadership principles",
+    "distractors": [
+      "The 14 leadership traits",
+      "The 11 general orders",
+      "The three core values"
+    ],
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 22 (list); the mnemonic is a common memory aid built from it"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-18",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
     "id": "usmc.knowledge.principle-1",
     "branch": [
       "usmc"
@@ -273,6 +301,34 @@
     "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
+  },
+  {
+    "id": "usmc.knowledge.mnemonic-traits",
+    "topic": "Leadership traits",
+    "text": "Memory aid for the 14 leadership traits, JJ DID TIE BUCKLE: Justice, Judgment, Dependability, Initiative, Decisiveness, Tact, Integrity, Enthusiasm, Bearing, Unselfishness, Courage, Knowledge, Loyalty, Endurance.",
+    "q": "The memory aid JJDIDTIEBUCKLE stands for which list?",
+    "a": "The 14 leadership traits",
+    "distractors": [
+      "The 11 leadership principles",
+      "The 11 general orders",
+      "The three core values"
+    ],
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "difficulty": 1,
+    "source": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "publisher": "U.S. Marine Corps, MCJROTC",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "locator": "p. 23 (list); the mnemonic is a common memory aid built from it"
+    },
+    "edition": "Undated; PDF file dated 30 Apr 2007",
+    "effective_from": "2007-04-30",
+    "verified_on": "2026-11-18",
+    "confidence": "high",
+    "review_tier": 3
   },
   {
     "id": "usmc.knowledge.trait-bearing",

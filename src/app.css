@@ -388,3 +388,45 @@ body:has(.ob) { background: color-mix(in srgb, var(--branch) 7%, var(--paper)); 
 @media (max-width: 380px) { .board { grid-template-columns: 1fr 1fr; } }
 @keyframes shake { 20%, 60% { transform: translateX(-6px); } 40%, 80% { transform: translateX(6px); } }
 @keyframes slideup { from { transform: translateY(100%); } }
+
+/* ---- Hiding items: "Not in my program" ---- */
+.skip { margin-top: var(--u); font-size: 0.875rem; color: var(--ink-2); text-decoration: none; }
+.skip svg { flex: none; }
+.foldbar { display: grid; gap: 4px; padding: var(--u) calc(var(--u) * 1.5); border-bottom: 1px solid var(--line); background: var(--fill); }
+.foldbar .btn { justify-self: start; padding: 0; }
+th.sw, td.sw { width: 1%; text-align: center; white-space: nowrap; }
+tr.off td:not(.sw) { color: var(--ink-2); text-decoration: line-through; }
+.switch { position: relative; width: 48px; height: 44px; padding: 0; border: 0; background: none; cursor: pointer; }
+.switch i { position: absolute; left: 4px; right: 4px; top: 12px; height: 22px; border-radius: 11px; background: var(--edge); transition: background 0.2s; }
+.switch i::after { content: ''; position: absolute; left: 3px; top: 3px; width: 16px; height: 16px; border-radius: 50%; background: #fff; transition: transform 0.2s var(--ease); }
+.switch[aria-checked='true'] i { background: var(--branch); }
+.switch[aria-checked='true'] i::after { transform: translateX(18px); }
+.hiddenlist { list-style: none; margin: 0; padding: 0; }
+.hiddenlist li { display: flex; align-items: center; gap: var(--u); margin: 0; padding: var(--u) calc(var(--u) * 1.5); border-top: 1px solid var(--line); font-size: 0.875rem; }
+.hiddenlist li span { flex: 1; }
+
+/* ---- Dark theme: chosen in setup or Settings, or following the device ---- */
+:root[data-theme='dark'] { --paper: #0e1621; --sheet: #172231; --fill: #1f2c3d; --ink: #eef2f6; --ink-2: #a9b7c6; --line: #2b394c; --edge: #3a4b61;
+  --cream: #2b394c; --gold-tint: #3a3118; --red-tint: #3d1f1c; --good: #6ad39a; --good-tint: #173324; color-scheme: dark; }
+@media (prefers-color-scheme: dark) { :root[data-theme='system'] { --paper: #0e1621; --sheet: #172231; --fill: #1f2c3d; --ink: #eef2f6; --ink-2: #a9b7c6; --line: #2b394c; --edge: #3a4b61;
+  --cream: #2b394c; --gold-tint: #3a3118; --red-tint: #3d1f1c; --good: #6ad39a; --good-tint: #173324; color-scheme: dark; } }
+.logo-dark { display: none; }
+:root[data-theme='dark'] .logo-dark { display: block; }
+:root[data-theme='dark'] .logo-light { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root[data-theme='system'] .logo-dark { display: block; }
+  :root[data-theme='system'] .logo-light { display: none; }
+}
+/* In dark, text that used navy or the branch color on a light card uses light ink instead. */
+:root[data-theme='dark'] :is(p, li, td, label, small) a,
+:root[data-theme='dark'] .btn.link, :root[data-theme='dark'] .act b, :root[data-theme='dark'] .final .big,
+:root[data-theme='dark'] .block .n, :root[data-theme='dark'] .plan .n, :root[data-theme='dark'] .ob-top .back { color: var(--ink); }
+:root[data-theme='dark'] .xpline, :root[data-theme='dark'] .plan .xp { color: var(--gold); }
+:root[data-theme='dark'] .tabs a[aria-current='page'] { box-shadow: 0 0 0 2px var(--ink) inset; }
+@media (prefers-color-scheme: dark) {
+  :root[data-theme='system'] :is(p, li, td, label, small) a,
+  :root[data-theme='system'] .btn.link, :root[data-theme='system'] .act b, :root[data-theme='system'] .final .big,
+  :root[data-theme='system'] .block .n, :root[data-theme='system'] .plan .n, :root[data-theme='system'] .ob-top .back { color: var(--ink); }
+  :root[data-theme='system'] .xpline, :root[data-theme='system'] .plan .xp { color: var(--gold); }
+  :root[data-theme='system'] .tabs a[aria-current='page'] { box-shadow: 0 0 0 2px var(--ink) inset; }
+}

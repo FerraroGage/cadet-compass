@@ -1,5 +1,220 @@
 [
   {
+    "id": "usmc.chain.holder-president",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "The President of the United States is Donald J. Trump.",
+    "q": "Who is the President of the United States?",
+    "a": "President Donald J. Trump",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "The Administration",
+      "publisher": "The White House (whitehouse.gov)",
+      "url": "https://www.whitehouse.gov/administration/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2025-01-20",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-vp",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "The Vice President of the United States is JD Vance.",
+    "q": "Who is the Vice President of the United States?",
+    "a": "Vice President JD Vance",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "The Administration",
+      "publisher": "The White House (whitehouse.gov)",
+      "url": "https://www.whitehouse.gov/administration/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2025-01-20",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-secdef",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Pete Hegseth is the Secretary of Defense, also styled Secretary of War.",
+    "q": "Who is the Secretary of Defense (also styled Secretary of War)?",
+    "a": "The Honorable Pete Hegseth",
+    "difficulty": 1,
+    "source": {
+      "title": "Leadership",
+      "publisher": "U.S. Department of War",
+      "url": "https://www.war.gov/About/Leadership/",
+      "locator": "Secretary of War"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1,
+    "group": "holder"
+  },
+  {
+    "id": "usmc.chain.holder-secnav",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "The Honorable Hung Cao is Acting Secretary of the Navy. He assumed responsibility on 22 April 2026.",
+    "q": "Who is the Secretary of the Navy, and in what status?",
+    "a": "The Honorable Hung Cao, Acting Secretary of the Navy",
+    "group": "holder",
+    "difficulty": 2,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2026-04-22",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-cmc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "General Eric M. Smith is the 39th Commandant of the Marine Corps.",
+    "q": "Who is the Commandant of the Marine Corps?",
+    "a": "General Eric M. Smith",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-acmc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "General Bradford J. Gering is the 38th Assistant Commandant of the Marine Corps. He was sworn in on 1 October 2025.",
+    "q": "Who is the Assistant Commandant of the Marine Corps?",
+    "a": "General Bradford J. Gering",
+    "group": "holder",
+    "difficulty": 2,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2025-10-01",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-smmc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Sergeant Major Carlos A. Ruiz is the 20th Sergeant Major of the Marine Corps. He assumed the post on 10 August 2023.",
+    "q": "Who is the Sergeant Major of the Marine Corps?",
+    "a": "Sergeant Major Carlos A. Ruiz",
+    "group": "holder",
+    "difficulty": 1,
+    "source": {
+      "title": "Leaders",
+      "publisher": "U.S. Marine Corps (marines.mil)",
+      "url": "https://www.marines.mil/The-Corps/Leaders/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": "2023-08-10",
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-director",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Colonel Robert G. Oltman, USMC (Ret), is the Director of MCJROTC.",
+    "q": "Who is the Director of MCJROTC?",
+    "a": "Colonel Robert G. Oltman, USMC (Ret)",
+    "group": "holder",
+    "difficulty": 3,
+    "source": {
+      "title": "Home",
+      "publisher": "U.S. Marine Corps, MCJROTC (mcjrotc.marines.mil)",
+      "url": "https://www.mcjrotc.marines.mil/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "high",
+    "review_tier": 1
+  },
+  {
+    "id": "usmc.chain.holder-region",
+    "branch": [
+      "usmc"
+    ],
+    "module": "chain",
+    "topic": "Office holders",
+    "text": "Region Director: no name has been confirmed from an official or instructor source. Ask your instructor.",
+    "q": "Who is your Region Director?",
+    "a": "",
+    "difficulty": 3,
+    "source": {
+      "title": "Home",
+      "publisher": "U.S. Marine Corps, MCJROTC (mcjrotc.marines.mil)",
+      "url": "https://www.mcjrotc.marines.mil/",
+      "locator": "Page as read on 12 Nov 2026"
+    },
+    "edition": "Web page, read 12 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-13",
+    "confidence": "verify",
+    "review_tier": 1
+  },
+  {
     "id": "usmc.chain.pos-president-of-the-united-states",
     "branch": [
       "usmc"
@@ -398,221 +613,6 @@
     "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
-  },
-  {
-    "id": "usmc.chain.holder-president",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "The President of the United States is Donald J. Trump.",
-    "q": "Who is the President of the United States?",
-    "a": "President Donald J. Trump",
-    "group": "holder",
-    "difficulty": 1,
-    "source": {
-      "title": "The Administration",
-      "publisher": "The White House (whitehouse.gov)",
-      "url": "https://www.whitehouse.gov/administration/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": "2025-01-20",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1
-  },
-  {
-    "id": "usmc.chain.holder-vp",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "The Vice President of the United States is JD Vance.",
-    "q": "Who is the Vice President of the United States?",
-    "a": "Vice President JD Vance",
-    "group": "holder",
-    "difficulty": 1,
-    "source": {
-      "title": "The Administration",
-      "publisher": "The White House (whitehouse.gov)",
-      "url": "https://www.whitehouse.gov/administration/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": "2025-01-20",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1
-  },
-  {
-    "id": "usmc.chain.holder-secdef",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "Pete Hegseth is the Secretary of Defense, also styled Secretary of War.",
-    "q": "Who is the Secretary of Defense (also styled Secretary of War)?",
-    "a": "The Honorable Pete Hegseth",
-    "difficulty": 1,
-    "source": {
-      "title": "Leadership",
-      "publisher": "U.S. Department of War",
-      "url": "https://www.war.gov/About/Leadership/",
-      "locator": "Secretary of War"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": null,
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1,
-    "group": "holder"
-  },
-  {
-    "id": "usmc.chain.holder-secnav",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "The Honorable Hung Cao is Acting Secretary of the Navy. He assumed responsibility on 22 April 2026.",
-    "q": "Who is the Secretary of the Navy, and in what status?",
-    "a": "The Honorable Hung Cao, Acting Secretary of the Navy",
-    "group": "holder",
-    "difficulty": 2,
-    "source": {
-      "title": "Leaders",
-      "publisher": "U.S. Marine Corps (marines.mil)",
-      "url": "https://www.marines.mil/The-Corps/Leaders/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": "2026-04-22",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1
-  },
-  {
-    "id": "usmc.chain.holder-cmc",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "General Eric M. Smith is the 39th Commandant of the Marine Corps.",
-    "q": "Who is the Commandant of the Marine Corps?",
-    "a": "General Eric M. Smith",
-    "group": "holder",
-    "difficulty": 1,
-    "source": {
-      "title": "Leaders",
-      "publisher": "U.S. Marine Corps (marines.mil)",
-      "url": "https://www.marines.mil/The-Corps/Leaders/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": null,
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1
-  },
-  {
-    "id": "usmc.chain.holder-acmc",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "General Bradford J. Gering is the 38th Assistant Commandant of the Marine Corps. He was sworn in on 1 October 2025.",
-    "q": "Who is the Assistant Commandant of the Marine Corps?",
-    "a": "General Bradford J. Gering",
-    "group": "holder",
-    "difficulty": 2,
-    "source": {
-      "title": "Leaders",
-      "publisher": "U.S. Marine Corps (marines.mil)",
-      "url": "https://www.marines.mil/The-Corps/Leaders/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": "2025-10-01",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1
-  },
-  {
-    "id": "usmc.chain.holder-smmc",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "Sergeant Major Carlos A. Ruiz is the 20th Sergeant Major of the Marine Corps. He assumed the post on 10 August 2023.",
-    "q": "Who is the Sergeant Major of the Marine Corps?",
-    "a": "Sergeant Major Carlos A. Ruiz",
-    "group": "holder",
-    "difficulty": 1,
-    "source": {
-      "title": "Leaders",
-      "publisher": "U.S. Marine Corps (marines.mil)",
-      "url": "https://www.marines.mil/The-Corps/Leaders/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": "2023-08-10",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1
-  },
-  {
-    "id": "usmc.chain.holder-director",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "Colonel Robert G. Oltman, USMC (Ret), is the Director of MCJROTC.",
-    "q": "Who is the Director of MCJROTC?",
-    "a": "Colonel Robert G. Oltman, USMC (Ret)",
-    "group": "holder",
-    "difficulty": 3,
-    "source": {
-      "title": "Home",
-      "publisher": "U.S. Marine Corps, MCJROTC (mcjrotc.marines.mil)",
-      "url": "https://www.mcjrotc.marines.mil/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": null,
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 1
-  },
-  {
-    "id": "usmc.chain.holder-region",
-    "branch": [
-      "usmc"
-    ],
-    "module": "chain",
-    "topic": "Office holders",
-    "text": "Region Director: no name has been confirmed from an official or instructor source. Ask your instructor.",
-    "q": "Who is your Region Director?",
-    "a": "",
-    "difficulty": 3,
-    "source": {
-      "title": "Home",
-      "publisher": "U.S. Marine Corps, MCJROTC (mcjrotc.marines.mil)",
-      "url": "https://www.mcjrotc.marines.mil/",
-      "locator": "Page as read on 12 Nov 2026"
-    },
-    "edition": "Web page, read 12 Nov 2026",
-    "effective_from": null,
-    "verified_on": "2026-11-13",
-    "confidence": "verify",
-    "review_tier": 1
   },
   {
     "id": "usmc.chain.funding",

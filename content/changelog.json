@@ -1,5 +1,14 @@
 [
   {
+    "version": 4,
+    "date": "2026-11-18",
+    "branch": "usmc",
+    "changes": [
+      "Chain of command: the people who hold each office are listed first, before the order of the chain.",
+      "Memory aids added: JJDIDTIEBUCKLE for the 14 leadership traits and KKBEMETSKIDS for the 11 leadership principles."
+    ]
+  },
+  {
     "version": 3,
     "date": "2026-11-13",
     "branch": "all",

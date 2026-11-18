@@ -10,9 +10,9 @@
   import { configured } from '../lib/backend';
   import Account from './Account.svelte';
 
-  const STEPS = ['splash', 'branch', 'region', 'level', 'goal', 'exp', 'time', 'test', 'build', 'results', 'remind', 'account'] as const;
+  const STEPS = ['splash', 'branch', 'region', 'level', 'goal', 'exp', 'time', 'theme', 'test', 'build', 'results', 'remind', 'account'] as const;
   type Step = (typeof STEPS)[number];
-  const OPTIONAL: Step[] = ['region', 'remind'];
+  const OPTIONAL: Step[] = ['region', 'goal', 'remind'];
   const EXP: [1 | 2 | 3, string, string][] = [[1, 'Brand new', 'I am just starting out'], [2, 'I know the basics', 'I can answer some questions'], [3, 'Squared away', 'I want the harder material']];
   const TEST_LENGTH = 10;
 
@@ -41,11 +41,11 @@
   // Back from the results goes to the last question the cadet can change, not back into the test.
   const back = (e: MouseEvent) => {
     if (p.branch) flush(e, 'out');
-    return show(['results', 'test'].includes(step) ? 'time' : STEPS[index - 1], -1);
+    return show(['results', 'test'].includes(step) ? 'theme' : STEPS[index - 1], -1);
   };
 
   const ok = $derived(
-    step === 'branch' ? !!p.branch : step === 'level' ? !!p.level : step === 'goal' ? p.goals.length > 0 :
+    step === 'branch' ? !!p.branch : step === 'level' ? !!p.level : 
     step === 'exp' ? p.experience > 0 : step === 'time' ? p.minutes > 0 : true,
   );
   // The flush: a soft circle of branch color grows from the tap ('in') or shrinks back into it ('out').
@@ -142,7 +142,7 @@
       <section in:fly={{ x: 48 * dir, duration: slide }} out:fly={{ x: -48 * dir, duration: slide }}>
         {#if step === 'splash'}
           <div class="hero">
-            <img src="./icons/logo.svg" alt="Cadet Compass" width="1100" height="300" />
+            <img class="logo-light" src="./icons/logo.svg" alt="Cadet Compass" width="1100" height="300" /><img class="logo-dark" src="./icons/logo-dark.svg" alt="Cadet Compass" width="1100" height="300" />
             <h1 tabindex="-1" class="sr">Cadet Compass</h1>
             <p>Find your way through JROTC.</p>
             <span class="help">Ranks, ribbons, chain of command, uniform, drill and general knowledge. An unofficial study aid.</span>
@@ -174,7 +174,7 @@
 
         {:else if step === 'goal'}
           <h1 tabindex="-1">What are you studying for?</h1>
-          <p class="help">Pick one or more. Your plan puts these first.</p>
+          <p class="help">Optional. Pick any that apply and your plan puts them first, or skip this.</p>
           <div class="picks" role="group" aria-label="Study goals">
             {#each GOALS as g}
               <button class="pick" role="checkbox" aria-checked={p.goals.includes(g.id)} onclick={() => toggleGoal(g.id)}><span>{g.name}</span></button>
@@ -186,6 +186,15 @@
           <div class="picks" role="radiogroup" aria-label="Experience">
             {#each EXP as [n, name, note]}
               <button class="pick" role="radio" aria-checked={p.experience === n} onclick={() => (p.experience = n)}><span>{name}<small>{note}</small></span></button>
+            {/each}
+          </div>
+
+        {:else if step === 'theme'}
+          <h1 tabindex="-1">Light or dark?</h1>
+          <p class="help">You can change this later in Settings.</p>
+          <div class="picks" role="radiogroup" aria-label="Appearance">
+            {#each [['light', 'Light', 'Bright screen, best in daylight'], ['dark', 'Dark', 'Easier on the eyes at night'], ['system', 'Match my device', 'Follows your phone setting']] as [id, name, note]}
+              <button class="pick" role="radio" aria-checked={app.theme === id} onclick={() => save('theme', id as 'light' | 'dark' | 'system')}><span>{name}<small>{note}</small></span></button>
             {/each}
           </div>
 

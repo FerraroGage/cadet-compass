@@ -1,9 +1,10 @@
 <script lang="ts">
   // Speed Round: ten questions against the clock. Points for a right answer, more the faster it comes,
   // plus a streak bonus. Wrong answers go back into today's cards.
-  import { app, facts, save, grade, tick, award, today } from '../lib/store.svelte';
+  import { app, facts, save, grade, tick, award, today, setHidden } from '../lib/store.svelte';
   import { quizzable, buildQuestion, shuffle, MODULES, type Question } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
+  import Skip from '../lib/Skip.svelte';
 
   let { params }: { params: URLSearchParams } = $props();
   const SECONDS = 15, COUNT = 10;
@@ -11,8 +12,8 @@
   // svelte-ignore state_referenced_locally (the screen is rebuilt whenever the address changes)
   const mod = params.get('module') ?? '';
   const all = facts();
-  const set: { fact: Fact; q: Question }[] = shuffle(all.filter((f) => quizzable(f, t) && (!mod || f.module === mod)))
-    .map((fact) => ({ fact, q: buildQuestion(fact, all)! })).filter((x) => x.q).slice(0, COUNT);
+  const set: { fact: Fact; q: Question }[] = $state(shuffle(all.filter((f) => quizzable(f, t) && (!mod || f.module === mod)))
+    .map((fact) => ({ fact, q: buildQuestion(fact, all)! })).filter((x) => x.q).slice(0, COUNT));
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const KEY = 'speed' + (mod ? '-' + mod : '');
 
@@ -59,9 +60,20 @@
     else await grade(cur.fact.id, 0);
     await tick();
   }
+  // Skipped: out of this round and its score, and hidden from now on.
+  async function skip() {
+    await setHidden([cur.fact.id], true);
+    set.splice(n, 1);
+    if (n < set.length) begin();
+    else await finish();
+  }
   async function next() {
     if (n + 1 < set.length) { n++; begin(); return; }
+    await finish();
+  }
+  async function finish() {
     phase = 'done';
+    if (!set.length) return;
     best = app.scores[KEY] ?? 0;
     if (score > best) await save('scores', { ...app.scores, [KEY]: score });
     earned = await award('quiz', { score: right / set.length });
@@ -103,6 +115,7 @@
         </button>
       {/each}
     </div>
+    {#if phase === 'ask'}<Skip onskip={skip} />{/if}
     {#if phase === 'shown'}
       <div class="verdictbar {picked === cur.q.correct ? 'good' : 'bad'}" role="status">
         <strong>{picked === cur.q.correct ? `+${gained}` : picked === -1 ? 'Out of time' : 'Not this time'}</strong>

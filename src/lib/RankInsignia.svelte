@@ -1,21 +1,18 @@
 <script module lang="ts">
-  // The cadet set is drawn on the active-duty Marine Corps pattern (MCO 1020.34H) because no official cadet
-  // illustration was found; the lamp of learning is left out (no source for its shape). Officer insignia follow the owner's
-  // description (silver disks, then silver diamonds). The enlisted layout
-  // (chevrons up, rockers down, crossed rifles / diamond / star) is from memory of that pattern, not checked against Figure 4-10.
-  // Enlisted look chosen: gold embroidery on a dark green patch. Officer insignia are metallic silver pieces on the same patch.
+  // MCJROTC cadet insignia, drawn from the program's insignia chart (supplied by the owner, an MCJROTC cadet):
+  // enlisted wear black chevrons with the lamp of learning in place of crossed rifles, rockers below for staff NCOs,
+  // and a frame around the lamp for First Sergeant and Sergeant Major; officers wear silver disks, then silver diamonds.
   let n = 0;
-  type Spec = { up: number; down: number; sym?: 'rifles' | 'diamond' | 'star' } | { shape: 'disk' | 'diamond'; count: number };
+  type Spec = { chev: number; rock: number; frame?: boolean } | { shape: 'disk' | 'diamond'; count: number };
   const SPEC: Record<string, Spec> = {
-    'Cadet Private First Class': { up: 1, down: 0 },
-    'Cadet Lance Corporal': { up: 1, down: 0, sym: 'rifles' },
-    'Cadet Corporal': { up: 2, down: 0, sym: 'rifles' },
-    'Cadet Sergeant': { up: 3, down: 0, sym: 'rifles' },
-    'Cadet Staff Sergeant': { up: 3, down: 1, sym: 'rifles' },
-    'Cadet Gunnery Sergeant': { up: 3, down: 2, sym: 'rifles' },
-    'Cadet First Sergeant': { up: 3, down: 3, sym: 'diamond' },
-    'Cadet Sergeant Major': { up: 3, down: 4, sym: 'star' },
-    // Cadet officers wear silver disks (one to three) and then silver diamonds (one to three), per the owner, an MCJROTC cadet.
+    'Cadet Private First Class': { chev: 0, rock: 0 },
+    'Cadet Lance Corporal': { chev: 1, rock: 0 },
+    'Cadet Corporal': { chev: 2, rock: 0 },
+    'Cadet Sergeant': { chev: 3, rock: 0 },
+    'Cadet Staff Sergeant': { chev: 3, rock: 1 },
+    'Cadet Gunnery Sergeant': { chev: 3, rock: 2 },
+    'Cadet First Sergeant': { chev: 3, rock: 3, frame: true },
+    'Cadet Sergeant Major': { chev: 3, rock: 4, frame: true },
     'Cadet Second Lieutenant': { shape: 'disk', count: 1 },
     'Cadet First Lieutenant': { shape: 'disk', count: 2 },
     'Cadet Captain': { shape: 'disk', count: 3 },
@@ -23,56 +20,63 @@
     'Cadet Lieutenant Colonel': { shape: 'diamond', count: 2 },
     'Cadet Colonel': { shape: 'diamond', count: 3 },
   };
-  const chev = (y: number) => `M8 ${y + 16}L50 ${y}L92 ${y + 16}V${y + 25}L50 ${y + 9}L8 ${y + 25}Z`;
-  const rock = (y: number) => `M10 ${y}Q50 ${y + 16} 90 ${y}`;
+  // One chevron band: an upward point, 7 units thick, apex at y.
+  const chev = (y: number) => `M12 ${y + 26}L50 ${y}L88 ${y + 26}L88 ${y + 34}L50 ${y + 8}L12 ${y + 34}Z`;
+  // One rocker: a band curving down between the chevron tips, top edge at y.
+  const rock = (y: number) => `M12 ${y}Q50 ${y + 10} 88 ${y}L88 ${y + 6}Q50 ${y + 16} 12 ${y + 6}Z`;
 </script>
 
 <script lang="ts">
-  let { rank, size = 36 }: { rank: string; size?: number } = $props();
+  let { rank, size = 40 }: { rank: string; size?: number } = $props();
   const id = `ri${n++}`;
   const spec = $derived(SPEC[rank]);
+  // Enlisted layout, top to bottom: chevrons, lamp (framed for the top two), rockers.
+  const layout = $derived.by(() => {
+    if (!spec || !('chev' in spec)) return null;
+    const lampY = spec.chev ? 6 + (spec.chev - 1) * 11 + 34 + 12 : 65;
+    return { lampY, scale: spec.chev ? 1 : 1.7, rocks: Array.from({ length: spec.rock }, (_, k) => lampY + 12 + k * 8) };
+  });
 </script>
 
 {#if spec}
-  <svg width={size} height={size} viewBox="0 0 100 100" role="img" aria-label="{rank} insignia" class="rankins">
+  <svg width={size} height={size} viewBox={layout ? '-15 0 130 130' : '0 0 100 100'} role="img" aria-label="{rank} insignia" class="rankins">
     <title>{rank}</title>
     <defs>
-      <linearGradient id="{id}t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2f5a3b" /><stop offset="1" stop-color="#14301f" /></linearGradient>
-      <radialGradient id="{id}s" cx="0.3" cy="0.2" r="0.9"><stop offset="0" stop-color="#fff" stop-opacity="0.28" /><stop offset="0.6" stop-color="#fff" stop-opacity="0" /></radialGradient>
-      <linearGradient id="{id}g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff2b0" /><stop offset="0.35" stop-color="#e2b93b" /><stop offset="0.7" stop-color="#9a6f1a" /><stop offset="1" stop-color="#f0cf63" /></linearGradient>
-      <linearGradient id="{id}v" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" /><stop offset="0.35" stop-color="#c9d0d8" /><stop offset="0.7" stop-color="#6b7580" /><stop offset="1" stop-color="#e3e8ec" /></linearGradient>
-      <pattern id="{id}p" width="3" height="3" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="3" height="1" fill="#000" opacity="0.18" /></pattern>
-      <filter id="{id}f" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-color="#000" flood-opacity="0.6" /></filter>
+      <!-- Black metal: dark gradient with a light top edge and a soft shadow. Silver: a bright-to-dark sweep. -->
+      <linearGradient id="{id}k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a6067" /><stop offset="0.45" stop-color="#1c1f23" /><stop offset="1" stop-color="#34393f" /></linearGradient>
+      <linearGradient id="{id}v" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" /><stop offset="0.35" stop-color="#cfd5dc" /><stop offset="0.7" stop-color="#76808b" /><stop offset="1" stop-color="#e6eaee" /></linearGradient>
+      <linearGradient id="{id}t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f5f6" /><stop offset="1" stop-color="#dfe2e6" /></linearGradient>
+      <filter id="{id}f" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.6" stdDeviation="1.4" flood-color="#000" flood-opacity="0.45" /></filter>
     </defs>
-    <rect x="2" y="2" width="96" height="96" rx="16" fill="url(#{id}t)" />
-    <rect x="2" y="2" width="96" height="96" rx="16" fill="url(#{id}s)" />
-    <rect x="2.5" y="2.5" width="95" height="95" rx="15.5" fill="none" stroke="#000" stroke-opacity="0.5" />
-    <g filter="url(#{id}f)" stroke="#5c430c" stroke-width="1">
-      {#if 'up' in spec}
-        {#each Array.from({ length: spec.up }, (_, i) => 6 + i * 10) as y}
-          <path d={chev(y)} fill="url(#{id}g)" /><path d={chev(y)} fill="url(#{id}p)" stroke="none" />
-        {/each}
-        {#each Array.from({ length: spec.down }, (_, i) => 58 + i * 9) as y}
-          <path d={rock(y)} fill="none" stroke="url(#{id}g)" stroke-width="6" stroke-linecap="round" />
-        {/each}
-        {#if spec.sym === 'rifles'}
-          <g stroke="#e9c453" stroke-width="3.5" stroke-linecap="round"><path d="M38 52L62 28" /><path d="M62 52L38 28" /></g>
-        {:else if spec.sym === 'diamond'}
-          <path d="M50 28L62 42L50 56L38 42Z" fill="url(#{id}g)" />
-        {:else if spec.sym === 'star'}
-          <path d="M50 26L54 38L67 38L56.5 46L60.5 58L50 50.5L39.5 58L43.5 46L33 38L46 38Z" fill="url(#{id}g)" />
-        {/if}
-      {:else}
-        <!-- Silver pieces in a row, centered; a radial highlight and the drop shadow give them depth. -->
+    <!-- A light tile behind every insignia, so black pins read in dark mode too. -->
+    {#if layout}<rect x="-13" y="2" width="126" height="126" rx="20" fill="url(#{id}t)" />{:else}<rect x="2" y="2" width="96" height="96" rx="16" fill="url(#{id}t)" />{/if}
+    <g filter="url(#{id}f)">
+      {#if layout && 'chev' in spec}
+        <g fill="url(#{id}k)" stroke="#8c949c" stroke-width="0.8" stroke-linejoin="round">
+          {#each Array.from({ length: spec.chev }, (_, k) => 6 + k * 11) as y}<path d={chev(y)} />{/each}
+          {#each layout.rocks as y}<path d={rock(y)} />{/each}
+        </g>
+        <!-- The lamp of learning: an oil lamp with a flame at the spout -->
+        <g transform="translate(50 {layout.lampY}) scale({layout.scale})" fill="url(#{id}k)" stroke="#8c949c" stroke-width="0.6">
+          {#if spec.frame}<ellipse cx="2" cy="-1" rx="23" ry="11" fill="none" stroke="url(#{id}k)" stroke-width="3" />{/if}
+          <path d="M-12 0C-12 -6 12 -6 12 0C12 4 -12 4 -12 0Z" />
+          <path d="M9 -2L21 -6L22 -3.5L10.5 3Z" />
+          <path d="M-11.5 -1.5C-19 -4 -19 5 -11.5 2.5" fill="none" stroke="url(#{id}k)" stroke-width="2.4" />
+          <rect x="-3.5" y="-8.5" width="7" height="4" rx="1.5" />
+          <path d="M-6 3H6L7.5 7H-7.5Z" />
+          <path d="M22 -6.5C20 -10 23 -13 24.5 -15.5C25.5 -12 27 -9 23.5 -6.5Z" />
+        </g>
+      {:else if 'shape' in spec}
+        <!-- Silver pieces in a row, centered; a highlight and the shadow give them depth. -->
         {#each Array.from({ length: spec.count }, (_, k) => 50 + (k - (spec.count - 1) / 2) * (spec.count === 3 ? 29 : 32)) as x}
           {#if spec.shape === 'disk'}
-            <circle cx={x} cy="50" r="12.5" fill="url(#{id}v)" stroke="#39424b" />
-            <circle cx={x} cy="50" r="8.5" fill="none" stroke="#fff" stroke-opacity="0.35" />
-            <ellipse cx={x - 4} cy="45" rx="4" ry="2.5" fill="#fff" opacity="0.7" />
+            <circle cx={x} cy="50" r="12.5" fill="url(#{id}v)" stroke="#5d6670" />
+            <circle cx={x} cy="50" r="8.5" fill="none" stroke="#fff" stroke-opacity="0.4" />
+            <ellipse cx={x - 4} cy="45" rx="4" ry="2.5" fill="#fff" opacity="0.75" />
           {:else}
-            <path d="M{x} 28L{x + 14} 50L{x} 72L{x - 14} 50Z" fill="url(#{id}v)" stroke="#39424b" />
-            <path d="M{x} 28L{x + 14} 50L{x} 50Z" fill="#fff" opacity="0.28" />
-            <path d="M{x} 50L{x - 14} 50L{x} 72Z" fill="#000" opacity="0.18" />
+            <path d="M{x} 28L{x + 14} 50L{x} 72L{x - 14} 50Z" fill="url(#{id}v)" stroke="#5d6670" />
+            <path d="M{x} 28L{x + 14} 50L{x} 50Z" fill="#fff" opacity="0.3" />
+            <path d="M{x} 50L{x - 14} 50L{x} 72Z" fill="#000" opacity="0.15" />
           {/if}
         {/each}
       {/if}

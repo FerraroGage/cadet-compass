@@ -28,7 +28,7 @@
 </script>
 
 <h1>Ribbon rack builder</h1>
-<p class="help">Ribbon colors are not confirmed yet: the gray ribbons are placeholders, numbered to match the key.</p>
+<p class="help">Ribbon colors come from the cadet ribbon chart. A gray ribbon means its colors are not confirmed yet.</p>
 <p class="help">Switch on the ribbons you have earned. They are placed in order of precedence. Check the result with your Senior Marine Instructor.</p>
 <Units />
 
@@ -49,7 +49,7 @@
       {/each}
     </svg>
     <ol class="rkey">
-      {#each chosen as f}<li>{f.a}{#each app.rack.devices[f.id] ?? [] as d} <span class="label">{dev(d)?.name}</span>{/each}</li>{/each}
+      {#each chosen as f}<li><Ribbon name={f.a} width={72} /><span>{f.a}{#each app.rack.devices[f.id] ?? [] as d} <span class="label">{dev(d)?.name}</span>{/each}</span></li>{/each}
     </ol>
   {:else}<p class="help">No ribbons chosen yet.</p>{/if}
   {#if !R.topRow}<p class="help">Check with your SMI how a short top row sits.</p>{/if}
@@ -69,8 +69,8 @@
 {#each ribbons as f (f.id)}
   {@const on = app.rack.ids.includes(f.id)}
   <div class="opt">
-    <Ribbon name={f.a} width={44} />
-    <span style="flex: 1">{f.a}</span>
+    <Ribbon name={f.a} width={72} />
+    <span class="ribname">{f.a}</span>
     {#if on && R.devices.length}
       <select aria-label="Device for {f.a}" value={app.rack.devices[f.id]?.[0] ?? ''} onchange={(e) => setDevice(f.id, e.currentTarget.value)}>
         <option value="">No device</option>

@@ -5,6 +5,7 @@
   import FactTable from '../lib/FactTable.svelte';
   import RankInsignia from '../lib/RankInsignia.svelte';
   import { CADET_RANKS } from '../lib/cadetRanks';
+  import Ribbon from '../lib/Ribbon.svelte';
 
   let { tab }: { tab?: string } = $props();
   const all = facts(true); // Learn lists hidden items too, so they can be turned back on
@@ -41,6 +42,15 @@
     <ul class="badges rankchart">
       {#each CADET_RANKS as r}
         <li>{#if r === 'Cadet Private'}<span class="rankcell"></span>{:else}<RankInsignia rank={r} size={72} />{/if}<span>{r}{#if r === 'Cadet Private'}<small>No insignia</small>{/if}</span></li>
+      {/each}
+    </ul>
+  {/if}
+
+  {#if current.id === 'ribbons' && app.profile?.branch === 'usmc'}
+    <h2>Ribbon chart</h2>
+    <ul class="badges ribbonchart">
+      {#each all.filter((f) => f.group === 'ribbon' && f.order !== undefined).sort((a, b) => a.order! - b.order!) as f}
+        <li><Ribbon name={f.a} width={110} /><span>{f.a}</span></li>
       {/each}
     </ul>
   {/if}

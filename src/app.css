@@ -557,3 +557,14 @@ nav.bar a svg { position: relative; }
 .rankchart .rankcell { width: 72px; height: 72px; margin: 0; }
 /* Rank chart: insignia large enough to read, name under it */
 .rankchart li { flex-direction: column; text-align: center; justify-content: center; padding: calc(var(--u) * 1.5) var(--u); }
+
+/* ---- Ribbon name beside the drawing (Learn ribbon chart, rack builder list and key) ---- */
+.ribbonchart { grid-template-columns: 1fr; }
+.ribbonchart li { gap: calc(var(--u) * 1.5); }
+.ribbonchart li > svg, .rkey li > svg, .opt > svg { flex: none; }
+.ribbonchart li > span, .rkey li > span, .opt .ribname { flex: 1; min-width: 0; color: var(--ink); overflow-wrap: anywhere; }
+.rkey { list-style-position: inside; padding-left: 0; }
+.rkey li { display: list-item; }
+.rkey li > svg { display: inline-block; vertical-align: middle; margin-right: var(--u); }
+.rkey li > span { display: inline; }
+.opt .ribname { font-size: 0.9375rem; line-height: 1.25; }

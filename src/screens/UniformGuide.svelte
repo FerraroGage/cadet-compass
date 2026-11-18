@@ -4,6 +4,7 @@
   import { data, fmt } from '../lib/uniform';
   import Diagram from '../lib/Diagram.svelte';
   import Units from '../lib/Units.svelte';
+  import UniformOutline from '../lib/UniformOutline.svelte';
 
   let pick = $state(data.uniforms[0]?.id ?? '');
   const uni = $derived(data.uniforms.find((u) => u.id === pick));
@@ -21,6 +22,7 @@
 </div>
 
 {#if uni}
+  <UniformOutline id={uni.id} />
   {#each uni.items as item, k (item.id + k)}
     <details class="fold">
       <summary>{item.name}{#if item.confidence === 'verify'}<span class="tag">Check with your SMI</span>{/if}</summary>

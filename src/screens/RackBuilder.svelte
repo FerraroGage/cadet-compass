@@ -3,6 +3,7 @@
   import { app, save, facts } from '../lib/store.svelte';
   import { data, fmt, layoutRack } from '../lib/uniform';
   import Units from '../lib/Units.svelte';
+  import Ribbon from '../lib/Ribbon.svelte';
 
   const R = data.rack;
   const ribbons = $derived(facts().filter((f) => f.group === 'ribbon' && f.order !== undefined).sort((a, b) => a.order! - b.order!));
@@ -27,6 +28,7 @@
 </script>
 
 <h1>Ribbon rack builder</h1>
+<p class="help">Ribbon colors are not confirmed yet: the gray ribbons are placeholders, numbered to match the key.</p>
 <p class="help">Switch on the ribbons you have earned. They are placed in order of precedence. Check the result with your Senior Marine Instructor.</p>
 <Units />
 
@@ -40,8 +42,8 @@
         {#each ids as id, ci}
           {@const x = x0 + ci * rw}
           {@const y = ri * (rh + rg)}
-          <rect {x} {y} width={rw} height={rh} fill="var(--fill)" stroke="var(--ink-2)" stroke-width={vw / 400} />
-          <text x={x + rw / 2} y={y + rh / 2} text-anchor="middle" dominant-baseline="central" fill="var(--ink)" font-size={fs} font-weight="600">{num(id)}</text>
+          <Ribbon name={name(id)} width={rw} height={rh} {x} {y} />
+          <text x={x + rw / 2} y={y + fs * 0.9} text-anchor="middle" dominant-baseline="central" fill="var(--ink)" stroke="var(--sheet)" stroke-width={fs / 5} paint-order="stroke" font-size={fs * 0.8} font-weight="600">{num(id)}</text>
           {#each app.rack.devices[id] ?? [] as d}<circle cx={x + rw - rh * 0.17} cy={y + rh * 0.8} r={rh * 0.09} fill="var(--branch)"><title>{dev(d)?.name}</title></circle>{/each}
         {/each}
       {/each}
@@ -67,6 +69,7 @@
 {#each ribbons as f (f.id)}
   {@const on = app.rack.ids.includes(f.id)}
   <div class="opt">
+    <Ribbon name={f.a} width={44} />
     <span style="flex: 1">{f.a}</span>
     {#if on && R.devices.length}
       <select aria-label="Device for {f.a}" value={app.rack.devices[f.id]?.[0] ?? ''} onchange={(e) => setDevice(f.id, e.currentTarget.value)}>

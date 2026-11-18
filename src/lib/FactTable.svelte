@@ -3,6 +3,8 @@
   import { isStale } from './quiz';
   import { app, today, setHidden } from './store.svelte';
   import Cite from './Cite.svelte';
+  import RankInsignia from './RankInsignia.svelte';
+  import { isCadetRank } from './cadetRanks';
 
   // `toggle`: show a switch on each row to hide it from quizzes (Learn uses this).
   let { rows, toggle = false }: { rows: Fact[]; toggle?: boolean } = $props();
@@ -18,6 +20,7 @@
       <tr class:off={app.hidden.includes(f.id)}>
         <td class="num">{i + 1}</td>
         <td>
+          {#if f.module === 'ranks' && isCadetRank(f.a) && f.a !== 'Cadet Private'}<span class="rankcell"><RankInsignia rank={f.a} size={36} /></span>{/if}
           {f.text}
           {#if f.confidence === 'verify'}<span class="tag">Not verified</span>{:else if isStale(f, t)}<span class="tag">Check date</span>{/if}
           {#if !shared}<Cite fact={f} />{/if}

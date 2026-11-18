@@ -549,3 +549,11 @@ nav.bar a svg { position: relative; }
   .pocketline { border-color: #000; background: #fff; color: #000; }
   .opt { break-inside: avoid; }
 }
+
+/* ---- Rank insignia (drawn SVG; sits on its own dark green patch, so it reads in light and dark mode) ---- */
+.rankins { flex: none; display: inline-block; vertical-align: middle; }
+.rankcell { display: inline-block; width: 36px; margin-right: var(--u); vertical-align: middle; line-height: 0; }
+.rankrow { display: flex; gap: var(--u); margin: var(--u) 0; }
+.rankchart .rankcell { width: 72px; height: 72px; margin: 0; }
+/* Rank chart: insignia large enough to read, name under it */
+.rankchart li { flex-direction: column; text-align: center; justify-content: center; padding: calc(var(--u) * 1.5) var(--u); }

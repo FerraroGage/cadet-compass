@@ -3,6 +3,8 @@
   import { app, facts, setHidden } from '../lib/store.svelte';
   import { MODULES } from '../lib/quiz';
   import FactTable from '../lib/FactTable.svelte';
+  import RankInsignia from '../lib/RankInsignia.svelte';
+  import { CADET_RANKS } from '../lib/cadetRanks';
 
   let { tab }: { tab?: string } = $props();
   const all = facts(true); // Learn lists hidden items too, so they can be turned back on
@@ -33,6 +35,15 @@
     {/if}
     {#if current.id === 'drill'}<a class="act" href="#/train/metronome"><b>Drill metronome</b><small>Hear the cadence</small></a>{/if}
   </div>
+
+  {#if current.id === 'ranks' && app.profile?.branch === 'usmc'}
+    <h2>Rank chart</h2>
+    <ul class="badges rankchart">
+      {#each CADET_RANKS as r}
+        <li>{#if r === 'Cadet Private'}<span class="rankcell"></span>{:else}<RankInsignia rank={r} size={72} />{/if}<span>{r}{#if r === 'Cadet Private'}<small>No insignia</small>{/if}</span></li>
+      {/each}
+    </ul>
+  {/if}
 
   <h2>{current.name}: what to know <span class="label">{rows.length} items</span></h2>
   {#each topics as topic}

@@ -5,6 +5,7 @@
   import Diagram from '../lib/Diagram.svelte';
   import Units from '../lib/Units.svelte';
   import UniformOutline from '../lib/UniformOutline.svelte';
+  import RankInsignia from '../lib/RankInsignia.svelte';
 
   let pick = $state(data.uniforms[0]?.id ?? '');
   const uni = $derived(data.uniforms.find((u) => u.id === pick));
@@ -29,6 +30,9 @@
       <div class="block foldbody">
         <p>{item.where}.</p>
         <Diagram {item} units={app.units} />
+        {#if item.id === 'rank-collar' || item.id === 'rank-sleeve'}
+          <div class="rankrow"><RankInsignia rank="Cadet Sergeant" size={48} /><RankInsignia rank="Cadet Captain" size={48} /></div>
+        {/if}
         {#if item.measures.length}
           <table>
             <thead><tr><th scope="col">Measure</th><th scope="col">Amount</th><th scope="col">From</th></tr></thead>

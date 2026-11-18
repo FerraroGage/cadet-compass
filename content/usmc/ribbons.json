@@ -1158,29 +1158,6 @@
     "review_tier": 2
   },
   {
-    "id": "usmc.ribbons.badges",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ribbons",
-    "topic": "Wear",
-    "text": "Authorized badges are worn 1/8 inch above and centered over the left breast pocket of the khaki shirt and blue coat.",
-    "q": "Where are authorized badges worn?",
-    "a": "1/8 inch above and centered over the left breast pocket",
-    "difficulty": 2,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 14"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
     "id": "usmc.ribbons.one-badge",
     "branch": [
       "usmc"

@@ -31,10 +31,12 @@ export function buildQuestion(fact: Fact, all: Fact[], rnd = Math.random): Quest
 // ---- Placement test -------------------------------------------------------
 
 export interface Answer { factId: string; module: Module; correct: boolean; sure: boolean }
-export interface Placement { answers: Answer[]; level: 1 | 2 | 3; length: number; done: boolean; finishedOn?: string }
+export interface Placement { answers: Answer[]; level: 1 | 2 | 3; length: number; done: boolean; finishedOn?: string; start?: number }
 export const PLACEMENT_LENGTH = 40;
 
-export const newPlacement = (available: number, length = PLACEMENT_LENGTH, level: 1 | 2 | 3 = 2): Placement => ({ answers: [], level, length: Math.min(length, available), done: false });
+/** `start` picks the module the test opens on, so tests do not all begin the same way. */
+export const newPlacement = (available: number, length = PLACEMENT_LENGTH, level: 1 | 2 | 3 = 2, rnd = Math.random): Placement =>
+  ({ answers: [], level, length: Math.min(length, available), done: false, start: Math.floor(rnd() * MODULES.length) });
 
 /** Adaptive pick: rotate through modules, and take the unused fact whose difficulty is closest to the current level. */
 export function nextFact(p: Placement, facts: Fact[], rnd = Math.random): Fact | null {
@@ -42,7 +44,7 @@ export function nextFact(p: Placement, facts: Fact[], rnd = Math.random): Fact |
   const used = new Set(p.answers.map((a) => a.factId));
   const left = facts.filter((f) => !used.has(f.id));
   for (let i = 0; i < MODULES.length; i++) {
-    const m = MODULES[(p.answers.length + i) % MODULES.length].id;
+    const m = MODULES[(p.answers.length + (p.start ?? 0) + i) % MODULES.length].id;
     const inModule = shuffle(left.filter((f) => f.module === m), rnd);
     if (inModule.length) return inModule.sort((a, b) => Math.abs((a.difficulty ?? 2) - p.level) - Math.abs((b.difficulty ?? 2) - p.level))[0];
   }

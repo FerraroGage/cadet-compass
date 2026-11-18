@@ -3,12 +3,13 @@
   // and closing the app resumes on the same screen.
   import { tick as domTick } from 'svelte';
   import { fly } from 'svelte/transition';
-  import { app, save, facts, today, award, makeDue, hooks, BLANK, BRANCHES, STATES, branchName, type Profile } from '../lib/store.svelte';
+  import { app, save, facts, today, award, makeDue, hooks, setHidden, BLANK, BRANCHES, STATES, branchName, type Profile } from '../lib/store.svelte';
   import { GOALS, MODULES, quizzable, buildQuestion, newPlacement, nextFact, record, summarize, gaps, modulePriority, type Question } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
   import { TERMS } from '../legal/terms';
   import { configured } from '../lib/backend';
   import Account from './Account.svelte';
+  import Skip from '../lib/Skip.svelte';
 
   const STEPS = ['splash', 'branch', 'region', 'level', 'goal', 'exp', 'time', 'theme', 'test', 'build', 'results', 'remind', 'account'] as const;
   type Step = (typeof STEPS)[number];
@@ -77,7 +78,7 @@
     picked = null;
   }
   async function startTest() {
-    await save('placement', newPlacement(pool.length, TEST_LENGTH, p.experience || 2));
+    await save('placement', newPlacement(pool.length, TEST_LENGTH, Math.min(2, Math.max(1, (p.experience || 2) - 1)) as 1 | 2));
     loadQuestion();
   }
   async function pick(i: number) {
@@ -86,6 +87,12 @@
     const after = record(app.placement!, { factId: cur.fact.id, module: cur.fact.module, correct: i === cur.q.correct, sure: true }, t);
     await save('placement', after);
     if (after.done) await makeDue(gaps(after.answers));
+  }
+  // Not taught in this program: hide it and show a different question. Nothing is recorded for it.
+  async function swapQuestion() {
+    if (!cur) return;
+    await setHidden([cur.fact.id], true);
+    loadQuestion();
   }
   async function skipTest() {
     cur = null; // the question on screen reads the test, so clear it first
@@ -220,6 +227,7 @@
                   role="radio" aria-checked={picked === i} disabled={picked !== null} onclick={() => pick(i)}><span>{c}</span></button>
               {/each}
             </div>
+            {#if picked === null}<Skip onskip={swapQuestion} />{/if}
             {#if picked !== null}
               <div class="feedback {picked === cur.q.correct ? 'good' : 'bad'}" role="status">
                 <p class="verdict {picked === cur.q.correct ? 'good' : 'bad'}">{picked === cur.q.correct ? 'Correct' : 'Not quite'}</p>

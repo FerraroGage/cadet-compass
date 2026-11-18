@@ -58,6 +58,11 @@ describe('placement', () => {
     expect(p.level).toBe(1);
     expect(p.done).toBe(true);
   });
+  it('opens on the module chosen by its random start', () => {
+    const mixed = [fact('r', { module: 'ranks' }), fact('d', { module: 'drill' })];
+    expect(nextFact(newPlacement(2, 2, 2, () => 0), mixed)!.id).toBe('r'); // start 0 = Ranks
+    expect(nextFact(newPlacement(2, 2, 2, () => 0.6), mixed)!.id).toBe('d'); // start 4 = Drill
+  });
   it('counts a guessed correct answer as half and lists it as a gap', () => {
     const answers = [
       { factId: 'a', module: 'ranks' as const, correct: true, sure: true },

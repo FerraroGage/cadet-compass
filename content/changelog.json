@@ -1,5 +1,13 @@
 [
   {
+    "version": 5,
+    "date": "2026-11-18",
+    "branch": "usmc",
+    "changes": [
+      "Removed the question on where general badges are worn: cadets wear marksmanship badges only, and those questions stay."
+    ]
+  },
+  {
     "version": 4,
     "date": "2026-11-18",
     "branch": "usmc",

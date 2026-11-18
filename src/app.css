@@ -430,3 +430,14 @@ tr.off td:not(.sw) { color: var(--ink-2); text-decoration: line-through; }
   :root[data-theme='system'] .xpline, :root[data-theme='system'] .plan .xp { color: var(--gold); }
   :root[data-theme='system'] .tabs a[aria-current='page'] { box-shadow: 0 0 0 2px var(--ink) inset; }
 }
+
+/* ---- Phone edges: never draw under the status bar or the gesture bar ---- */
+:root { --top-inset: var(--safe-area-inset-top, env(safe-area-inset-top, 0px)); --bottom-inset: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px)); }
+.band { padding-top: var(--top-inset); }
+.ob-top { padding-top: var(--top-inset); }
+.toast { top: calc(76px + var(--top-inset)); }
+.levelup { padding-top: calc(var(--u) * 3 + var(--top-inset)); }
+nav.bar { padding-bottom: var(--bottom-inset); }
+.ob-foot { padding-bottom: calc(var(--u) * 1.5 + var(--bottom-inset)); }
+.verdictbar { padding-bottom: calc(var(--u) * 2 + var(--bottom-inset)); }
+.sheet { padding-bottom: calc(var(--u) * 14 + var(--bottom-inset)); }

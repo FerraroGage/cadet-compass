@@ -78,7 +78,7 @@
     {#if msg}<p class="err" role="alert" style="margin-top: 12px">{msg}</p>{/if}
     {#if mode === 'up' && !agreed}<p class="help" style="margin-top: 12px">Tick the box above to agree to the Terms first.</p>{/if}
     <div class="row">
-      <button class="btn primary wide" type="submit" disabled={busy || (mode === 'up' && !agreed)}>{mode === 'up' ? 'Create account' : 'Sign in'}</button>
+      <button class="btn primary wide" type="submit" disabled={busy || (mode === 'up' && !agreed)}>{#if busy}<span class="spin" aria-hidden="true"></span>{/if}{mode === 'up' ? 'Create account' : 'Sign in'}</button>
       <button class="btn wide" type="button" onclick={withGoogle} disabled={busy || (mode === 'up' && (!agreed || !dated))}>Continue with Google</button>
     </div>
     {#if mode === 'up'}<p class="help" style="margin-top: 8px">For Google, pick your birth month and year first.</p>{/if}

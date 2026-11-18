@@ -61,7 +61,7 @@
 <h2>Account</h2>
 {#if app.user}
   <p>Signed in as <strong>{app.user.email}</strong>. Your progress is saved to your account{unsynced() ? ', and some of it is waiting to upload' : ''}.</p>
-  <div class="row"><button class="btn" onclick={out} disabled={busy}>Sign out</button></div>
+  <div class="row"><button class="btn" onclick={out} disabled={busy}>{#if busy}<span class="spin" aria-hidden="true"></span>{/if}Sign out</button></div>
 {:else}
   {#if configured}<p>You are using the app as a guest. Make an account and everything you have done so far moves into it.</p>{/if}
   <Account />

@@ -1,4 +1,7 @@
 <script lang="ts">
+  import { tick } from 'svelte';
+  import { Tween } from 'svelte/motion';
+  import { cubicOut } from 'svelte/easing';
   import { app, boot, xpTotal, streak } from './lib/store.svelte';
   import { initBackend } from './lib/backend';
   import Onboarding from './screens/Onboarding.svelte';
@@ -18,9 +21,17 @@
   import Speed from './screens/Speed.svelte';
   import Match from './screens/Match.svelte';
 
+  // The XP number counts up to its new value instead of jumping.
+  const xpShown = new Tween(0, { duration: 700, easing: cubicOut });
+  $effect(() => { xpShown.target = xpTotal(); });
   let hash = $state(location.hash.slice(2));
   $effect(() => {
-    const onHash = () => { hash = location.hash.slice(2); scrollTo(0, 0); };
+    // Screens cross-fade where the browser supports view transitions; elsewhere they just change.
+    const onHash = () => {
+      const go = () => { hash = location.hash.slice(2); scrollTo(0, 0); return tick(); };
+      if (document.startViewTransition && !matchMedia('(prefers-reduced-motion: reduce)').matches) document.startViewTransition(go);
+      else go();
+    };
     addEventListener('hashchange', onHash);
     return () => removeEventListener('hashchange', onHash);
   });
@@ -29,7 +40,7 @@
   // The loading screen lives in index.html so it shows before this script loads. Keep it up long enough to read.
   $effect(() => {
     if (!app.ready) return;
-    const id = setTimeout(() => document.getElementById('splash')?.classList.add('out'), Math.max(0, 700 - performance.now()));
+    const id = setTimeout(() => document.getElementById('splash')?.classList.add('out'), Math.max(0, 1500 - performance.now()));
     return () => clearTimeout(id);
   });
   // The accent color follows the cadet's branch.
@@ -71,7 +82,7 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill={streak() ? '#c0392b' : '#8b97a3'} aria-hidden="true"><path d="M12 2.5c3.5 4 5.5 6.3 5.5 9.7a5.5 5.5 0 0 1-11 0c0-2 1-3.4 2.2-4.6.1 2 .9 3.2 2 3.4-.2-3 .1-5.7 1.3-8.5z" /></svg>
           {streak()}
         </a>
-        <a class="chip" href="#/profile" aria-label="{xpTotal()} XP">{xpTotal()} XP</a>
+        {#key xpTotal()}<a class="chip bump" href="#/profile" aria-label="{xpTotal()} XP">{Math.round(xpShown.current)} XP</a>{/key}
         <a class="gear" href="#/settings" aria-label="Settings" aria-current={section === 'settings' ? 'page' : undefined}>
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" /></svg>
         </a>
@@ -81,7 +92,12 @@
 
   <main class="sheet">
     {#if !app.ready}
-      <!-- The loading screen in index.html covers this. -->
+      <!-- Placeholder shapes in the layout of Home, shown only until the study content is ready. -->
+      <div class="skel" aria-hidden="true">
+        <i class="l w60"></i><i class="l w40"></i>
+        <i class="b tall"></i><i class="b"></i>
+        <i class="l w30"></i><i class="b row"></i><i class="b row"></i><i class="b row"></i>
+      </div>
     {:else if app.error}
       <h1>Cannot start</h1>
       <p>{app.error}</p>

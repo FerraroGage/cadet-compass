@@ -528,3 +528,24 @@ nav.bar a svg { position: relative; }
 .mark.bad { background: var(--red); }
 :root[data-theme='dark'] .mark.good { color: #0e1621; }
 @media (prefers-color-scheme: dark) { :root[data-theme='system'] .mark.good { color: #0e1621; } }
+
+/* Uniform tools: placement guide, rack builder, checklist */
+.units, .chips { display: flex; flex-wrap: wrap; gap: var(--u); margin: calc(var(--u) * 1.5) 0; }
+.units .btn, .chips .btn { min-height: 44px; border-radius: 99px; padding: 0 calc(var(--u) * 2); font-size: 0.9375rem; }
+.units .btn[aria-pressed='true'], .chips .btn[aria-pressed='true'] { background: var(--branch); border-color: var(--branch); color: var(--on-branch); }
+.tag { display: inline-block; margin-left: var(--u); padding: 2px var(--u); border: 1px solid var(--branch); border-radius: 99px; color: var(--branch); font-size: 0.75rem; font-weight: 600; }
+.diagram { display: block; width: 100%; height: auto; margin: var(--u) 0; }
+.dkey { margin: 0 0 var(--u); padding-left: calc(var(--u) * 3); font-size: 0.9375rem; }
+.dkey li { margin: 4px 0; }
+.dkey span { display: block; color: var(--ink-2); font-size: 0.8125rem; }
+.foldbody { padding: calc(var(--u) * 2); }
+.rack { display: block; width: 100%; height: auto; margin: var(--u) 0; }
+.rkey { margin: 0 0 var(--u); padding-left: calc(var(--u) * 3.5); font-size: 0.9375rem; }
+.rkey li { margin: 3px 0; }
+.pocketline { margin: var(--u) auto calc(var(--u) * 2); max-width: 20rem; padding: calc(var(--u) * 1.5); border: 2px solid var(--ink-2); border-radius: 4px 4px 0 0; color: var(--ink-2); font-size: 0.8125rem; text-align: center; }
+.opt select { min-height: 44px; max-width: 45%; }
+@media print {
+  .units, .chips { display: none; }
+  .pocketline { border-color: #000; background: #fff; color: #000; }
+  .opt { break-inside: avoid; }
+}

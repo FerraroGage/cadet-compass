@@ -20,6 +20,9 @@
   import Learn from './screens/Learn.svelte';
   import Speed from './screens/Speed.svelte';
   import Match from './screens/Match.svelte';
+  import UniformGuide from './screens/UniformGuide.svelte';
+  import RackBuilder from './screens/RackBuilder.svelte';
+  import Checklist from './screens/Checklist.svelte';
 
   // The XP number counts up to its new value instead of jumping.
   const xpShown = new Tween(0, { duration: 700, easing: cubicOut });
@@ -68,7 +71,7 @@
     ['profile', 'Profile', 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0'],
   ];
   // Cards and the Study Guide belong to Learn; the placement test to Play.
-  const navSection = $derived(['cards', 'guide'].includes(section) ? 'learn' : section === 'test' ? 'train' : section);
+  const navSection = $derived(['cards', 'guide', 'tools'].includes(section) ? 'learn' : section === 'test' ? 'train' : section);
 </script>
 
 {#if usable && !inApp && !readingLegal}
@@ -112,6 +115,10 @@
           <Cards module={parts[1]} />
         {:else if section === 'test'}
           <Placement />
+        {:else if section === 'tools'}
+          {#if parts[1] === 'rack'}<RackBuilder />
+          {:else if parts[1] === 'checklist'}<Checklist />
+          {:else}<UniformGuide />{/if}
         {:else if section === 'guide'}
           <Guide />
         {:else if section === 'train'}

@@ -48,8 +48,11 @@ interface Saved {
   scores: Record<string, number>; // best score per game, on this device
   theme: 'light' | 'dark' | 'system';
   hidden: string[]; // fact ids the cadet marked "not in my program"; never quizzed
+  units: 'in' | 'cm';
+  rack: { ids: string[]; devices: Record<string, string[]> }; // uniform tools: chosen ribbons and their devices
+  checks: Record<string, string[]>; // inspection checklist lines ticked, by uniform id
 }
-const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false, scores: {}, hidden: [], theme: 'system' };
+const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false, scores: {}, hidden: [], theme: 'system', units: 'in', rack: { ids: [], devices: {} }, checks: {} };
 
 export const app = $state({
   ready: false, error: '', notice: '',

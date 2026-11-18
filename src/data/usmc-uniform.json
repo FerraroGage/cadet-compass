@@ -1,0 +1,1296 @@
+{
+  "branch": "usmc",
+  "checked": "2026-11-18",
+  "sources": {
+    "hb": {
+      "title": "Marine Corps JROTC Cadet Handbook",
+      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
+      "edition": "Undated; PDF file dated 30 Apr 2007"
+    },
+    "mco": {
+      "title": "MCO 1020.34H Marine Corps Uniform Regulations",
+      "url": "https://www.marines.mil/Portals/1/Publications/MCO%201020.34H.pdf",
+      "edition": "01 May 2018 (page header; later changes not checked). Page numbers are PDF pages."
+    }
+  },
+  "uniforms": [
+    {
+      "id": "blue-dress-b",
+      "name": "Blue Dress \"Bravo\"",
+      "items": [
+        {
+          "id": "ribbons",
+          "name": "Ribbons",
+          "where": "Centered above the left breast pocket",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            },
+            {
+              "label": "Above the badge, if one is worn",
+              "in": 0.125,
+              "from": "top of the marksmanship badge",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            }
+          ],
+          "notes": [
+            "Handbook name is Bravo (blue coat, ribbons only). MCO 1020.34H calls the equivalent Blue Dress B."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "badge",
+          "name": "Marksmanship badge",
+          "where": "Centered above the left breast pocket; one badge only, the most recent qualification",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, paras 1e-1f"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-sleeve",
+          "name": "Rank on the blue coat",
+          "where": "Cadet officers: centered on the shoulder strap. Enlisted: cloth embroidered insignia worn on the blue coat only.",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Officer rank on shoulder strap",
+              "in": null,
+              "from": "shoulder strap",
+              "src": "hb",
+              "loc": "p. 14, para 1a",
+              "text": "Centered on the shoulder strap; no distance given"
+            }
+          ],
+          "notes": [
+            "The handbook gives no measurement for where enlisted cloth rank sits on the blue coat. Ask your SMI."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "other",
+          "name": "Collar emblems",
+          "where": "Left and right collar, parallel to the deck with anchors pointed inboard",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "Orientation",
+              "in": null,
+              "from": "deck",
+              "src": "hb",
+              "loc": "p. 13 (Marine Corps Emblem)",
+              "text": "Parallel to the deck, anchors inboard"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "nametag",
+          "name": "Nametag",
+          "where": "Centered above the right breast pocket",
+          "region": "right-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the right breast pocket",
+              "src": "mco",
+              "loc": "para 3019.4, PDF p. 72 (printed 1-57)"
+            },
+            {
+              "label": "Tag width",
+              "in": 0.625,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            },
+            {
+              "label": "Tag length",
+              "in": 3,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            }
+          ],
+          "notes": [
+            "The MCJROTC handbook gives no nametag position for normal wear; these are MCO figures, used because no cadet rule exists. MCO para 3019.3: worn on service and blue dress uniforms only."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "patch",
+          "name": "MCJROTC shoulder patch",
+          "where": "Left sleeve of the blue coat",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "left sleeve",
+              "src": "hb",
+              "loc": "p. 15, para 4",
+              "text": "Left sleeve; no distance given"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "other",
+          "name": "Medals (when the training schedule prescribes them)",
+          "where": "Left of the chest, upper edge of the holding bar midway between the first and second buttons; ribbons with no medal go over the right pocket",
+          "region": "right-pocket",
+          "measures": [
+            {
+              "label": "Right-pocket ribbons above the pocket",
+              "in": 0.125,
+              "from": "top of the right breast pocket",
+              "src": "hb",
+              "loc": "p. 14, para 1c"
+            },
+            {
+              "label": "Nametag above the right-side ribbon bar",
+              "in": 0.125,
+              "from": "top of the ribbon bar",
+              "src": "hb",
+              "loc": "p. 14, para 1c"
+            }
+          ],
+          "notes": [
+            "Marksmanship badges are not worn when medals are worn (p. 14 para 1c, p. 15).",
+            "MCO 1020.34H para 5202.2a (PDF pp. 134-135) also puts the holding bar midway between the first and second buttons on the men coat."
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "blue-dress-c",
+      "name": "Blue Dress \"Charlie\"",
+      "items": [
+        {
+          "id": "ribbons",
+          "name": "Ribbons",
+          "where": "Centered above the left breast pocket",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            },
+            {
+              "label": "Above the badge, if one is worn",
+              "in": 0.125,
+              "from": "top of the marksmanship badge",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            }
+          ],
+          "notes": [
+            "Handbook names the khaki shirt and blue coat for ribbons and badges."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "badge",
+          "name": "Marksmanship badge",
+          "where": "Centered above the left breast pocket; one badge only, the most recent qualification",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, paras 1e-1f"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Enlisted rank (chevron)",
+          "where": "Khaki long sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "Bottom edge of chevron from collar edge",
+              "in": 0.5,
+              "from": "collar edge",
+              "src": "hb",
+              "loc": "p. 13 (Enlisted Insignia of Grade) and p. 14, para 1b"
+            }
+          ],
+          "notes": [
+            "Point of the chevron up, bisecting the angle of the collar.",
+            "Handbook p. 13 also says centered on the collar."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Officer rank (small insignia)",
+          "where": "Khaki long sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "From the front edge of the collar",
+              "in": 1,
+              "from": "front edge of collar",
+              "src": "hb",
+              "loc": "p. 14, para 1a"
+            }
+          ],
+          "notes": [
+            "Centered between the top and bottom edges of the collar.",
+            "Handbook p. 13 says 1 inch from the collar edge on the centerline. MCO 1020.34H Fig 4-13 (PDF p. 111) also shows 1 inch from the front edge, insignia parallel to the front edge (colonel perpendicular)."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "nametag",
+          "name": "Nametag",
+          "where": "Centered above the right breast pocket",
+          "region": "right-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the right breast pocket",
+              "src": "mco",
+              "loc": "para 3019.4, PDF p. 72 (printed 1-57)"
+            },
+            {
+              "label": "Tag width",
+              "in": 0.625,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            },
+            {
+              "label": "Tag length",
+              "in": 3,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            }
+          ],
+          "notes": [
+            "The MCJROTC handbook gives no nametag position for normal wear; these are MCO figures, used because no cadet rule exists. MCO para 3019.3: worn on service and blue dress uniforms only."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "patch",
+          "name": "MCJROTC shoulder patch",
+          "where": "Left sleeve of the khaki shirt",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "left sleeve",
+              "src": "hb",
+              "loc": "p. 15, para 4",
+              "text": "Left sleeve; no distance given"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "other",
+          "name": "Tie clasp",
+          "where": "Between the 3rd and 4th buttons of the long sleeve shirt",
+          "region": null,
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "shirt buttons",
+              "src": "hb",
+              "loc": "p. 13",
+              "text": "Centered between the 3rd and 4th button"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "belt",
+          "name": "Belt tip",
+          "where": "Tip of the belt past the buckle",
+          "region": "waist",
+          "measures": [
+            {
+              "label": "Web belt tip past buckle, minimum",
+              "in": 2,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13 (Belt Lengths)"
+            },
+            {
+              "label": "Web belt tip past buckle, maximum",
+              "in": 4,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, minimum",
+              "in": 2.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, maximum",
+              "in": 3.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            }
+          ],
+          "notes": [
+            "The handbook lists both belts without saying which uniform takes which; ask your SMI."
+          ],
+          "confidence": "verify"
+        }
+      ]
+    },
+    {
+      "id": "blue-dress-d",
+      "name": "Blue Dress \"Delta\"",
+      "items": [
+        {
+          "id": "ribbons",
+          "name": "Ribbons",
+          "where": "Centered above the left breast pocket",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            },
+            {
+              "label": "Above the badge, if one is worn",
+              "in": 0.125,
+              "from": "top of the marksmanship badge",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            }
+          ],
+          "notes": [
+            "Handbook names the khaki shirt and blue coat for ribbons and badges."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "badge",
+          "name": "Marksmanship badge",
+          "where": "Centered above the left breast pocket; one badge only, the most recent qualification",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, paras 1e-1f"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Enlisted rank (chevron)",
+          "where": "Khaki short sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "Bottom edge of chevron from collar edge",
+              "in": 0.5,
+              "from": "collar edge",
+              "src": "hb",
+              "loc": "p. 13 (Enlisted Insignia of Grade) and p. 14, para 1b"
+            }
+          ],
+          "notes": [
+            "Point of the chevron up, bisecting the angle of the collar.",
+            "Handbook p. 13 also says centered on the collar."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Officer rank (small insignia)",
+          "where": "Khaki short sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "From the front edge of the collar",
+              "in": 1,
+              "from": "front edge of collar",
+              "src": "hb",
+              "loc": "p. 14, para 1a"
+            }
+          ],
+          "notes": [
+            "Centered between the top and bottom edges of the collar.",
+            "Handbook p. 13 says 1 inch from the collar edge on the centerline. MCO 1020.34H Fig 4-13 (PDF p. 111) also shows 1 inch from the front edge, insignia parallel to the front edge (colonel perpendicular)."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "nametag",
+          "name": "Nametag",
+          "where": "Centered above the right breast pocket",
+          "region": "right-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the right breast pocket",
+              "src": "mco",
+              "loc": "para 3019.4, PDF p. 72 (printed 1-57)"
+            },
+            {
+              "label": "Tag width",
+              "in": 0.625,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            },
+            {
+              "label": "Tag length",
+              "in": 3,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            }
+          ],
+          "notes": [
+            "The MCJROTC handbook gives no nametag position for normal wear; these are MCO figures, used because no cadet rule exists. MCO para 3019.3: worn on service and blue dress uniforms only."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "patch",
+          "name": "MCJROTC shoulder patch",
+          "where": "Left sleeve of the khaki shirt",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "left sleeve",
+              "src": "hb",
+              "loc": "p. 15, para 4",
+              "text": "Left sleeve; no distance given"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "belt",
+          "name": "Belt tip",
+          "where": "Tip of the belt past the buckle",
+          "region": "waist",
+          "measures": [
+            {
+              "label": "Web belt tip past buckle, minimum",
+              "in": 2,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13 (Belt Lengths)"
+            },
+            {
+              "label": "Web belt tip past buckle, maximum",
+              "in": 4,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, minimum",
+              "in": 2.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, maximum",
+              "in": 3.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            }
+          ],
+          "notes": [
+            "The handbook lists both belts without saying which uniform takes which; ask your SMI."
+          ],
+          "confidence": "verify"
+        }
+      ]
+    },
+    {
+      "id": "service-a",
+      "name": "Service \"Alpha\"",
+      "items": [
+        {
+          "id": "ribbons",
+          "name": "Ribbons",
+          "where": "Centered above the left breast pocket",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            },
+            {
+              "label": "Above the badge, if one is worn",
+              "in": 0.125,
+              "from": "top of the marksmanship badge",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            }
+          ],
+          "notes": [
+            "Handbook p. 14 names only the khaki shirt and blue coat for ribbons and badges, not the green coat. Confirm with your SMI."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "badge",
+          "name": "Marksmanship badge",
+          "where": "Centered above the left breast pocket; one badge only, the most recent qualification",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, paras 1e-1f"
+            }
+          ],
+          "notes": [
+            "Handbook p. 14 names only the khaki shirt and blue coat; green coat not stated."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "other",
+          "name": "Collar emblems",
+          "where": "Left and right collar, parallel to the deck with anchors pointed inboard",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "Orientation",
+              "in": null,
+              "from": "deck",
+              "src": "hb",
+              "loc": "p. 13 (Marine Corps Emblem)",
+              "text": "Parallel to the deck, anchors inboard"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "nametag",
+          "name": "Nametag",
+          "where": "Centered above the right breast pocket",
+          "region": "right-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the right breast pocket",
+              "src": "mco",
+              "loc": "para 3019.4, PDF p. 72 (printed 1-57)"
+            },
+            {
+              "label": "Tag width",
+              "in": 0.625,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            },
+            {
+              "label": "Tag length",
+              "in": 3,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            }
+          ],
+          "notes": [
+            "The MCJROTC handbook gives no nametag position for normal wear; these are MCO figures, used because no cadet rule exists. MCO para 3019.3: worn on service and blue dress uniforms only."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "patch",
+          "name": "MCJROTC shoulder patch",
+          "where": "Left sleeve of the green coat",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "left sleeve",
+              "src": "hb",
+              "loc": "p. 15, para 4",
+              "text": "Left sleeve; no distance given"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "id": "service-b",
+      "name": "Service \"Bravo\"",
+      "items": [
+        {
+          "id": "ribbons",
+          "name": "Ribbons",
+          "where": "Centered above the left breast pocket",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            },
+            {
+              "label": "Above the badge, if one is worn",
+              "in": 0.125,
+              "from": "top of the marksmanship badge",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            }
+          ],
+          "notes": [
+            "Handbook names the khaki shirt and blue coat for ribbons and badges."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "badge",
+          "name": "Marksmanship badge",
+          "where": "Centered above the left breast pocket; one badge only, the most recent qualification",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, paras 1e-1f"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Enlisted rank (chevron)",
+          "where": "Khaki long sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "Bottom edge of chevron from collar edge",
+              "in": 0.5,
+              "from": "collar edge",
+              "src": "hb",
+              "loc": "p. 13 (Enlisted Insignia of Grade) and p. 14, para 1b"
+            }
+          ],
+          "notes": [
+            "Point of the chevron up, bisecting the angle of the collar.",
+            "Handbook p. 13 also says centered on the collar."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Officer rank (small insignia)",
+          "where": "Khaki long sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "From the front edge of the collar",
+              "in": 1,
+              "from": "front edge of collar",
+              "src": "hb",
+              "loc": "p. 14, para 1a"
+            }
+          ],
+          "notes": [
+            "Centered between the top and bottom edges of the collar.",
+            "Handbook p. 13 says 1 inch from the collar edge on the centerline. MCO 1020.34H Fig 4-13 (PDF p. 111) also shows 1 inch from the front edge, insignia parallel to the front edge (colonel perpendicular)."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "nametag",
+          "name": "Nametag",
+          "where": "Centered above the right breast pocket",
+          "region": "right-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the right breast pocket",
+              "src": "mco",
+              "loc": "para 3019.4, PDF p. 72 (printed 1-57)"
+            },
+            {
+              "label": "Tag width",
+              "in": 0.625,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            },
+            {
+              "label": "Tag length",
+              "in": 3,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            }
+          ],
+          "notes": [
+            "The MCJROTC handbook gives no nametag position for normal wear; these are MCO figures, used because no cadet rule exists. MCO para 3019.3: worn on service and blue dress uniforms only."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "patch",
+          "name": "MCJROTC shoulder patch",
+          "where": "Left sleeve of the khaki shirt",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "left sleeve",
+              "src": "hb",
+              "loc": "p. 15, para 4",
+              "text": "Left sleeve; no distance given"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "other",
+          "name": "Tie clasp",
+          "where": "Between the 3rd and 4th buttons of the long sleeve shirt",
+          "region": null,
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "shirt buttons",
+              "src": "hb",
+              "loc": "p. 13",
+              "text": "Centered between the 3rd and 4th button"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "belt",
+          "name": "Belt tip",
+          "where": "Tip of the belt past the buckle",
+          "region": "waist",
+          "measures": [
+            {
+              "label": "Web belt tip past buckle, minimum",
+              "in": 2,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13 (Belt Lengths)"
+            },
+            {
+              "label": "Web belt tip past buckle, maximum",
+              "in": 4,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, minimum",
+              "in": 2.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, maximum",
+              "in": 3.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            }
+          ],
+          "notes": [
+            "The handbook lists both belts without saying which uniform takes which; ask your SMI."
+          ],
+          "confidence": "verify"
+        }
+      ]
+    },
+    {
+      "id": "service-c",
+      "name": "Service \"Charlie\"",
+      "items": [
+        {
+          "id": "ribbons",
+          "name": "Ribbons",
+          "where": "Centered above the left breast pocket",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            },
+            {
+              "label": "Above the badge, if one is worn",
+              "in": 0.125,
+              "from": "top of the marksmanship badge",
+              "src": "hb",
+              "loc": "p. 14, para 1d"
+            }
+          ],
+          "notes": [
+            "Handbook names the khaki shirt and blue coat for ribbons and badges."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "badge",
+          "name": "Marksmanship badge",
+          "where": "Centered above the left breast pocket; one badge only, the most recent qualification",
+          "region": "left-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the left breast pocket",
+              "src": "hb",
+              "loc": "p. 14, paras 1e-1f"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Enlisted rank (chevron)",
+          "where": "Khaki short sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "Bottom edge of chevron from collar edge",
+              "in": 0.5,
+              "from": "collar edge",
+              "src": "hb",
+              "loc": "p. 13 (Enlisted Insignia of Grade) and p. 14, para 1b"
+            }
+          ],
+          "notes": [
+            "Point of the chevron up, bisecting the angle of the collar.",
+            "Handbook p. 13 also says centered on the collar."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Officer rank (small insignia)",
+          "where": "Khaki short sleeve shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "From the front edge of the collar",
+              "in": 1,
+              "from": "front edge of collar",
+              "src": "hb",
+              "loc": "p. 14, para 1a"
+            }
+          ],
+          "notes": [
+            "Centered between the top and bottom edges of the collar.",
+            "Handbook p. 13 says 1 inch from the collar edge on the centerline. MCO 1020.34H Fig 4-13 (PDF p. 111) also shows 1 inch from the front edge, insignia parallel to the front edge (colonel perpendicular)."
+          ],
+          "confidence": "high"
+        },
+        {
+          "id": "nametag",
+          "name": "Nametag",
+          "where": "Centered above the right breast pocket",
+          "region": "right-pocket",
+          "measures": [
+            {
+              "label": "Above the pocket",
+              "in": 0.125,
+              "from": "top of the right breast pocket",
+              "src": "mco",
+              "loc": "para 3019.4, PDF p. 72 (printed 1-57)"
+            },
+            {
+              "label": "Tag width",
+              "in": 0.625,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            },
+            {
+              "label": "Tag length",
+              "in": 3,
+              "from": "standard black nametag",
+              "src": "mco",
+              "loc": "para 3019.2, PDF p. 72"
+            }
+          ],
+          "notes": [
+            "The MCJROTC handbook gives no nametag position for normal wear; these are MCO figures, used because no cadet rule exists. MCO para 3019.3: worn on service and blue dress uniforms only."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "patch",
+          "name": "MCJROTC shoulder patch",
+          "where": "Left sleeve of the khaki shirt",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "left sleeve",
+              "src": "hb",
+              "loc": "p. 15, para 4",
+              "text": "Left sleeve; no distance given"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "belt",
+          "name": "Belt tip",
+          "where": "Tip of the belt past the buckle",
+          "region": "waist",
+          "measures": [
+            {
+              "label": "Web belt tip past buckle, minimum",
+              "in": 2,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13 (Belt Lengths)"
+            },
+            {
+              "label": "Web belt tip past buckle, maximum",
+              "in": 4,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, minimum",
+              "in": 2.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, maximum",
+              "in": 3.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            }
+          ],
+          "notes": [
+            "The handbook lists both belts without saying which uniform takes which; ask your SMI."
+          ],
+          "confidence": "verify"
+        }
+      ]
+    },
+    {
+      "id": "utility",
+      "name": "Utility (camouflage, cammies)",
+      "items": [
+        {
+          "id": "rank-collar",
+          "name": "Enlisted rank (chevron)",
+          "where": "Utility shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "Bottom edge of chevron from collar edge",
+              "in": 0.5,
+              "from": "collar edge",
+              "src": "hb",
+              "loc": "p. 13 (Enlisted Insignia of Grade) and p. 14, para 1b"
+            }
+          ],
+          "notes": [
+            "Point of the chevron up, bisecting the angle of the collar.",
+            "Handbook p. 14 para 1b lists utility shirt collars, but para 1 says the Utility D uniform wears rank on the front of the utility cap. These disagree; ask your SMI which applies."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "rank-collar",
+          "name": "Officer rank (small insignia)",
+          "where": "Utility shirt collar",
+          "region": "collar",
+          "measures": [
+            {
+              "label": "From the front edge of the collar",
+              "in": 1,
+              "from": "front edge of collar",
+              "src": "hb",
+              "loc": "p. 14, para 1a"
+            }
+          ],
+          "notes": [
+            "Handbook p. 14 para 1a lists utility shirts; para 1 says rank goes on the cap with Utility D. Ask your SMI.",
+            "MCO Fig 4-13 (PDF p. 111) shows officer collar insignia 1 inch from the front edge on the MCCUU coat."
+          ],
+          "confidence": "verify"
+        },
+        {
+          "id": "patch",
+          "name": "MCJROTC shoulder patch",
+          "where": "Left sleeve of the camouflage utility jacket",
+          "region": "sleeve",
+          "measures": [
+            {
+              "label": "Position",
+              "in": null,
+              "from": "left sleeve",
+              "src": "hb",
+              "loc": "p. 15, para 4",
+              "text": "Left sleeve; no distance given"
+            }
+          ],
+          "notes": [],
+          "confidence": "high"
+        },
+        {
+          "id": "belt",
+          "name": "Belt tip",
+          "where": "Tip of the belt past the buckle",
+          "region": "waist",
+          "measures": [
+            {
+              "label": "Web belt tip past buckle, minimum",
+              "in": 2,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13 (Belt Lengths)"
+            },
+            {
+              "label": "Web belt tip past buckle, maximum",
+              "in": 4,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, minimum",
+              "in": 2.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            },
+            {
+              "label": "Cloth belt tip past buckle, maximum",
+              "in": 3.75,
+              "from": "buckle",
+              "src": "hb",
+              "loc": "p. 13"
+            }
+          ],
+          "notes": [
+            "The handbook lists both belts without saying which uniform takes which; ask your SMI."
+          ],
+          "confidence": "verify"
+        }
+      ]
+    }
+  ],
+  "rack": {
+    "perRow": 3,
+    "topRow": null,
+    "gapAbovePocket_in": 0.125,
+    "gapAboveBadge_in": 0.125,
+    "rowGap_in": 0.125,
+    "ribbonWidth_in": 1.375,
+    "ribbonHeight_in": 0.375,
+    "devices": [],
+    "src": "hb",
+    "loc": "pp. 14-15; ribbon size, row gap and rows of three from MCO 1020.34H (PDF pp. 136 and 142)",
+    "notes": [
+      "Above-pocket gaps: MCJROTC handbook p. 14 paras 1d-1f.",
+      "Ribbon 3/8 inch high by 1 3/8 inch wide with a 1/8 inch gap between stacked rows: MCO 1020.34H, PDF p. 142, para 2. The handbook gives no size.",
+      "Rows of three, senior ribbon top and to the wearer right: MCO PDF p. 136. Handbook p. 15 para 2 gives the order only.",
+      "The handbook does not say how a short top row sits (topRow null) and lists no devices."
+    ]
+  },
+  "checklist": [
+    {
+      "id": "gig-line",
+      "text": "Shirt edge, belt buckle and trouser fly in one straight vertical line",
+      "uniforms": [
+        "*"
+      ],
+      "src": "hb",
+      "loc": "p. 13"
+    },
+    {
+      "id": "tie-clasp",
+      "text": "Tie clasp centered between the 3rd and 4th button",
+      "uniforms": [
+        "blue-dress-c",
+        "service-b"
+      ],
+      "src": "hb",
+      "loc": "p. 13"
+    },
+    {
+      "id": "trouser-length",
+      "text": "Trouser bottoms even with the welt where heel and sole of the shoe join",
+      "uniforms": [
+        "*"
+      ],
+      "src": "hb",
+      "loc": "p. 13"
+    },
+    {
+      "id": "skirt-length",
+      "text": "Skirt length approximates the knee, not more than 1 inch above or below the center of the knee",
+      "uniforms": [
+        "*"
+      ],
+      "src": "hb",
+      "loc": "p. 13"
+    },
+    {
+      "id": "cover-emblem",
+      "text": "Cover emblem wings parallel to the deck, anchor pointed forward",
+      "uniforms": [
+        "*"
+      ],
+      "src": "hb",
+      "loc": "p. 13"
+    },
+    {
+      "id": "collar-emblem",
+      "text": "Collar emblems parallel to the deck, anchors pointed inboard",
+      "uniforms": [
+        "blue-dress-b",
+        "blue-dress-c",
+        "blue-dress-d",
+        "service-a"
+      ],
+      "src": "hb",
+      "loc": "p. 13"
+    },
+    {
+      "id": "ribbon-gap",
+      "text": "Ribbons 1/8 inch above and centered over the left breast pocket (1/8 inch above the badge if one is worn)",
+      "uniforms": [
+        "blue-dress-b",
+        "blue-dress-c",
+        "blue-dress-d",
+        "service-b",
+        "service-c"
+      ],
+      "src": "hb",
+      "loc": "p. 14"
+    },
+    {
+      "id": "one-badge",
+      "text": "Only one marksmanship badge, the most recent qualification",
+      "uniforms": [
+        "*"
+      ],
+      "src": "hb",
+      "loc": "p. 14"
+    },
+    {
+      "id": "precedence",
+      "text": "Ribbons in order of precedence, senior on top and to the wearer's right",
+      "uniforms": [
+        "*"
+      ],
+      "src": "hb",
+      "loc": "p. 15"
+    },
+    {
+      "id": "patch",
+      "text": "MCJROTC shoulder patch on the left sleeve",
+      "uniforms": [
+        "blue-dress-b",
+        "blue-dress-c",
+        "blue-dress-d",
+        "service-a",
+        "service-b",
+        "service-c",
+        "utility"
+      ],
+      "src": "hb",
+      "loc": "p. 15"
+    },
+    {
+      "id": "cover-indoors",
+      "text": "Cover not worn indoors",
+      "uniforms": [
+        "*"
+      ],
+      "src": "hb",
+      "loc": "p. 13"
+    }
+  ]
+}

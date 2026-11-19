@@ -30,7 +30,15 @@
   let q = $state(''), sort = $state<'prec' | 'az'>('prec');
   const shown = $derived((q.trim() ? ribbons.filter((f) => f.a.toLowerCase().includes(q.trim().toLowerCase())) : ribbons).slice().sort((a, b) => (sort === 'az' ? a.a.localeCompare(b.a) : a.order! - b.order!)));
   const enter = () => { if (shown.length === 1 && !app.rack.ids.includes(shown[0].id)) toggle(shown[0].id); };
-  const clear = () => { if (app.rack.ids.length && confirm('Turn off all ribbons and devices?')) save('rack', { ids: [], devices: {} }); };
+  // Two taps instead of confirm(): some phone browsers and app views block or skip confirm dialogs, so Clear never ran.
+  let arm = $state(false);
+  let disarm: ReturnType<typeof setTimeout> | undefined;
+  const clear = () => {
+    if (!arm) { arm = true; clearTimeout(disarm); disarm = setTimeout(() => (arm = false), 4000); return; }
+    arm = false;
+    q = '';
+    save('rack', { ids: [], devices: {} });
+  };
   const gaps = [['Above the pocket', R.gapAbovePocket_in], ['Above the badge', R.gapAboveBadge_in]] as const;
 </script>
 
@@ -55,7 +63,7 @@
       {/each}
     </svg>
     <ol class="rkey">
-      {#each chosen as f}<li><Ribbon name={f.a} width={72} device={devOf(f.id, f.a)} /><span>{f.a}{#if devText(f.id, f.a)} <span class="label">{devText(f.id, f.a)}</span>{/if}</span></li>{/each}
+      {#each chosen as f}<li><Ribbon name={f.a} width={72} device={devOf(f.id, f.a)} /><span>{f.a}{#if devText(f.id, f.a)}<small class="label" style="display: block">With {devText(f.id, f.a)}</small>{/if}</span></li>{/each}
     </ol>
   {:else}<p class="help">No ribbons chosen yet.</p>{/if}
   {#if !R.topRow}<p class="help">Check with your SMI how a short top row sits.</p>{/if}
@@ -75,7 +83,7 @@
 <div class="rtools">
   <label>Search ribbons<input type="search" bind:value={q} onkeydown={(e) => e.key === 'Enter' && enter()} placeholder="Type a name" /></label>
   <label>Sort<select bind:value={sort}><option value="prec">Precedence</option><option value="az">A to Z</option></select></label>
-  <button class="btn" onclick={clear}>Clear</button>
+  <button class="btn" class:danger={arm} onclick={clear} disabled={!app.rack.ids.length && !arm} aria-live="polite">{arm ? 'Tap again to clear all' : 'Clear'}</button>
 </div>
 {#if !shown.length}<p class="help">No ribbon matches.</p>{/if}
 {#each shown as f (f.id)}

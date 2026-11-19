@@ -24,6 +24,13 @@
   const chev = (y: number) => `M12 ${y + 26}L50 ${y}L88 ${y + 26}L88 ${y + 34}L50 ${y + 8}L12 ${y + 34}Z`;
   // One rocker: a band curving down between the chevron tips, top edge at y.
   const rock = (y: number) => `M12 ${y}Q50 ${y + 10} 88 ${y}L88 ${y + 6}Q50 ${y + 16} 12 ${y + 6}Z`;
+  // The lamp of learning, side view, about 43 x 17 around the origin: [handle loop with hole, body + spout + foot, knob], plus a top-edge highlight.
+  export const LAMP = [
+    'M-9 -3C-14 -6-21 -3-21 1C-21 5-15 6.5-9.5 3ZM-12.5 0C-15-2-18-1.5-18 1C-18 3-15 3.5-12.5 2Z',
+    'M-11 0C-11 -3.5-6 -5 0 -5C6 -5 10 -5 13 -4.2C16 -5.5 19 -7 22 -8.5C20 -5 17 -2 14.5 1C12.5 4.5 7 5 3.5 5.2L5 6.5C6.5 7 7.5 7.5 7.8 8.5L-7.8 8.5C-7.5 7.5-6.5 7-5 6.5L-3.5 5.2C-8 5-11 3.5-11 0Z',
+    'M-2.7 -4.8C-2.7 -7.5-1.5 -8.5 0 -8.5C1.5 -8.5 2.7 -7.5 2.7 -4.8Z'
+  ];
+  export const LAMP_HI = 'M-9.5 -2C-7 -3.7-3 -4.2 0 -4.2C4 -4.2 8 -4.1 12 -3.4';
 </script>
 
 <script lang="ts">
@@ -57,12 +64,9 @@
           {#each layout.rocks as y}<path d={rock(y)} />{/each}
         </g>
         <!-- The lamp of learning: an oil lamp, no flame -->
-        <g transform="translate(50 {layout.lampY}) scale({layout.scale})" fill="url(#{id}k)" stroke="#8c949c" stroke-width="0.6">
-          <path d="M-12 0C-12 -6 12 -6 12 0C12 4 -12 4 -12 0Z" />
-          <path d="M9 -2L21 -6L22 -3.5L10.5 3Z" />
-          <path d="M-11.5 -1.5C-19 -4 -19 5 -11.5 2.5" fill="none" stroke="url(#{id}k)" stroke-width="2.4" />
-          <rect x="-3.5" y="-8.5" width="7" height="4" rx="1.5" />
-          <path d="M-6 3H6L7.5 7H-7.5Z" />
+        <g transform="translate(50 {layout.lampY}) scale({layout.scale})" fill="url(#{id}k)" stroke="#8c949c" stroke-width="0.5" stroke-linejoin="round">
+          {#each LAMP as d}<path {d} fill-rule="evenodd" />{/each}
+          <path d={LAMP_HI} fill="none" stroke="#fff" stroke-opacity="0.45" stroke-width="0.7" stroke-linecap="round" />
         </g>
       {:else if 'shape' in spec}
         <!-- Silver pieces in a row, centered; a highlight and the shadow give them depth. -->

@@ -2,6 +2,7 @@
   // One ribbon as woven-fabric SVG, drawn on a 440 x 120 grid (the real 1 3/8 : 3/8 shape).
   // Stripe bands come from usmc-ribbons.json: [hexColor, widthFraction] left to right.
   // Without a sourced entry it draws a neutral placeholder (never invented colors).
+  import { LAMP } from './RankInsignia.svelte';
   import spec from '../data/usmc-ribbons.json';
   type Entry = { bands: [string, number][]; device?: { type: 'cross' | 'star'; color: string } };
   let { name, width = 1.375, x, y, height, device }: { name: string; width?: number; x?: number; y?: number; height?: number; device?: { metal: string; shape: 'emblem' | 'lamp' | 'bar' } } = $props();
@@ -28,11 +29,17 @@
       <stop offset="0.75" stop-color="#000" stop-opacity="0" />
       <stop offset="1" stop-color="#000" stop-opacity="0.12" />
     </linearGradient>
-    <pattern id="wv{uid}" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="2" height="4" fill="#000" opacity="0.04" /><rect width="4" height="1.5" fill="#000" opacity="0.035" /></pattern>
+    <!-- Grosgrain weave: horizontal ribs + fine thread grain, grayscale, lifted so it only varies the light a little. -->
+    <filter id="wv{uid}" filterUnits="userSpaceOnUse" x="0" y="0" width={W} height={H} color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03 0.85" numOctaves="1" seed="3" result="rib" />
+      <feTurbulence type="fractalNoise" baseFrequency="0.7 0.7" numOctaves="1" seed="9" result="grain" />
+      <feComposite in="rib" in2="grain" operator="arithmetic" k2="0.7" k3="0.3" result="n" />
+      <feColorMatrix in="n" type="matrix" values="1.3 1.3 1.3  0 -0.95  1.3 1.3 1.3  0 -0.95  1.3 1.3 1.3  0 -0.95  0 0 0 0 1" />
+    </filter>
     <radialGradient id="dv{uid}" cx="0.35" cy="0.3" r="0.85"><stop offset="0" stop-color={dm?.[0]} /><stop offset="0.5" stop-color={dm?.[1]} /><stop offset="1" stop-color={dm?.[2]} /></radialGradient>
   </defs>
   {#each bands as b, i}<rect x={xs[i]} y="0" width={b[1] * W + (i < bands.length - 1 ? 0.6 : 0)} height={H} fill={b[0]} shape-rendering="crispEdges" />{/each}
-  <rect width={W} height={H} fill="url(#wv{uid})" shape-rendering="crispEdges" />
+  <rect width={W} height={H} filter="url(#wv{uid})" style="mix-blend-mode:multiply" opacity="0.5" />
   <rect width={W} height={H} fill="url(#sh{uid})" />
   {#if entry?.device}
     <g transform="translate({W / 2} {H / 2}) scale({entry.device.type === 'star' ? 30 : 26})">
@@ -44,7 +51,7 @@
       {#if device.shape === 'emblem'}
         <circle r={D} vector-effect="non-scaling-stroke" /><circle r={D - 5} fill="none" stroke="#fff" stroke-opacity="0.35" vector-effect="non-scaling-stroke" />
       {:else if device.shape === 'lamp'}
-        <polygon points="0,{-D} {D * 0.8},0 0,{D} {-D * 0.8},0" stroke-linejoin="round" vector-effect="non-scaling-stroke" />
+        <g transform="scale(4.2) translate(-0.5 -0.2)" stroke-linejoin="round">{#each LAMP as d}<path {d} fill-rule="evenodd" vector-effect="non-scaling-stroke" />{/each}</g>
       {:else}
         <rect x={-D * 1.6} y={-D * 0.4} width={D * 3.2} height={D * 0.8} rx="3" vector-effect="non-scaling-stroke" />
       {/if}

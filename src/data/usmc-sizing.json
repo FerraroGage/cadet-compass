@@ -1,0 +1,41 @@
+{
+  "checked": "2026-11-19",
+  "note": "Only government sources. The only official body-measurement-to-size table found is for the utility uniform (MCCUU). Dress and service garments have fit standards in MCO 1020.34H but no public size table, so those say to see the unit supply NCO.",
+  "sources": {
+    "dla": {"name": "DLA Troop Support, How to Measure for Military Uniform Special Measurement Orders (2020)", "url": "https://www.dla.mil/Portals/104/Documents/TroopSupport/CloTex/Special%20measurements/Special%20Measurements%20book%20-%2021%20Jan%202020.pdf"},
+    "mccuu": {"name": "MIL-PRF-MCCUU E, Purchase Description, Uniform, Combat/Utility, Marine Corps (DLA Troop Support, 1 July 2016), para 3.4.3.2.2 Size and Body Measurements Table (PDF p. 18-19). Copy hosted by navysbir.com; check the current revision on ASSIST.", "url": "https://www.navysbir.com/n21_A/N21A-T001-REFERENCE-4-MCCUU.pdf"},
+    "mco": {"name": "MCO 1020.34H, Marine Corps Uniform Regulations (1 May 2018)", "url": "https://www.marines.mil/Portals/1/Publications/MCO%201020.34H%20v2.pdf"}
+  },
+  "measure": {
+    "basics": {"text": "Stand tall, relaxed, feet about 6 inches apart. Wear light, close clothing. Use a flexible tape, keep it parallel to the floor, snug but not tight (one finger fits under it). Measure to the nearest 1/4 inch.", "source": "DLA Special Measurements book, p. 4 (PDF p. 5)"},
+    "chest": {"text": "Around the chest at its widest point, under the armpits and around the shoulder blades. For women this is the fullest part of the bust.", "source": "DLA, p. 17 (PDF p. 18)"},
+    "waist": {"text": "Around the narrowest part of your natural waist, above the navel and below the rib cage, like a belt. Do not suck in. Best taken mid-breath.", "source": "DLA, p. 18 (PDF p. 19)"},
+    "neck": {"text": "Around the center of the neck.", "source": "DLA, p. 8 (PDF p. 9)"},
+    "sleeve": {"text": "Elbow slightly bent. From the middle of the base of the neck, over the shoulder, down the back of the arm past the elbow to the wrist. Have a partner measure from behind.", "source": "DLA, p. 14 (PDF p. 15)"},
+    "inseam": {"text": "From the uppermost inside of the thigh, down the inside of the leg, to where the trouser bottom should end at the ankle.", "source": "DLA, p. 23 (PDF p. 24)"},
+    "height": {"text": "Top of the head to the floor, standing tall with shoulders back, no shoes.", "source": "DLA, p. 6 (PDF p. 7)"},
+    "head": {"text": "Around the largest part of the head. No official cover size table was found; headgear must fit snugly and comfortably without distortion or excessive gaps.", "source": "MCO 1020.34H, para 1004 (PDF p. 29)"}
+  },
+  "tables": {
+    "source": "mccuu",
+    "male": {
+      "blouse_chest": [["X-Small", null, 33], ["Small", 33, 37], ["Medium", 37, 41], ["Large", 41, 45], ["X-Large", 45, 49], ["XX-Large", 49, 53]],
+      "blouse_length_by_height": [["XX-Short", null, 59], ["X-Short", 59, 63], ["Short", 63, 67], ["Regular", 67, 71], ["Long", 71, 75], ["X-Long", 75, 79], ["XX-Long", 79, null]],
+      "trouser_waist": [["X-Small", null, 27], ["Small", 27, 31], ["Medium", 31, 35], ["Large", 35, 39], ["X-Large", 39, 43], ["XX-Large", 43, null]],
+      "trouser_inseam": [["X-Short", null, 26.5], ["Short", 26.5, 29.5], ["Regular", 29.5, 32.5], ["Long", 32.5, 35.5], ["X-Long", 35.5, 38.5], ["XX-Long", 38.5, null]]
+    },
+    "female": {
+      "blouse_chest": [["32", null, 33], ["35", 33, 37], ["39", 37, 41]],
+      "blouse_length_by_height": [["X-Short", 59, 63], ["Short", 63, 67], ["Regular", 67, 71]],
+      "trouser_waist": [["24", 22, 26], ["28", 26, 30], ["32", 30, 34]],
+      "trouser_inseam": [["X-Short", 23.5, 26.5], ["Short", 26.5, 29.5], ["Regular", 29.5, 32.5]]
+    }
+  },
+  "fit": {
+    "service_coat_male": {"text": "Semi-formfitting: about 2 inches of freedom through the chest and 1 inch at the waist. Rides freely when arms are raised.", "source": "MCO 1020.34H para 3006.2 (PDF p. 62)"},
+    "blue_dress_coat_male": {"text": "Formfitting; fitted and altered to the body.", "source": "MCO 1020.34H para 3006.2 (PDF p. 62)"},
+    "coats_female": {"text": "Semi-formfitting: smooth but not tight across bust and shoulders, loose enough for both arms to move freely.", "source": "MCO 1020.34H para 3006.3 (PDF p. 63)"},
+    "service_dress_trousers_male": {"text": "Full cut, straight hanging. Break slightly over the shoe in front and reach the welt in back (1/4 inch above or below is fine).", "source": "MCO 1020.34H para 3034 (PDF p. 84)"},
+    "utility": {"text": "Loose fitting and comfortable, with room for some shrinkage.", "source": "MCO 1020.34H para 3037 (PDF p. 86)"}
+  }
+}

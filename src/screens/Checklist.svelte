@@ -1,5 +1,6 @@
 <script lang="ts">
   // Inspection checklist: lines for the chosen uniform, ticked off and kept on this device.
+  import { term } from '../lib/terms';
   import { app, save } from '../lib/store.svelte';
   import { data } from '../lib/uniform';
 
@@ -14,7 +15,7 @@
 <h1>Inspection checklist</h1>
 <div class="chips" role="group" aria-label="Uniform">
   {#each data.uniforms as u}
-    <button class="btn" aria-pressed={pick === u.id} onclick={() => (pick = u.id)}>{u.name}</button>
+    <button class="btn" aria-pressed={pick === u.id} onclick={() => (pick = u.id)}>{term(u.name)}</button>
   {/each}
 </div>
 
@@ -23,7 +24,7 @@
   {#each lines as l (l.id)}
     <label class="opt">
       <input type="checkbox" checked={done.includes(l.id)} onchange={() => flip(l.id)} />
-      <span>{l.text}<small>{data.sources[l.src]?.title ?? l.src}, {l.loc}</small></span>
+      <span>{term(l.text)}<small>{data.sources[l.src]?.title ?? l.src}, {l.loc}</small></span>
     </label>
   {/each}
 </div>

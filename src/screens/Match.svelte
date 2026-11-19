@@ -1,5 +1,6 @@
 <script lang="ts">
   // Match Up: six questions and their six answers, shuffled on a board. Tap a question, then its answer.
+  import { term } from '../lib/terms';
   import { app, facts, save, tick, award, today } from '../lib/store.svelte';
   import { quizzable, shuffle, MODULES } from '../lib/quiz';
 
@@ -74,7 +75,7 @@
       {#each tiles as tile (tile.key)}
         <button class="mtile {tile.side}" class:sel={sel?.key === tile.key} class:gone={gone.includes(tile.id)} class:shake={shake === tile.key}
           aria-pressed={sel?.key === tile.key} disabled={gone.includes(tile.id)} onclick={() => tap(tile)}>
-          <span class="sr">{tile.side === 'q' ? 'Question: ' : 'Answer: '}</span>{tile.text}
+          <span class="sr">{tile.side === 'q' ? 'Question: ' : 'Answer: '}</span>{term(tile.text)}
         </button>
       {/each}
     </div>

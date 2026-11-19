@@ -1,6 +1,7 @@
 <script lang="ts">
   // Placement guide: where each item goes on the uniform, with the measures and the page they came from.
-  import { app } from '../lib/store.svelte';
+  import { app, save } from '../lib/store.svelte';
+  import { term } from '../lib/terms';
   import { data, fmt } from '../lib/uniform';
   import Diagram from '../lib/Diagram.svelte';
   import Units from '../lib/Units.svelte';
@@ -15,15 +16,20 @@
 <h1>Placement guide</h1>
 <p class="help">Where each item goes, in plain measures. Your Senior Marine Instructor and your unit's orders come first.</p>
 <Units />
+<div class="units" role="group" aria-label="Uniform version">
+  {#each ['male', 'female'] as const as c}
+    <button class="btn" aria-pressed={app.cut === c} onclick={() => save('cut', c)}>{c === 'male' ? 'Male' : 'Female'}</button>
+  {/each}
+</div>
 
 <div class="chips" role="group" aria-label="Uniform">
   {#each data.uniforms as u}
-    <button class="btn" aria-pressed={pick === u.id} onclick={() => (pick = u.id)}>{u.name}</button>
+    <button class="btn" aria-pressed={pick === u.id} onclick={() => (pick = u.id)}>{term(u.name)}</button>
   {/each}
 </div>
 
 {#if uni}
-  <UniformOutline id={uni.id} />
+  <UniformOutline id={uni.id} cut={app.cut} />
   {#each uni.items as item, k (item.id + k)}
     <details class="fold">
       <summary>{item.name}{#if item.confidence === 'verify'}<span class="tag">Check with your SMI</span>{/if}</summary>

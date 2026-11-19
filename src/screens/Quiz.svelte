@@ -3,6 +3,7 @@
   //   module, topic, n (count), diff (1..3), pool (all | due | missed), type (mc | recall), timer (seconds per question)
   // Answered questions can be stepped back through. A question marked "not in my program", before answering
   // or after getting it wrong, leaves the quiz and its score entirely.
+  import { term } from '../lib/terms';
   import { app, facts, grade, tick, award, today, setHidden } from '../lib/store.svelte';
   import { MODULES, quizzable, buildQuestion, shuffle, gaps, type Question } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
@@ -113,7 +114,7 @@
     {#each set as x, k}
       <li><button class="recap-row" onclick={() => (view = k)}>
         <span class="mark {x.ok ? 'good' : 'bad'}" aria-label={x.ok ? 'Right' : 'Wrong'}>{x.ok ? '✓' : '✕'}</span>
-        <span>{x.fact.q}</span>
+        <span>{term(x.fact.q)}</span>
       </button></li>
     {/each}
   </ol>
@@ -135,13 +136,13 @@
     {#if view !== null}<button class="btn link" onclick={forward}>{view + 1 < i ? 'Next ›' : done ? 'Score ›' : 'Current ›'}</button>{/if}
   </div>
   <article class="card" class:past={view !== null}>
-    <div class="q" id="question">{fact.q}</div>
+    <div class="q" id="question">{term(fact.q)}</div>
     {#if q}
       <div role="radiogroup" aria-labelledby="question">
         {#each q.choices as c, n}
           <button class="choice" class:right={answered && n === q.correct} class:wrong={answered && n === cur.picked && n !== q.correct}
             role="radio" aria-checked={cur.picked === n} disabled={answered || view !== null} onclick={() => choose(n)}>
-            <b>{'ABCD'[n]}</b><span>{c}</span>
+            <b>{'ABCD'[n]}</b><span>{term(c)}</span>
           </button>
         {/each}
       </div>
@@ -151,10 +152,10 @@
         {#if q}
           <p class="verdict {cur.ok ? 'good' : 'bad'}">{cur.ok ? 'Correct' : cur.picked === null ? 'Out of time' : 'Incorrect'}</p>
         {:else}
-          <strong>{fact.a}</strong>
+          <strong>{term(fact.a)}</strong>
           {#if answered}<p class="verdict {cur.ok ? 'good' : 'bad'}">{cur.ok ? 'You had it' : 'You missed it'}</p>{/if}
         {/if}
-        <p>{fact.text}</p>
+        <p>{term(fact.text)}</p>
         <Cite {fact} />
       </div>
     {/if}

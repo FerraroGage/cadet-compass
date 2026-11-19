@@ -6,6 +6,7 @@
   import RankInsignia from '../lib/RankInsignia.svelte';
   import { CADET_RANKS } from '../lib/cadetRanks';
   import Ribbon from '../lib/Ribbon.svelte';
+  import UniformPhotos from '../lib/UniformPhotos.svelte';
 
   let { tab }: { tab?: string } = $props();
   const all = facts(true); // Learn lists hidden items too, so they can be turned back on
@@ -34,6 +35,8 @@
     {/if}
     {#if current.id === 'drill'}<a class="act" href="#/train/metronome"><b>Drill metronome</b><small>Hear the cadence</small></a>{/if}
   </div>
+
+  {#if current.id === 'uniform' && app.profile?.branch === 'usmc'}<UniformPhotos />{/if}
 
   {#if current.id === 'ranks' && app.profile?.branch === 'usmc'}
     <h2>Rank chart</h2>

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { term } from '../lib/terms';
   import { app, facts, grade, tick, award, today, fmtDate, setHidden } from '../lib/store.svelte';
   import { MODULES, quizzable, modulePriority, summarize } from '../lib/quiz';
   import type { Grade } from '../lib/srs';
@@ -53,11 +54,11 @@
   <p class="label">Card {total - queue.length + 1} of {Math.max(total, total - queue.length + 1)}</p>
   <article class="card">
     <div class="top"><span class="label">{MODULES.find((m) => m.id === fact.module)?.name}</span><span class="label">{fact.topic}</span></div>
-    <div class="q">{fact.q}</div>
+    <div class="q">{term(fact.q)}</div>
     {#if shown}
       <div class="a" aria-live="polite">
-        <strong>{fact.a}</strong>
-        <p>{fact.text}</p>
+        <strong>{term(fact.a)}</strong>
+        <p>{term(fact.text)}</p>
         <Cite {fact} />
       </div>
     {/if}

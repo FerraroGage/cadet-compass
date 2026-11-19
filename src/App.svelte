@@ -23,6 +23,7 @@
   import UniformGuide from './screens/UniformGuide.svelte';
   import RackBuilder from './screens/RackBuilder.svelte';
   import Checklist from './screens/Checklist.svelte';
+  import Sizing from './screens/Sizing.svelte';
   import Tools from './screens/Tools.svelte';
 
   // The XP number counts up to its new value instead of jumping.
@@ -121,6 +122,7 @@
           {#if parts[1] === 'rack'}<RackBuilder />
           {:else if parts[1] === 'checklist'}<Checklist />
           {:else if parts[1] === 'placement'}<UniformGuide />
+          {:else if parts[1] === 'sizing'}<Sizing />
           {:else}<Tools />{/if}
         {:else if section === 'guide'}
           <Guide />

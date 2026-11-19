@@ -125,6 +125,16 @@
       <option value="light">Light</option><option value="dark">Dark</option><option value="system">Match my device</option>
     </select>
   </label>
+  <label class="field"><span class="label">Uniform names</span>
+    <select value={app.wording} onchange={(e) => save('wording', (e.currentTarget as HTMLSelectElement).value as 'simple' | 'official')}>
+      <option value="simple">Everyday (Dress Blue Deltas, Cammies)</option><option value="official">Official (Blue Dress "Delta", Utility)</option>
+    </select>
+  </label>
+  <label class="field"><span class="label">Uniform diagrams show</span>
+    <select value={app.cut} onchange={(e) => save('cut', (e.currentTarget as HTMLSelectElement).value as 'male' | 'female')}>
+      <option value="male">Male uniforms</option><option value="female">Female uniforms</option>
+    </select>
+  </label>
   <label class="field"><span class="label">Measurements in the uniform tools</span>
     <select value={app.units} onchange={(e) => save('units', (e.currentTarget as HTMLSelectElement).value as 'in' | 'cm')}>
       <option value="in">Inches</option><option value="cm">Centimeters</option>

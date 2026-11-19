@@ -1,6 +1,7 @@
 <script lang="ts">
   // Speed Round: ten questions against the clock. Points for a right answer, more the faster it comes,
   // plus a streak bonus. Wrong answers go back into today's cards.
+  import { term } from '../lib/terms';
   import { app, facts, save, grade, tick, award, today, setHidden } from '../lib/store.svelte';
   import { quizzable, buildQuestion, shuffle, MODULES, type Question } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
@@ -108,13 +109,13 @@
       <span class="num">{score.toLocaleString()}</span>
     </div>
     <div class="clock" role="progressbar" aria-label="Time left" aria-valuemin="0" aria-valuemax={SECONDS} aria-valuenow={Math.ceil(left)}><i style="width: {(left / SECONDS) * 100}%"></i></div>
-    <h1 class="ask" id="q">{cur.fact.q}</h1>
+    <h1 class="ask" id="q">{term(cur.fact.q)}</h1>
     <div class="tiles" role="radiogroup" aria-labelledby="q">
       {#each cur.q.choices as c, i}
         <button class="tile" style="--c: {COLORS[i]}" role="radio" aria-checked={picked === i} disabled={phase === 'shown'}
           class:right={phase === 'shown' && i === cur.q.correct} class:wrong={phase === 'shown' && i === picked && i !== cur.q.correct}
           class:dim={phase === 'shown' && i !== cur.q.correct && i !== picked} onclick={() => answer(i)}>
-          <b aria-hidden="true">{'ABCD'[i]}</b><span>{c}</span>
+          <b aria-hidden="true">{'ABCD'[i]}</b><span>{term(c)}</span>
         </button>
       {/each}
     </div>
@@ -122,7 +123,7 @@
     {#if phase === 'shown'}
       <div class="verdictbar {picked === cur.q.correct ? 'good' : 'bad'}" role="status">
         <strong>{picked === cur.q.correct ? `+${gained}` : picked === -1 ? 'Out of time' : 'Not this time'}</strong>
-        <span>{picked === cur.q.correct ? (streak > 1 ? `${streak} in a row` : 'Correct') : cur.fact.a}</span>
+        <span>{picked === cur.q.correct ? (streak > 1 ? `${streak} in a row` : 'Correct') : term(cur.fact.a)}</span>
         <button class="btn gold" onclick={next}>{n + 1 < set.length ? 'Next' : 'See score'}</button>
       </div>
     {/if}

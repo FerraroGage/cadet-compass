@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { term } from './terms';
   import type { Fact } from './bundle';
   import { isStale } from './quiz';
   import { app, today, setHidden } from './store.svelte';
@@ -21,13 +22,13 @@
         <td class="num">{i + 1}</td>
         <td>
           {#if f.module === 'ranks' && isCadetRank(f.a) && f.a !== 'Cadet Private'}<span class="rankcell"><RankInsignia rank={f.a} size={36} /></span>{/if}
-          {f.text}
+          {term(f.text)}
           {#if f.confidence === 'verify'}<span class="tag">Not verified</span>{:else if isStale(f, t)}<span class="tag">Check date</span>{/if}
           {#if !shared}<Cite fact={f} />{/if}
         </td>
         {#if toggle}
           <td class="sw">
-            <button class="switch" role="switch" aria-checked={!app.hidden.includes(f.id)} aria-label="Include in quizzes: {f.text}" onclick={() => setHidden([f.id], !app.hidden.includes(f.id))}><i></i></button>
+            <button class="switch" role="switch" aria-checked={!app.hidden.includes(f.id)} aria-label="Include in quizzes: {term(f.text)}" onclick={() => setHidden([f.id], !app.hidden.includes(f.id))}><i></i></button>
           </td>
         {/if}
       </tr>

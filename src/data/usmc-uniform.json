@@ -11,6 +11,11 @@
       "title": "MCO 1020.34H Marine Corps Uniform Regulations",
       "url": "https://www.marines.mil/Portals/1/Publications/MCO%201020.34H.pdf",
       "edition": "01 May 2018 (page header; later changes not checked). Page numbers are PDF pages."
+    },
+    "jfk": {
+      "title": "JFK High School MCJROTC cadet handbook, Appearance & Uniforms, MCJROTC Awards Criteria (unit page)",
+      "url": "https://sites.google.com/view/jfkmcjrotc/home/cadet-handbook/appearance-uniforms",
+      "edition": "Unit web page, read 2026-11-19. Not an official order."
     }
   },
   "uniforms": [
@@ -1165,18 +1170,112 @@
     "topRow": null,
     "gapAbovePocket_in": 0.125,
     "gapAboveBadge_in": 0.125,
-    "rowGap_in": 0.125,
-    "ribbonWidth_in": 1.375,
-    "ribbonHeight_in": 0.375,
-    "devices": [],
+    "devices": [
+      {
+        "id": "bronze",
+        "name": "Bronze device",
+        "meaning": "Second award (Longevity/Fidelity: first year)",
+        "max": 1,
+        "src": "jfk",
+        "loc": "Awards Criteria, repeat-award device lines",
+        "confidence": "verify"
+      },
+      {
+        "id": "silver",
+        "name": "Silver device",
+        "meaning": "Third award (Longevity/Fidelity: third year)",
+        "max": 1,
+        "src": "jfk",
+        "loc": "Awards Criteria, repeat-award device lines",
+        "confidence": "verify"
+      },
+      {
+        "id": "gold",
+        "name": "Gold device",
+        "meaning": "Fourth award (Longevity/Fidelity: fourth year)",
+        "max": 1,
+        "src": "jfk",
+        "loc": "Awards Criteria, repeat-award device lines",
+        "confidence": "verify"
+      }
+    ],
     "src": "hb",
-    "loc": "pp. 14-15; ribbon size, row gap and rows of three from MCO 1020.34H (PDF pp. 136 and 142)",
+    "loc": "pp. 14-15; rows of three from MCO 1020.34H (PDF p. 136); repeat-award devices from a unit page (verify with your SMI)",
     "notes": [
       "Above-pocket gaps: MCJROTC handbook p. 14 paras 1d-1f.",
-      "Ribbon 3/8 inch high by 1 3/8 inch wide with a 1/8 inch gap between stacked rows: MCO 1020.34H, PDF p. 142, para 2. The handbook gives no size.",
       "Rows of three, senior ribbon top and to the wearer right: MCO PDF p. 136. Handbook p. 15 para 2 gives the order only.",
-      "The handbook does not say how a short top row sits (topRow null) and lists no devices."
-    ]
+      "The handbook does not say how a short top row sits (topRow null) and lists no devices.",
+      "Devices: the JFK High School MCJROTC unit page says a bronze, silver or gold device (Marine Corps emblem, Lamp of Learning, or a bar lettered with the team name, depending on the ribbon) marks the second, third and fourth award. One device replaces the last; they do not stack. Longevity/Fidelity gets bronze on first presentation, then silver and gold for the third and fourth year. Only unit pages support this, not an order: confidence verify. Medal-and-ribbon awards from outside groups list no devices."
+    ],
+    "ribbonDevices": {
+      "Outstanding Cadet Ribbon": {
+        "shape": "emblem"
+      },
+      "Student Leadership Ribbon": {
+        "shape": "lamp"
+      },
+      "Officer Leadership Ribbon": {
+        "shape": "emblem"
+      },
+      "NCO Leadership Ribbon": {
+        "shape": "emblem"
+      },
+      "Civic Service Ribbon": {
+        "shape": "emblem"
+      },
+      "Best Drill Cadet Ribbon": {
+        "shape": "emblem"
+      },
+      "Distinguished Scholastic Achievement Ribbon": {
+        "shape": "lamp"
+      },
+      "Arts and Academics Ribbon": {
+        "shape": "lamp"
+      },
+      "Distinguished Military Training Ribbon": {
+        "shape": "emblem"
+      },
+      "Physical Achievement Ribbon": {
+        "shape": "emblem"
+      },
+      "Superior Marksman Ribbon": {
+        "shape": "emblem"
+      },
+      "Athletic Participation Ribbon": {
+        "shape": "lamp"
+      },
+      "Longevity / Fidelity Ribbon": {
+        "shape": "emblem"
+      },
+      "Distinguished Conduct Ribbon": {
+        "shape": "emblem"
+      },
+      "Best Drill Squad Ribbon": {
+        "shape": "emblem"
+      },
+      "Color Guard Ribbon": {
+        "shape": "bar",
+        "label": "COLOR GUARD"
+      },
+      "Drill Team Ribbon": {
+        "shape": "bar",
+        "label": "DRILL TEAM"
+      },
+      "Band / Drum & Bugle Corps Ribbon": {
+        "shape": "bar",
+        "label": "BAND"
+      },
+      "Rifle Team Ribbon": {
+        "shape": "bar",
+        "label": "RIFLE TEAM"
+      },
+      "Orienteering Ribbon": {
+        "shape": "emblem"
+      },
+      "Recruiting Ribbon": {
+        "shape": "emblem"
+      }
+    }
   },
   "checklist": [
     {

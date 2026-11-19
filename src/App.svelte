@@ -23,6 +23,7 @@
   import UniformGuide from './screens/UniformGuide.svelte';
   import RackBuilder from './screens/RackBuilder.svelte';
   import Checklist from './screens/Checklist.svelte';
+  import Tools from './screens/Tools.svelte';
 
   // The XP number counts up to its new value instead of jumping.
   const xpShown = new Tween(0, { duration: 700, easing: cubicOut });
@@ -68,10 +69,11 @@
     ['hub', 'Home', 'M4 11l8-7 8 7v9h-5v-6H9v6H4z'],
     ['learn', 'Learn', 'M4 5h6a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h6z'],
     ['train', 'Play', 'M13 2 4 14h7l-1 8 9-12h-7z'],
+    ['tools', 'Tools', 'M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.5 2.5-2.5-2.5z'],
     ['profile', 'Profile', 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0'],
   ];
   // Cards and the Study Guide belong to Learn; the placement test to Play.
-  const navSection = $derived(['cards', 'guide', 'tools'].includes(section) ? 'learn' : section === 'test' ? 'train' : section);
+  const navSection = $derived(['cards', 'guide'].includes(section) ? 'learn' : section === 'test' ? 'train' : section === 'train' && parts[1] === 'metronome' ? 'tools' : section);
 </script>
 
 {#if usable && !inApp && !readingLegal}
@@ -118,7 +120,8 @@
         {:else if section === 'tools'}
           {#if parts[1] === 'rack'}<RackBuilder />
           {:else if parts[1] === 'checklist'}<Checklist />
-          {:else}<UniformGuide />{/if}
+          {:else if parts[1] === 'placement'}<UniformGuide />
+          {:else}<Tools />{/if}
         {:else if section === 'guide'}
           <Guide />
         {:else if section === 'train'}

@@ -302,31 +302,17 @@ nav.bar a[aria-current='page'] svg { transform: translateY(-2px) scale(1.12); }
 .tabs a[aria-current='page'] { background: var(--branch); border-color: var(--branch); }
 .lvl .badge { background: var(--branch); color: #fff; }
 .block .n, .plan .n { color: var(--branch); }
-.picks[aria-label='Program'] .pick[aria-checked='true'] { background: var(--branch); color: #fff; transition: background 0.4s 0.3s, color 0.4s 0.3s, border-color 0.15s; }
 
 /* ---- Branch color, smooth. A registered property lets the whole app fade from one branch's color to the next. ---- */
 @property --branch { syntax: '<color>'; inherits: true; initial-value: #16324f; }
 @property --branch-2 { syntax: '<color>'; inherits: true; initial-value: #e8b923; }
-:root { transition: --branch 0.9s cubic-bezier(0.65, 0, 0.35, 1), --branch-2 0.9s cubic-bezier(0.65, 0, 0.35, 1); }
 .ob { background: color-mix(in srgb, var(--branch) 7%, var(--paper)); }
-body:has(.ob) { background: color-mix(in srgb, var(--branch) 7%, var(--paper)); }
 
 /* Top bar: a band of the branch's main color with a thin line of its second color under it. */
 .band { border-bottom: 4px solid var(--branch); }
 .band::after { content: ''; position: absolute; left: 0; right: 0; bottom: -7px; height: 3px; background: var(--branch-2); }
 
 /* The flush: a soft-edged circle of branch color. 'in' grows from the tap and fades; 'out' starts full and shrinks back. */
-.wash { position: fixed; inset: 0; z-index: 7; display: grid; place-items: center; pointer-events: none; overflow: hidden; color: #fff; }
-.wash::before { content: ''; position: absolute; left: var(--x); top: var(--y); width: 300vmax; height: 300vmax; border-radius: 50%;
-  background: radial-gradient(circle, var(--branch) 0 52%, color-mix(in srgb, var(--branch) 60%, transparent) 60%, transparent 70%);
-  transform: translate(-50%, -50%) scale(0); }
-.wash.in::before { animation: flush-in 1.5s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
-.wash.out::before { animation: flush-out 0.9s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
-.wash b { position: relative; font-size: 2.25rem; font-weight: 700; letter-spacing: -0.01em; animation: flush-name 1.5s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
-@keyframes flush-in { 0% { transform: translate(-50%, -50%) scale(0); opacity: 1; } 50% { transform: translate(-50%, -50%) scale(1); opacity: 1; } 100% { transform: translate(-50%, -50%) scale(1); opacity: 0; } }
-@keyframes flush-out { 0% { transform: translate(-50%, -50%) scale(1); opacity: 0; } 25% { opacity: 0.9; } 100% { transform: translate(-50%, -50%) scale(0); opacity: 0.9; } }
-@keyframes flush-name { 0%, 15% { opacity: 0; transform: translateY(12px) scale(0.96); } 40%, 70% { opacity: 1; transform: none; } 100% { opacity: 0; transform: translateY(-8px); } }
-.picks[aria-label='Program'] .pick[aria-checked='true'] { background: var(--branch); border-color: var(--branch-2); color: #fff; transition: background 0.6s 0.4s, color 0.6s 0.4s, border-color 0.3s; }
 
 /* ---- Learn and Home: action tiles ---- */
 .actions { display: grid; grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr)); gap: var(--u); margin-top: calc(var(--u) * 2); }
@@ -576,3 +562,21 @@ nav.bar a svg { position: relative; }
 /* Learn: quiz buttons at the top of each section */
 .foldquiz { display: flex; flex-wrap: wrap; align-items: center; gap: var(--u); padding: calc(var(--u) * 1.5) calc(var(--u) * 1.5) var(--u); }
 .foldquiz .label { margin-left: auto; }
+
+/* ---- Branch pick: a light, GPU-only flush ----
+   Motion follows Material 3's "emphasized" curve (fast start, long soft landing) and Apple's guidance to animate
+   only transform and opacity. One solid circle on its own layer scales out from the tap; the page itself is not
+   repainted while it plays, which is what made phones stutter before. */
+.wash { position: fixed; inset: 0; z-index: 7; display: grid; place-items: center; pointer-events: none; overflow: hidden; color: #fff; contain: strict; }
+.wash::before { content: ''; position: absolute; left: calc(var(--x) - 75vmax); top: calc(var(--y) - 75vmax); width: 150vmax; height: 150vmax; border-radius: 50%; background: var(--branch); transform: scale(0); will-change: transform, opacity; }
+.wash.in::before { animation: flush-in 1.1s cubic-bezier(0.2, 0, 0, 1) forwards; }
+.wash.out::before { animation: flush-out 0.6s cubic-bezier(0.3, 0, 0.8, 0.15) forwards; }
+.wash b { position: relative; font-size: 2.25rem; font-weight: 700; letter-spacing: -0.01em; will-change: transform, opacity; animation: flush-name 1.1s cubic-bezier(0.2, 0, 0, 1) forwards; }
+@keyframes flush-in { 0% { transform: scale(0); opacity: 1; } 55% { transform: scale(1); opacity: 1; } 100% { transform: scale(1); opacity: 0; } }
+@keyframes flush-out { 0% { transform: scale(1); opacity: 0.85; } 100% { transform: scale(0); opacity: 0.85; } }
+@keyframes flush-name { 0%, 20% { opacity: 0; transform: translateY(14px); } 45%, 70% { opacity: 1; transform: none; } 100% { opacity: 0; transform: translateY(-6px); } }
+
+/* The chosen card fills with the branch color and lifts; the others settle back. Short, no delays. */
+.picks[aria-label='Program'] .pick { transition: transform 0.25s cubic-bezier(0.2, 0, 0, 1), background-color 0.2s, color 0.2s, border-color 0.2s; }
+.picks[aria-label='Program'] .pick[aria-checked='true'] { background: var(--branch); border-color: var(--branch-2); color: #fff; transform: translateY(-2px) scale(1.02); }
+.picks[aria-label='Program'] .pick[aria-checked='true']::after { border-color: #fff; background-color: var(--branch-2); }

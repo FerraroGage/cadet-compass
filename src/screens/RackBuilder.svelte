@@ -11,12 +11,15 @@
   const rows = $derived(layoutRack(chosen.map((f) => f.id), R.perRow, R.topRow));
   const name = (id: string) => ribbons.find((f) => f.id === id)?.a ?? id;
   // True proportion: viewBox units are inches.
-  const rw = R.ribbonWidth_in ?? 1.375, rh = R.ribbonHeight_in ?? 0.375, rg = R.rowGap_in ?? 0;
+  const rw = 1.375, rh = 0.375, rg = 0.125; // drawing proportions only, not shown to the cadet
   const vw = R.perRow * rw;
   const vh = $derived(rows.length * rh + Math.max(0, rows.length - 1) * rg);
   const fs = (vw / 340) * 13; // about 13px once scaled to a phone-width card
   const num = (id: string) => chosen.findIndex((f) => f.id === id) + 1;
   const dev = (id: string) => R.devices.find((d) => d.id === id);
+  const rd = (n: string) => R.ribbonDevices[n];
+  const devOf = (id: string, n: string) => (rd(n) && dev(app.rack.devices[id]?.[0] ?? '') ? { metal: app.rack.devices[id][0], shape: rd(n).shape } : undefined);
+  const devText = (id: string, n: string) => { const d = dev(app.rack.devices[id]?.[0] ?? ''), r = rd(n); return d && r ? `${d.name.replace(' device', '')} ${r.shape === 'bar' ? `“${r.label}” bar` : r.shape === 'lamp' ? 'Lamp of Learning' : 'Marine Corps emblem'}` : ''; };
 
   const toggle = (id: string) => {
     const on = app.rack.ids.includes(id);
@@ -24,7 +27,7 @@
   };
   const setDevice = (id: string, dId: string) =>
     save('rack', { ...app.rack, devices: { ...app.rack.devices, [id]: dId ? [dId] : [] } });
-  const gaps = [['Above the pocket', R.gapAbovePocket_in], ['Above the badge', R.gapAboveBadge_in], ['Between rows', R.rowGap_in]] as const;
+  const gaps = [['Above the pocket', R.gapAbovePocket_in], ['Above the badge', R.gapAboveBadge_in]] as const;
 </script>
 
 <h1>Ribbon rack builder</h1>
@@ -42,14 +45,13 @@
         {#each ids as id, ci}
           {@const x = x0 + ci * rw}
           {@const y = ri * (rh + rg)}
-          <Ribbon name={name(id)} width={rw} height={rh} {x} {y} />
+          <Ribbon name={name(id)} width={rw} height={rh} {x} {y} device={devOf(id, name(id))} />
           <text x={x + rw / 2} y={y + fs * 0.9} text-anchor="middle" dominant-baseline="central" fill="var(--ink)" stroke="var(--sheet)" stroke-width={fs / 5} paint-order="stroke" font-size={fs * 0.8} font-weight="600">{num(id)}</text>
-          {#each app.rack.devices[id] ?? [] as d}<circle cx={x + rw - rh * 0.17} cy={y + rh * 0.8} r={rh * 0.09} fill="var(--branch)"><title>{dev(d)?.name}</title></circle>{/each}
         {/each}
       {/each}
     </svg>
     <ol class="rkey">
-      {#each chosen as f}<li><Ribbon name={f.a} width={72} /><span>{f.a}{#each app.rack.devices[f.id] ?? [] as d} <span class="label">{dev(d)?.name}</span>{/each}</span></li>{/each}
+      {#each chosen as f}<li><Ribbon name={f.a} width={72} device={devOf(f.id, f.a)} /><span>{f.a}{#if devText(f.id, f.a)} <span class="label">{devText(f.id, f.a)}</span>{/if}</span></li>{/each}
     </ol>
   {:else}<p class="help">No ribbons chosen yet.</p>{/if}
   {#if !R.topRow}<p class="help">Check with your SMI how a short top row sits.</p>{/if}
@@ -58,10 +60,10 @@
     <thead><tr><th scope="col">Gap</th><th scope="col">Amount</th></tr></thead>
     <tbody>
       {#each gaps as [label, v]}{#if v !== null}<tr><td>{label}</td><td>{fmt(v, app.units)}</td></tr>{/if}{/each}
-      {#if R.ribbonWidth_in !== null && R.ribbonHeight_in !== null}<tr><td>Each ribbon</td><td>{fmt(R.ribbonWidth_in, app.units)} wide, {fmt(R.ribbonHeight_in, app.units)} tall</td></tr>{/if}
     </tbody>
   </table>
   <p class="cite">Source: {data.sources[R.src]?.title ?? R.src}, {R.loc}.</p>
+  {#if chosen.some((f) => rd(f.a))}<p class="cite">Devices: {data.sources[R.devices[0].src]?.title}. Only a unit page supports this, so check with your SMI.</p>{/if}
   <div class="row"><button class="btn primary" onclick={() => window.print()}>Print</button></div>
 </div>
 
@@ -69,12 +71,12 @@
 {#each ribbons as f (f.id)}
   {@const on = app.rack.ids.includes(f.id)}
   <div class="opt">
-    <Ribbon name={f.a} width={72} />
+    <Ribbon name={f.a} width={72} device={devOf(f.id, f.a)} />
     <span class="ribname">{f.a}</span>
-    {#if on && R.devices.length}
+    {#if on && rd(f.a)}
       <select aria-label="Device for {f.a}" value={app.rack.devices[f.id]?.[0] ?? ''} onchange={(e) => setDevice(f.id, e.currentTarget.value)}>
         <option value="">No device</option>
-        {#each R.devices as d}<option value={d.id}>{d.name}</option>{/each}
+        {#each R.devices as d}<option value={d.id}>{d.name}: {d.meaning}</option>{/each}
       </select>
     {/if}
     <button class="switch" role="switch" aria-checked={on} aria-label={f.a} onclick={() => toggle(f.id)}><i></i></button>

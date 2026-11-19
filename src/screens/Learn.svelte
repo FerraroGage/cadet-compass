@@ -30,9 +30,7 @@
     <a class="act" href="#/train/quiz?module={current.id}&n=10"><b>Test yourself</b><small>10 questions on {current.name}</small></a>
     <a class="act" href="#/train/speed?module={current.id}"><b>Speed Round</b><small>Beat the clock on {current.name}</small></a>
     {#if current.id === 'uniform' && app.profile?.branch === 'usmc'}
-      <a class="act" href="#/tools/placement"><b>Placement guide</b><small>Where each item goes, with measures</small></a>
-      <a class="act" href="#/tools/rack"><b>Ribbon rack builder</b><small>Build your rack and print it</small></a>
-      <a class="act" href="#/tools/checklist"><b>Inspection checklist</b><small>Check yourself before you fall in</small></a>
+      <a class="act" href="#/tools"><b>Uniform tools</b><small>Rack builder, placement guide, checklist</small></a>
     {/if}
     {#if current.id === 'drill'}<a class="act" href="#/train/metronome"><b>Drill metronome</b><small>Hear the cadence</small></a>{/if}
   </div>

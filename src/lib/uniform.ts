@@ -8,12 +8,12 @@ export interface UItem {
   measures: Measure[]; notes: string[]; confidence: 'high' | 'verify';
 }
 export interface Uniform { id: string; name: string; items: UItem[] }
-export interface Device { id: string; name: string; meaning: string; max: number; src: string; loc: string }
+export interface Device { id: string; name: string; meaning: string; max: number; src: string; loc: string; confidence?: 'high' | 'verify' }
+export interface RibbonDevice { shape: 'emblem' | 'lamp' | 'bar'; label?: string }
 export interface Rack {
   perRow: number; topRow: 'centered' | 'left' | 'right' | null;
-  gapAbovePocket_in: number | null; gapAboveBadge_in: number | null; rowGap_in: number | null;
-  ribbonWidth_in: number | null; ribbonHeight_in: number | null;
-  devices: Device[]; src: string; loc: string;
+  gapAbovePocket_in: number | null; gapAboveBadge_in: number | null;
+  devices: Device[]; ribbonDevices: Record<string, RibbonDevice>; src: string; loc: string;
 }
 export interface Line { id: string; text: string; uniforms: string[]; src: string; loc: string }
 export interface UniformData {

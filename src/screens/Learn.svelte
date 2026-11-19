@@ -1,7 +1,7 @@
 <script lang="ts">
   // Learn: everything to read and study, one module at a time.
-  import { app, facts, setHidden } from '../lib/store.svelte';
-  import { MODULES } from '../lib/quiz';
+  import { app, facts, setHidden, today } from '../lib/store.svelte';
+  import { MODULES, quizzable } from '../lib/quiz';
   import FactTable from '../lib/FactTable.svelte';
   import RankInsignia from '../lib/RankInsignia.svelte';
   import { CADET_RANKS } from '../lib/cadetRanks';
@@ -57,9 +57,17 @@
 
   <h2>{current.name}: what to know <span class="label">{rows.length} items</span></h2>
   {#each topics as topic}
+    {@const live = topic.rows.filter((f) => quizzable(f, today()) && !app.hidden.includes(f.id)).length}
     {@const off = topic.rows.filter((f) => app.hidden.includes(f.id)).length}
     <details class="fold">
       <summary>{topic.name}<span class="label">{off ? `${off} hidden / ` : ''}{topic.rows.length}</span></summary>
+      {#if live >= 3}
+        <div class="foldquiz">
+          <a class="btn primary" href="#/train/quiz?module={current.id}&topic={encodeURIComponent(topic.name)}&n={Math.min(10, live)}">Quiz this section</a>
+          <a class="btn" href="#/train/quiz?module={current.id}&topic={encodeURIComponent(topic.name)}&n={Math.min(10, live)}&type=recall">Recall</a>
+          <span class="label">{live} questions</span>
+        </div>
+      {/if}
       <div class="foldbar">
         <span class="help">Not taught in your program? Switch items off and they stop showing up in quizzes and games.</span>
         <button class="btn link" onclick={() => setHidden(topic.rows.map((f) => f.id), off < topic.rows.length)}>{off < topic.rows.length ? 'Hide this whole section' : 'Turn this section back on'}</button>

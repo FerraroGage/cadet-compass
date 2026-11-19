@@ -572,3 +572,7 @@ nav.bar a svg { position: relative; }
 /* Rack Builder game: the ribbon beside its name */
 .ribcell { display: flex; align-items: center; gap: var(--u); }
 .ribcell svg { flex: none; }
+
+/* Learn: quiz buttons at the top of each section */
+.foldquiz { display: flex; flex-wrap: wrap; align-items: center; gap: var(--u); padding: calc(var(--u) * 1.5) calc(var(--u) * 1.5) var(--u); }
+.foldquiz .label { margin-left: auto; }

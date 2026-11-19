@@ -4,6 +4,7 @@
   import { app, facts } from '../lib/store.svelte';
   import { shuffle } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
+  import Ribbon from '../lib/Ribbon.svelte';
 
   let { which }: { which: string } = $props();
   const all = facts();
@@ -54,7 +55,7 @@
     {#each rows as r, i (r)}
       <tr>
         <td class="num">{i + 1}</td>
-        <td>{r}{#if checked && r !== answer[i]}<p class="cite">Belongs at {answer.indexOf(r) + 1}</p>{/if}</td>
+        <td>{#if which === 'ribbons'}<span class="ribcell"><Ribbon name={r} width={72} />{r}</span>{:else}{r}{/if}{#if checked && r !== answer[i]}<p class="cite">Belongs at {answer.indexOf(r) + 1}</p>{/if}</td>
         <td style="white-space: nowrap; width: 1%">
           {#if checked}
             <span class="verdict {r === answer[i] ? 'good' : 'bad'}">{r === answer[i] ? 'Right' : 'Wrong'}</span>

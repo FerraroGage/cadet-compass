@@ -34,11 +34,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 1: Be technically and tactically proficient.",
-    "q": "What is leadership principle 1 of 11?",
-    "a": "Be technically and tactically proficient.",
-    "group": "principle",
-    "order": 1,
+    "text": "Leadership principle: Be technically and tactically proficient.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Be technically and tactically proficient",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -48,9 +46,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Delegate every task so you never have to supervise",
+      "Avoid responsibility so mistakes are not yours",
+      "Let the most popular cadet make the decisions"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-2",
@@ -59,11 +62,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 2: Know yourself and seek self-improvement.",
-    "q": "What is leadership principle 2 of 11?",
-    "a": "Know yourself and seek self-improvement.",
-    "group": "principle",
-    "order": 2,
+    "text": "Leadership principle: Know yourself and seek self-improvement.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Know yourself and seek self-improvement",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -73,9 +74,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Lead from the rear and let others set the example",
+      "Train each person alone rather than as a team",
+      "Change the plan often so the unit stays alert"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-3",
@@ -84,11 +90,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 3: Know your people and look out for their welfare.",
-    "q": "What is leadership principle 3 of 11?",
-    "a": "Know your people and look out for their welfare.",
-    "group": "principle",
-    "order": 3,
+    "text": "Leadership principle: Know your people and look out for their welfare.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Know your people and look out for their welfare",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -98,9 +102,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Wait for orders before making any decision",
+      "Use your command for any task, whatever its capabilities",
+      "Look after your own welfare first"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-4",
@@ -109,11 +118,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 4: Keep your people informed.",
-    "q": "What is leadership principle 4 of 11?",
-    "a": "Keep your people informed.",
-    "group": "principle",
-    "order": 4,
+    "text": "Leadership principle: Keep your people informed.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Keep your people informed",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -123,9 +130,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Keep plans secret from your people until the last minute",
+      "Correct people in front of the unit to make an example",
+      "Only report good news up the chain of command"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-5",
@@ -134,11 +146,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 5: Set the example.",
-    "q": "What is leadership principle 5 of 11?",
-    "a": "Set the example.",
-    "group": "principle",
-    "order": 5,
+    "text": "Leadership principle: Set the example.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Set the example",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -148,9 +158,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Avoid responsibility so mistakes are not yours",
+      "Let the most popular cadet make the decisions",
+      "Delegate every task so you never have to supervise"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-6",
@@ -159,11 +174,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 6: Ensure that the task is understood, supervised and accomplished. (The handbook prints \"Insure\"; current Marine Corps doctrine, MCWP 6-10, uses \"Ensure\".)",
-    "q": "What is leadership principle 6 of 11?",
-    "a": "Ensure that the task is understood, supervised and accomplished.",
-    "group": "principle",
-    "order": 6,
+    "text": "Leadership principle: Ensure that the task is understood, supervised and accomplished. (The handbook prints \"Insure\"; current Marine Corps doctrine, MCWP 6-10, uses \"Ensure\".)",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Ensure that the task is understood, supervised and accomplished",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -173,9 +186,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Train each person alone rather than as a team",
+      "Change the plan often so the unit stays alert",
+      "Lead from the rear and let others set the example"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-7",
@@ -184,11 +202,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 7: Train your people as a team.",
-    "q": "What is leadership principle 7 of 11?",
-    "a": "Train your people as a team.",
-    "group": "principle",
-    "order": 7,
+    "text": "Leadership principle: Train your people as a team.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Train your people as a team",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -198,9 +214,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Use your command for any task, whatever its capabilities",
+      "Look after your own welfare first",
+      "Wait for orders before making any decision"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-8",
@@ -209,11 +230,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 8: Make sound and timely decisions.",
-    "q": "What is leadership principle 8 of 11?",
-    "a": "Make sound and timely decisions.",
-    "group": "principle",
-    "order": 8,
+    "text": "Leadership principle: Make sound and timely decisions.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Make sound and timely decisions",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -223,9 +242,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Correct people in front of the unit to make an example",
+      "Only report good news up the chain of command",
+      "Keep plans secret from your people until the last minute"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-9",
@@ -234,11 +258,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 9: Develop a sense of responsibility among subordinates.",
-    "q": "What is leadership principle 9 of 11?",
-    "a": "Develop a sense of responsibility among subordinates.",
-    "group": "principle",
-    "order": 9,
+    "text": "Leadership principle: Develop a sense of responsibility among subordinates.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Develop a sense of responsibility among subordinates",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -248,9 +270,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Let the most popular cadet make the decisions",
+      "Delegate every task so you never have to supervise",
+      "Avoid responsibility so mistakes are not yours"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-10",
@@ -259,11 +286,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 10: Employ your command in accordance with its capabilities.",
-    "q": "What is leadership principle 10 of 11?",
-    "a": "Employ your command in accordance with its capabilities.",
-    "group": "principle",
-    "order": 10,
+    "text": "Leadership principle: Employ your command in accordance with its capabilities.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Employ your command in accordance with its capabilities",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -273,9 +298,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Change the plan often so the unit stays alert",
+      "Lead from the rear and let others set the example",
+      "Train each person alone rather than as a team"
+    ]
   },
   {
     "id": "usmc.knowledge.principle-11",
@@ -284,11 +314,9 @@
     ],
     "module": "knowledge",
     "topic": "Leadership principles",
-    "text": "Leadership principle 11: Seek responsibility and take responsibility for your actions.",
-    "q": "What is leadership principle 11 of 11?",
-    "a": "Seek responsibility and take responsibility for your actions.",
-    "group": "principle",
-    "order": 11,
+    "text": "Leadership principle: Seek responsibility and take responsibility for your actions.",
+    "q": "Which of these is one of the 11 leadership principles?",
+    "a": "Seek responsibility and take responsibility for your actions",
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -298,9 +326,14 @@
     },
     "edition": "Undated; PDF file dated 30 Apr 2007",
     "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
+    "verified_on": "2026-11-18",
     "confidence": "high",
-    "review_tier": 2
+    "review_tier": 2,
+    "distractors": [
+      "Look after your own welfare first",
+      "Wait for orders before making any decision",
+      "Use your command for any task, whatever its capabilities"
+    ]
   },
   {
     "id": "usmc.knowledge.mnemonic-traits",
@@ -341,7 +374,6 @@
     "q": "Which leadership trait is defined as: creating a favorable impression, appearance?",
     "a": "Bearing",
     "group": "trait",
-    "order": 1,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -366,7 +398,6 @@
     "q": "Which leadership trait is defined as: mental quality that recognizes fear of danger and criticism?",
     "a": "Courage",
     "group": "trait",
-    "order": 2,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -391,7 +422,6 @@
     "q": "Which leadership trait is defined as: ability to reach sound decisions in a timely manner?",
     "a": "Decisiveness",
     "group": "trait",
-    "order": 3,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -416,7 +446,6 @@
     "q": "Which leadership trait is defined as: completing assigned tasks completely?",
     "a": "Dependability",
     "group": "trait",
-    "order": 4,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -441,7 +470,6 @@
     "q": "Which leadership trait is defined as: mental and physical strength?",
     "a": "Endurance",
     "group": "trait",
-    "order": 5,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -466,7 +494,6 @@
     "q": "Which leadership trait is defined as: sincere interest in performing your task?",
     "a": "Enthusiasm",
     "group": "trait",
-    "order": 6,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -491,7 +518,6 @@
     "q": "Which leadership trait is defined as: seeing what needs to be done and getting it done without being told to?",
     "a": "Initiative",
     "group": "trait",
-    "order": 7,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -516,7 +542,6 @@
     "q": "Which leadership trait is defined as: complete truth and honesty?",
     "a": "Integrity",
     "group": "trait",
-    "order": 8,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -541,7 +566,6 @@
     "q": "Which leadership trait is defined as: using facts to make sound decisions?",
     "a": "Judgment",
     "group": "trait",
-    "order": 9,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -566,7 +590,6 @@
     "q": "Which leadership trait is defined as: being impartial and fair?",
     "a": "Justice",
     "group": "trait",
-    "order": 10,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -591,7 +614,6 @@
     "q": "Which leadership trait is defined as: learning information?",
     "a": "Knowledge",
     "group": "trait",
-    "order": 11,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -616,7 +638,6 @@
     "q": "Which leadership trait is defined as: faithfulness to your organization and yourself?",
     "a": "Loyalty",
     "group": "trait",
-    "order": 12,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -641,7 +662,6 @@
     "q": "Which leadership trait is defined as: the ability to deal with others without causing offense?",
     "a": "Tact",
     "group": "trait",
-    "order": 13,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
@@ -666,7 +686,6 @@
     "q": "Which leadership trait is defined as: placing the welfare of your subordinates ahead of your own?",
     "a": "Unselfishness",
     "group": "trait",
-    "order": 14,
     "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",

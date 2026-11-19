@@ -568,3 +568,7 @@ nav.bar a svg { position: relative; }
 .rkey li > svg { display: inline-block; vertical-align: middle; margin-right: var(--u); }
 .rkey li > span { display: inline; }
 .opt .ribname { font-size: 0.9375rem; line-height: 1.25; }
+
+/* Rack Builder game: the ribbon beside its name */
+.ribcell { display: flex; align-items: center; gap: var(--u); }
+.ribcell svg { flex: none; }

@@ -1,5 +1,6 @@
 <script lang="ts">
   // Ribbon rack builder: choose ribbons, add devices, see the built rack and where it sits.
+  import { tick } from 'svelte';
   import { app, save, facts } from '../lib/store.svelte';
   import { data, fmt, layoutRack } from '../lib/uniform';
   import Units from '../lib/Units.svelte';
@@ -21,7 +22,16 @@
   const devOf = (id: string, n: string) => (rd(n) && dev(app.rack.devices[id]?.[0] ?? '') ? { metal: app.rack.devices[id][0], shape: rd(n).shape } : undefined);
   const devText = (id: string, n: string) => { const d = dev(app.rack.devices[id]?.[0] ?? ''), r = rd(n); return d && r ? `${d.name.replace(' device', '')} ${r.shape === 'bar' ? `“${r.label}” bar` : r.shape === 'lamp' ? 'Lamp of Learning' : 'Marine Corps emblem'}` : ''; };
 
-  const toggle = (id: string) => {
+  // The rack drawing above the list grows or shrinks when a ribbon is added, which would push the list under the
+  // cadet's finger. Measure the tapped row before and after, and scroll by the difference so it stays still.
+  const toggle = async (id: string, e?: Event) => {
+    const row = (e?.currentTarget as HTMLElement | undefined)?.closest('.ribopt');
+    const top = row?.getBoundingClientRect().top;
+    await toggleNow(id);
+    await tick();
+    if (row && top !== undefined) scrollBy({ top: row.getBoundingClientRect().top - top, behavior: 'instant' });
+  };
+  const toggleNow = (id: string) => {
     const on = app.rack.ids.includes(id);
     save('rack', { ids: on ? app.rack.ids.filter((x) => x !== id) : [...app.rack.ids, id], devices: { ...app.rack.devices, [id]: on ? [] : (app.rack.devices[id] ?? []) } });
   };
@@ -97,15 +107,18 @@
         {#each R.devices as d}<option value={d.id}>{d.name}: {d.meaning}</option>{/each}
       </select>
     {/if}
-    <button class="switch" role="switch" aria-checked={on} aria-label={f.a} onclick={() => toggle(f.id)}><i></i></button>
+    <button class="switch" role="switch" aria-checked={on} aria-label={f.a} onclick={(e) => toggle(f.id, e)}><i></i></button>
   </div>
 {/each}
 
 <style>
   /* The device menu sits on its own line under the name, so long names never squeeze. */
-  .ribopt { flex-wrap: wrap; }
-  .ribopt .ribname { flex: 1 1 0; min-width: 0; }
-  .ribopt select { order: 3; flex: 1 0 100%; margin: 4px 0 4px calc(72px + var(--u) * 1.5); width: auto; }
+  /* A fixed grid: ribbon, name, switch on the first row; the device menu, when shown, on a second row.
+     The switch never moves when a ribbon is turned on. */
+  .ribopt { display: grid; grid-template-columns: 72px 1fr auto; align-items: center; column-gap: calc(var(--u) * 1.5); }
+  .ribopt .ribname { min-width: 0; }
+  .ribopt .switch { grid-column: 3; grid-row: 1; }
+  .ribopt select { grid-column: 2 / 4; grid-row: 2; margin: 0 0 var(--u); width: auto; }
   .rtools { display: flex; flex-wrap: wrap; align-items: end; gap: 8px; margin-bottom: 8px; }
   .rtools label { display: flex; flex-direction: column; gap: 2px; font-size: 0.8125rem; color: var(--ink-2); flex: 1 1 140px; }
   .rtools input, .rtools select { min-height: 44px; font-size: 1rem; width: 100%; }

@@ -27,6 +27,10 @@
   };
   const setDevice = (id: string, dId: string) =>
     save('rack', { ...app.rack, devices: { ...app.rack.devices, [id]: dId ? [dId] : [] } });
+  let q = $state(''), sort = $state<'prec' | 'az'>('prec');
+  const shown = $derived((q.trim() ? ribbons.filter((f) => f.a.toLowerCase().includes(q.trim().toLowerCase())) : ribbons).slice().sort((a, b) => (sort === 'az' ? a.a.localeCompare(b.a) : a.order! - b.order!)));
+  const enter = () => { if (shown.length === 1 && !app.rack.ids.includes(shown[0].id)) toggle(shown[0].id); };
+  const clear = () => { if (app.rack.ids.length && confirm('Turn off all ribbons and devices?')) save('rack', { ids: [], devices: {} }); };
   const gaps = [['Above the pocket', R.gapAbovePocket_in], ['Above the badge', R.gapAboveBadge_in]] as const;
 </script>
 
@@ -68,9 +72,15 @@
 </div>
 
 <h2>Ribbons <span class="label">{chosen.length} of {ribbons.length}</span></h2>
-{#each ribbons as f (f.id)}
+<div class="rtools">
+  <label>Search ribbons<input type="search" bind:value={q} onkeydown={(e) => e.key === 'Enter' && enter()} placeholder="Type a name" /></label>
+  <label>Sort<select bind:value={sort}><option value="prec">Precedence</option><option value="az">A to Z</option></select></label>
+  <button class="btn" onclick={clear}>Clear</button>
+</div>
+{#if !shown.length}<p class="help">No ribbon matches.</p>{/if}
+{#each shown as f (f.id)}
   {@const on = app.rack.ids.includes(f.id)}
-  <div class="opt">
+  <div class="opt ribopt">
     <Ribbon name={f.a} width={72} device={devOf(f.id, f.a)} />
     <span class="ribname">{f.a}</span>
     {#if on && rd(f.a)}
@@ -82,3 +92,14 @@
     <button class="switch" role="switch" aria-checked={on} aria-label={f.a} onclick={() => toggle(f.id)}><i></i></button>
   </div>
 {/each}
+
+<style>
+  /* The device menu sits on its own line under the name, so long names never squeeze. */
+  .ribopt { flex-wrap: wrap; }
+  .ribopt .ribname { flex: 1 1 0; min-width: 0; }
+  .ribopt select { order: 3; flex: 1 0 100%; margin: 4px 0 4px calc(72px + var(--u) * 1.5); width: auto; }
+  .rtools { display: flex; flex-wrap: wrap; align-items: end; gap: 8px; margin-bottom: 8px; }
+  .rtools label { display: flex; flex-direction: column; gap: 2px; font-size: 0.8125rem; color: var(--ink-2); flex: 1 1 140px; }
+  .rtools input, .rtools select { min-height: 44px; font-size: 1rem; width: 100%; }
+  .rtools .btn { min-height: 44px; }
+</style>

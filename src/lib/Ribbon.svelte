@@ -18,12 +18,12 @@
   <title>{name}{entry ? '' : ' (colors not confirmed)'}</title>
   <defs>
     <linearGradient id="sh{uid}" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#fff" stop-opacity="0.32" />
-      <stop offset="0.35" stop-color="#fff" stop-opacity="0" />
-      <stop offset="0.65" stop-color="#000" stop-opacity="0" />
-      <stop offset="1" stop-color="#000" stop-opacity="0.3" />
+      <stop offset="0" stop-color="#fff" stop-opacity="0.2" />
+      <stop offset="0.22" stop-color="#fff" stop-opacity="0" />
+      <stop offset="0.8" stop-color="#000" stop-opacity="0" />
+      <stop offset="1" stop-color="#000" stop-opacity="0.1" />
     </linearGradient>
-    <pattern id="rib{uid}" width="0.0125" height="1" patternUnits="userSpaceOnUse"><rect width="0.0045" height="1" fill="#000" opacity="0.13" /></pattern>
+    <pattern id="rib{uid}" width="0.0125" height="1" patternUnits="userSpaceOnUse"><rect width="0.0045" height="1" fill="#000" opacity="0.045" /></pattern>
   </defs>
   {#each bands as b, i}<rect x={xs[i]} y="0" width={b[1] + 0.002} height="1" fill={b[0]} />{/each}
   <rect width="1" height="1" fill="url(#rib{uid})" />
@@ -33,5 +33,5 @@
       <polygon points={entry.device.type === 'star' ? star : cross} fill={entry.device.color} stroke="#000" stroke-opacity="0.45" stroke-width="0.06" />
     </g>
   {/if}
-  <rect x="0" y="0" width="1" height="1" fill="none" stroke="#000" stroke-opacity="0.55" stroke-width="1" vector-effect="non-scaling-stroke" />
+  <rect x="0" y="0" width="1" height="1" fill="none" stroke="#000" stroke-opacity="0.3" stroke-width="1" vector-effect="non-scaling-stroke" />
 </svg>

@@ -68,7 +68,7 @@
 {:else if page === 'legal'}
   <h1>Legal and credits</h1>
   <p>Cadet Compass is an unofficial study aid. It is not affiliated with, sponsored by or endorsed by the Department of Defense (Department of War), any military service or any JROTC program.</p>
-  <p>The developer does not own or claim ownership of any service name, mark or insignia. All such names belong to their owners and appear here only to identify the subject. No service seal, emblem or logo is used in this app.</p>
+  <p>The developer does not own or claim ownership of any service name, mark or insignia. All such names belong to their owners and appear here only to identify the subject. The Marine Corps emblem (eagle, globe and anchor) appears only as drawn ribbon devices, to show how cadet ribbons are worn. It is a trademark of the U.S. Marine Corps and is used without its endorsement. No other service seal, emblem or logo is used.</p>
   <p><a href="#/settings/terms">Terms of Service</a> / <a href="#/settings/privacy">Privacy Policy</a></p>
   <h2>Fonts, software and images</h2>
   <table>

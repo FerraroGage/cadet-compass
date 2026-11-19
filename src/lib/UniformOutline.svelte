@@ -1,5 +1,5 @@
 <script lang="ts">
-  // Colored front view of each uniform, male or female cut. No emblems: plain discs mark where they go.
+  // Colored front view of each uniform, male or female cut. No service emblems: plain discs mark where they go.
   // Colors/items follow the MCJROTC handbook uniform table (pp. 11-16): blue/green coat or khaki shirt, blue/green slacks or skirt, camouflage utility.
   import { data } from './uniform';
   import { term } from './terms';

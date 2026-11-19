@@ -49,7 +49,13 @@
   {#if device && dm}
     <g transform="translate({W / 2} {H / 2})" fill="url(#dv{uid})" stroke="#000" stroke-opacity="0.6" stroke-width="1" vector-effect="non-scaling-stroke">
       {#if device.shape === 'emblem'}
-        <circle r={D} vector-effect="non-scaling-stroke" /><circle r={D - 5} fill="none" stroke="#fff" stroke-opacity="0.35" vector-effect="non-scaling-stroke" />
+        <g transform="scale(0.72)" stroke-linejoin="round">
+          <path d="M-4.5 -20H4.5V46H-4.5ZM-26 -21H26V-13H-26ZM-36 14L-27 17Q-16 38 0 38Q16 38 27 17L36 14Q36 50 0 52Q-36 50 -36 14Z" vector-effect="non-scaling-stroke" />
+          <circle cy="6" r="18" vector-effect="non-scaling-stroke" />
+          <path d="M-5 -38H5L6 -22H-6ZM1 -49Q8 -49 9 -45L14 -43L8 -41Q7 -39 3 -39L-4 -39Q-5 -48 1 -49ZM-4 -36Q-22 -52 -50 -42L-42 -36L-48 -30L-38 -28L-40 -22L-24 -24L-4 -22ZM4 -36Q22 -52 50 -42L42 -36L48 -30L38 -28L40 -22L24 -24L4 -22Z" vector-effect="non-scaling-stroke" />
+          <path d="M-18 6H18M0 -12V24M-9 -10Q-14 6 -9 22M9 -10Q14 6 9 22" fill="none" stroke-opacity="0.55" vector-effect="non-scaling-stroke" />
+          <path d="M-26 -13Q-40 12 -22 30M26 -13Q40 12 22 30" fill="none" stroke-width="2" stroke-opacity="0.55" vector-effect="non-scaling-stroke" />
+        </g>
       {:else if device.shape === 'lamp'}
         <g transform="scale(4.2) translate(-0.5 -0.2)" stroke-linejoin="round">{#each LAMP as d}<path {d} fill-rule="evenodd" vector-effect="non-scaling-stroke" />{/each}</g>
       {:else}

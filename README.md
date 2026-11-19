@@ -2,7 +2,7 @@
 
 An unofficial study app for Junior ROTC cadets: ranks, ribbons, chain of command, uniform, drill and general knowledge. Installable web app (PWA), offline after first load. Works as a guest with nothing leaving the device; accounts are optional. Marine Corps JROTC is the first published track.
 
-Not affiliated with or endorsed by the Department of Defense (Department of War), any military service or any JROTC program. No service seal, emblem or logo is used anywhere in this repository.
+Not affiliated with or endorsed by the Department of Defense (Department of War), any military service or any JROTC program. The Marine Corps emblem (eagle, globe and anchor) appears only as drawn ribbon devices, to show how cadet ribbons are worn; it is a trademark of the U.S. Marine Corps, used without endorsement. No other service seal, emblem or logo is used.
 
 Owner: Gage A. Pierce, Kellogg, Idaho. Contact: piercegage19@gmail.com
 

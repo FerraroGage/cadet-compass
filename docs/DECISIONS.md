@@ -20,6 +20,7 @@ Running log. Newest session at the top.
 | 6d | Optional accounts on Supabase free tier | Owner asked for sign-in, profiles and synced XP. Reverses "no accounts, collect nothing": guest mode still stores nothing off the device. Row-level security on every table; XP is computed in the database (award_xp), never taken from the app. |
 | 6e | Sign-out clears the device | A shared or school device must not hand one cadet's progress to the next person who signs in. Synced data stays in the account. |
 | 6f | Region is a state picked by hand | No geolocation: mapping coordinates to a region needs an outside geocoder or invented boundary data. |
+| 6g | Marine Corps emblem drawn as the ribbon device for repeat awards (19 Nov 2026) | Owner (an MCJROTC cadet) decided to show the eagle, globe and anchor because that is what cadets wear. Risk: it is a U.S. Marine Corps trademark and the Marine Corps Trademark Licensing Office controls its use. Check with them before any wider release. Drawn from scratch, nothing copied. Only in src/lib/Ribbon.svelte. |
 | 6g | Only Marine Corps content is published | The other five branches can be chosen and themed but show "not published yet". Nothing is invented to fill them. |
 | 6h | Terms and Privacy revised in place | No version has been published to users yet. From first release on, add a new version above the old one. |
 | 7 | Wrong answers in quizzes come from other answers in the same group | These are the things cadets really mix up. No question bank was copied from anywhere. |

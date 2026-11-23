@@ -15,7 +15,13 @@
   const rw = 1.375, rh = 0.375, rg = 0.125; // drawing proportions only, not shown to the cadet
   const vw = R.perRow * rw;
   const vh = $derived(rows.length * rh + Math.max(0, rows.length - 1) * rg);
-  const fs = (vw / 340) * 13; // about 13px once scaled to a phone-width card
+  // Pocket drawn at the same inch scale: 5 in wide, flap 2 1/4 in deep. The rack sits centered, its bottom the gap above the pocket top.
+  const pw = 5, pf = 2.25, ph = 2.75, // pocket body cropped short so the rack stays the focus on a phone gap = R.gapAbovePocket_in ?? 0.125;
+  const W = Math.max(vw, pw), gx = (W - vw) / 2, px = (W - pw) / 2;
+  const dx = gx + vw + 0.12;
+  const py = $derived(vh + gap);
+  let showNum = $state((() => { try { return localStorage.getItem('rackNumbers') !== '0'; } catch { return true; } })());
+  const setNum = () => { showNum = !showNum; try { localStorage.setItem('rackNumbers', showNum ? '1' : '0'); } catch {} };
   const num = (id: string) => chosen.findIndex((f) => f.id === id) + 1;
   const dev = (id: string) => R.devices.find((d) => d.id === id);
   const rd = (n: string) => R.ribbonDevices[n];
@@ -49,7 +55,7 @@
     q = '';
     save('rack', { ids: [], devices: {} });
   };
-  const gaps = [['Above the pocket', R.gapAbovePocket_in], ['Above the badge', R.gapAboveBadge_in]] as const;
+  const gaps = [['Above the badge', R.gapAboveBadge_in]] as const;
 </script>
 
 <h1>Ribbon rack builder</h1>
@@ -60,24 +66,43 @@
 <div class="block rackpage">
   <h2>Your rack</h2>
   {#if rows.length}
-    <svg class="rack" viewBox="0 0 {vw} {vh}" role="img" aria-label="Ribbon rack, top row first: {rows.map((r) => r.filter(Boolean).map((i) => name(i!)).join(', ')).join('; then ')}">
+    <div class="opt"><span>Show numbers</span><button class="switch" role="switch" aria-checked={showNum} aria-label="Show numbers" onclick={setNum}><i></i></button></div>
+    <svg class="rack" viewBox="-0.45 0 {W + 0.9} {py + ph}" role="img" aria-label="Ribbon rack above the left breast pocket, top row first: {rows.map((r) => r.filter(Boolean).map((i) => name(i!)).join(', ')).join('; then ')}">
+      <g transform="translate({px} {py})" fill="var(--fill)" stroke="var(--ink-2)" stroke-width="0.03" stroke-linejoin="round">
+        <path d="M0 {ph} V0 H{pw} V{ph}" />
+        <path d="M0 0 H{pw} V{pf - 0.5} L{pw / 2} {pf} L0 {pf - 0.5} Z" />
+        <path d="M0.125 0.125 H{pw - 0.125} V{pf - 0.5 - 0.06} L{pw / 2} {pf - 0.125 - 0.04} L0.125 {pf - 0.5 - 0.06} Z" fill="none" stroke-dasharray="0.08 0.06" stroke-width="0.02" />
+        <circle cx={pw / 2} cy={pf - 0.42} r="0.11" fill="var(--ink-2)" />
+      </g>
+      <g stroke="var(--ink-2)" stroke-width="0.02" fill="var(--ink-2)">
+        <path d="M{dx} {vh} V{py} M{dx - 0.05} {vh} H{dx + 0.05} M{dx - 0.05} {py} H{dx + 0.05}" />
+        <text x={dx + 0.1} y={vh + gap / 2} dominant-baseline="central" font-size="0.17" stroke="var(--sheet)" stroke-width="0.05" paint-order="stroke">{fmt(gap, app.units)}</text>
+      </g>
+      <g transform="translate({gx} 0)">
       {#each rows as row, ri}
         {@const ids = row.filter((x): x is string => !!x)}
         {@const x0 = (ids.length < R.perRow ? (R.topRow === 'left' ? 0 : R.topRow === 'right' ? R.perRow - ids.length : (R.perRow - ids.length) / 2) : 0) * rw}
         {#each ids as id, ci}
           {@const x = x0 + ci * rw}
           {@const y = ri * (rh + rg)}
+          {@const n = String(num(id))}
           <Ribbon name={name(id)} width={rw} height={rh} {x} {y} device={devOf(id, name(id))} />
-          <text x={x + rw / 2} y={y + fs * 0.9} text-anchor="middle" dominant-baseline="central" fill="var(--ink)" stroke="var(--sheet)" stroke-width={fs / 5} paint-order="stroke" font-size={fs * 0.8} font-weight="600">{num(id)}</text>
+          {#if showNum}
+            <rect x={x + 0.04} y={y + 0.04} width={0.07 + n.length * 0.075} height="0.15" rx="0.05" fill="#fff" fill-opacity="0.88" />
+            <text x={x + 0.04 + (0.07 + n.length * 0.075) / 2} y={y + 0.115} text-anchor="middle" dominant-baseline="central" fill="#111" font-size="0.12" font-weight="700">{n}</text>
+          {/if}
         {/each}
       {/each}
+      </g>
     </svg>
-    <ol class="rkey">
-      {#each chosen as f}<li><Ribbon name={f.a} width={72} device={devOf(f.id, f.a)} /><span>{f.a}{#if devText(f.id, f.a)}<small class="label" style="display: block">With {devText(f.id, f.a)}</small>{/if}</span></li>{/each}
-    </ol>
+    <details class="fold">
+      <summary>Ribbons in this rack ({chosen.length})</summary>
+      <ol class="rkey">
+        {#each chosen as f}<li><Ribbon name={f.a} width={72} device={devOf(f.id, f.a)} /><span>{f.a}{#if devText(f.id, f.a)}<small class="label" style="display: block">With {devText(f.id, f.a)}</small>{/if}</span></li>{/each}
+      </ol>
+    </details>
   {:else}<p class="help">No ribbons chosen yet.</p>{/if}
   {#if !R.topRow}<p class="help">Check with your SMI how a short top row sits.</p>{/if}
-  <div class="pocketline">Top edge of the pocket</div>
   <table>
     <thead><tr><th scope="col">Gap</th><th scope="col">Amount</th></tr></thead>
     <tbody>

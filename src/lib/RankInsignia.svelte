@@ -24,17 +24,8 @@
   const chev = (y: number) => `M12 ${y + 26}L50 ${y}L88 ${y + 26}L88 ${y + 34}L50 ${y + 8}L12 ${y + 34}Z`;
   // One rocker: a band curving down between the chevron tips, top edge at y.
   const rock = (y: number) => `M12 ${y}Q50 ${y + 10} 88 ${y}L88 ${y + 6}Q50 ${y + 16} 12 ${y + 6}Z`;
-  // The lamp of learning, a classical oil lamp from the side, about 43 x 18 around the origin:
-  // [curled handle with a hole, low body + tapering spout + flared foot, lid rim, domed lid + knob],
-  // plus top-edge highlights and an under-edge shadow (with the dark opening at the spout tip).
-  export const LAMP = [
-    'M-9.6 -2.6C-12.2 -6.3-18.4 -7-20.8 -3.6C-22.8 -0.6-20.6 4.4-14.6 4C-12.6 3.8-11.2 3.1-10.2 2.4ZM-11.6 -1.2C-13 -4-17.4 -4.6-18.7 -2.1C-19.8 0.2-17.6 2.2-14.6 1.9C-13.3 1.7-12.3 1.1-11.6 0.4Z',
-    'M-11 -0.8C-10.4 -3.4-5.6 -4.1 0 -4.1C5 -4.1 9.2 -3.7 12.2 -3.7C15.4 -3.7 18.3 -5.6 21.2 -8.1L22.4 -6.8C19.4 -3.9 16.6 -1.2 13.6 0.7C10.6 3.2 6.6 4.1 3.2 4.3C3.4 6 4.8 7.3 7.2 7.9L7.2 8.9L-7.2 8.9L-7.2 7.9C-4.8 7.3-3.4 6-3.2 4.3C-7.6 4-11.3 2.5-11 -0.8Z',
-    'M-5.4 -4.6L5.4 -4.6L4.8 -3.4L-4.8 -3.4Z',
-    'M-4.3 -4.5C-4.3 -6.3-2.7 -7-1.1 -7.1C-1.7 -7.7-1.4 -9 0 -9C1.4 -9 1.7 -7.7 1.1 -7.1C2.7 -7 4.3 -6.3 4.3 -4.5Z'
-  ];
-  export const LAMP_HI = 'M-10 -1.4C-9.2 -2.8-7.6 -3.3-5.6 -3.5M5.6 -3.4C9 -3.1 12 -3 14 -3.5C16.5 -4.3 18.5 -5.6 20.6 -7.3M-3.2 -4.9C-3 -5.9-2 -6.3-0.9 -6.4';
-  export const LAMP_SH = 'M-9.4 1.6C-7 3.2-3 3.5 0 3.5C5 3.5 9.4 2.6 12.4 0.2M-6.2 8.1H6.2M21.5 -7.6L22 -7';
+  // The lamp of learning is the owner's black-on-white art, used as a silhouette mask (shape is ~200 x 120 inside the 225 x 225 image).
+  const lampSrc = import.meta.env.BASE_URL + 'img/devices/lamp.jpg';
 </script>
 
 <script lang="ts">
@@ -57,6 +48,8 @@
       <linearGradient id="{id}k" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a6067" /><stop offset="0.45" stop-color="#1c1f23" /><stop offset="1" stop-color="#34393f" /></linearGradient>
       <linearGradient id="{id}v" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff" /><stop offset="0.35" stop-color="#cfd5dc" /><stop offset="0.7" stop-color="#76808b" /><stop offset="1" stop-color="#e6eaee" /></linearGradient>
       <linearGradient id="{id}t" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4f5f6" /><stop offset="1" stop-color="#dfe2e6" /></linearGradient>
+      <filter id="{id}i" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="-3 0 0 0 2  0 -3 0 0 2  0 0 -3 0 2  0 0 0 1 0" /></filter>
+      <mask id="{id}m" maskUnits="userSpaceOnUse" x="-60" y="-40" width="120" height="80"><g transform="scale(0.18) translate(-115 -120)"><image href={lampSrc} width="225" height="225" filter="url(#{id}i)" /></g></mask>
       <filter id="{id}f" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="1.6" stdDeviation="1.4" flood-color="#000" flood-opacity="0.45" /></filter>
     </defs>
     <!-- A light tile behind every insignia, so black pins read in dark mode too. -->
@@ -68,10 +61,10 @@
           {#each layout.rocks as y}<path d={rock(y)} />{/each}
         </g>
         <!-- The lamp of learning: an oil lamp, no flame -->
-        <g transform="translate(50 {layout.lampY}) scale({layout.scale})" fill="url(#{id}k)" stroke="#8c949c" stroke-width="0.5" stroke-linejoin="round">
-          {#each LAMP as d}<path {d} fill-rule="evenodd" />{/each}
-          <path d={LAMP_SH} fill="none" stroke="#000" stroke-opacity="0.6" stroke-width="0.8" stroke-linecap="round" />
-          <path d={LAMP_HI} fill="none" stroke="#fff" stroke-opacity="0.45" stroke-width="0.6" stroke-linecap="round" />
+        <g transform="translate(50 {layout.lampY}) scale({layout.scale})">
+          <rect x="-20" y="-12" width="40" height="24" mask="url(#{id}m)" fill="#8c949c" transform="translate(0 -0.7)" />
+          <rect x="-20" y="-12" width="40" height="24" mask="url(#{id}m)" fill="url(#{id}k)" />
+          <rect x="-20" y="-12" width="40" height="12" mask="url(#{id}m)" fill="#fff" opacity="0.18" />
         </g>
       {:else if 'shape' in spec}
         <!-- Silver pieces in a row, centered; a highlight and the shadow give them depth. -->

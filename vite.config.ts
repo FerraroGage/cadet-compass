@@ -25,7 +25,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,woff2,png,svg,ico}'],
+        globPatterns: ['**/*.{js,css,html,woff2,png,jpg,svg,ico}'],
         // The content bundle is fetched, signature-checked and kept in IndexedDB by the app itself.
         globIgnores: ['content/**'],
       },

@@ -16,7 +16,8 @@
   const vw = R.perRow * rw;
   const vh = $derived(rows.length * rh + Math.max(0, rows.length - 1) * rg);
   // Pocket drawn at the same inch scale: 5 in wide, flap 2 1/4 in deep. The rack sits centered, its bottom the gap above the pocket top.
-  const pw = 5, pf = 2.25, ph = 2.75, // pocket body cropped short so the rack stays the focus on a phone gap = R.gapAbovePocket_in ?? 0.125;
+  // The pocket body is cropped short so the rack stays the focus on a phone.
+  const pw = 5, pf = 2.25, ph = 2.75, gap = R.gapAbovePocket_in ?? 0.125;
   const W = Math.max(vw, pw), gx = (W - vw) / 2, px = (W - pw) / 2;
   const dx = gx + vw + 0.12;
   const py = $derived(vh + gap);

@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Icon from '../lib/Icon.svelte';
   import { app, save, wipeLocal, fmtDate, setHidden } from '../lib/store.svelte';
   import { deleteAccount } from '../lib/backend';
   import { TERMS } from '../legal/terms';
@@ -34,11 +35,11 @@
     location.hash = '';
   }
   const PAGES = [
-    ['changes', 'What changed', `Content version ${b.version}, ${fmtDate(b.date)}`],
-    ['about', 'About', 'What this app is and is not'],
-    ['legal', 'Legal and credits', 'Disclaimer, fonts, software, sources'],
-    ['terms', 'Terms of Service', TERMS[0].date],
-    ['privacy', 'Privacy Policy', PRIVACY[0].date],
+    ['changes', 'What changed', `Content version ${b.version}, ${fmtDate(b.date)}`, 'news'],
+    ['about', 'About', 'What this app is and is not', 'info'],
+    ['legal', 'Legal and credits', 'Disclaimer, fonts, software, sources', 'letters'],
+    ['terms', 'Terms of Service', TERMS[0].date, 'regulations'],
+    ['privacy', 'Privacy Policy', PRIVACY[0].date, 'lock'],
   ];
   const CREDITS = [
     ['Poppins (typeface)', 'Indian Type Foundry, Jonny Pinhorn', 'SIL Open Font License 1.1'],
@@ -49,6 +50,9 @@
     ['Dexie.js', 'David Fahlander', 'Apache 2.0'],
     ['Supabase client (accounts and sync)', 'Supabase', 'MIT'],
     ['Settings gear icon (Feather)', 'Cole Bemis', 'MIT'],
+    ['Marine Corps, Navy and cadet insignia', 'U.S. Government works and Wikimedia Commons contributors (Aranace and others)', 'Public domain'],
+    ['Cadet enlisted insignia, PFC to Sergeant', 'Cdjp1, Wikimedia Commons; recolored to black', 'CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)'],
+    ['Navy officer insignia', 'Officer781, Wikimedia Commons; resized', 'CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)'],
     ['Logo, app icon and avatars', 'Made for this app', 'Original work'],
   ];
   const sources = [...new Map(b.facts.map((f) => [f.source.url, f])).values()];
@@ -81,14 +85,14 @@
 {:else if page === 'legal'}
   <h1>Legal and credits</h1>
   <p>Cadet Compass is an unofficial study aid. It is not affiliated with, sponsored by or endorsed by the Department of Defense (Department of War), any military service or any JROTC program.</p>
-  <p>The developer does not own or claim ownership of any service name, mark or insignia. All such names belong to their owners and appear here only to identify the subject. The Marine Corps emblem (eagle, globe and anchor) appears only as drawn ribbon devices, to show how cadet ribbons are worn. It is a trademark of the U.S. Marine Corps and is used without its endorsement. No other service seal, emblem or logo is used.</p>
+  <p>The developer does not own or claim ownership of any service name, mark or insignia. All such names belong to their owners and appear here only to identify the subject. The Marine Corps emblem (eagle, globe and anchor) appears only in ribbon devices and in the Sergeant Major of the Marine Corps rank insignia, to show how they look. It is a trademark of the U.S. Marine Corps and is used without its endorsement. No other service seal, emblem or logo is used.</p>
   <p><a href="#/settings/terms">Terms of Service</a> / <a href="#/settings/privacy">Privacy Policy</a></p>
   <h2>Fonts, software and images</h2>
   <table>
     <thead><tr><th scope="col">Resource</th><th scope="col">Author</th><th scope="col">License</th></tr></thead>
     <tbody>{#each CREDITS as [what, who, lic]}<tr><td>{what}</td><td>{who}</td><td>{lic}</td></tr>{/each}</tbody>
   </table>
-  <p class="help">No photographs or third-party images are used.</p>
+  <p class="help">Uniform photographs are U.S. Government works. Each rank picture's source file is listed in the project's public repository.</p>
   <h2>Publications the content is based on</h2>
   <table>
     <thead><tr><th scope="col">Publication</th><th scope="col">Publisher</th><th scope="col">Edition</th></tr></thead>
@@ -110,8 +114,8 @@
   <h1>Settings</h1>
   <table>
     <tbody>
-      {#each PAGES as [id, name, note]}
-        <tr><td><a class="btn" style="width: 100%; justify-content: flex-start" href="#/settings/{id}">{name}</a><p class="cite">{note}</p></td></tr>
+      {#each PAGES as [id, name, note, icon]}
+        <tr><td><a class="btn" style="width: 100%; justify-content: flex-start" href="#/settings/{id}"><Icon name={icon} size={20} />{name}</a><p class="cite">{note}</p></td></tr>
       {/each}
     </tbody>
   </table>

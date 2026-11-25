@@ -5,6 +5,8 @@
   import { shuffle } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
   import Ribbon from '../lib/Ribbon.svelte';
+  import RankInsignia from '../lib/RankInsignia.svelte';
+  import type { Service } from '../lib/rankArt';
   import { CADET_RANKS } from '../lib/cadetRanks';
 
   let { which, set = null }: { which: string; set?: string | null } = $props();
@@ -35,6 +37,9 @@
   // svelte-ignore state_referenced_locally (the screen is rebuilt whenever the address changes)
   const game = GAMES[which] ?? GAMES.ranks;
   const source = all.find((f) => f.id === game.cite);
+  // Whose insignia to show: the set's service, or cadet ranks in the Marine Corps JROTC game.
+  // svelte-ignore state_referenced_locally
+  const service = which === 'ranks' && app.profile?.branch === 'usmc' ? ((picked ? set!.split('-')[0] : 'cadet') as Service) : undefined;
   const SIZE = 6;
 
   let rows = $state<string[]>([]);
@@ -69,7 +74,7 @@
     {#each rows as r, i (r)}
       <tr>
         <td class="num">{i + 1}</td>
-        <td>{#if which === 'ribbons'}<span class="ribcell"><Ribbon name={r} width={72} />{r}</span>{:else}{r}{/if}{#if checked && r !== answer[i]}<p class="cite">Belongs at {answer.indexOf(r) + 1}</p>{/if}</td>
+        <td>{#if which === 'ribbons'}<span class="ribcell"><Ribbon name={r} width={72} />{r}</span>{:else if service}<span class="ribcell"><RankInsignia rank={r} {service} size={48} />{r}</span>{:else}{r}{/if}{#if checked && r !== answer[i]}<p class="cite">Belongs at {answer.indexOf(r) + 1}</p>{/if}</td>
         <td style="white-space: nowrap; width: 1%">
           {#if checked}
             <span class="verdict {r === answer[i] ? 'good' : 'bad'}">{r === answer[i] ? 'Right' : 'Wrong'}</span>

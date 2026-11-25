@@ -4,4 +4,3 @@ export const CADET_RANKS = [
   'Cadet Sergeant Major', 'Cadet First Sergeant', 'Cadet Gunnery Sergeant', 'Cadet Staff Sergeant', 'Cadet Sergeant',
   'Cadet Corporal', 'Cadet Lance Corporal', 'Cadet Private First Class', 'Cadet Private',
 ];
-export const isCadetRank = (s: string) => CADET_RANKS.includes(s);

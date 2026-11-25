@@ -1,66 +1,109 @@
+<script module lang="ts">
+  let last: 'enlisted' | 'officer' = 'enlisted'; // kept while switching service, which rebuilds the screen
+</script>
+
 <script lang="ts">
-  // Rank Study: one ladder per rank set, with the ways to study it.
+  // Rank Study: a rank chart by service and pay grade, junior first, with the ways to study it on top.
+  import { RANKS, type Service } from '../lib/rankArt';
   import { facts } from '../lib/store.svelte';
-  import { CADET_RANKS } from '../lib/cadetRanks';
   import RankInsignia from '../lib/RankInsignia.svelte';
+  import Icon from '../lib/Icon.svelte';
 
-  const all = facts();
-  const ladder = (group: string) => all.filter((f) => f.group === group && f.order).sort((a, b) => a.order! - b.order!);
-  const grades = (kind: string, branch: string) => new Map(all.filter((f) => f.group === `paygrade-${branch}-${kind}`).map((f) => [f.q.match(/(?:a|an) (.+)\?/)?.[1] ?? '', f.a]));
-  /** Pay grade for a rank fact: from its text, else from the pay-grade facts. */
-  const grade = (title: string, text: string, pg: Map<string, string>) => text.match(/\b[EOW]-\d{1,2}\b/)?.[0] ?? pg.get(title) ?? '';
-  const ladderOf = (branch: string, kind: string) => ladder(`rank-${branch}-${kind}`).map((f) => ({ name: f.a, pg: grade(f.a, f.text ?? '', grades(kind, branch)) }));
-
-  const TOPIC: Record<string, string> = { usmc: 'Marine Corps', navy: 'Navy' };
-  const SETS = $derived({
-    'cadet-enlisted': CADET_RANKS.slice(6).map((name) => ({ name, pg: '' })),
-    'cadet-officer': CADET_RANKS.slice(0, 6).map((name) => ({ name, pg: '' })),
-    'usmc-enlisted': ladderOf('usmc', 'enlisted'), 'usmc-officer': ladderOf('usmc', 'officer'),
-    'navy-enlisted': ladderOf('navy', 'enlisted'), 'navy-officer': ladderOf('navy', 'officer'),
-  } as Record<string, { name: string; pg: string }[]>);
-  const CHIPS = $derived([['cadet-enlisted', 'Cadet enlisted'], ['cadet-officer', 'Cadet officer'], ['usmc', 'Marine Corps'], ['navy', 'Navy']].filter(([id]) => id.startsWith('cadet') || SETS[id + '-enlisted'].length || SETS[id + '-officer'].length));
-  let chip = $state('cadet-enlisted');
-  let kind = $state('enlisted');
-  const key = $derived(chip.startsWith('cadet') ? chip : `${chip}-${kind}`);
-  const rows = $derived(SETS[key] ?? []);
-  const cadet = $derived(chip.startsWith('cadet'));
-  const topic = $derived(`${TOPIC[chip]} ${kind} ranks`);
+  let { tab = 'cadet' }: { tab?: string } = $props();
+  const TABS = [['cadet', 'Cadet'], ['usmc', 'Marines'], ['navy', 'Navy'], ['compare', 'Compare']];
+  const NAMES: Record<string, string> = { usmc: 'Marine Corps', navy: 'Navy' };
+  // svelte-ignore state_referenced_locally (the screen is rebuilt whenever the address changes)
+  const view = TABS.some(([id]) => id === tab) ? tab : 'cadet';
+  let kind = $state(last);
+  $effect(() => { last = kind; });
+  const services = (view === 'compare' ? ['usmc', 'navy'] : [view]) as Service[];
+  /** Pay grades, junior first, each with the ranks of every service shown. Cadet ranks have no pay grade: one group. */
+  const groups = $derived.by(() => {
+    const all = services.map((s) => Object.entries(RANKS[s][kind]).map(([name, [art, abbr, pg]]) => ({ s, name, art, abbr, pg })));
+    return [...new Set(all.flat().map((r) => r.pg))].map((pg) => ({ pg, cols: all.map((rs) => rs.filter((r) => r.pg === pg)) }));
+  });
+  const topic = $derived(`${NAMES[view]} ${kind} ranks`);
+  const quiz = $derived(`#/train/quiz?module=ranks${view in NAMES ? '&topic=' + encodeURIComponent(topic) : ''}&n=10`);
+  const art = $derived(view === 'cadet' ? 'cadet' : view);
+  const source = facts().find((f) => f.group === `rank-${view === 'cadet' ? 'usmc' : view === 'compare' ? 'usmc' : view}-enlisted`);
 </script>
 
 <h1>Rank study</h1>
-<div class="chips" role="group" aria-label="Rank set">
-  {#each CHIPS as [id, name]}<button class="setchip" aria-pressed={chip === id} onclick={() => (chip = id)}>{name}</button>{/each}
+<nav class="tabs" aria-label="Rank set">
+  {#each TABS as [id, name]}<a href="#/ranks/{id}" aria-current={view === id ? 'page' : undefined}>{name}</a>{/each}
+</nav>
+<div class="seg" role="group" aria-label="Enlisted or officer">
+  <i class:right={kind === 'officer'}></i>
+  <button aria-pressed={kind === 'enlisted'} onclick={() => (kind = 'enlisted')}>Enlisted</button>
+  <button aria-pressed={kind === 'officer'} onclick={() => (kind = 'officer')}>Officer</button>
 </div>
-{#if !cadet}
-  <div class="chips" role="group" aria-label="Enlisted or officer">
-    {#each ['enlisted', 'officer'] as k}<button class="setchip" aria-pressed={kind === k} onclick={() => (kind = k)}>{k === 'enlisted' ? 'Enlisted' : 'Officer'}</button>{/each}
-  </div>
-{/if}
 
-{#if rows.length}
-  <ol class="ladder">
-    {#each rows as r}
-      <li>{#if cadet}<span class="ins">{#if r.name !== 'Cadet Private'}<RankInsignia rank={r.name} size={40} />{/if}</span>{/if}<span class="nm">{r.name}</span>{#if r.pg}<span class="label">{r.pg}</span>{/if}</li>
+<div class="quick">
+  <a href={quiz}><Icon name="quiz" /><span>Quiz</span></a>
+  <a href="#/cards/ranks"><Icon name="cards" /><span>Cards</span></a>
+  {#if view !== 'compare'}<a href="#/train/order/ranks?set={art}-{kind}"><Icon name="order" /><span>Order</span></a>{/if}
+  <a href="#/train/speed?module=ranks"><Icon name="speed" /><span>Speed</span></a>
+</div>
+
+{#key kind}
+  <div class="chart" class:two={view === 'compare'}>
+    {#if view === 'compare'}<div class="heads"><b>Marine Corps</b><b>Navy</b></div>{/if}
+    {#each groups as g, i (g.pg)}
+      <section style="animation-delay: {Math.min(i, 8) * 35}ms" aria-label={g.pg || 'Cadet ranks'}>
+        {#if g.pg}<h2>{g.pg}</h2>{/if}
+        <div class="cols">
+          {#each g.cols as col}
+            <ul>
+              {#each col as r (r.s + r.name)}
+                <li class:wide={view === 'navy' && kind === 'officer'}>
+                  {#if r.art}<RankInsignia rank={r.name} service={r.s} size={view === 'compare' ? 72 : r.s === 'navy' && kind === 'officer' ? 96 : 68} />{:else}<span class="none">No insignia</span>{/if}
+                  <span class="nm"><b>{r.name}</b>{#if r.abbr}<small>{r.abbr}</small>{/if}</span>
+                </li>
+              {/each}
+            </ul>
+          {/each}
+        </div>
+      </section>
     {/each}
-  </ol>
-{:else}
-  <p class="notice">This set is not published yet.</p>
-{/if}
+  </div>
+{/key}
 
-<h2>Study this set</h2>
-<div class="actions">
-  <a class="act" href="#/cards/ranks"><b>Flip cards</b><small>Study ranks, a few cards at a time</small></a>
-  <a class="act" href="#/train/quiz?module=ranks{cadet ? '' : '&topic=' + encodeURIComponent(topic)}&n=10"><b>Quiz</b><small>10 questions on ranks</small></a>
-  <a class="act" href="#/train/order/ranks?set={key}"><b>Put in order</b><small>Seniority Ladder, senior first</small></a>
-  <a class="act" href="#/train/speed?module=ranks"><b>Speed Round</b><small>Beat the clock on ranks</small></a>
-</div>
+<p class="help">
+  {#if view === 'cadet'}Cadet insignia are shown as collar pins: black for enlisted, silver for officers.
+  {:else}Junior ranks first. Ranks in the same box share a pay grade.{/if}
+  Your instructor's guidance comes first.
+</p>
+{#if source && view !== 'cadet'}<p class="cite">Ranks and pay grades: <a href={source.source.url} target="_blank" rel="noopener noreferrer">{source.source.title}</a>. Pictures: <a href="#/settings/legal">credits</a>.</p>
+{:else}<p class="cite">Pictures: <a href="#/settings/legal">credits</a>.</p>{/if}
 
 <style>
-  .chips { display: flex; flex-wrap: wrap; gap: var(--u); margin-top: calc(var(--u) * 2); }
-  .setchip { min-height: 44px; padding: 0 calc(var(--u) * 2); border: var(--rule); border-radius: 99px; background: var(--sheet); color: var(--ink); font: inherit; font-size: 0.9375rem; font-weight: 500; cursor: pointer; }
-  .setchip[aria-pressed='true'] { background: var(--branch); border-color: var(--branch); color: #fff; }
-  .ladder { list-style: none; padding: 0; margin: calc(var(--u) * 2) 0 0; }
-  .ladder li { display: flex; align-items: center; gap: calc(var(--u) * 1.5); min-height: 48px; border-bottom: var(--rule); }
-  .ins { width: 40px; height: 40px; flex: none; display: inline-flex; align-items: center; justify-content: center; }
-  .nm { flex: 1; font-weight: 500; }
+  .tabs { gap: 6px; }
+  .tabs a { padding: 0 11px; font-size: 0.875rem; }
+  .seg { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin-top: calc(var(--u) * 1.5); padding: 4px; border-radius: 14px; background: var(--fill); }
+  .seg i { position: absolute; inset: 4px auto 4px 4px; width: calc(50% - 4px); border-radius: 11px; background: var(--branch); box-shadow: 0 1px 4px #0003; transition: transform 0.35s cubic-bezier(0.34, 1.4, 0.64, 1); }
+  .seg i.right { transform: translateX(100%); }
+  .seg button { position: relative; min-height: 44px; border: 0; background: none; color: var(--ink-2); font: inherit; font-weight: 600; cursor: pointer; }
+  .seg button[aria-pressed='true'] { color: #fff; }
+  .quick { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: var(--u); margin-top: calc(var(--u) * 1.5); }
+  .quick a { display: grid; justify-items: center; gap: 4px; padding: calc(var(--u) * 1.25) 4px; border-radius: var(--r); background: color-mix(in srgb, var(--branch) 10%, var(--sheet)); color: var(--ink); font-size: 0.8125rem; font-weight: 600; text-decoration: none; }
+  .quick a :global(svg) { color: var(--accent); }
+  .quick a:active { transform: scale(0.96); }
+
+  /* The chart: a pay grade tab on top of a bordered box, one row per rank */
+  .chart { margin-top: calc(var(--u) * 2); }
+  .chart section { margin-top: calc(var(--u) * 1.5); animation: rise 0.35s var(--soft) backwards; }
+  .chart h2 { display: inline-block; margin: 0; padding: 4px 14px; border-radius: 10px 10px 0 0; background: var(--navy); color: #fff; font-size: 0.9375rem; }
+  .cols { border: var(--rule); border-radius: var(--r); background: var(--sheet); overflow: hidden; }
+  .chart h2 + .cols { border-top-left-radius: 0; }
+  .chart ul { list-style: none; margin: 0; padding: 0; }
+  .chart li { display: flex; align-items: center; gap: calc(var(--u) * 2); margin: 0; padding: calc(var(--u) * 1.25) calc(var(--u) * 1.5); min-height: 84px; }
+  .chart li + li { border-top: 1px solid var(--line); }
+  .nm b { display: block; font-weight: 600; line-height: 1.25; }
+  .nm small { color: var(--ink-2); font-size: 0.875rem; }
+  .none { flex: none; display: grid; place-items: center; width: 68px; height: 68px; border: 1.5px dashed var(--line); border-radius: 14px; color: var(--ink-2); font-size: 0.6875rem; line-height: 1.2; text-align: center; }
+  .two .cols { display: grid; grid-template-columns: 1fr 1fr; }
+  .two ul + ul { border-left: 1px solid var(--line); }
+  .two li { flex-direction: column; gap: var(--u); text-align: center; font-size: 0.875rem; }
+  .heads { display: grid; grid-template-columns: 1fr 1fr; text-align: center; }
+  .wide { min-height: 112px; }
 </style>

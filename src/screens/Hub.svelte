@@ -2,6 +2,7 @@
   // Home: today's goal, level and a short plan. Reference tables are on Learn.
   import { app, facts, today, fmtDate, level, streak, branchName } from '../lib/store.svelte';
   import { MODULES, quizzable, modulePriority, summarize } from '../lib/quiz';
+  import Icon from '../lib/Icon.svelte';
 
   const t = today();
   const p = app.profile!;
@@ -21,10 +22,10 @@
     ?? MODULES.find((m) => m.id === order[0])!;
   const quiz = $derived(`#/train/quiz?module=${focus.id}&n=${lv.level >= 4 ? 15 : 10}${lv.level >= 5 ? '&timer=20' : ''}`);
   const plan = $derived([
-    !app.placement?.done && ['#/test', 'Take the placement test', 'Finds your strengths and gaps', '+50 XP'],
-    due > 0 && ['#/cards', `Review ${due} due ${due === 1 ? 'card' : 'cards'}`, 'What you missed comes back first', '+10 XP'],
-    [`#/cards/${focus.id}`, `Learn new ${focus.name} cards`, `${goal} cards, picked for your goals`, '+10 XP'],
-    [quiz, `Quiz: ${focus.name}`, 'Pass with 70 percent. More XP for a higher score.', 'up to +30 XP'],
+    !app.placement?.done && ['#/test', 'Take the placement test', 'Finds your strengths and gaps', '+50 XP', 'target'],
+    due > 0 && ['#/cards', `Review ${due} due ${due === 1 ? 'card' : 'cards'}`, 'What you missed comes back first', '+10 XP', 'cards'],
+    [`#/cards/${focus.id}`, `Learn new ${focus.name} cards`, `${goal} cards, picked for your goals`, '+10 XP', focus.id],
+    [quiz, `Quiz: ${focus.name}`, 'Pass with 70 percent. More XP for a higher score.', 'up to +30 XP', 'quiz'],
   ].filter(Boolean) as string[][]);
   const R = 34, C = 2 * Math.PI * R;
 </script>
@@ -58,15 +59,15 @@
 
   <h2>Today's plan</h2>
   <ol class="plan">
-    {#each plan as [href, name, note, xp], i}
-      <li><a {href}><span class="n">{i + 1}</span><span><strong>{name}</strong><small>{note}</small></span><span class="xp">{xp}</span></a></li>
+    {#each plan as [href, name, note, xp, icon]}
+      <li><a {href}><span class="n"><Icon name={icon} size={20} /></span><span><strong>{name}</strong><small>{note}</small></span><span class="xp">{xp}</span></a></li>
     {/each}
   </ol>
 
   <h2>Quick play</h2>
   <div class="actions">
-    <a class="act" href="#/train/speed"><b>Speed Round</b><small>10 questions against the clock</small></a>
-    <a class="act" href="#/train/match"><b>Match Up</b><small>Pair questions with answers</small></a>
+    <a class="act" href="#/train/speed"><Icon name="speed" /><b>Speed Round</b><small>10 questions against the clock</small></a>
+    <a class="act" href="#/train/match"><Icon name="match" /><b>Match Up</b><small>Pair questions with answers</small></a>
   </div>
 {/if}
 

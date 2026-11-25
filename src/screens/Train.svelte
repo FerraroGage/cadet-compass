@@ -3,6 +3,8 @@
   import { UNLOCK } from '../lib/xp';
   import { MODULES, quizzable } from '../lib/quiz';
 
+  import Icon from '../lib/Icon.svelte';
+
   let { custom = false }: { custom?: boolean } = $props();
   const t = today();
   const mine = facts().filter((f) => quizzable(f, t));
@@ -32,9 +34,9 @@
     ['#/train/order/chain', 'Chain Builder', 'Rebuild the chain of command from the top down.', 'M9 7a3 3 0 1 0 6 0 3 3 0 0 0-6 0M9 17a3 3 0 1 0 6 0 3 3 0 0 0-6 0M12 10v4'],
   ];
   const TESTS = [
-    ['#/test', 'Placement test', 'Adaptive test that finds your strengths and gaps.'],
-    ['#/train/custom', 'Custom quiz', 'Pick module, question type, count, difficulty and timer.'],
-    ['#/train/board', 'Mock promotion board', 'Ten board questions, answered aloud, with a score sheet.'],
+    ['#/test', 'Placement test', 'Adaptive test that finds your strengths and gaps.', 'target'],
+    ['#/train/custom', 'Custom quiz', 'Pick module, question type, count, difficulty and timer.', 'sliders'],
+    ['#/train/board', 'Mock promotion board', 'Ten board questions, answered aloud, with a score sheet.', 'board'],
   ];
 </script>
 
@@ -53,12 +55,12 @@
   </div>
   <h2>Tests</h2>
   <ol class="plan">
-    {#each TESTS as [href, name, note], i}
+    {#each TESTS as [href, name, note, icon]}
       <li>
         {#if need(href)}
-          <div class="lock"><span class="n">{i + 1}</span><span><strong>{name}</strong><small>{note}</small></span><span class="xp">Level {need(href)}</span></div>
+          <div class="lock"><span class="n"><Icon name={icon} size={20} /></span><span><strong>{name}</strong><small>{note}</small></span><span class="xp">Level {need(href)}</span></div>
         {:else}
-          <a {href}><span class="n">{i + 1}</span><span><strong>{name}</strong><small>{note}</small></span></a>
+          <a {href}><span class="n"><Icon name={icon} size={20} /></span><span><strong>{name}</strong><small>{note}</small></span></a>
         {/if}
       </li>
     {/each}

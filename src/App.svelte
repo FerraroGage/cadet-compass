@@ -77,6 +77,10 @@
   ];
   // Cards and the Study Guide belong to Learn; the placement test to Play.
   const navSection = $derived(['cards', 'guide', 'ranks'].includes(section) ? 'learn' : section === 'test' ? 'train' : section === 'train' && parts[1] === 'metronome' ? 'tools' : section);
+  // The pill under the active tab: its leading edge moves first and the other catches up, so it stretches as it travels.
+  const navAt = $derived(NAV.findIndex(([id]) => id === navSection));
+  let navDir = $state('fwd'), navWas = 0;
+  $effect.pre(() => { if (navAt >= 0) { if (navAt !== navWas) navDir = navAt > navWas ? 'fwd' : 'back'; navWas = navAt; } });
 </script>
 
 {#if usable && !inApp && !readingLegal}
@@ -127,7 +131,7 @@
           {:else if parts[1] === 'sizing'}<Sizing />
           {:else}<Tools />{/if}
         {:else if section === 'ranks'}
-          <RankStudy />
+          <RankStudy tab={parts[1]} />
         {:else if section === 'dev' && app.dev}
           <Dev />
         {:else if section === 'guide'}
@@ -154,10 +158,11 @@
   {#if inApp}
     <nav class="bar" aria-label="Main">
       <div>
+        <i class="pill {navDir}" class:off={navAt < 0} style="left: calc({Math.max(0, navAt)} * 100% / {NAV.length}); right: calc({NAV.length - 1 - Math.max(0, navAt)} * 100% / {NAV.length})"></i>
         {#each NAV as [id, name, icon]}
           <a href="#/{id}" aria-current={navSection === id ? 'page' : undefined}>
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icon} /></svg>
-            {name}
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icon} pathLength="1" /></svg>
+            <span>{name}</span>
           </a>
         {/each}
       </div>

@@ -10,6 +10,17 @@
   const seen = app.seenVersion;
   $effect(() => { if (page === 'changes' && app.seenVersion < b.version) save('seenVersion', b.version); });
 
+  // Seven quick taps on the version line switch developer mode on or off.
+  let taps = 0, tapTimer: ReturnType<typeof setTimeout>;
+  let devMsg = $state('');
+  function tapVersion() {
+    clearTimeout(tapTimer);
+    tapTimer = setTimeout(() => (taps = 0), 2000);
+    if (++taps < 7) return;
+    taps = 0;
+    devMsg = app.dev ? 'Dev mode off' : 'Dev mode on';
+    save('dev', !app.dev);
+  }
   let failed = $state('');
   async function wipe() {
     if (app.user) {
@@ -64,7 +75,9 @@
   </ol>
   <h2>Contact</h2>
   <p>Gage A. Pierce, Kellogg, Idaho. Report an error or ask a question: <a href="mailto:piercegage19@gmail.com">piercegage19@gmail.com</a></p>
-  <p class="label">App version {__APP_VERSION__} / content version {b.version}</p>
+  <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
+  <p class="label" onclick={tapVersion}>App version {__APP_VERSION__} / content version {b.version}</p>
+  {#if devMsg}<p class="help" role="status">{devMsg}</p>{/if}
 {:else if page === 'legal'}
   <h1>Legal and credits</h1>
   <p>Cadet Compass is an unofficial study aid. It is not affiliated with, sponsored by or endorsed by the Department of Defense (Department of War), any military service or any JROTC program.</p>
@@ -102,6 +115,7 @@
       {/each}
     </tbody>
   </table>
+  {#if app.dev}<p class="cite" style="margin-top: 8px">Developer mode is on.</p><a class="btn" style="width: 100%; justify-content: flex-start" href="#/dev">Dev tools</a>{/if}
   <h2>Hidden questions</h2>
   {#if app.hidden.length}
     {@const items = b.facts.filter((f) => app.hidden.includes(f.id))}

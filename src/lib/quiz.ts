@@ -17,6 +17,25 @@ export function shuffle<T>(xs: T[], rnd = Math.random): T[] {
   return a;
 }
 
+export interface Weights { version?: number; note?: string; modules: Partial<Record<Module, number>>; topics: Record<string, number> }
+/** Topic weight, else module weight, else 1. */
+export const weightOf = (f: Fact, w: Weights) => w.topics[`${f.module}|${f.topic}`] ?? w.modules[f.module] ?? 1;
+
+/** Weighted sampling without replacement. Weight 0 is never picked; if every weight is 0, all are equal. */
+export function pickWeighted(facts: Fact[], n: number, w: Weights, rnd = Math.random): Fact[] {
+  let left = facts.map((f) => ({ f, w: Math.max(0, weightOf(f, w)) }));
+  if (!left.some((x) => x.w > 0)) left = left.map((x) => ({ ...x, w: 1 }));
+  left = left.filter((x) => x.w > 0);
+  const out: Fact[] = [];
+  while (out.length < n && left.length) {
+    let r = rnd() * left.reduce((s, x) => s + x.w, 0), i = 0;
+    while (i < left.length - 1 && r >= left[i].w) r -= left[i++].w;
+    out.push(left[i].f);
+    left.splice(i, 1);
+  }
+  return out;
+}
+
 export interface Question { factId: string; choices: string[]; correct: number }
 
 /** Wrong choices come from the fact's own list, or from other answers in its group (the things cadets really mix up). */

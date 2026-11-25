@@ -22,4 +22,5 @@
     </a>
   {/each}
 </div>
+{#if app.dev}<a class="btn" style="margin-top: 16px" href="#/dev">Dev tools</a>{/if}
 {#if !usmc}<p class="help" style="margin-top: 16px">The uniform tools cover Marine Corps JROTC so far. Your branch's are not published yet.</p>{/if}

@@ -13,18 +13,21 @@
   const star = Array.from({ length: 10 }, (_, i) => { const a = (i * Math.PI) / 5 - Math.PI / 2, r = i % 2 ? 0.4 : 1; return `${(r * Math.cos(a)).toFixed(3)},${(r * Math.sin(a)).toFixed(3)}`; }).join(' ');
   const cross = '-0.3,-1 0.3,-1 0.3,-0.3 1,-0.3 1,0.3 0.3,0.3 0.3,1 -0.3,1 -0.3,0.3 -1,0.3 -1,-0.3 -0.3,-0.3';
   const uid = $props.id();
-  // Repeat-award device: the owner's photographed pins, one per metal. Each is a box [x, y, w, h] in its sheet; shown ~72 tall (60% of the ribbon).
-  const pins: Record<string, { f: string; sw: number; sh: number; box: Record<string, number[]> }> = {
-    emblem: { f: 'ega-pins.png', sw: 248, sh: 248, box: { bronze: [10, 60, 83, 91], silver: [157, 15, 81, 91], gold: [90, 133, 82, 93] } },
-    lamp: { f: 'lamp-pins.png', sw: 401, sh: 398, box: { silver: [21, 58, 172, 115], gold: [215, 146, 181, 123], bronze: [68, 248, 170, 115] } }
+  // Lamp device: the owner's photographed pins, one per metal. Each is a box [x, y, w, h] in its sheet; shown ~72 tall (60% of the ribbon).
+  const lamp = { f: 'lamp-pins.png', sw: 401, sh: 398, box: { silver: [21, 58, 172, 115], gold: [215, 146, 181, 123], bronze: [68, 248, 170, 115] } as Record<string, number[]> };
+  // EGA device: the owner's black silhouette (376 x 354) is both mask and height map, lit as stamped metal.
+  const EH = 70, EW = (EH * 376) / 354;
+  const shine: Record<string, string[]> = {
+    bronze: ['#3a1d0a', '#8c4f22', '#e2a468', '#fbe2bc', '#b5703a', '#5c3114', '#cf9257', '#7a431c'],
+    silver: ['#5b6168', '#9ea6ae', '#eef1f4', '#ffffff', '#b2b8be', '#6c737a', '#d9dee3', '#8a9198'],
+    gold: ['#6a4706', '#b5820c', '#f0c845', '#fff5ae', '#d6a020', '#85600a', '#ebc03c', '#a07410']
   };
   const metals: Record<string, [string, string, string]> = { bronze: ['#f3c99a', '#c0773a', '#7a4318'], silver: ['#ffffff', '#c3c9d0', '#80888f'], gold: ['#fff0a6', '#e0ae2a', '#926a10'] };
   const dm = $derived(device ? metals[device.metal] : undefined);
   const base = import.meta.env.BASE_URL + 'img/devices/';
   const tex = import.meta.env.BASE_URL + 'img/textures/fabric.jpg';
   const D = 36; // bar device half-height
-  const pin = $derived(device && device.shape !== 'bar' ? pins[device.shape === 'lamp' ? 'lamp' : 'emblem'] : undefined);
-  const box = $derived(pin && device ? pin.box[device.metal] : undefined);
+  const box = $derived(device?.shape === 'lamp' ? lamp.box[device.metal] : undefined);
   const pw = $derived(box ? Math.min(100, (72 * box[2]) / box[3]) : 0);
   const ph = $derived(box ? (pw * box[3]) / box[2] : 0);
 </script>
@@ -49,6 +52,36 @@
       <feMorphology operator="dilate" radius="2" result="d" />
       <feMorphology in="d" operator="erode" radius="2.5" />
     </filter>
+    {#if device?.shape === 'emblem'}
+      <linearGradient id="mt{uid}" x1="0" y1="0" x2="1" y2="1">{#each shine[device.metal] ?? shine.bronze as c, i}<stop offset={i / 7} stop-color={c} />{/each}</linearGradient>
+      <!-- Mask from luminance (black = metal); blurred at two scales into a height map lit from the upper left. Closed mask fills the fine gaps as dark recesses. -->
+      <filter id="eg{uid}" filterUnits="userSpaceOnUse" x={-EW / 2 - 3} y={-EH / 2 - 3} width={EW + 6} height={EH + 6} color-interpolation-filters="sRGB">
+        <feImage href={base + 'ega.png'} x={-EW / 2} y={-EH / 2} width={EW} height={EH} preserveAspectRatio="none" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  -0.45 -0.45 -0.45 0 1.15" result="m" />
+        <feMorphology in="m" operator="dilate" radius="0.7" />
+        <feMorphology operator="erode" radius="0.7" result="c" />
+        <feGaussianBlur in="m" stdDeviation="0.3" result="h1" />
+        <feGaussianBlur in="m" stdDeviation="1.3" result="h2" />
+        <feComposite in="h1" in2="h2" operator="arithmetic" k2="0.55" k3="0.45" result="h" />
+        <feDiffuseLighting in="h" surfaceScale="4" diffuseConstant="1.15" lighting-color="#fff" result="dif"><feDistantLight azimuth="225" elevation="48" /></feDiffuseLighting>
+        <feSpecularLighting in="h" surfaceScale="4" specularConstant="1.1" specularExponent="30" lighting-color="#fff" result="spc"><feDistantLight azimuth="225" elevation="40" /></feSpecularLighting>
+        <feComposite in="SourceGraphic" in2="dif" operator="arithmetic" k1="1.05" k2="0.12" result="lit" />
+        <feComposite in="spc" in2="lit" operator="arithmetic" k2="0.85" k3="1" />
+        <feComposite in2="m" operator="in" result="top" />
+        <!-- Recess floor: darker metal, with an inner shadow cast down-right from the raised edges. -->
+        <feColorMatrix in="SourceGraphic" type="matrix" values="0.38 0 0 0 0  0 0.36 0 0 0  0 0 0.34 0 0  0 0 0 1 0" />
+        <feComposite in2="c" operator="in" result="floor" />
+        <feOffset in="m" dx="0.45" dy="0.55" />
+        <feGaussianBlur stdDeviation="0.35" />
+        <feComposite in2="c" operator="in" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.7 0" />
+        <feComposite in2="floor" operator="over" result="rec" />
+        <feOffset in="c" dx="0.7" dy="1.1" />
+        <feGaussianBlur stdDeviation="0.8" />
+        <feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.5 0" />
+        <feMerge><feMergeNode /><feMergeNode in="rec" /><feMergeNode in="top" /></feMerge>
+      </filter>
+    {/if}
     <filter id="ds{uid}" filterUnits="userSpaceOnUse" x="-80" y="-50" width="160" height="100"><feDropShadow dx="0.8" dy="1.2" stdDeviation="0.9" flood-color="#000" flood-opacity="0.45" /></filter>
   </defs>
   {#each bands as b, i}<rect x={xs[i]} y="0" width={b[1] * W + (i < bands.length - 1 ? 0.6 : 0)} height={H} fill={b[0]} shape-rendering="crispEdges" />{/each}
@@ -64,9 +97,11 @@
     <g transform="translate({W / 2} {H / 2})" fill="url(#dv{uid})" stroke="#000" stroke-opacity="0.6" stroke-width="1" vector-effect="non-scaling-stroke">
       <rect x={-D * 1.6} y={-D * 0.4} width={D * 3.2} height={D * 0.8} rx="3" vector-effect="non-scaling-stroke" />
     </g>
-  {:else if pin && box}
+  {:else if device?.shape === 'emblem'}
+    <g transform="translate({W / 2} {H / 2})"><rect x={-EW / 2} y={-EH / 2} width={EW} height={EH} fill="url(#mt{uid})" filter="url(#eg{uid})" /></g>
+  {:else if box}
     <g transform="translate({W / 2} {H / 2})" filter="url(#ds{uid})">
-      <svg x={-pw / 2} y={-ph / 2} width={pw} height={ph} viewBox="{box[0]} {box[1]} {box[2]} {box[3]}"><image href={base + pin.f} width={pin.sw} height={pin.sh} filter="url(#kx{uid})" /></svg>
+      <svg x={-pw / 2} y={-ph / 2} width={pw} height={ph} viewBox="{box[0]} {box[1]} {box[2]} {box[3]}"><image href={base + lamp.f} width={lamp.sw} height={lamp.sh} filter="url(#kx{uid})" /></svg>
     </g>
   {/if}
   <rect x="0" y="0" width={W} height={H} fill="none" stroke="#000" stroke-opacity="0.32" stroke-width="1" vector-effect="non-scaling-stroke" shape-rendering="crispEdges" />

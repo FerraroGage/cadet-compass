@@ -1,5 +1,13 @@
 [
   {
+    "version": 7,
+    "date": "2026-11-25",
+    "branch": "usmc",
+    "changes": [
+      "Marine Corps and Navy ranks added: enlisted and officer ranks in order from the top, plus the pay grade of each rank."
+    ]
+  },
+  {
     "version": 6,
     "date": "2026-11-18",
     "branch": "usmc",

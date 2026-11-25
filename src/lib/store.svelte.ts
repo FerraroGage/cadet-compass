@@ -5,7 +5,8 @@ import Dexie, { type Table } from 'dexie';
 import { verifyBundle, type Bundle, type Fact } from './bundle';
 import { CONTENT_PUBLIC_KEY } from './content-key';
 import { review, type Card, type Grade } from './srs';
-import type { Placement } from './quiz';
+import type { Placement, Weights } from './quiz';
+import weightDefaults from '../data/question-weights.json';
 import { earn, levelOf, streakOf, LABEL, MILESTONES, type Kind, type XpEvent } from './xp';
 
 export type Branch = 'usmc' | 'army' | 'navy' | 'usaf' | 'ussf' | 'uscg';
@@ -53,8 +54,9 @@ interface Saved {
   cut: 'male' | 'female'; // which uniform version the diagrams show first
   rack: { ids: string[]; devices: Record<string, string[]> }; // uniform tools: chosen ribbons and their devices
   checks: Record<string, string[]>; // inspection checklist lines ticked, by uniform id
+  dev: boolean; weightsOverride: Weights | null; // developer mode, and this device's own question weights
 }
-const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false, scores: {}, hidden: [], theme: 'system', units: 'in', wording: 'simple', cut: 'male', rack: { ids: [], devices: {} }, checks: {} };
+const DEFAULTS: Saved = { profile: null, terms: null, placement: null, seenVersion: 0, onboarded: false, step: '', ledger: [], days: {}, best: 0, serverXp: null, dirty: [], remind: false, ageBlocked: false, scores: {}, hidden: [], theme: 'system', units: 'in', wording: 'simple', cut: 'male', rack: { ids: [], devices: {} }, checks: {}, dev: false, weightsOverride: null };
 
 export const app = $state({
   ready: false, error: '', notice: '',
@@ -77,6 +79,9 @@ export async function save<K extends keyof Saved>(k: K, v: Saved[K]) {
 /** Study content for the cadet's branch. Every screen reads facts through here; hidden items are left out unless asked for. */
 export const facts = (withHidden = false): Fact[] =>
   app.bundle ? app.bundle.facts.filter((f) => f.branch.includes(app.profile?.branch || 'usmc') && (withHidden || !app.hidden.includes(f.id))) : [];
+/** Repo defaults, replaced by this device's dev overrides only while dev mode is on. */
+export const effectiveWeights = (): Weights => (app.dev && app.weightsOverride) || (weightDefaults as Weights);
+export const repoWeights = weightDefaults as Weights;
 export const setHidden = (ids: string[], hide: boolean) =>
   save('hidden', hide ? [...new Set([...app.hidden, ...ids])] : app.hidden.filter((id) => !ids.includes(id)));
 

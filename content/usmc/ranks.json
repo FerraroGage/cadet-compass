@@ -573,5 +573,2329 @@
     "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-sgtmaj-mc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Sergeant Major of the Marine Corps is number 1 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-9. The Sergeant Major of the Marine Corps is the senior enlisted Marine, an E-9.",
+    "q": "Which Marine Corps enlisted rank is number 1 from the top (1 is highest)?",
+    "a": "Sergeant Major of the Marine Corps",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 1
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-sgtmaj-mc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Sergeant Major of the Marine Corps is pay grade E-9.",
+    "q": "What pay grade is a Sergeant Major of the Marine Corps?",
+    "a": "E-9",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-8",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-sgtmaj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Sergeant Major is number 2 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-9. Sergeant Major shares pay grade E-9 with Master Gunnery Sergeant; the Sergeant Major has the higher rank.",
+    "q": "Which Marine Corps enlisted rank is number 2 from the top (1 is highest)?",
+    "a": "Sergeant Major",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 2
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-sgtmaj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Sergeant Major is pay grade E-9.",
+    "q": "What pay grade is a Sergeant Major?",
+    "a": "E-9",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-8",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-mgysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Master Gunnery Sergeant is number 3 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-9. Master Gunnery Sergeant shares pay grade E-9 with Sergeant Major; the Sergeant Major has the higher rank.",
+    "q": "Which Marine Corps enlisted rank is number 3 from the top (1 is highest)?",
+    "a": "Master Gunnery Sergeant",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 3
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-mgysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Master Gunnery Sergeant is pay grade E-9.",
+    "q": "What pay grade is a Master Gunnery Sergeant?",
+    "a": "E-9",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-8",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-1stsgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "First Sergeant is number 4 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-8. First Sergeant shares pay grade E-8 with Master Sergeant.",
+    "q": "Which Marine Corps enlisted rank is number 4 from the top (1 is highest)?",
+    "a": "First Sergeant",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "verify",
+    "review_tier": 3,
+    "order": 4
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-1stsgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "First Sergeant is pay grade E-8.",
+    "q": "What pay grade is a First Sergeant?",
+    "a": "E-8",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-9",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-msgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Master Sergeant is number 5 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-8. Master Sergeant shares pay grade E-8 with First Sergeant.",
+    "q": "Which Marine Corps enlisted rank is number 5 from the top (1 is highest)?",
+    "a": "Master Sergeant",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "verify",
+    "review_tier": 3,
+    "order": 5
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-msgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Master Sergeant is pay grade E-8.",
+    "q": "What pay grade is a Master Sergeant?",
+    "a": "E-8",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-9",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-gysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Gunnery Sergeant is number 6 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-7.",
+    "q": "Which Marine Corps enlisted rank is number 6 from the top (1 is highest)?",
+    "a": "Gunnery Sergeant",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 6
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-gysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Gunnery Sergeant is pay grade E-7.",
+    "q": "What pay grade is a Gunnery Sergeant?",
+    "a": "E-7",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-8",
+      "E-6",
+      "E-9"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-ssgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Staff Sergeant is number 7 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-6.",
+    "q": "Which Marine Corps enlisted rank is number 7 from the top (1 is highest)?",
+    "a": "Staff Sergeant",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 7
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-ssgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Staff Sergeant is pay grade E-6.",
+    "q": "What pay grade is a Staff Sergeant?",
+    "a": "E-6",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-7",
+      "E-5",
+      "E-8"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-sgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Sergeant is number 8 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-5.",
+    "q": "Which Marine Corps enlisted rank is number 8 from the top (1 is highest)?",
+    "a": "Sergeant",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 8
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-sgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Sergeant is pay grade E-5.",
+    "q": "What pay grade is a Sergeant?",
+    "a": "E-5",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-6",
+      "E-4",
+      "E-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-cpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Corporal is number 9 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-4.",
+    "q": "Which Marine Corps enlisted rank is number 9 from the top (1 is highest)?",
+    "a": "Corporal",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 9
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-cpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Corporal is pay grade E-4.",
+    "q": "What pay grade is a Corporal?",
+    "a": "E-4",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-5",
+      "E-3",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-lcpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Lance Corporal is number 10 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-3.",
+    "q": "Which Marine Corps enlisted rank is number 10 from the top (1 is highest)?",
+    "a": "Lance Corporal",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 10
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-lcpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Lance Corporal is pay grade E-3.",
+    "q": "What pay grade is a Lance Corporal?",
+    "a": "E-3",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-4",
+      "E-2",
+      "E-5"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-pfc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Private First Class is number 11 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-2.",
+    "q": "Which Marine Corps enlisted rank is number 11 from the top (1 is highest)?",
+    "a": "Private First Class",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 11
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-pfc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Private First Class is pay grade E-2.",
+    "q": "What pay grade is a Private First Class?",
+    "a": "E-2",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-3",
+      "E-1",
+      "E-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-enl-pvt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "Private is number 12 from the top of 12 Marine Corps enlisted ranks (1 is highest), pay grade E-1.",
+    "q": "Which Marine Corps enlisted rank is number 12 from the top (1 is highest)?",
+    "a": "Private",
+    "group": "rank-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 12
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-enl-pvt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks pay grades",
+    "text": "Private is pay grade E-1.",
+    "q": "What pay grade is a Private?",
+    "a": "E-1",
+    "group": "paygrade-usmc-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-2",
+      "E-3",
+      "E-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-gen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "General is number 1 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-10.",
+    "q": "Which Marine Corps officer rank is number 1 from the top (1 is highest)?",
+    "a": "General",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-10"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 1
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-gen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "General is pay grade O-10.",
+    "q": "What pay grade is a General?",
+    "a": "O-10",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-10"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-9",
+      "O-8",
+      "O-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-ltgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Lieutenant General is number 2 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-9.",
+    "q": "Which Marine Corps officer rank is number 2 from the top (1 is highest)?",
+    "a": "Lieutenant General",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 2
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-ltgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Lieutenant General is pay grade O-9.",
+    "q": "What pay grade is a Lieutenant General?",
+    "a": "O-9",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-10",
+      "O-8",
+      "O-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-majgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Major General is number 3 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-8.",
+    "q": "Which Marine Corps officer rank is number 3 from the top (1 is highest)?",
+    "a": "Major General",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 3
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-majgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Major General is pay grade O-8.",
+    "q": "What pay grade is a Major General?",
+    "a": "O-8",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-9",
+      "O-7",
+      "O-10"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-bgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Brigadier General is number 4 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-7.",
+    "q": "Which Marine Corps officer rank is number 4 from the top (1 is highest)?",
+    "a": "Brigadier General",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 4
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-bgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Brigadier General is pay grade O-7.",
+    "q": "What pay grade is a Brigadier General?",
+    "a": "O-7",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-8",
+      "O-6",
+      "O-9"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-col",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Colonel is number 5 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-6.",
+    "q": "Which Marine Corps officer rank is number 5 from the top (1 is highest)?",
+    "a": "Colonel",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 5
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-col",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Colonel is pay grade O-6.",
+    "q": "What pay grade is a Colonel?",
+    "a": "O-6",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-7",
+      "O-5",
+      "O-8"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-ltcol",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Lieutenant Colonel is number 6 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-5.",
+    "q": "Which Marine Corps officer rank is number 6 from the top (1 is highest)?",
+    "a": "Lieutenant Colonel",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 6
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-ltcol",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Lieutenant Colonel is pay grade O-5.",
+    "q": "What pay grade is a Lieutenant Colonel?",
+    "a": "O-5",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-6",
+      "O-4",
+      "O-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-maj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Major is number 7 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-4.",
+    "q": "Which Marine Corps officer rank is number 7 from the top (1 is highest)?",
+    "a": "Major",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 7
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-maj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Major is pay grade O-4.",
+    "q": "What pay grade is a Major?",
+    "a": "O-4",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-5",
+      "O-3",
+      "O-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-capt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Captain is number 8 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-3.",
+    "q": "Which Marine Corps officer rank is number 8 from the top (1 is highest)?",
+    "a": "Captain",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 8
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-capt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Captain is pay grade O-3.",
+    "q": "What pay grade is a Captain?",
+    "a": "O-3",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-4",
+      "O-2",
+      "O-5"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-1stlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "First Lieutenant is number 9 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-2.",
+    "q": "Which Marine Corps officer rank is number 9 from the top (1 is highest)?",
+    "a": "First Lieutenant",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 9
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-1stlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "First Lieutenant is pay grade O-2.",
+    "q": "What pay grade is a First Lieutenant?",
+    "a": "O-2",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-3",
+      "O-1",
+      "O-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.usmc-off-2ndlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks",
+    "text": "Second Lieutenant is number 10 from the top of 10 Marine Corps officer ranks (1 is highest), pay grade O-1.",
+    "q": "Which Marine Corps officer rank is number 10 from the top (1 is highest)?",
+    "a": "Second Lieutenant",
+    "group": "rank-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 10
+  },
+  {
+    "id": "usmc.ranks.pg-usmc-off-2ndlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps officer ranks pay grades",
+    "text": "Second Lieutenant is pay grade O-1.",
+    "q": "What pay grade is a Second Lieutenant?",
+    "a": "O-1",
+    "group": "paygrade-usmc-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-2",
+      "O-3",
+      "O-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-mcpon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Master Chief Petty Officer of the Navy is number 1 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-9. The Master Chief Petty Officer of the Navy is the senior enlisted sailor, an E-9.",
+    "q": "Which Navy enlisted rank is number 1 from the top (1 is highest)?",
+    "a": "Master Chief Petty Officer of the Navy",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 1
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-mcpon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Master Chief Petty Officer of the Navy is pay grade E-9.",
+    "q": "What pay grade is a Master Chief Petty Officer of the Navy?",
+    "a": "E-9",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-8",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-mcpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Master Chief Petty Officer is number 2 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-9.",
+    "q": "Which Navy enlisted rank is number 2 from the top (1 is highest)?",
+    "a": "Master Chief Petty Officer",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 2
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-mcpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Master Chief Petty Officer is pay grade E-9.",
+    "q": "What pay grade is a Master Chief Petty Officer?",
+    "a": "E-9",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-8",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-scpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Senior Chief Petty Officer is number 3 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-8.",
+    "q": "Which Navy enlisted rank is number 3 from the top (1 is highest)?",
+    "a": "Senior Chief Petty Officer",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 3
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-scpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Senior Chief Petty Officer is pay grade E-8.",
+    "q": "What pay grade is a Senior Chief Petty Officer?",
+    "a": "E-8",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-9",
+      "E-7",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-cpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Chief Petty Officer is number 4 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-7.",
+    "q": "Which Navy enlisted rank is number 4 from the top (1 is highest)?",
+    "a": "Chief Petty Officer",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 4
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-cpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Chief Petty Officer is pay grade E-7.",
+    "q": "What pay grade is a Chief Petty Officer?",
+    "a": "E-7",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-8",
+      "E-6",
+      "E-9"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-po1",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Petty Officer First Class is number 5 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-6.",
+    "q": "Which Navy enlisted rank is number 5 from the top (1 is highest)?",
+    "a": "Petty Officer First Class",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 5
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-po1",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Petty Officer First Class is pay grade E-6.",
+    "q": "What pay grade is a Petty Officer First Class?",
+    "a": "E-6",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-7",
+      "E-5",
+      "E-8"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-po2",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Petty Officer Second Class is number 6 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-5.",
+    "q": "Which Navy enlisted rank is number 6 from the top (1 is highest)?",
+    "a": "Petty Officer Second Class",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 6
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-po2",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Petty Officer Second Class is pay grade E-5.",
+    "q": "What pay grade is a Petty Officer Second Class?",
+    "a": "E-5",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-6",
+      "E-4",
+      "E-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-po3",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Petty Officer Third Class is number 7 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-4.",
+    "q": "Which Navy enlisted rank is number 7 from the top (1 is highest)?",
+    "a": "Petty Officer Third Class",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 7
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-po3",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Petty Officer Third Class is pay grade E-4.",
+    "q": "What pay grade is a Petty Officer Third Class?",
+    "a": "E-4",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-5",
+      "E-3",
+      "E-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-sn",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Seaman is number 8 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-3.",
+    "q": "Which Navy enlisted rank is number 8 from the top (1 is highest)?",
+    "a": "Seaman",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 8
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-sn",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Seaman is pay grade E-3.",
+    "q": "What pay grade is a Seaman?",
+    "a": "E-3",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-4",
+      "E-2",
+      "E-5"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-sa",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Seaman Apprentice is number 9 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-2.",
+    "q": "Which Navy enlisted rank is number 9 from the top (1 is highest)?",
+    "a": "Seaman Apprentice",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 9
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-sa",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Seaman Apprentice is pay grade E-2.",
+    "q": "What pay grade is a Seaman Apprentice?",
+    "a": "E-2",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-3",
+      "E-1",
+      "E-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-enl-sr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "Seaman Recruit is number 10 from the top of 10 Navy enlisted ranks (1 is highest), pay grade E-1.",
+    "q": "Which Navy enlisted rank is number 10 from the top (1 is highest)?",
+    "a": "Seaman Recruit",
+    "group": "rank-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 10
+  },
+  {
+    "id": "usmc.ranks.pg-navy-enl-sr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks pay grades",
+    "text": "Seaman Recruit is pay grade E-1.",
+    "q": "What pay grade is a Seaman Recruit?",
+    "a": "E-1",
+    "group": "paygrade-navy-enlisted",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "E-2",
+      "E-3",
+      "E-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-adm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Admiral is number 1 from the top of 10 Navy officer ranks (1 is highest), pay grade O-10.",
+    "q": "Which Navy officer rank is number 1 from the top (1 is highest)?",
+    "a": "Admiral",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-10"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 1
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-adm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Admiral is pay grade O-10.",
+    "q": "What pay grade is a Admiral?",
+    "a": "O-10",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-10"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-9",
+      "O-8",
+      "O-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-vadm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Vice Admiral is number 2 from the top of 10 Navy officer ranks (1 is highest), pay grade O-9.",
+    "q": "Which Navy officer rank is number 2 from the top (1 is highest)?",
+    "a": "Vice Admiral",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 2
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-vadm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Vice Admiral is pay grade O-9.",
+    "q": "What pay grade is a Vice Admiral?",
+    "a": "O-9",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-10",
+      "O-8",
+      "O-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-radm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Rear Admiral (Upper Half) is number 3 from the top of 10 Navy officer ranks (1 is highest), pay grade O-8.",
+    "q": "Which Navy officer rank is number 3 from the top (1 is highest)?",
+    "a": "Rear Admiral (Upper Half)",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 3
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-radm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Rear Admiral (Upper Half) is pay grade O-8.",
+    "q": "What pay grade is a Rear Admiral (Upper Half)?",
+    "a": "O-8",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-9",
+      "O-7",
+      "O-10"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-rdml",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Rear Admiral (Lower Half) is number 4 from the top of 10 Navy officer ranks (1 is highest), pay grade O-7.",
+    "q": "Which Navy officer rank is number 4 from the top (1 is highest)?",
+    "a": "Rear Admiral (Lower Half)",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 4
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-rdml",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Rear Admiral (Lower Half) is pay grade O-7.",
+    "q": "What pay grade is a Rear Admiral (Lower Half)?",
+    "a": "O-7",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-8",
+      "O-6",
+      "O-9"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-capt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Captain is number 5 from the top of 10 Navy officer ranks (1 is highest), pay grade O-6.",
+    "q": "Which Navy officer rank is number 5 from the top (1 is highest)?",
+    "a": "Captain",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 5
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-capt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Captain is pay grade O-6.",
+    "q": "What pay grade is a Captain?",
+    "a": "O-6",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-7",
+      "O-5",
+      "O-8"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-cdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Commander is number 6 from the top of 10 Navy officer ranks (1 is highest), pay grade O-5.",
+    "q": "Which Navy officer rank is number 6 from the top (1 is highest)?",
+    "a": "Commander",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 6
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-cdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Commander is pay grade O-5.",
+    "q": "What pay grade is a Commander?",
+    "a": "O-5",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-6",
+      "O-4",
+      "O-7"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-lcdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Lieutenant Commander is number 7 from the top of 10 Navy officer ranks (1 is highest), pay grade O-4.",
+    "q": "Which Navy officer rank is number 7 from the top (1 is highest)?",
+    "a": "Lieutenant Commander",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 7
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-lcdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Lieutenant Commander is pay grade O-4.",
+    "q": "What pay grade is a Lieutenant Commander?",
+    "a": "O-4",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-5",
+      "O-3",
+      "O-6"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-lt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Lieutenant is number 8 from the top of 10 Navy officer ranks (1 is highest), pay grade O-3.",
+    "q": "Which Navy officer rank is number 8 from the top (1 is highest)?",
+    "a": "Lieutenant",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 8
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-lt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Lieutenant is pay grade O-3.",
+    "q": "What pay grade is a Lieutenant?",
+    "a": "O-3",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-4",
+      "O-2",
+      "O-5"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-ltjg",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Lieutenant (Junior Grade) is number 9 from the top of 10 Navy officer ranks (1 is highest), pay grade O-2.",
+    "q": "Which Navy officer rank is number 9 from the top (1 is highest)?",
+    "a": "Lieutenant (Junior Grade)",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 9
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-ltjg",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Lieutenant (Junior Grade) is pay grade O-2.",
+    "q": "What pay grade is a Lieutenant (Junior Grade)?",
+    "a": "O-2",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-3",
+      "O-1",
+      "O-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-off-ens",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks",
+    "text": "Ensign is number 10 from the top of 10 Navy officer ranks (1 is highest), pay grade O-1.",
+    "q": "Which Navy officer rank is number 10 from the top (1 is highest)?",
+    "a": "Ensign",
+    "group": "rank-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "order": 10
+  },
+  {
+    "id": "usmc.ranks.pg-navy-off-ens",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy officer ranks pay grades",
+    "text": "Ensign is pay grade O-1.",
+    "q": "What pay grade is a Ensign?",
+    "a": "O-1",
+    "group": "paygrade-navy-officer",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "O-2",
+      "O-3",
+      "O-4"
+    ]
+  },
+  {
+    "id": "usmc.ranks.sgtmaj-over-mgysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps enlisted ranks",
+    "text": "In the Marine Corps, a master gunnery sergeant and a sergeant major are both E-9, but the sergeant major has the higher rank.",
+    "q": "Which has the higher rank, a Master Gunnery Sergeant or a Sergeant Major?",
+    "a": "Sergeant Major",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Introduction paragraph"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "Master Gunnery Sergeant",
+      "They are equal",
+      "First Sergeant"
+    ]
+  },
+  {
+    "id": "usmc.ranks.navy-first-po",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy enlisted ranks",
+    "text": "The Navy petty officer rank, the Navy equivalent of an NCO, is reached at Petty Officer Third Class.",
+    "q": "At which Navy enlisted rank does a sailor first become a petty officer?",
+    "a": "Petty Officer Third Class",
+    "difficulty": 1,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia, E-4 to E-5 introduction"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3,
+    "distractors": [
+      "Seaman",
+      "Petty Officer Second Class",
+      "Chief Petty Officer"
+    ]
   }
 ]

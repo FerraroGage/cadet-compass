@@ -5,8 +5,9 @@
   import { shuffle } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
   import Ribbon from '../lib/Ribbon.svelte';
+  import { CADET_RANKS } from '../lib/cadetRanks';
 
-  let { which }: { which: string } = $props();
+  let { which, set = null }: { which: string; set?: string | null } = $props();
   const all = facts();
   /** Items of these groups, in order: the groups in the order given, then each by its `order`. */
   const ordered = (...groups: string[]) => groups.flatMap((g) => all.filter((f) => f.group === g && f.order && f.confidence !== 'verify').sort((a, b) => a.order! - b.order!));
@@ -18,6 +19,19 @@
     ribbons: { title: 'Rack Builder', task: 'Put these ribbons in order of precedence, senior at the top.', items: ordered('ribbon').map((f) => f.a), cite: first('ribbon') },
     chain: { title: 'Chain Builder', task: 'Put these in chain of command order, from the top down.', items: ordered('position', 'chain').map((f) => f.a), cite: first('position', 'chain') },
   };
+  // Rank Study sets: cadet ranks are slices of CADET_RANKS, the others come from the ordered facts of their group.
+  const SETS: Record<string, [string, string[], string]> = {
+    'cadet-enlisted': ['Cadet enlisted ranks', CADET_RANKS.slice(6), ''],
+    'cadet-officer': ['Cadet officer ranks', CADET_RANKS.slice(0, 6), ''],
+    'usmc-enlisted': ['Marine Corps enlisted', ordered('rank-usmc-enlisted').map((f) => f.a), first('rank-usmc-enlisted')],
+    'usmc-officer': ['Marine Corps officers', ordered('rank-usmc-officer').map((f) => f.a), first('rank-usmc-officer')],
+    'navy-enlisted': ['Navy enlisted', ordered('rank-navy-enlisted').map((f) => f.a), first('rank-navy-enlisted')],
+    'navy-officer': ['Navy officers', ordered('rank-navy-officer').map((f) => f.a), first('rank-navy-officer')],
+  };
+  // svelte-ignore state_referenced_locally (the screen is rebuilt whenever the address changes)
+  const picked = which === 'ranks' && set ? SETS[set] : undefined;
+  // svelte-ignore state_referenced_locally
+  if (picked) GAMES.ranks = { title: picked[0] + ': put in order', task: 'Put these ranks in order, senior at the top.', items: picked[1], cite: picked[2] || (set!.startsWith('cadet') ? 'usmc.ranks.bn-cdr' : '') };
   // svelte-ignore state_referenced_locally (the screen is rebuilt whenever the address changes)
   const game = GAMES[which] ?? GAMES.ranks;
   const source = all.find((f) => f.id === game.cite);

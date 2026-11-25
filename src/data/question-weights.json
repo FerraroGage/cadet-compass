@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "note": "Default question weights. 0 = never asked, 1 = normal, 2 = twice as likely. Edit with Dev tools > Question weights, copy the JSON here and commit.",
+  "modules": { "ranks": 1, "ribbons": 1, "chain": 1, "uniform": 1, "drill": 1, "knowledge": 1, "regulations": 1 },
+  "topics": {}
+}

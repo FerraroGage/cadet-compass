@@ -1,7 +1,7 @@
 <script lang="ts">
   import { term } from '../lib/terms';
-  import { app, facts, grade, tick, award, today, fmtDate, setHidden } from '../lib/store.svelte';
-  import { MODULES, quizzable, modulePriority, summarize } from '../lib/quiz';
+  import { app, facts, effectiveWeights, grade, tick, award, today, fmtDate, setHidden } from '../lib/store.svelte';
+  import { MODULES, quizzable, pickWeighted, modulePriority, summarize } from '../lib/quiz';
   import type { Grade } from '../lib/srs';
   import Cite from '../lib/Cite.svelte';
   import Skip from '../lib/Skip.svelte';
@@ -16,7 +16,7 @@
   function build() {
     const order = modulePriority(app.profile!.goals, app.placement?.done ? summarize(app.placement.answers) : null);
     const due = mine.filter((f) => app.progress[f.id] && app.progress[f.id].due <= t);
-    const fresh = mine.filter((f) => !app.progress[f.id]).sort((a, b) => order.indexOf(a.module) - order.indexOf(b.module)).slice(0, app.profile!.minutes);
+    const fresh = pickWeighted(mine.filter((f) => !app.progress[f.id]), 1e9, effectiveWeights()).sort((a, b) => order.indexOf(a.module) - order.indexOf(b.module)).slice(0, app.profile!.minutes);
     return [...due, ...fresh].map((f) => f.id);
   }
   const first = build();

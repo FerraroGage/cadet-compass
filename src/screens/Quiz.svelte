@@ -4,8 +4,8 @@
   // Answered questions can be stepped back through. A question marked "not in my program", before answering
   // or after getting it wrong, leaves the quiz and its score entirely.
   import { term } from '../lib/terms';
-  import { app, facts, grade, tick, award, today, setHidden } from '../lib/store.svelte';
-  import { MODULES, quizzable, buildQuestion, shuffle, gaps, type Question } from '../lib/quiz';
+  import { app, facts, effectiveWeights, grade, tick, award, today, setHidden } from '../lib/store.svelte';
+  import { MODULES, quizzable, buildQuestion, pickWeighted, gaps, type Question } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
   import Skip from '../lib/Skip.svelte';
 
@@ -28,7 +28,7 @@
   );
   // One entry per question: the fact, its choices (kept so a review shows the same ones), and the result once answered.
   type Item = { fact: (typeof pool)[number]; q: Question | null; picked: number | null; ok?: boolean };
-  const set = $state<Item[]>(shuffle(pool).slice(0, Number(p('n')) || 10).map((fact) => ({ fact, q: recall ? null : buildQuestion(fact, all), picked: null })));
+  const set = $state<Item[]>(pickWeighted(pool, Number(p('n')) || 10, effectiveWeights()).map((fact) => ({ fact, q: recall ? null : buildQuestion(fact, all), picked: null })));
 
   let i = $state(0); // the question being answered
   let view = $state<number | null>(null); // an earlier question being looked at again

@@ -1,8 +1,8 @@
 <script lang="ts">
   // Match Up: six questions and their six answers, shuffled on a board. Tap a question, then its answer.
   import { term } from '../lib/terms';
-  import { app, facts, save, tick, award, today } from '../lib/store.svelte';
-  import { quizzable, shuffle, MODULES } from '../lib/quiz';
+  import { app, facts, effectiveWeights, save, tick, award, today } from '../lib/store.svelte';
+  import { quizzable, shuffle, pickWeighted, MODULES } from '../lib/quiz';
 
   let { params }: { params: URLSearchParams } = $props();
   const PAIRS = 6;
@@ -11,7 +11,8 @@
   const mod = params.get('module') ?? '';
   const KEY = 'match' + (mod ? '-' + mod : '');
   // Short questions with answers that are unique on the board, so every pair has one right match.
-  const pool = shuffle(facts().filter((f) => quizzable(f, t) && (!mod || f.module === mod) && f.q.length <= 90 && f.a.length <= 48));
+  const ok = facts().filter((f) => quizzable(f, t) && (!mod || f.module === mod) && f.q.length <= 90 && f.a.length <= 48);
+  const pool = pickWeighted(ok, ok.length, effectiveWeights());
   const picks = pool.filter((f, i) => pool.findIndex((g) => g.a.toLowerCase() === f.a.toLowerCase()) === i).slice(0, PAIRS);
   type Tile = { key: string; id: string; text: string; side: 'q' | 'a' };
   const tiles = $state<Tile[]>(shuffle(picks.flatMap((f) => [{ key: f.id + 'q', id: f.id, text: f.q, side: 'q' as const }, { key: f.id + 'a', id: f.id, text: f.a, side: 'a' as const }])));

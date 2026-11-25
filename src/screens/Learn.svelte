@@ -39,6 +39,7 @@
   {#if current.id === 'uniform' && app.profile?.branch === 'usmc'}<UniformPhotos />{/if}
 
   {#if current.id === 'ranks' && app.profile?.branch === 'usmc'}
+    <a class="act" href="#/ranks"><b>Rank study</b><small>Cadet, Marine Corps and Navy ranks, with games</small></a>
     <h2>Rank chart</h2>
     <ul class="badges rankchart">
       {#each CADET_RANKS as r}

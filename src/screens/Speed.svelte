@@ -2,8 +2,8 @@
   // Speed Round: ten questions against the clock. Points for a right answer, more the faster it comes,
   // plus a streak bonus. Wrong answers go back into today's cards.
   import { term } from '../lib/terms';
-  import { app, facts, save, grade, tick, award, today, setHidden } from '../lib/store.svelte';
-  import { quizzable, buildQuestion, shuffle, MODULES, type Question } from '../lib/quiz';
+  import { app, facts, effectiveWeights, save, grade, tick, award, today, setHidden } from '../lib/store.svelte';
+  import { quizzable, buildQuestion, pickWeighted, MODULES, type Question } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
   import Skip from '../lib/Skip.svelte';
 
@@ -13,7 +13,7 @@
   // svelte-ignore state_referenced_locally (the screen is rebuilt whenever the address changes)
   const mod = params.get('module') ?? '';
   const all = facts();
-  const set: { fact: Fact; q: Question }[] = $state(shuffle(all.filter((f) => quizzable(f, t) && (!mod || f.module === mod)))
+  const set: { fact: Fact; q: Question }[] = $state((() => { const pl = all.filter((f) => quizzable(f, t) && (!mod || f.module === mod)); return pickWeighted(pl, pl.length, effectiveWeights()); })()
     .map((fact) => ({ fact, q: buildQuestion(fact, all)! })).filter((x) => x.q).slice(0, COUNT));
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const KEY = 'speed' + (mod ? '-' + mod : '');

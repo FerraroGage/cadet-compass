@@ -27,6 +27,7 @@
     ['#/train/speed', 'Speed Round', 'Ten questions against the clock. Faster answers and streaks score more.', 'M13 2 4 14h7l-1 8 9-12h-7z'],
     ['#/train/match', 'Match Up', 'Six questions, six answers. Tap the pairs as fast as you can.', 'M4 4h7v7H4zM13 13h7v7h-7zM13 4h7v7h-7zM4 13h7v7H4z'],
     ['#/train/order/ranks', 'Seniority Ladder', 'Put cadet ranks in order, senior first.', 'M6 20h12M8 16h8M10 12h4M12 4v4'],
+    ...(app.profile?.branch === 'usmc' ? [['#/ranks', 'Rank study', 'Cadet, Marine Corps and Navy ranks.', 'M6 20h12M8 16h8M10 12h4M12 4v4']] : []),
     ['#/train/order/ribbons', 'Rack Builder', 'Put ribbons in order of precedence.', 'M4 7h5v4H4zM10 7h5v4h-5zM16 7h4v4h-4zM7 13h5v4H7zM13 13h5v4h-5z'],
     ['#/train/order/chain', 'Chain Builder', 'Rebuild the chain of command from the top down.', 'M9 7a3 3 0 1 0 6 0 3 3 0 0 0-6 0M9 17a3 3 0 1 0 6 0 3 3 0 0 0-6 0M12 10v4'],
   ];

@@ -12,6 +12,7 @@
   import Train from './screens/Train.svelte';
   import Quiz from './screens/Quiz.svelte';
   import Guide from './screens/Guide.svelte';
+  import RankStudy from './screens/RankStudy.svelte';
   import Order from './screens/Order.svelte';
   import Board from './screens/Board.svelte';
   import Metronome from './screens/Metronome.svelte';
@@ -25,6 +26,7 @@
   import Checklist from './screens/Checklist.svelte';
   import Sizing from './screens/Sizing.svelte';
   import Tools from './screens/Tools.svelte';
+  import Dev from './screens/Dev.svelte';
 
   // The XP number counts up to its new value instead of jumping.
   const xpShown = new Tween(0, { duration: 700, easing: cubicOut });
@@ -74,7 +76,7 @@
     ['profile', 'Profile', 'M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21a8 8 0 0 1 16 0'],
   ];
   // Cards and the Study Guide belong to Learn; the placement test to Play.
-  const navSection = $derived(['cards', 'guide'].includes(section) ? 'learn' : section === 'test' ? 'train' : section === 'train' && parts[1] === 'metronome' ? 'tools' : section);
+  const navSection = $derived(['cards', 'guide', 'ranks'].includes(section) ? 'learn' : section === 'test' ? 'train' : section === 'train' && parts[1] === 'metronome' ? 'tools' : section);
 </script>
 
 {#if usable && !inApp && !readingLegal}
@@ -124,13 +126,17 @@
           {:else if parts[1] === 'placement'}<UniformGuide />
           {:else if parts[1] === 'sizing'}<Sizing />
           {:else}<Tools />{/if}
+        {:else if section === 'ranks'}
+          <RankStudy />
+        {:else if section === 'dev' && app.dev}
+          <Dev />
         {:else if section === 'guide'}
           <Guide />
         {:else if section === 'train'}
           {#if parts[1] === 'quiz'}<Quiz {params} />
           {:else if parts[1] === 'speed'}<Speed {params} />
           {:else if parts[1] === 'match'}<Match {params} />
-          {:else if parts[1] === 'order'}<Order which={parts[2]} />
+          {:else if parts[1] === 'order'}<Order which={parts[2]} set={params.get('set')} />
           {:else if parts[1] === 'board'}<Board />
           {:else if parts[1] === 'metronome'}<Metronome />
           {:else}<Train custom={parts[1] === 'custom'} />{/if}

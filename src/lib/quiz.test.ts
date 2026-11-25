@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { review } from './srs';
-import { buildQuestion, newPlacement, nextFact, record, summarize, gaps, quizzable, modulePriority } from './quiz';
+import { buildQuestion, newPlacement, nextFact, record, summarize, gaps, quizzable, modulePriority, weightOf, pickWeighted } from './quiz';
 import type { Fact } from './bundle';
 
 const fact = (id: string, over: Partial<Fact> = {}): Fact => ({
@@ -76,5 +76,26 @@ describe('placement', () => {
   });
   it('puts goal modules first', () => {
     expect(modulePriority(['drill'], null)[0]).toBe('drill');
+  });
+});
+
+describe('question weights', () => {
+  const fs = [fact('a', { module: 'ranks', topic: 'x' }), fact('b', { module: 'ranks', topic: 'y' }), fact('c', { module: 'drill', topic: 'z' })];
+  const W = { modules: { drill: 3 }, topics: { 'ranks|y': 0 } };
+  it('topic beats module beats 1', () => {
+    expect(weightOf(fs[0], W)).toBe(1);
+    expect(weightOf(fs[1], W)).toBe(0);
+    expect(weightOf(fs[2], W)).toBe(3);
+  });
+  it('never picks weight 0 and picks without repeats', () => {
+    for (let i = 0; i < 50; i++) expect(pickWeighted(fs, 3, W).map((f) => f.id).sort()).toEqual(['a', 'c']);
+  });
+  it('follows the weights', () => {
+    let c = 0;
+    for (let i = 0; i < 2000; i++) if (pickWeighted(fs, 1, { modules: { drill: 3 }, topics: {} })[0].id === 'c') c++;
+    expect(c / 2000).toBeGreaterThan(0.5); // expected 0.6
+  });
+  it('falls back to uniform when everything is 0', () => {
+    expect(pickWeighted(fs, 3, { modules: { ranks: 0, drill: 0 }, topics: {} })).toHaveLength(3);
   });
 });

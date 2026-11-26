@@ -53,7 +53,7 @@ export const rankOf = (service: Service, name: string): Rank | undefined => RANK
 /** The ranks a Marine Corps JROTC, Marine Corps or Navy rank fact names that have an insignia. A billet can name two. */
 export function factRanks(f: Fact): { service: Service; name: string }[] {
   if (f.module !== 'ranks') return [];
-  const service = (f.group?.match(/^(?:rank|paygrade)-(usmc|navy)-/)?.[1] ?? (f.branch.includes('usmc') ? 'cadet' : undefined)) as Service | undefined;
+  const service = (f.group?.match(/^(?:rank|paygrade|ins)-(usmc|navy)-/)?.[1] ?? (f.branch.includes('usmc') ? 'cadet' : undefined)) as Service | undefined;
   const name = f.group?.startsWith('paygrade-') ? f.q.match(/(?:a|an) (.+)\?$/)?.[1] : f.a;
   return service && name ? name.split(' or ').filter((n) => rankOf(service, n)?.[0]).map((n) => ({ service, name: n })) : [];
 }

@@ -3,8 +3,9 @@
   import { rankOf, type Service } from './rankArt';
   let { rank, service = 'cadet', size = 40 }: { rank: string; service?: Service; size?: number } = $props();
   const art = $derived(rankOf(service, rank)?.[0]);
+  let loaded = $state(false);
 </script>
 
 {#if art}
-  <span class="rankins" style="width: {size}px; height: {size}px"><img src="{import.meta.env.BASE_URL}img/ranks/{art}.png" alt="{rank} insignia" loading="lazy" decoding="async" /></span>
+  <span class="rankins" class:wait={!loaded} style="width: {size}px; height: {size}px"><img src="{import.meta.env.BASE_URL}img/ranks/{art}.png" alt="{rank} insignia" loading="lazy" decoding="async" onload={() => (loaded = true)} /></span>
 {/if}

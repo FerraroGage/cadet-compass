@@ -20,9 +20,10 @@
     ['usmc', 'Marine Corps ranks', 'E-1 to O-10', 'usmc', ['Sergeant', 'Captain']],
     ['navy', 'Navy ranks', 'E-1 to O-10', 'navy', ['Petty Officer Second Class', 'Lieutenant']],
   ];
-  const FIRST = ['Office holders', 'Order of the chain', 'Order of precedence', 'General orders', 'Orders of the Sentry', 'Cadet Creed', 'Leadership traits', 'Leadership principles', '11 Principles of Leadership', 'Core values', 'Army Values', 'Coast Guard core values', 'Guardian values', 'Placement and fit', 'Wearing the uniform', 'Insignia', 'Drill terms', 'Position of attention', 'Positions', 'Commands', 'Mission of MCJROTC'];
+  const FIRST = ['Office holders', 'Order of the chain', 'Order of precedence', 'General orders', 'Orders of the Sentry', 'Cadet Creed', 'Leadership traits', 'Leadership principles', '11 Principles of Leadership', 'Core values', 'Army Values', 'Coast Guard core values', 'Guardian values', 'Placement and fit', 'Wearing the uniform', 'Insignia', 'Cadet insignia', 'Marine Corps insignia', 'Navy insignia', 'Drill terms', 'Position of attention', 'Positions', 'Commands', 'Mission of MCJROTC'];
   const LAST = ['Enrollment', 'Eligibility', 'Program', 'Program basis', 'Program sponsorship', 'Purpose of drill', 'History', 'Drill history', 'Navy history', 'Coast Guard history', 'Marine Corps history', 'Glossary', 'Navy enlisted ranks', 'Navy officer ranks', 'Marine Corps enlisted ranks pay grades', 'Marine Corps officer ranks pay grades', 'Navy enlisted ranks pay grades', 'Navy officer ranks pay grades'];
-  const place = (t: string) => (FIRST.includes(t) ? FIRST.indexOf(t) - 100 : LAST.indexOf(t) + 1);
+  const ease = (t: string) => { const d = rows.filter((f) => f.topic === t).map((f) => f.difficulty ?? 2); return d.reduce((s, x) => s + x, 0) / d.length / 10; };
+  const place = (t: string) => (FIRST.includes(t) ? FIRST.indexOf(t) - 100 : LAST.includes(t) ? LAST.indexOf(t) + 1 : ease(t));
   const topics = $derived([...new Set(rows.map((f) => f.topic))].sort((a, b) => place(a) - place(b)).map((name) => ({ name, rows: rows.filter((f) => f.topic === name) })));
 </script>
 

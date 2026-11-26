@@ -2,6 +2,8 @@ import { test, expect } from 'vitest';
 import { existsSync } from 'node:fs';
 import { RANKS, rankOf, type Service } from './rankArt';
 import { CADET_RANKS } from './cadetRanks';
+import { quizzable } from './quiz';
+import type { Fact } from './bundle';
 import facts from '../../content/usmc/ranks.json';
 
 test('every rank taught has an entry, and every picture exists', () => {
@@ -19,4 +21,11 @@ test('pay grades match the content', () => {
     const name = m && f.q.match(/(?:a|an) (.+)\?$/)?.[1];
     if (name) expect(rankOf(m[1] as Service, name)?.[2], name).toBe(f.a);
   }
+});
+
+test('rank questions ask about insignia, never order or pay grade, and every pictured rank has one', () => {
+  const asked = (facts as Fact[]).filter((f) => quizzable(f, '2026-11-25'));
+  expect(asked.some((f) => /^(rank|paygrade)-(usmc|navy)-/.test(f.group ?? ''))).toBe(false);
+  for (const [s, k] of Object.entries(RANKS)) for (const ranks of Object.values(k)) for (const [name, [art]] of Object.entries(ranks))
+    if (art) expect(asked.some((f) => f.group?.startsWith(`ins-${s}-`) && f.a === name), `${s} ${name}`).toBe(true);
 });

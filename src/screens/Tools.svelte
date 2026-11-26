@@ -14,13 +14,16 @@
 
 <h1>Tools</h1>
 <p class="label">Quick help for uniform prep and drill.</p>
-<div class="games">
-  {#each TOOLS.filter((x) => usmc || !x[4]) as [href, name, note, icon]}
-    <a class="gcard" {href}>
-      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icon} /></svg>
-      <strong>{name}</strong><small>{note}</small>
-    </a>
-  {/each}
-</div>
+{#each [['Uniform', true], ['Drill', false]] as [head, uni]}
+  {@const list = TOOLS.filter((x) => x[4] === uni && (usmc || !x[4]))}
+  {#if list.length}
+    <h2 class="menuhead">{head}</h2>
+    <ul class="menu">
+      {#each list as [href, name, note, icon]}
+        <li><a {href}><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d={icon} /></svg></span><span><b>{name}</b><small>{note}</small></span></a></li>
+      {/each}
+    </ul>
+  {/if}
+{/each}
 {#if app.dev}<a class="btn" style="margin-top: 16px" href="#/dev">Dev tools</a>{/if}
 {#if !usmc}<p class="help" style="margin-top: 16px">The uniform tools cover Marine Corps JROTC so far. Your branch's are not published yet.</p>{/if}

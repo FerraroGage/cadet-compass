@@ -48,11 +48,11 @@ describe('questions', () => {
 
 describe('placement', () => {
   const facts = [fact('e', { difficulty: 1 }), fact('m', { difficulty: 2 }), fact('h', { difficulty: 3 })];
-  it('starts at medium and moves up after a correct answer, down after a miss', () => {
+  it('starts at medium, stays there after a correct answer, and moves down after a miss', () => {
     let p = newPlacement(3);
     expect(nextFact(p, facts)!.id).toBe('m');
     p = record(p, { factId: 'm', module: 'ranks', correct: true, sure: true }, '2026-11-12');
-    expect(nextFact(p, facts)!.id).toBe('h');
+    expect(p.level).toBe(2);
     p = record(p, { factId: 'h', module: 'ranks', correct: false, sure: true }, '2026-11-12');
     p = record(p, { factId: 'x', module: 'ranks', correct: false, sure: true }, '2026-11-12');
     expect(p.level).toBe(1);
@@ -97,5 +97,21 @@ describe('question weights', () => {
   });
   it('falls back to uniform when everything is 0', () => {
     expect(pickWeighted(fs, 3, { modules: { ranks: 0, drill: 0 }, topics: {} })).toHaveLength(3);
+  });
+});
+
+describe('obscure facts', () => {
+  const w = { modules: {}, topics: {} };
+  const f = (difficulty: 1 | 2 | 3, topic = 'History') => ({ module: 'knowledge', topic, difficulty }) as Fact;
+  it('come up less often than common ones, unless a topic weight is set', () => {
+    expect(weightOf(f(3), w)).toBeLessThan(weightOf(f(2), w));
+    expect(weightOf(f(2), w)).toBeLessThan(weightOf(f(1), w));
+    expect(weightOf(f(1, 'Glossary'), w)).toBeLessThan(weightOf(f(1), w));
+    expect(weightOf(f(3), { modules: {}, topics: { 'knowledge|History': 2 } })).toBe(2);
+  });
+  it('placement level never climbs past standard', () => {
+    let p = newPlacement(10, 5);
+    for (let i = 0; i < 4; i++) p = record(p, { factId: String(i), module: 'knowledge', correct: true, sure: true }, '2026-11-25');
+    expect(p.level).toBe(2);
   });
 });

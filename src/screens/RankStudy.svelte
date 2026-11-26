@@ -22,8 +22,8 @@
     const all = services.map((s) => Object.entries(RANKS[s][kind]).map(([name, [art, abbr, pg]]) => ({ s, name, art, abbr, pg })));
     return [...new Set(all.flat().map((r) => r.pg))].map((pg) => ({ pg, cols: all.map((rs) => rs.filter((r) => r.pg === pg)) }));
   });
-  const topic = $derived(`${NAMES[view]} ${kind} ranks`);
-  const quiz = $derived(`#/train/quiz?module=ranks${view in NAMES ? '&topic=' + encodeURIComponent(topic) : ''}&n=10`);
+  const topic = view === 'compare' ? '' : `${NAMES[view] ?? 'Cadet'} insignia`;
+  const quiz = `#/train/quiz?module=ranks${topic ? '&topic=' + encodeURIComponent(topic) : ''}&n=10`;
   const art = $derived(view === 'cadet' ? 'cadet' : view);
   const source = facts().find((f) => f.group === `rank-${view === 'cadet' ? 'usmc' : view === 'compare' ? 'usmc' : view}-enlisted`);
 </script>
@@ -50,7 +50,7 @@
     {#if view === 'compare'}<div class="heads"><b>Marine Corps</b><b>Navy</b></div>{/if}
     {#each groups as g, i (g.pg)}
       <section style="animation-delay: {Math.min(i, 8) * 35}ms" aria-label={g.pg || 'Cadet ranks'}>
-        {#if g.pg}<h2>{g.pg}</h2>{/if}
+        {#if g.pg}<h2 class="menuhead">{g.pg}</h2>{/if}
         <div class="cols">
           {#each g.cols as col}
             <ul>
@@ -79,11 +79,6 @@
 <style>
   .tabs { gap: 6px; }
   .tabs a { padding: 0 11px; font-size: 0.875rem; }
-  .seg { position: relative; display: grid; grid-template-columns: 1fr 1fr; margin-top: calc(var(--u) * 1.5); padding: 4px; border-radius: 14px; background: var(--fill); }
-  .seg i { position: absolute; inset: 4px auto 4px 4px; width: calc(50% - 4px); border-radius: 11px; background: var(--branch); box-shadow: 0 1px 4px #0003; transition: transform 0.35s cubic-bezier(0.34, 1.4, 0.64, 1); }
-  .seg i.right { transform: translateX(100%); }
-  .seg button { position: relative; min-height: 44px; border: 0; background: none; color: var(--ink-2); font: inherit; font-weight: 600; cursor: pointer; }
-  .seg button[aria-pressed='true'] { color: #fff; }
   .quick { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: var(--u); margin-top: calc(var(--u) * 1.5); }
   .quick a { display: grid; justify-items: center; gap: 4px; padding: calc(var(--u) * 1.25) 4px; border-radius: var(--r); background: color-mix(in srgb, var(--branch) 10%, var(--sheet)); color: var(--ink); font-size: 0.8125rem; font-weight: 600; text-decoration: none; }
   .quick a :global(svg) { color: var(--accent); }
@@ -92,8 +87,8 @@
   /* The chart: a pay grade tab on top of a bordered box, one row per rank */
   .chart { margin-top: calc(var(--u) * 2); }
   .chart section { margin-top: calc(var(--u) * 1.5); animation: rise 0.35s var(--soft) backwards; }
-  .chart h2 { display: inline-block; margin: 0; padding: 4px 14px; border-radius: 10px 10px 0 0; background: var(--navy); color: #fff; font-size: 0.9375rem; }
   .cols { border: var(--rule); border-radius: var(--r); background: var(--sheet); overflow: hidden; }
+  .chart .menuhead { margin-top: 0; }
   .chart h2 + .cols { border-top-left-radius: 0; }
   .chart ul { list-style: none; margin: 0; padding: 0; }
   .chart li { display: flex; align-items: center; gap: calc(var(--u) * 2); margin: 0; padding: calc(var(--u) * 1.25) calc(var(--u) * 1.5); min-height: 84px; }

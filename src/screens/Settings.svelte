@@ -112,14 +112,12 @@
   {#each PRIVACY as doc, i}<Doc title={i ? 'Earlier version' : 'Current version'} {doc} />{/each}
 {:else}
   <h1>Settings</h1>
-  <table>
-    <tbody>
-      {#each PAGES as [id, name, note, icon]}
-        <tr><td><a class="btn" style="width: 100%; justify-content: flex-start" href="#/settings/{id}"><Icon name={icon} size={20} />{name}</a><p class="cite">{note}</p></td></tr>
-      {/each}
-    </tbody>
-  </table>
-  {#if app.dev}<p class="cite" style="margin-top: 8px">Developer mode is on.</p><a class="btn" style="width: 100%; justify-content: flex-start" href="#/dev">Dev tools</a>{/if}
+  <ul class="menu">
+    {#each PAGES as [id, name, note, icon]}
+      <li><a href="#/settings/{id}"><span class="ic"><Icon name={icon} size={20} /></span><span><b>{name}</b><small>{note}</small></span></a></li>
+    {/each}
+    {#if app.dev}<li><a href="#/dev"><span class="ic"><Icon name="sliders" size={20} /></span><span><b>Dev tools</b><small>Developer mode is on.</small></span></a></li>{/if}
+  </ul>
   <h2>Hidden questions</h2>
   {#if app.hidden.length}
     {@const items = b.facts.filter((f) => app.hidden.includes(f.id))}

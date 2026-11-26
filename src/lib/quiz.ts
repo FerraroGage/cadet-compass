@@ -8,8 +8,9 @@ export const MODULES: { id: Module; name: string }[] = [
 
 const STALE_DAYS = 30;
 export const isStale = (f: Fact, today: string) => f.review_tier === 1 && (Date.parse(today) - Date.parse(f.verified_on)) / 864e5 > STALE_DAYS;
-/** Unverified facts and stale office holders are shown with a warning but never quizzed. */
-export const quizzable = (f: Fact, today: string) => f.confidence !== 'verify' && !!f.a && !isStale(f, today);
+/** Unverified facts and stale office holders are shown with a warning but never quizzed. Rank order and pay grade
+ *  facts feed the charts and the order game only: rank questions ask which rank an insignia belongs to. */
+export const quizzable = (f: Fact, today: string) => f.confidence !== 'verify' && !!f.a && !isStale(f, today) && !/^(?:rank|paygrade)-(?:usmc|navy)-/.test(f.group ?? '');
 
 export function shuffle<T>(xs: T[], rnd = Math.random): T[] {
   const a = [...xs];
@@ -18,8 +19,11 @@ export function shuffle<T>(xs: T[], rnd = Math.random): T[] {
 }
 
 export interface Weights { version?: number; note?: string; modules: Partial<Record<Module, number>>; topics: Record<string, number> }
-/** Topic weight, else module weight, else 1. */
-export const weightOf = (f: Fact, w: Weights) => w.topics[`${f.module}|${f.topic}`] ?? w.modules[f.module] ?? 1;
+/** Hard facts and glossary terms are obscure: asked less often, and never in the placement test. */
+export const obscure = (f: Fact) => f.difficulty === 3 || /glossary/i.test(f.topic);
+const EASE: Record<number, number> = { 1: 1.3, 2: 1, 3: 0.3 };
+/** Topic weight, else module weight scaled by how common the fact is. */
+export const weightOf = (f: Fact, w: Weights) => w.topics[`${f.module}|${f.topic}`] ?? (w.modules[f.module] ?? 1) * (EASE[f.difficulty ?? 2] ?? 1) * (/glossary/i.test(f.topic) ? 0.5 : 1);
 
 /** Weighted sampling without replacement. Weight 0 is never picked; if every weight is 0, all are equal. */
 export function pickWeighted(facts: Fact[], n: number, w: Weights, rnd = Math.random): Fact[] {
@@ -72,7 +76,7 @@ export function nextFact(p: Placement, facts: Fact[], rnd = Math.random): Fact |
 
 export function record(p: Placement, a: Answer, today: string): Placement {
   const answers = [...p.answers, a];
-  const level = Math.min(3, Math.max(1, p.level + (a.correct ? 1 : -1))) as 1 | 2 | 3;
+  const level = Math.min(2, Math.max(1, p.level + (a.correct ? 1 : -1))) as 1 | 2 | 3; // tops out at standard: placement asks what a cadet should know
   const done = answers.length >= p.length;
   return { ...p, answers, level, done, ...(done && { finishedOn: today }) };
 }

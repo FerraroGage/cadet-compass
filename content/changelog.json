@@ -1,5 +1,14 @@
 [
   {
+    "version": 8,
+    "date": "2026-11-25",
+    "branch": "usmc",
+    "changes": [
+      "Rank questions now describe an insignia and ask which rank wears it, for cadet, Marine Corps and Navy ranks. Rank order and pay grade questions are no longer asked; they stay in the rank charts and the order game.",
+      "Six plain Marine Corps history questions added, such as the first woman to enlist in the Marine Corps."
+    ]
+  },
+  {
     "version": 7,
     "date": "2026-11-25",
     "branch": "usmc",

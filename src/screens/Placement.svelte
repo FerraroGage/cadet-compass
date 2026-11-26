@@ -1,6 +1,6 @@
 <script lang="ts">
   import { app, facts, save, makeDue, award, today, fmtDate, setHidden } from '../lib/store.svelte';
-  import { MODULES, quizzable, buildQuestion, newPlacement, nextFact, record, summarize, gaps, modulePriority, type Question } from '../lib/quiz';
+  import { MODULES, quizzable, obscure, buildQuestion, newPlacement, nextFact, record, summarize, gaps, modulePriority, type Question } from '../lib/quiz';
   import { addDays } from '../lib/srs';
   import type { Fact } from '../lib/bundle';
   import Cite from '../lib/Cite.svelte';
@@ -8,7 +8,7 @@
 
   const t = today();
   const all = facts();
-  const pool = all.filter((f) => quizzable(f, t) && buildQuestion(f, all));
+  const pool = all.filter((f) => quizzable(f, t) && !obscure(f) && buildQuestion(f, all));
 
   let cur = $state<{ fact: Fact; q: Question } | null>(null);
   let picked = $state<number | null>(null);

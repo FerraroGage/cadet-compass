@@ -275,56 +275,6 @@
     "review_tier": 2
   },
   {
-    "id": "usmc.ranks.lcpl",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Rank and billet",
-    "text": "Any qualified cadet may be promoted to Cadet Lance Corporal. No billet is tied to the rank.",
-    "q": "Which rank comes directly below Cadet Corporal?",
-    "a": "Cadet Lance Corporal",
-    "group": "rank",
-    "order": 12,
-    "difficulty": 1,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 10"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
-    "id": "usmc.ranks.pfc",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Rank and billet",
-    "text": "Any qualified cadet may be promoted to Cadet Private First Class. No billet is tied to the rank.",
-    "q": "Which rank comes directly below Cadet Lance Corporal?",
-    "a": "Cadet Private First Class",
-    "group": "rank",
-    "order": 13,
-    "difficulty": 1,
-    "source": {
-      "title": "Marine Corps JROTC Cadet Handbook",
-      "publisher": "U.S. Marine Corps, MCJROTC",
-      "url": "https://www.mcjrotc.marines.mil/Portals/209/Docs/Marine%20Corps%20JROTC%20Cadet%20Handbook.pdf",
-      "locator": "p. 10"
-    },
-    "edition": "Undated; PDF file dated 30 Apr 2007",
-    "effective_from": "2007-04-30",
-    "verified_on": "2026-11-13",
-    "confidence": "high",
-    "review_tier": 2
-  },
-  {
     "id": "usmc.ranks.minimum",
     "branch": [
       "usmc"
@@ -2843,34 +2793,6 @@
     ]
   },
   {
-    "id": "usmc.ranks.sgtmaj-over-mgysgt",
-    "branch": [
-      "usmc"
-    ],
-    "module": "ranks",
-    "topic": "Marine Corps enlisted ranks",
-    "text": "In the Marine Corps, a master gunnery sergeant and a sergeant major are both E-9, but the sergeant major has the higher rank.",
-    "q": "Which has the higher rank, a Master Gunnery Sergeant or a Sergeant Major?",
-    "a": "Sergeant Major",
-    "difficulty": 1,
-    "source": {
-      "title": "U.S. Military Rank Insignia",
-      "publisher": "U.S. Department of War (formerly Department of Defense)",
-      "url": "https://www.war.gov/Resources/Insignia/",
-      "locator": "Introduction paragraph"
-    },
-    "edition": "Web page, read 25 Nov 2026",
-    "effective_from": null,
-    "verified_on": "2026-11-25",
-    "confidence": "high",
-    "review_tier": 3,
-    "distractors": [
-      "Master Gunnery Sergeant",
-      "They are equal",
-      "First Sergeant"
-    ]
-  },
-  {
     "id": "usmc.ranks.navy-first-po",
     "branch": [
       "usmc"
@@ -2897,5 +2819,1301 @@
       "Petty Officer Second Class",
       "Chief Petty Officer"
     ]
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-pfc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Private First Class insignia is a lamp of knowledge alone, with no chevrons, as a black collar pin.",
+    "q": "Which cadet rank's insignia is a lamp of knowledge alone, with no chevrons?",
+    "a": "Cadet Private First Class",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-2.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-2.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-lcpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Lance Corporal insignia is one chevron with a lamp of knowledge in the middle, as a black collar pin.",
+    "q": "Which cadet rank's insignia is one chevron with a lamp of knowledge in the middle?",
+    "a": "Cadet Lance Corporal",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-3.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-3.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-cpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Corporal insignia is two chevrons with a lamp of knowledge in the middle, as a black collar pin.",
+    "q": "Which cadet rank's insignia is two chevrons with a lamp of knowledge in the middle?",
+    "a": "Cadet Corporal",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-4.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-4.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-sgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Sergeant insignia is three chevrons with a lamp of knowledge in the middle, as a black collar pin.",
+    "q": "Which cadet rank's insignia is three chevrons with a lamp of knowledge in the middle?",
+    "a": "Cadet Sergeant",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-5.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-5.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-ssgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Staff Sergeant insignia is three chevrons up, one rocker down, with a lamp of knowledge in the middle, as a black collar pin.",
+    "q": "Which cadet rank's insignia is three chevrons up, one rocker down, with a lamp of knowledge in the middle?",
+    "a": "Cadet Staff Sergeant",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-6.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-6.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-gysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Gunnery Sergeant insignia is three chevrons up, two rockers down, with a lamp of knowledge in the middle, as a black collar pin.",
+    "q": "Which cadet rank's insignia is three chevrons up, two rockers down, with a lamp of knowledge in the middle?",
+    "a": "Cadet Gunnery Sergeant",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-7.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-7.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-1stsgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet First Sergeant insignia is three chevrons up, three rockers down, with a lamp of knowledge in the middle, as a black collar pin.",
+    "q": "Which cadet rank's insignia is three chevrons up, three rockers down, with a lamp of knowledge in the middle?",
+    "a": "Cadet First Sergeant",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-8.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-8.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-sgtmaj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Sergeant Major insignia is three chevrons up, four rockers down, with a lamp of knowledge in the middle, as a black collar pin.",
+    "q": "Which cadet rank's insignia is three chevrons up, four rockers down, with a lamp of knowledge in the middle?",
+    "a": "Cadet Sergeant Major",
+    "group": "ins-cadet-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "MCJROTC E-9.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:MCJROTC_E-9.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-2ndlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Second Lieutenant insignia is one silver disk.",
+    "q": "Which cadet rank's insignia is one silver disk?",
+    "a": "Cadet Second Lieutenant",
+    "group": "ins-cadet-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC second lieutenant insignia.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:JROTC_second_lieutenant_insignia.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-1stlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet First Lieutenant insignia is two silver disks.",
+    "q": "Which cadet rank's insignia is two silver disks?",
+    "a": "Cadet First Lieutenant",
+    "group": "ins-cadet-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC first lieutenant insignia.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:JROTC_first_lieutenant_insignia.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-capt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Captain insignia is three silver disks.",
+    "q": "Which cadet rank's insignia is three silver disks?",
+    "a": "Cadet Captain",
+    "group": "ins-cadet-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "JROTC captain insignia.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:JROTC_captain_insignia.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-maj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Major insignia is one silver diamond.",
+    "q": "Which cadet rank's insignia is one silver diamond?",
+    "a": "Cadet Major",
+    "group": "ins-cadet-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "Rhomb.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Rhomb.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-ltcol",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Lieutenant Colonel insignia is two silver diamonds.",
+    "q": "Which cadet rank's insignia is two silver diamonds?",
+    "a": "Cadet Lieutenant Colonel",
+    "group": "ins-cadet-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "Army ROTC lieutenant colonel rank.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Army_ROTC_lieutenant_colonel_rank.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-cadet-col",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Cadet insignia",
+    "text": "The Cadet Colonel insignia is three silver diamonds.",
+    "q": "Which cadet rank's insignia is three silver diamonds?",
+    "a": "Cadet Colonel",
+    "group": "ins-cadet-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "Army ROTC colonel rank.svg",
+      "publisher": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Army_ROTC_colonel_rank.svg",
+      "locator": "Image"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "medium",
+    "review_tier": 2
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-pfc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Private First Class insignia is one chevron.",
+    "q": "Which Marine Corps enlisted rank's insignia is one chevron?",
+    "a": "Private First Class",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-lcpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Lance Corporal insignia is one chevron with crossed rifles in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is one chevron with crossed rifles in the middle?",
+    "a": "Lance Corporal",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-cpl",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Corporal insignia is two chevrons with crossed rifles in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is two chevrons with crossed rifles in the middle?",
+    "a": "Corporal",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-sgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Sergeant insignia is three chevrons with crossed rifles in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons with crossed rifles in the middle?",
+    "a": "Sergeant",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-ssgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Staff Sergeant insignia is three chevrons up, one rocker down, with crossed rifles in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons up, one rocker down, with crossed rifles in the middle?",
+    "a": "Staff Sergeant",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-gysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Gunnery Sergeant insignia is three chevrons up, two rockers down, with crossed rifles in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons up, two rockers down, with crossed rifles in the middle?",
+    "a": "Gunnery Sergeant",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-msgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Master Sergeant insignia is three chevrons up, three rockers down, with crossed rifles in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons up, three rockers down, with crossed rifles in the middle?",
+    "a": "Master Sergeant",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-1stsgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The First Sergeant insignia is three chevrons up, three rockers down, with a diamond in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons up, three rockers down, with a diamond in the middle?",
+    "a": "First Sergeant",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-mgysgt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Master Gunnery Sergeant insignia is three chevrons up, four rockers down, with a bursting bomb in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons up, four rockers down, with a bursting bomb in the middle?",
+    "a": "Master Gunnery Sergeant",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-sgtmaj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Sergeant Major insignia is three chevrons up, four rockers down, with a star in the middle.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons up, four rockers down, with a star in the middle?",
+    "a": "Sergeant Major",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-smmc",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Sergeant Major of the Marine Corps insignia is three chevrons up, four rockers down, with an eagle, globe and anchor between two stars.",
+    "q": "Which Marine Corps enlisted rank's insignia is three chevrons up, four rockers down, with an eagle, globe and anchor between two stars?",
+    "a": "Sergeant Major of the Marine Corps",
+    "group": "ins-usmc-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-2ndlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Second Lieutenant insignia is a gold bar.",
+    "q": "Which Marine Corps officer rank's insignia is a gold bar?",
+    "a": "Second Lieutenant",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-1stlt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The First Lieutenant insignia is a silver bar.",
+    "q": "Which Marine Corps officer rank's insignia is a silver bar?",
+    "a": "First Lieutenant",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-capt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Captain insignia is two silver bars.",
+    "q": "Which Marine Corps officer rank's insignia is two silver bars?",
+    "a": "Captain",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-maj",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Major insignia is a gold oak leaf.",
+    "q": "Which Marine Corps officer rank's insignia is a gold oak leaf?",
+    "a": "Major",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-ltcol",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Lieutenant Colonel insignia is a silver oak leaf.",
+    "q": "Which Marine Corps officer rank's insignia is a silver oak leaf?",
+    "a": "Lieutenant Colonel",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-col",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Colonel insignia is a silver eagle.",
+    "q": "Which Marine Corps officer rank's insignia is a silver eagle?",
+    "a": "Colonel",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-bgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Brigadier General insignia is one silver star.",
+    "q": "Which Marine Corps officer rank's insignia is one silver star?",
+    "a": "Brigadier General",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-majgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Major General insignia is two silver stars.",
+    "q": "Which Marine Corps officer rank's insignia is two silver stars?",
+    "a": "Major General",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-ltgen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The Lieutenant General insignia is three silver stars.",
+    "q": "Which Marine Corps officer rank's insignia is three silver stars?",
+    "a": "Lieutenant General",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-usmc-gen",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Marine Corps insignia",
+    "text": "The General insignia is four silver stars.",
+    "q": "Which Marine Corps officer rank's insignia is four silver stars?",
+    "a": "General",
+    "group": "ins-usmc-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-10"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-sa",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Seaman Apprentice insignia is two diagonal stripes on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is two diagonal stripes?",
+    "a": "Seaman Apprentice",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-sn",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Seaman insignia is three diagonal stripes on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is three diagonal stripes?",
+    "a": "Seaman",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-po3",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Petty Officer Third Class insignia is an eagle and rating mark over one chevron on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is an eagle and rating mark over one chevron?",
+    "a": "Petty Officer Third Class",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-po2",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Petty Officer Second Class insignia is an eagle and rating mark over two chevrons on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is an eagle and rating mark over two chevrons?",
+    "a": "Petty Officer Second Class",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-po1",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Petty Officer First Class insignia is an eagle and rating mark over three chevrons on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is an eagle and rating mark over three chevrons?",
+    "a": "Petty Officer First Class",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-cpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Chief Petty Officer insignia is an eagle and rating mark under an arched rocker, over three chevrons, with no stars on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is an eagle and rating mark under an arched rocker, over three chevrons, with no stars?",
+    "a": "Chief Petty Officer",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-scpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Senior Chief Petty Officer insignia is the chief's eagle, rocker and three chevrons with one star above on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is the chief's eagle, rocker and three chevrons with one star above?",
+    "a": "Senior Chief Petty Officer",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-mcpo",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Master Chief Petty Officer insignia is the chief's eagle, rocker and three chevrons with two stars above on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is the chief's eagle, rocker and three chevrons with two stars above?",
+    "a": "Master Chief Petty Officer",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-mcpon",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Master Chief Petty Officer of the Navy insignia is the chief's eagle, rocker and three chevrons with three stars above, and a gold star in the middle of the chevrons on the sleeve.",
+    "q": "Which Navy enlisted rank's insignia is the chief's eagle, rocker and three chevrons with three stars above, and a gold star in the middle of the chevrons?",
+    "a": "Master Chief Petty Officer of the Navy",
+    "group": "ins-navy-enlisted",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Enlisted Insignia table, E-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-ens",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Ensign insignia is a gold bar on the collar and one stripe on the sleeve.",
+    "q": "Which Navy officer rank's insignia is a gold bar on the collar and one stripe on the sleeve?",
+    "a": "Ensign",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-1"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-ltjg",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Lieutenant (Junior Grade) insignia is a silver bar on the collar and one stripe and one thin stripe on the sleeve.",
+    "q": "Which Navy officer rank's insignia is a silver bar on the collar and one stripe and one thin stripe on the sleeve?",
+    "a": "Lieutenant (Junior Grade)",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-2"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-lt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Lieutenant insignia is two silver bars on the collar and two stripes on the sleeve.",
+    "q": "Which Navy officer rank's insignia is two silver bars on the collar and two stripes on the sleeve?",
+    "a": "Lieutenant",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-3"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-lcdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Lieutenant Commander insignia is a gold oak leaf on the collar and two stripes with a thin stripe between on the sleeve.",
+    "q": "Which Navy officer rank's insignia is a gold oak leaf on the collar and two stripes with a thin stripe between on the sleeve?",
+    "a": "Lieutenant Commander",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-4"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-cdr",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Commander insignia is a silver oak leaf on the collar and three stripes on the sleeve.",
+    "q": "Which Navy officer rank's insignia is a silver oak leaf on the collar and three stripes on the sleeve?",
+    "a": "Commander",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-5"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-capt",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Captain insignia is a silver eagle on the collar and four stripes on the sleeve.",
+    "q": "Which Navy officer rank's insignia is a silver eagle on the collar and four stripes on the sleeve?",
+    "a": "Captain",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-6"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-rdml",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Rear Admiral (Lower Half) insignia is one silver star on the collar and one wide stripe on the sleeve.",
+    "q": "Which Navy officer rank's insignia is one silver star on the collar and one wide stripe on the sleeve?",
+    "a": "Rear Admiral (Lower Half)",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-7"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-radm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Rear Admiral (Upper Half) insignia is two silver stars on the collar and one wide stripe and one stripe on the sleeve.",
+    "q": "Which Navy officer rank's insignia is two silver stars on the collar and one wide stripe and one stripe on the sleeve?",
+    "a": "Rear Admiral (Upper Half)",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-8"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-vadm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Vice Admiral insignia is three silver stars on the collar and one wide stripe and two stripes on the sleeve.",
+    "q": "Which Navy officer rank's insignia is three silver stars on the collar and one wide stripe and two stripes on the sleeve?",
+    "a": "Vice Admiral",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-9"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.ranks.ins-navy-adm",
+    "branch": [
+      "usmc"
+    ],
+    "module": "ranks",
+    "topic": "Navy insignia",
+    "text": "The Admiral insignia is four silver stars on the collar and one wide stripe and three stripes on the sleeve.",
+    "q": "Which Navy officer rank's insignia is four silver stars on the collar and one wide stripe and three stripes on the sleeve?",
+    "a": "Admiral",
+    "group": "ins-navy-officer",
+    "difficulty": 2,
+    "source": {
+      "title": "U.S. Military Rank Insignia",
+      "publisher": "U.S. Department of War (formerly Department of Defense)",
+      "url": "https://www.war.gov/Resources/Insignia/",
+      "locator": "Officer Insignia table, O-10"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
   }
 ]

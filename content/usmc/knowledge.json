@@ -2136,5 +2136,173 @@
     "verified_on": "2026-11-13",
     "confidence": "high",
     "review_tier": 2
+  },
+  {
+    "id": "usmc.knowledge.hist-first-woman",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "Marine Corps history",
+    "text": "Opha May Johnson was the first woman to enlist in the Marine Corps, in August 1918 during World War I.",
+    "q": "Who was the first woman to enlist in the Marine Corps?",
+    "a": "Opha May Johnson",
+    "distractors": [
+      "Margaret A. Brewer",
+      "Molly Pitcher",
+      "Clara Barton"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Women in the Marine Corps",
+      "publisher": "Marine Corps History Division, Marine Corps University",
+      "url": "https://www.usmcu.edu/Research/Marine-Corps-History-Division/People/Women-in-the-Marine-Corps/",
+      "locator": "World War I section"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.hist-women-war",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "Marine Corps history",
+    "text": "Women first served in the Marine Corps in World War I, when 305 women joined the Marine Corps Reserve in 1918.",
+    "q": "In which war did women first serve in the Marine Corps?",
+    "a": "World War I",
+    "distractors": [
+      "World War II",
+      "The Civil War",
+      "The Korean War"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Women in the Marine Corps",
+      "publisher": "Marine Corps History Division, Marine Corps University",
+      "url": "https://www.usmcu.edu/Research/Marine-Corps-History-Division/People/Women-in-the-Marine-Corps/",
+      "locator": "World War I section"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.hist-montford",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "Marine Corps history",
+    "text": "The first African American Marines trained at Montford Point, North Carolina, beginning in 1942.",
+    "q": "Where did the first African American Marines train?",
+    "a": "Montford Point, North Carolina",
+    "distractors": [
+      "Parris Island, South Carolina",
+      "Quantico, Virginia",
+      "San Diego, California"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Montford Point Marine legacy",
+      "publisher": "Headquarters Marine Corps",
+      "url": "https://www.hqmc.marines.mil/News/Article/Article/553040/montford-point-marine-legacy/",
+      "locator": "Article"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.hist-tun-tavern",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "Marine Corps history",
+    "text": "Tun Tavern in Philadelphia is called the birthplace of the Marine Corps; the first Marine recruiting took place there in 1775.",
+    "q": "Which tavern is called the birthplace of the Marine Corps?",
+    "a": "Tun Tavern, in Philadelphia",
+    "distractors": [
+      "Fraunces Tavern, in New York",
+      "Green Dragon Tavern, in Boston",
+      "Raleigh Tavern, in Williamsburg"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "Tun Tavern: Birthplace of the Marine Corps",
+      "publisher": "Marine Corps Air Ground Combat Center Twentynine Palms",
+      "url": "https://www.29palms.marines.mil/Articles/Article/499540/tun-tavern-birthplace-of-the-marine-corps/",
+      "locator": "Article"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.hist-iwo-flag",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "Marine Corps history",
+    "text": "Marines raised the flag on Mount Suribachi, Iwo Jima, on 23 February 1945. The photograph of it became the Marine Corps War Memorial.",
+    "q": "On which island did Marines raise the flag on Mount Suribachi in 1945?",
+    "a": "Iwo Jima",
+    "distractors": [
+      "Okinawa",
+      "Guadalcanal",
+      "Tarawa"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "History of the Marine Corps War Memorial",
+      "publisher": "National Park Service, George Washington Memorial Parkway",
+      "url": "https://home.nps.gov/gwmp/learn/historyculture/usmcwarmemorial.htm",
+      "locator": "History"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.hist-war-memorial",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "Marine Corps history",
+    "text": "The Marine Corps War Memorial, the statue of the Iwo Jima flag raising, stands in Arlington, Virginia.",
+    "q": "Where is the Marine Corps War Memorial?",
+    "a": "Arlington, Virginia",
+    "distractors": [
+      "Quantico, Virginia",
+      "Philadelphia, Pennsylvania",
+      "Parris Island, South Carolina"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "History of the Marine Corps War Memorial",
+      "publisher": "National Park Service, George Washington Memorial Parkway",
+      "url": "https://home.nps.gov/gwmp/learn/historyculture/usmcwarmemorial.htm",
+      "locator": "History"
+    },
+    "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
   }
 ]

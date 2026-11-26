@@ -1,4 +1,6 @@
 import type { Fact, Module } from './bundle';
+import { rankOf, type Service } from './rankArt';
+import ribbonSpec from '../data/usmc-ribbons.json';
 
 export const MODULES: { id: Module; name: string }[] = [
   { id: 'ranks', name: 'Ranks' }, { id: 'ribbons', name: 'Ribbons' }, { id: 'chain', name: 'Chain of Command' },
@@ -40,7 +42,17 @@ export function pickWeighted(facts: Fact[], n: number, w: Weights, rnd = Math.ra
   return out;
 }
 
-export interface Question { factId: string; choices: string[]; correct: number }
+/** A picture to name in place of the question text. */
+export interface Pic { ask: string; ribbon?: string; rank?: string; service?: Service }
+export interface Question { factId: string; choices: string[]; correct: number; pic?: Pic }
+
+const WHO: Record<string, string> = { cadet: 'cadet rank', usmc: 'Marine Corps rank', navy: 'Navy rank' };
+/** Ribbon questions always show the ribbon; insignia questions show the insignia half the time and describe it otherwise. */
+export function pictureFor(f: Fact, rnd = Math.random): Pic | undefined {
+  if (f.module === 'ribbons' && f.group === 'ribbon' && f.a in ribbonSpec.ribbons) return { ask: 'Which ribbon is this?', ribbon: f.a };
+  const s = f.group?.match(/^ins-(cadet|usmc|navy)-/)?.[1] as Service | undefined;
+  if (s && rankOf(s, f.a)?.[0] && rnd() < 0.5) return { ask: `Which ${WHO[s]} is this?`, rank: f.a, service: s };
+}
 
 /** Wrong choices come from the fact's own list, or from other answers in its group (the things cadets really mix up). */
 export function buildQuestion(fact: Fact, all: Fact[], rnd = Math.random): Question | null {
@@ -48,7 +60,7 @@ export function buildQuestion(fact: Fact, all: Fact[], rnd = Math.random): Quest
   const wrong = shuffle(pool, rnd).slice(0, 3);
   if (wrong.length < 2) return null;
   const choices = shuffle([fact.a, ...wrong], rnd);
-  return { factId: fact.id, choices, correct: choices.indexOf(fact.a) };
+  return { factId: fact.id, choices, correct: choices.indexOf(fact.a), pic: pictureFor(fact, rnd) };
 }
 
 // ---- Placement test -------------------------------------------------------

@@ -1216,7 +1216,7 @@
       "Veracruz, Mexico",
       "Guadalcanal"
     ],
-    "difficulty": 3,
+    "difficulty": 2,
     "source": {
       "title": "Marine Corps JROTC Cadet Handbook",
       "publisher": "U.S. Marine Corps, MCJROTC",
@@ -2300,6 +2300,90 @@
       "locator": "History"
     },
     "edition": "Web page, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.flag-red",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "The flag",
+    "text": "Red stands for hardiness and valor. Charles Thomson gave these meanings in 1782 for the colors of the Great Seal, which he said were taken from the flag.",
+    "q": "What does the color red on the American flag stand for?",
+    "a": "Hardiness and valor",
+    "distractors": [
+      "Purity and innocence",
+      "Vigilance, perseverance and justice",
+      "Liberty and independence"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "The Great Seal of the United States",
+      "publisher": "U.S. Department of State, Bureau of Public Affairs",
+      "url": "https://diplomacy.state.gov/wp-content/uploads/2022/10/Great-Seal-PDF.pdf",
+      "locator": "Charles Thomson's Remarks and Explanation, 20 June 1782"
+    },
+    "edition": "Booklet, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.flag-white",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "The flag",
+    "text": "White stands for purity and innocence. Charles Thomson gave these meanings in 1782 for the colors of the Great Seal, which he said were taken from the flag.",
+    "q": "What does the color white on the American flag stand for?",
+    "a": "Purity and innocence",
+    "distractors": [
+      "Hardiness and valor",
+      "Vigilance, perseverance and justice",
+      "Liberty and independence"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "The Great Seal of the United States",
+      "publisher": "U.S. Department of State, Bureau of Public Affairs",
+      "url": "https://diplomacy.state.gov/wp-content/uploads/2022/10/Great-Seal-PDF.pdf",
+      "locator": "Charles Thomson's Remarks and Explanation, 20 June 1782"
+    },
+    "edition": "Booklet, read 25 Nov 2026",
+    "effective_from": null,
+    "verified_on": "2026-11-25",
+    "confidence": "high",
+    "review_tier": 3
+  },
+  {
+    "id": "usmc.knowledge.flag-blue",
+    "branch": [
+      "usmc"
+    ],
+    "module": "knowledge",
+    "topic": "The flag",
+    "text": "Blue stands for vigilance, perseverance and justice. Charles Thomson gave these meanings in 1782 for the colors of the Great Seal, which he said were taken from the flag.",
+    "q": "What does the color blue on the American flag stand for?",
+    "a": "Vigilance, perseverance and justice",
+    "distractors": [
+      "Hardiness and valor",
+      "Purity and innocence",
+      "Liberty and independence"
+    ],
+    "difficulty": 1,
+    "source": {
+      "title": "The Great Seal of the United States",
+      "publisher": "U.S. Department of State, Bureau of Public Affairs",
+      "url": "https://diplomacy.state.gov/wp-content/uploads/2022/10/Great-Seal-PDF.pdf",
+      "locator": "Charles Thomson's Remarks and Explanation, 20 June 1782"
+    },
+    "edition": "Booklet, read 25 Nov 2026",
     "effective_from": null,
     "verified_on": "2026-11-25",
     "confidence": "high",

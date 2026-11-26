@@ -3,6 +3,7 @@
   // plus a streak bonus. Wrong answers go back into today's cards.
   import { term } from '../lib/terms';
   import { app, facts, effectiveWeights, save, grade, tick, award, today, setHidden } from '../lib/store.svelte';
+  import Ask from '../lib/Ask.svelte';
   import { quizzable, buildQuestion, pickWeighted, MODULES, type Question } from '../lib/quiz';
   import type { Fact } from '../lib/bundle';
   import Skip from '../lib/Skip.svelte';
@@ -109,7 +110,7 @@
       <span class="num">{score.toLocaleString()}</span>
     </div>
     <div class="clock" role="progressbar" aria-label="Time left" aria-valuemin="0" aria-valuemax={SECONDS} aria-valuenow={Math.ceil(left)}><i style="width: {(left / SECONDS) * 100}%"></i></div>
-    <h1 class="ask" id="q">{term(cur.fact.q)}</h1>
+    <h1 class="ask" id="q"><Ask fact={cur.fact} q={cur.q} /></h1>
     <div class="tiles" role="radiogroup" aria-labelledby="q">
       {#each cur.q.choices as c, i}
         <button class="tile" style="--c: {COLORS[i]}" role="radio" aria-checked={picked === i} disabled={phase === 'shown'}

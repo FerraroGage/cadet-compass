@@ -1,5 +1,14 @@
 [
   {
+    "version": 9,
+    "date": "2026-11-25",
+    "branch": "usmc",
+    "changes": [
+      "Ribbon questions show the ribbon and ask which it is; insignia questions sometimes show the insignia instead of describing it.",
+      "Added what each color of the American flag stands for. The first amphibious landing is now a standard question."
+    ]
+  },
+  {
     "version": 8,
     "date": "2026-11-25",
     "branch": "usmc",

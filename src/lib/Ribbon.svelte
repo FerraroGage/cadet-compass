@@ -4,7 +4,7 @@
   // Without a sourced entry it draws a neutral placeholder (never invented colors).
   import spec from '../data/usmc-ribbons.json';
   type Entry = { bands: [string, number][]; device?: { type: 'cross' | 'star'; color: string } };
-  let { name, width = 1.375, x, y, height, device }: { name: string; width?: number; x?: number; y?: number; height?: number; device?: { metal: string; shape: 'emblem' | 'lamp' | 'bar' } } = $props();
+  let { name, width = 1.375, x, y, height, device, label }: { name: string; label?: string; width?: number; x?: number; y?: number; height?: number; device?: { metal: string; shape: 'emblem' | 'lamp' | 'bar' } } = $props();
   const entry = $derived((spec.ribbons as unknown as Record<string, Entry>)[name]);
   const h = $derived(height ?? (width * 0.375) / 1.375);
   const W = 440, H = 120;
@@ -32,7 +32,7 @@
   const ph = $derived(box ? (pw * box[3]) / box[2] : 0);
 </script>
 
-<svg {x} {y} {width} height={h} viewBox="0 0 {W} {H}" preserveAspectRatio="none" role="img" aria-label="{name} ribbon{entry ? '' : ', colors not confirmed'}">
+<svg {x} {y} {width} height={h} viewBox="0 0 {W} {H}" preserveAspectRatio="none" role="img" aria-label={label ?? `${name} ribbon${entry ? '' : ', colors not confirmed'}`}>
   <title>{name}{entry ? '' : ' (colors not confirmed)'}</title>
   <defs>
     <linearGradient id="sh{uid}" x1="0" y1="0" x2="0" y2="1">

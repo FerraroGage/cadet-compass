@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { review } from './srs';
-import { buildQuestion, newPlacement, nextFact, record, summarize, gaps, quizzable, modulePriority, weightOf, pickWeighted } from './quiz';
+import { buildQuestion, newPlacement, nextFact, record, summarize, gaps, quizzable, modulePriority, weightOf, pickWeighted, pictureFor } from './quiz';
 import type { Fact } from './bundle';
 
 const fact = (id: string, over: Partial<Fact> = {}): Fact => ({
@@ -113,5 +113,14 @@ describe('obscure facts', () => {
     let p = newPlacement(10, 5);
     for (let i = 0; i < 4; i++) p = record(p, { factId: String(i), module: 'knowledge', correct: true, sure: true }, '2026-11-25');
     expect(p.level).toBe(2);
+  });
+});
+
+describe('picture questions', () => {
+  it('show the ribbon for ribbon answers and the insignia for insignia answers', () => {
+    expect(pictureFor({ module: 'ribbons', group: 'ribbon', a: 'Legion of Valor' } as Fact)?.ribbon).toBe('Legion of Valor');
+    expect(pictureFor({ module: 'ranks', group: 'ins-usmc-enlisted', a: 'Sergeant' } as Fact, () => 0)).toMatchObject({ rank: 'Sergeant', service: 'usmc' });
+    expect(pictureFor({ module: 'ranks', group: 'ins-usmc-enlisted', a: 'Sergeant' } as Fact, () => 0.9)).toBeUndefined();
+    expect(pictureFor({ module: 'knowledge', a: 'x' } as Fact)).toBeUndefined();
   });
 });

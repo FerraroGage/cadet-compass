@@ -1,4 +1,5 @@
 <script lang="ts">
+  import Ask from '../lib/Ask.svelte';
   // First launch: one question per screen. Every answer is saved as it is given, so Back loses nothing
   // and closing the app resumes on the same screen.
   import { tick as domTick } from 'svelte';
@@ -223,7 +224,7 @@
             <p>Study content for {branchName(p.branch)} JROTC is not published yet, so there is nothing to test you on. Your plan will be built from your goals.</p>
           {:else if cur}
             <p class="label" style="margin-top: 16px">Question {app.placement!.answers.length + (picked === null ? 1 : 0)} of {app.placement!.length} / {MODULES.find((m) => m.id === cur!.fact.module)?.name}</p>
-            <h1 tabindex="-1" id="question" style="margin-top: 4px">{cur.fact.q}</h1>
+            <h1 tabindex="-1" id="question" style="margin-top: 4px"><Ask fact={cur.fact} q={cur.q} /></h1>
             <div class="picks" role="radiogroup" aria-labelledby="question">
               {#each cur.q.choices as c, i}
                 <button class="pick" class:right={picked !== null && i === cur.q.correct} class:wrong={picked === i && i !== cur.q.correct}

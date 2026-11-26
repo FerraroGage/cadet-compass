@@ -4,6 +4,7 @@
   import { addDays } from '../lib/srs';
   import type { Fact } from '../lib/bundle';
   import Cite from '../lib/Cite.svelte';
+  import Ask from '../lib/Ask.svelte';
   import Skip from '../lib/Skip.svelte';
 
   const t = today();
@@ -55,7 +56,7 @@
   {@const n = app.placement!.answers.length + (result === null ? 1 : 0)}
   <p class="label">Question {n} of {app.placement!.length} / {MODULES.find((m) => m.id === cur!.fact.module)?.name}</p>
   <article class="card">
-    <div class="q" id="question">{cur.fact.q}</div>
+    <div class="q" id="question"><Ask fact={cur.fact} q={cur.q} /></div>
     <div role="radiogroup" aria-labelledby="question">
       {#each cur.q.choices as c, i}
         <button class="choice" class:right={result !== null && i === cur.q.correct} class:wrong={result === false && i === picked}

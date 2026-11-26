@@ -7,6 +7,7 @@
   import { app, facts, effectiveWeights, grade, tick, award, today, setHidden } from '../lib/store.svelte';
   import { MODULES, quizzable, buildQuestion, pickWeighted, gaps, type Question } from '../lib/quiz';
   import Cite from '../lib/Cite.svelte';
+  import Ask from '../lib/Ask.svelte';
   import Skip from '../lib/Skip.svelte';
 
   let { params }: { params: URLSearchParams } = $props();
@@ -114,7 +115,7 @@
     {#each set as x, k}
       <li><button class="recap-row" onclick={() => (view = k)}>
         <span class="mark {x.ok ? 'good' : 'bad'}" aria-label={x.ok ? 'Right' : 'Wrong'}>{x.ok ? '✓' : '✕'}</span>
-        <span>{term(x.fact.q)}</span>
+        <span><Ask fact={x.fact} q={x.q} /></span>
       </button></li>
     {/each}
   </ol>
@@ -136,7 +137,7 @@
     {#if view !== null}<button class="btn link" onclick={forward}>{view + 1 < i ? 'Next ›' : done ? 'Score ›' : 'Current ›'}</button>{/if}
   </div>
   <article class="card" class:past={view !== null}>
-    <div class="q" id="question">{term(fact.q)}</div>
+    <div class="q" id="question"><Ask {fact} {q} /></div>
     {#if q}
       <div role="radiogroup" aria-labelledby="question">
         {#each q.choices as c, n}

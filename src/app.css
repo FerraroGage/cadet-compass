@@ -649,3 +649,6 @@ td .btn .icon { margin-right: var(--u); }
 @media (prefers-reduced-motion: reduce) { .menu li, .rankins.wait { animation: none; } }
 :root[data-theme='dark'] .menu .ic { color: var(--ink); }
 @media (prefers-color-scheme: dark) { :root[data-theme='system'] .menu .ic { color: var(--ink); } }
+.askpic { display: flex; justify-content: center; margin-bottom: calc(var(--u) * 1.5); }
+.askpic svg { max-width: 100%; height: auto; }
+.recap-row .askpic { display: none; }
